@@ -1,0 +1,12 @@
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal_06022017\BrokerWatchDogService\AMS.Broker.StreamInsight\obj\Debug\AMS.Broker.StreamInsight.csprojResolveAssemblyReference.cache
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal_06022017\BrokerWatchDogService\AMS.Broker.StreamInsight\obj\Debug\AMS.Broker.WatchDogService.StreamInsight.StreamInsightServiceInstaller.resources
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal_06022017\BrokerWatchDogService\AMS.Broker.StreamInsight\obj\Debug\AMS.Broker.StreamInsight.csproj.GenerateResource.Cache
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerWatchDogService\AMS.Broker.StreamInsight\obj\Debug\AMS.Broker.StreamInsight.csprojResolveAssemblyReference.cache
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerWatchDogService\AMS.Broker.StreamInsight\obj\Debug\AMS.Broker.WatchDogService.StreamInsight.StreamInsightServiceInstaller.resources
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerWatchDogService\AMS.Broker.StreamInsight\obj\Debug\AMS.Broker.StreamInsight.csproj.GenerateResource.Cache
+D:\SVN Version 1.5\trunk\AMS\Broker\BrokerWatchDogService\AMS.Broker.StreamInsight\obj\Debug\AMS.Broker.StreamInsight.csprojResolveAssemblyReference.cache
+D:\SVN Version 1.5\trunk\AMS\Broker\BrokerWatchDogService\AMS.Broker.StreamInsight\obj\Debug\AMS.Broker.WatchDogService.StreamInsight.StreamInsightServiceInstaller.resources
+D:\SVN Version 1.5\trunk\AMS\Broker\BrokerWatchDogService\AMS.Broker.StreamInsight\obj\Debug\AMS.Broker.StreamInsight.csproj.GenerateResource.Cache
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker.StreamInsight\obj\Debug\AMS.Broker.StreamInsight.csprojResolveAssemblyReference.cache
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker.StreamInsight\obj\Debug\AMS.Broker.WatchDogService.StreamInsight.StreamInsightServiceInstaller.resources
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker.StreamInsight\obj\Debug\AMS.Broker.StreamInsight.csproj.GenerateResource.Cache

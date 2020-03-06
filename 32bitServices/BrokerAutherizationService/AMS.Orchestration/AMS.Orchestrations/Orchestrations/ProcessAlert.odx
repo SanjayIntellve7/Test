@@ -1,0 +1,608 @@
+﻿#if __DESIGNER_DATA
+#error Do not define __DESIGNER_DATA.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<om:MetaModel MajorVersion="1" MinorVersion="3" Core="2b131234-7959-458d-834f-2dc0769ce683" ScheduleModel="66366196-361d-448d-976f-cab5e87496d2" xmlns:om="http://schemas.microsoft.com/BizTalk/2003/DesignerData">
+    <om:Element Type="Module" OID="30fa386b-e463-4d97-87a5-ea856fcf925d" LowerBound="1.1" HigherBound="152.1">
+        <om:Property Name="ReportToAnalyst" Value="True" />
+        <om:Property Name="Name" Value="AMS.Orchestrations" />
+        <om:Property Name="Signal" Value="False" />
+        <om:Element Type="PortType" OID="b75e6e2e-36e8-47a3-808e-725004569da8" ParentLink="Module_PortType" LowerBound="4.1" HigherBound="11.1">
+            <om:Property Name="Synchronous" Value="False" />
+            <om:Property Name="TypeModifier" Value="Public" />
+            <om:Property Name="ReportToAnalyst" Value="True" />
+            <om:Property Name="Name" Value="EntryPort" />
+            <om:Property Name="Signal" Value="False" />
+            <om:Element Type="OperationDeclaration" OID="5ad1d6d7-6eb5-42f3-987a-97fab394af69" ParentLink="PortType_OperationDeclaration" LowerBound="6.1" HigherBound="10.1">
+                <om:Property Name="OperationType" Value="OneWay" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="Operation_1" />
+                <om:Property Name="Signal" Value="False" />
+                <om:Element Type="MessageRef" OID="286d65d0-fc94-4a08-9e19-f257f4a502fb" ParentLink="OperationDeclaration_RequestMessageRef" LowerBound="8.13" HigherBound="8.18">
+                    <om:Property Name="Ref" Value="AMS.Orchestrations.Alert" />
+                    <om:Property Name="ReportToAnalyst" Value="True" />
+                    <om:Property Name="Name" Value="Request" />
+                    <om:Property Name="Signal" Value="True" />
+                </om:Element>
+            </om:Element>
+        </om:Element>
+        <om:Element Type="PortType" OID="efd25728-9e78-4480-815c-6447cb7badf0" ParentLink="Module_PortType" LowerBound="11.1" HigherBound="18.1">
+            <om:Property Name="Synchronous" Value="False" />
+            <om:Property Name="TypeModifier" Value="Public" />
+            <om:Property Name="ReportToAnalyst" Value="True" />
+            <om:Property Name="Name" Value="PortType_1" />
+            <om:Property Name="Signal" Value="False" />
+            <om:Element Type="OperationDeclaration" OID="12d81dfc-17a1-42ad-9e45-20129c5099d4" ParentLink="PortType_OperationDeclaration" LowerBound="13.1" HigherBound="17.1">
+                <om:Property Name="OperationType" Value="OneWay" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="Operation_1" />
+                <om:Property Name="Signal" Value="False" />
+                <om:Element Type="MessageRef" OID="1ef0d470-7b03-4397-abdd-b21ff8c51aa0" ParentLink="OperationDeclaration_RequestMessageRef" LowerBound="15.13" HigherBound="15.18">
+                    <om:Property Name="Ref" Value="AMS.Orchestrations.Alert" />
+                    <om:Property Name="ReportToAnalyst" Value="True" />
+                    <om:Property Name="Name" Value="Request" />
+                    <om:Property Name="Signal" Value="True" />
+                </om:Element>
+            </om:Element>
+        </om:Element>
+        <om:Element Type="PortType" OID="304a1936-c276-472e-802f-21ecda2db516" ParentLink="Module_PortType" LowerBound="18.1" HigherBound="25.1">
+            <om:Property Name="Synchronous" Value="False" />
+            <om:Property Name="TypeModifier" Value="Internal" />
+            <om:Property Name="ReportToAnalyst" Value="True" />
+            <om:Property Name="Name" Value="PortType_4" />
+            <om:Property Name="Signal" Value="False" />
+            <om:Element Type="OperationDeclaration" OID="040fe189-09e0-48d5-84a4-ea8243e20199" ParentLink="PortType_OperationDeclaration" LowerBound="20.1" HigherBound="24.1">
+                <om:Property Name="OperationType" Value="OneWay" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="Operation_1" />
+                <om:Property Name="Signal" Value="False" />
+                <om:Element Type="MessageRef" OID="bf0e7240-1d9b-48cf-a9da-a2f50d0cbb9b" ParentLink="OperationDeclaration_RequestMessageRef" LowerBound="22.13" HigherBound="22.65">
+                    <om:Property Name="Ref" Value="AMS.Orchestrations.IUsersService_GetUsersListByAlertGroup_OutputMessage" />
+                    <om:Property Name="ReportToAnalyst" Value="True" />
+                    <om:Property Name="Name" Value="Request" />
+                    <om:Property Name="Signal" Value="False" />
+                </om:Element>
+            </om:Element>
+        </om:Element>
+        <om:Element Type="PortType" OID="83723f1f-d3a9-41ed-b85b-5cb192c568e6" ParentLink="Module_PortType" LowerBound="25.1" HigherBound="32.1">
+            <om:Property Name="Synchronous" Value="False" />
+            <om:Property Name="TypeModifier" Value="Internal" />
+            <om:Property Name="ReportToAnalyst" Value="True" />
+            <om:Property Name="Name" Value="PortType_SendToFile" />
+            <om:Property Name="Signal" Value="False" />
+            <om:Element Type="OperationDeclaration" OID="a02ed90d-1ffb-4371-a3e9-0092cdc01217" ParentLink="PortType_OperationDeclaration" LowerBound="27.1" HigherBound="31.1">
+                <om:Property Name="OperationType" Value="OneWay" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="Operation_SendToFile" />
+                <om:Property Name="Signal" Value="True" />
+                <om:Element Type="MessageRef" OID="58dc7bbc-a918-461d-a0b1-a8f20d4957e8" ParentLink="OperationDeclaration_RequestMessageRef" LowerBound="29.13" HigherBound="29.39">
+                    <om:Property Name="Ref" Value="AMS.Orchestrations.NotifyListResponseEnvelope" />
+                    <om:Property Name="ReportToAnalyst" Value="True" />
+                    <om:Property Name="Name" Value="Request" />
+                    <om:Property Name="Signal" Value="False" />
+                </om:Element>
+            </om:Element>
+        </om:Element>
+        <om:Element Type="PortType" OID="2815bae6-9639-4a68-b482-4b3fa5d65bd5" ParentLink="Module_PortType" LowerBound="32.1" HigherBound="39.1">
+            <om:Property Name="Synchronous" Value="False" />
+            <om:Property Name="TypeModifier" Value="Internal" />
+            <om:Property Name="ReportToAnalyst" Value="True" />
+            <om:Property Name="Name" Value="PortType_SendToOutput" />
+            <om:Property Name="Signal" Value="False" />
+            <om:Element Type="OperationDeclaration" OID="eb8431f0-5d5c-4560-bd30-3d1f5253b258" ParentLink="PortType_OperationDeclaration" LowerBound="34.1" HigherBound="38.1">
+                <om:Property Name="OperationType" Value="OneWay" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="Operation_1" />
+                <om:Property Name="Signal" Value="False" />
+                <om:Element Type="MessageRef" OID="f49881cd-58a4-485a-b98d-7a13806a32f0" ParentLink="OperationDeclaration_RequestMessageRef" LowerBound="36.13" HigherBound="36.106">
+                    <om:Property Name="Ref" Value="AMS.Orchestrations.UsersService_schemas_datacontract_org_2004_07_AMS_Broker_Contracts_DTO.UserContactInformation" />
+                    <om:Property Name="ReportToAnalyst" Value="True" />
+                    <om:Property Name="Name" Value="Request" />
+                    <om:Property Name="Signal" Value="False" />
+                </om:Element>
+            </om:Element>
+        </om:Element>
+        <om:Element Type="ServiceDeclaration" OID="4aaa92c8-ad77-4096-b998-e6cce0ac05b9" ParentLink="Module_ServiceDeclaration" LowerBound="39.1" HigherBound="151.1">
+            <om:Property Name="InitializedTransactionType" Value="True" />
+            <om:Property Name="IsInvokable" Value="False" />
+            <om:Property Name="TypeModifier" Value="Internal" />
+            <om:Property Name="ReportToAnalyst" Value="True" />
+            <om:Property Name="Name" Value="ProcessAlert" />
+            <om:Property Name="Signal" Value="True" />
+            <om:Element Type="VariableDeclaration" OID="69f4bbd0-1e2f-46e6-83c1-3e06c5a753ed" ParentLink="ServiceDeclaration_VariableDeclaration" LowerBound="57.1" HigherBound="58.1">
+                <om:Property Name="UseDefaultConstructor" Value="True" />
+                <om:Property Name="Type" Value="System.Xml.XmlDocument" />
+                <om:Property Name="ParamDirection" Value="In" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="xmlDoc" />
+                <om:Property Name="Signal" Value="True" />
+            </om:Element>
+            <om:Element Type="VariableDeclaration" OID="32e96130-49dd-4c2f-805c-c2533d837cea" ParentLink="ServiceDeclaration_VariableDeclaration" LowerBound="58.1" HigherBound="59.1">
+                <om:Property Name="UseDefaultConstructor" Value="True" />
+                <om:Property Name="Type" Value="Microsoft.XLANGs.Pipeline.SendPipelineInputMessages" />
+                <om:Property Name="ParamDirection" Value="In" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="SendPipeInput" />
+                <om:Property Name="Signal" Value="True" />
+            </om:Element>
+            <om:Element Type="LongRunningTransaction" OID="987f6ca3-684b-4f11-a0f2-86b6d42d7f21" ParentLink="ServiceDeclaration_Transaction" LowerBound="40.21" HigherBound="40.58">
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="Transaction_Global" />
+                <om:Property Name="Signal" Value="False" />
+            </om:Element>
+            <om:Element Type="MessageDeclaration" OID="be168703-ff2a-48fb-93f2-44119aa9f61b" ParentLink="ServiceDeclaration_MessageDeclaration" LowerBound="48.1" HigherBound="49.1">
+                <om:Property Name="Type" Value="AMS.Orchestrations.Alert" />
+                <om:Property Name="ParamDirection" Value="In" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="AlertMessage" />
+                <om:Property Name="Signal" Value="True" />
+            </om:Element>
+            <om:Element Type="MessageDeclaration" OID="b8d82d15-4c2f-4502-8660-2313e0150d7d" ParentLink="ServiceDeclaration_MessageDeclaration" LowerBound="49.1" HigherBound="50.1">
+                <om:Property Name="Type" Value="AMS.Orchestrations.Audit" />
+                <om:Property Name="ParamDirection" Value="In" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="AuditMessage" />
+                <om:Property Name="Signal" Value="True" />
+            </om:Element>
+            <om:Element Type="MessageDeclaration" OID="bb93face-d103-4c9c-ad8e-b7230fe5d3f3" ParentLink="ServiceDeclaration_MessageDeclaration" LowerBound="50.1" HigherBound="51.1">
+                <om:Property Name="Type" Value="AMS.Orchestrations.IUsersService_GetUsersListByAlertGroup_OutputMessage" />
+                <om:Property Name="ParamDirection" Value="In" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="NotifyListMessage" />
+                <om:Property Name="Signal" Value="True" />
+            </om:Element>
+            <om:Element Type="MessageDeclaration" OID="9dff4bbb-d7e6-403f-bda7-32388d84e5bc" ParentLink="ServiceDeclaration_MessageDeclaration" LowerBound="51.1" HigherBound="52.1">
+                <om:Property Name="Type" Value="AMS.Orchestrations.IUsersService_GetUsersListByAlertGroup_InputMessage" />
+                <om:Property Name="ParamDirection" Value="In" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="AlertStatusMessage" />
+                <om:Property Name="Signal" Value="True" />
+            </om:Element>
+            <om:Element Type="MessageDeclaration" OID="de9e4105-3dc4-4c19-8f20-a0db410be386" ParentLink="ServiceDeclaration_MessageDeclaration" LowerBound="52.1" HigherBound="53.1">
+                <om:Property Name="Type" Value="AMS.Orchestrations.Audit" />
+                <om:Property Name="ParamDirection" Value="In" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="BRESucessAuditMessage" />
+                <om:Property Name="Signal" Value="True" />
+            </om:Element>
+            <om:Element Type="MessageDeclaration" OID="517ae43f-27ec-4034-b0f5-edd71a7adedb" ParentLink="ServiceDeclaration_MessageDeclaration" LowerBound="53.1" HigherBound="54.1">
+                <om:Property Name="Type" Value="AMS.Orchestrations.Audit" />
+                <om:Property Name="ParamDirection" Value="In" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="BREFailureAuditMessage" />
+                <om:Property Name="Signal" Value="True" />
+            </om:Element>
+            <om:Element Type="MessageDeclaration" OID="9e006ecf-3d50-4707-8209-d7620ebbfd21" ParentLink="ServiceDeclaration_MessageDeclaration" LowerBound="54.1" HigherBound="55.1">
+                <om:Property Name="Type" Value="AMS.Orchestrations.AlertStatus" />
+                <om:Property Name="ParamDirection" Value="In" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="RulesMessage" />
+                <om:Property Name="Signal" Value="True" />
+            </om:Element>
+            <om:Element Type="MessageDeclaration" OID="b7530e18-b55c-4a63-9be8-db943a26ebbc" ParentLink="ServiceDeclaration_MessageDeclaration" LowerBound="55.1" HigherBound="56.1">
+                <om:Property Name="Type" Value="AMS.Orchestrations.NotifyListResponseEnvelope" />
+                <om:Property Name="ParamDirection" Value="In" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="NotifyListEnvelopeMessage" />
+                <om:Property Name="Signal" Value="True" />
+            </om:Element>
+            <om:Element Type="MessageDeclaration" OID="dcf3fe9d-29dc-4e08-8660-34179762ec79" ParentLink="ServiceDeclaration_MessageDeclaration" LowerBound="56.1" HigherBound="57.1">
+                <om:Property Name="Type" Value="AMS.Orchestrations.UsersService_schemas_datacontract_org_2004_07_AMS_Broker_Contracts_DTO.UserContactInformation" />
+                <om:Property Name="ParamDirection" Value="In" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="UserContactInformationMessage" />
+                <om:Property Name="Signal" Value="True" />
+            </om:Element>
+            <om:Element Type="ServiceBody" OID="e747fcb5-50c2-4139-b441-fedad4ece658" ParentLink="ServiceDeclaration_ServiceBody">
+                <om:Property Name="Signal" Value="False" />
+                <om:Element Type="Receive" OID="daec5f54-ede6-44e7-9418-b87af2e82c10" ParentLink="ServiceBody_Statement">
+                    <om:Property Name="Activate" Value="True" />
+                    <om:Property Name="PortName" Value="OrchestrationEntryPort" />
+                    <om:Property Name="MessageName" Value="AlertMessage" />
+                    <om:Property Name="OperationName" Value="Operation_1" />
+                    <om:Property Name="OperationMessageName" Value="Request" />
+                    <om:Property Name="ReportToAnalyst" Value="True" />
+                    <om:Property Name="Name" Value="Receive_1" />
+                    <om:Property Name="Signal" Value="True" />
+                </om:Element>
+                <om:Element Type="Construct" OID="4f4f3294-5038-4b32-8fa4-01c4dea1d5db" ParentLink="ServiceBody_Statement" LowerBound="63.1" HigherBound="77.1">
+                    <om:Property Name="ReportToAnalyst" Value="True" />
+                    <om:Property Name="Name" Value="Before_BRE" />
+                    <om:Property Name="Signal" Value="True" />
+                    <om:Element Type="MessageRef" OID="58ba7d12-bfaa-4cee-859d-f0a0a4172347" ParentLink="Construct_MessageRef" LowerBound="64.23" HigherBound="64.35">
+                        <om:Property Name="Ref" Value="AuditMessage" />
+                        <om:Property Name="ReportToAnalyst" Value="True" />
+                        <om:Property Name="Signal" Value="False" />
+                    </om:Element>
+                    <om:Element Type="MessageAssignment" OID="5e2114ba-1423-4c47-8213-48ca48437ec3" ParentLink="ComplexStatement_Statement" LowerBound="66.1" HigherBound="76.1">
+                        <om:Property Name="Expression" Value="xmlDoc = new System.Xml.XmlDocument();&#xD;&#xA;xmlDoc.LoadXml(&quot;&lt;ns0:Audit xmlns:ns0=\&quot;http://2020imaging.com/schema/BizTalk\&quot;&gt;&lt;ActivityDateTime&gt;&lt;/ActivityDateTime&gt;&lt;Type&gt;&lt;/Type&gt;&lt;UserId&gt;&lt;/UserId&gt;&lt;SourceId&gt;&lt;/SourceId&gt;&lt;SourceType&gt;&lt;/SourceType&gt;&lt;Description&gt;&lt;/Description&gt;&lt;/ns0:Audit&gt;&quot;);&#xD;&#xA;AuditMessage = xmlDoc;&#xD;&#xA;AuditMessage.Description = &quot;&quot;;&#xD;&#xA;AuditMessage.ActivityDateTime = System.DateTime.Now.ToString(&quot;yyyy-MM-dd hh:mm:ss&quot;);&#xD;&#xA;AuditMessage.Type = &quot;RaiseAlert&quot;;&#xD;&#xA;AuditMessage.SourceType = &quot;Workflow&quot;;&#xD;&#xA;AuditMessage.SourceId = AlertMessage.Source;&#xD;&#xA;AuditMessage.UserId = AlertMessage.Identifier;" />
+                        <om:Property Name="ReportToAnalyst" Value="False" />
+                        <om:Property Name="Name" Value="MessageAssignment_NotifyListEnvelope" />
+                        <om:Property Name="Signal" Value="True" />
+                    </om:Element>
+                </om:Element>
+                <om:Element Type="Call" OID="6a6adf55-47a2-4288-9d6a-05909b05271a" ParentLink="ServiceBody_Statement" LowerBound="77.1" HigherBound="79.1">
+                    <om:Property Name="Identifier" Value="AuditBREstart" />
+                    <om:Property Name="Invokee" Value="AMS.Orchestrations.AuditSubmission" />
+                    <om:Property Name="ReportToAnalyst" Value="True" />
+                    <om:Property Name="Name" Value="Audit BRE start" />
+                    <om:Property Name="Signal" Value="False" />
+                    <om:Element Type="Parameter" OID="33c12461-0bfe-4148-b222-b8c3d1d2811b" ParentLink="InvokeStatement_Parameter">
+                        <om:Property Name="Direction" Value="In" />
+                        <om:Property Name="Name" Value="AuditMessage" />
+                        <om:Property Name="Type" Value="AMS.Orchestrations.Audit" />
+                        <om:Property Name="Signal" Value="False" />
+                    </om:Element>
+                </om:Element>
+                <om:Element Type="CallRules" OID="84cd72a3-eeae-47db-9df4-3724637925e7" ParentLink="ServiceBody_Statement" LowerBound="79.1" HigherBound="94.1">
+                    <om:Property Name="PolicyName" Value="Basic rulset" />
+                    <om:Property Name="PolicyVersion" Value="-1" />
+                    <om:Property Name="ReportToAnalyst" Value="True" />
+                    <om:Property Name="Name" Value="CallRules_1" />
+                    <om:Property Name="Signal" Value="True" />
+                </om:Element>
+                <om:Element Type="Decision" OID="aa2d3e1f-a068-4a90-a819-470e2c3b578e" ParentLink="ServiceBody_Statement" LowerBound="94.1" HigherBound="149.1">
+                    <om:Property Name="ReportToAnalyst" Value="True" />
+                    <om:Property Name="Name" Value="Decide_1" />
+                    <om:Property Name="Signal" Value="False" />
+                    <om:Element Type="DecisionBranch" OID="3e1aec98-13c6-43e9-9c48-ec4515473446" ParentLink="ReallyComplexStatement_Branch" LowerBound="95.13" HigherBound="131.1">
+                        <om:Property Name="Expression" Value="AlertMessage.WorkflowStatus != &quot;&quot;" />
+                        <om:Property Name="IsGhostBranch" Value="True" />
+                        <om:Property Name="ReportToAnalyst" Value="True" />
+                        <om:Property Name="Name" Value="Rule_1" />
+                        <om:Property Name="Signal" Value="True" />
+                        <om:Element Type="Construct" OID="a81b2096-126c-4692-b610-8393ded82b62" ParentLink="ComplexStatement_Statement" LowerBound="97.1" HigherBound="110.1">
+                            <om:Property Name="ReportToAnalyst" Value="True" />
+                            <om:Property Name="Name" Value="BRESucessMessageBuilder" />
+                            <om:Property Name="Signal" Value="True" />
+                            <om:Element Type="MessageRef" OID="49d80292-103c-4989-8acc-2652dd2b8479" ParentLink="Construct_MessageRef" LowerBound="98.27" HigherBound="98.48">
+                                <om:Property Name="Ref" Value="BRESucessAuditMessage" />
+                                <om:Property Name="ReportToAnalyst" Value="True" />
+                                <om:Property Name="Signal" Value="False" />
+                            </om:Element>
+                            <om:Element Type="MessageAssignment" OID="e10d8c96-b5c2-4126-85b0-7ad664e4e336" ParentLink="ComplexStatement_Statement" LowerBound="100.1" HigherBound="109.1">
+                                <om:Property Name="Expression" Value="xmlDoc.LoadXml(&quot;&lt;ns0:Audit xmlns:ns0=\&quot;http://2020imaging.com/schema/BizTalk\&quot;&gt;&lt;ActivityDateTime&gt;&lt;/ActivityDateTime&gt;&lt;Type&gt;&lt;/Type&gt;&lt;UserId&gt;&lt;/UserId&gt;&lt;SourceId&gt;&lt;/SourceId&gt;&lt;SourceType&gt;&lt;/SourceType&gt;&lt;Description&gt;&lt;/Description&gt;&lt;/ns0:Audit&gt;&quot;);&#xD;&#xA;BRESucessAuditMessage = xmlDoc;&#xD;&#xA;BRESucessAuditMessage.Description = &quot;The BRE have updated Workflow Station&quot;;&#xD;&#xA;BRESucessAuditMessage.ActivityDateTime = System.DateTime.Now.ToString(&quot;yyyy-MM-dd hh:mm:ss&quot;);&#xD;&#xA;BRESucessAuditMessage.Type = &quot;Success&quot;;&#xD;&#xA;BRESucessAuditMessage.SourceType = &quot;RulesEngine&quot;;&#xD;&#xA;BRESucessAuditMessage.SourceId = AlertMessage.Source;&#xD;&#xA;BRESucessAuditMessage.UserId = AlertMessage.Identifier;" />
+                                <om:Property Name="ReportToAnalyst" Value="False" />
+                                <om:Property Name="Name" Value="MessageAssignment_2" />
+                                <om:Property Name="Signal" Value="True" />
+                            </om:Element>
+                        </om:Element>
+                        <om:Element Type="Call" OID="e65d8779-a3ed-49b6-98fe-4e3572e3bde1" ParentLink="ComplexStatement_Statement" LowerBound="110.1" HigherBound="112.1">
+                            <om:Property Name="Identifier" Value="AuditBRESuccess" />
+                            <om:Property Name="Invokee" Value="AMS.Orchestrations.AuditSubmission" />
+                            <om:Property Name="ReportToAnalyst" Value="True" />
+                            <om:Property Name="Name" Value="Audit BRE Success" />
+                            <om:Property Name="Signal" Value="False" />
+                            <om:Element Type="Parameter" OID="29d467ce-4d9c-4ec1-bf8e-b4d35932496d" ParentLink="InvokeStatement_Parameter">
+                                <om:Property Name="Direction" Value="In" />
+                                <om:Property Name="Name" Value="AuditMessage" />
+                                <om:Property Name="Type" Value="AMS.Orchestrations.Audit" />
+                                <om:Property Name="Signal" Value="False" />
+                            </om:Element>
+                        </om:Element>
+                        <om:Element Type="Construct" OID="3d8c1ba3-4cc4-4f13-9b6f-cafe8ab2562b" ParentLink="ComplexStatement_Statement" LowerBound="112.1" HigherBound="118.1">
+                            <om:Property Name="ReportToAnalyst" Value="True" />
+                            <om:Property Name="Name" Value="ContactWCFMessageBuilder" />
+                            <om:Property Name="Signal" Value="True" />
+                            <om:Element Type="Transform" OID="0fdde76e-48ba-4fc0-be5b-619bf2c703f5" ParentLink="ComplexStatement_Statement" LowerBound="115.1" HigherBound="117.1">
+                                <om:Property Name="ClassName" Value="AMS.Orchestrations.Transform_3" />
+                                <om:Property Name="ReportToAnalyst" Value="True" />
+                                <om:Property Name="Name" Value="Transform_3" />
+                                <om:Property Name="Signal" Value="True" />
+                                <om:Element Type="MessagePartRef" OID="8f249b9a-ea40-4767-addb-e81ac69b7f9c" ParentLink="Transform_InputMessagePartRef" LowerBound="116.97" HigherBound="116.109">
+                                    <om:Property Name="MessageRef" Value="AlertMessage" />
+                                    <om:Property Name="ReportToAnalyst" Value="True" />
+                                    <om:Property Name="Name" Value="MessagePartReference_1" />
+                                    <om:Property Name="Signal" Value="False" />
+                                </om:Element>
+                                <om:Element Type="MessagePartRef" OID="e34bd4ce-ecba-4c33-a4e9-0fce2f165c09" ParentLink="Transform_OutputMessagePartRef" LowerBound="116.32" HigherBound="116.61">
+                                    <om:Property Name="MessageRef" Value="AlertStatusMessage" />
+                                    <om:Property Name="PartRef" Value="parameters" />
+                                    <om:Property Name="ReportToAnalyst" Value="True" />
+                                    <om:Property Name="Name" Value="MessagePartReference_2" />
+                                    <om:Property Name="Signal" Value="False" />
+                                </om:Element>
+                            </om:Element>
+                            <om:Element Type="MessageRef" OID="a973154d-d227-4d40-93e9-5308c68645c2" ParentLink="Construct_MessageRef" LowerBound="113.27" HigherBound="113.45">
+                                <om:Property Name="Ref" Value="AlertStatusMessage" />
+                                <om:Property Name="ReportToAnalyst" Value="True" />
+                                <om:Property Name="Signal" Value="False" />
+                            </om:Element>
+                        </om:Element>
+                        <om:Element Type="Send" OID="1707dc77-12de-48b9-838c-adef2fc90985" ParentLink="ComplexStatement_Statement" LowerBound="118.1" HigherBound="120.1">
+                            <om:Property Name="PortName" Value="UsersServiceSendPort" />
+                            <om:Property Name="MessageName" Value="AlertStatusMessage" />
+                            <om:Property Name="OperationName" Value="GetUsersListByAlertGroup" />
+                            <om:Property Name="OperationMessageName" Value="Request" />
+                            <om:Property Name="ReportToAnalyst" Value="True" />
+                            <om:Property Name="Name" Value="Send_1" />
+                            <om:Property Name="Signal" Value="True" />
+                        </om:Element>
+                        <om:Element Type="Receive" OID="63e4f4ef-69e3-45a3-b822-709dafc15a96" ParentLink="ComplexStatement_Statement" LowerBound="120.1" HigherBound="122.1">
+                            <om:Property Name="Activate" Value="False" />
+                            <om:Property Name="PortName" Value="UsersServiceSendPort" />
+                            <om:Property Name="MessageName" Value="NotifyListMessage" />
+                            <om:Property Name="OperationName" Value="GetUsersListByAlertGroup" />
+                            <om:Property Name="OperationMessageName" Value="Response" />
+                            <om:Property Name="ReportToAnalyst" Value="True" />
+                            <om:Property Name="Name" Value="Receive_2" />
+                            <om:Property Name="Signal" Value="True" />
+                        </om:Element>
+                        <om:Element Type="Construct" OID="ee52c19e-0bc9-44b8-b0a7-a6171daf33af" ParentLink="ComplexStatement_Statement" LowerBound="122.1" HigherBound="128.1">
+                            <om:Property Name="ReportToAnalyst" Value="True" />
+                            <om:Property Name="Name" Value="ConstructNotifyListEnvelopeMessage" />
+                            <om:Property Name="Signal" Value="True" />
+                            <om:Element Type="Transform" OID="2d8ebdec-85c2-49fb-96f4-1c05542e78dd" ParentLink="ComplexStatement_Statement" LowerBound="125.1" HigherBound="127.1">
+                                <om:Property Name="ClassName" Value="AMS.Orchestrations.Transform_NotifyListEnvelopeMessage" />
+                                <om:Property Name="ReportToAnalyst" Value="True" />
+                                <om:Property Name="Name" Value="Transform_NotifyListEnvelopeMessage" />
+                                <om:Property Name="Signal" Value="True" />
+                                <om:Element Type="MessagePartRef" OID="7f1bd51c-3d23-427f-8655-584d35838176" ParentLink="Transform_InputMessagePartRef" LowerBound="126.117" HigherBound="126.145">
+                                    <om:Property Name="MessageRef" Value="NotifyListMessage" />
+                                    <om:Property Name="PartRef" Value="parameters" />
+                                    <om:Property Name="ReportToAnalyst" Value="True" />
+                                    <om:Property Name="Name" Value="MessagePartReference_3" />
+                                    <om:Property Name="Signal" Value="False" />
+                                </om:Element>
+                                <om:Element Type="MessagePartRef" OID="e9ecbb73-69fb-4c97-888f-2a6a93eda2e8" ParentLink="Transform_OutputMessagePartRef" LowerBound="126.32" HigherBound="126.57">
+                                    <om:Property Name="MessageRef" Value="NotifyListEnvelopeMessage" />
+                                    <om:Property Name="ReportToAnalyst" Value="True" />
+                                    <om:Property Name="Name" Value="MessagePartReference_4" />
+                                    <om:Property Name="Signal" Value="False" />
+                                </om:Element>
+                            </om:Element>
+                            <om:Element Type="MessageRef" OID="89af1dce-d942-4116-b3e7-ef532aabcd05" ParentLink="Construct_MessageRef" LowerBound="123.27" HigherBound="123.52">
+                                <om:Property Name="Ref" Value="NotifyListEnvelopeMessage" />
+                                <om:Property Name="ReportToAnalyst" Value="True" />
+                                <om:Property Name="Signal" Value="False" />
+                            </om:Element>
+                        </om:Element>
+                        <om:Element Type="Send" OID="739f1183-8f33-469e-929a-412c5bef7337" ParentLink="ComplexStatement_Statement" LowerBound="128.1" HigherBound="130.1">
+                            <om:Property Name="PortName" Value="Port_SendToFile" />
+                            <om:Property Name="MessageName" Value="NotifyListEnvelopeMessage" />
+                            <om:Property Name="OperationName" Value="Operation_SendToFile" />
+                            <om:Property Name="OperationMessageName" Value="Request" />
+                            <om:Property Name="ReportToAnalyst" Value="True" />
+                            <om:Property Name="Name" Value="Send_2" />
+                            <om:Property Name="Signal" Value="True" />
+                        </om:Element>
+                    </om:Element>
+                    <om:Element Type="DecisionBranch" OID="c828b06e-48dd-4bda-b9be-4ef4a95a931d" ParentLink="ReallyComplexStatement_Branch">
+                        <om:Property Name="IsGhostBranch" Value="True" />
+                        <om:Property Name="ReportToAnalyst" Value="True" />
+                        <om:Property Name="Name" Value="Else" />
+                        <om:Property Name="Signal" Value="False" />
+                        <om:Element Type="Construct" OID="cfa4d92d-1b9f-4dd7-9ee6-e6c118507a15" ParentLink="ComplexStatement_Statement" LowerBound="133.1" HigherBound="146.1">
+                            <om:Property Name="ReportToAnalyst" Value="True" />
+                            <om:Property Name="Name" Value="BRE_Failed" />
+                            <om:Property Name="Signal" Value="True" />
+                            <om:Element Type="MessageRef" OID="8c23f24a-cec1-4617-b8bd-c62b16707496" ParentLink="Construct_MessageRef" LowerBound="134.27" HigherBound="134.49">
+                                <om:Property Name="Ref" Value="BREFailureAuditMessage" />
+                                <om:Property Name="ReportToAnalyst" Value="True" />
+                                <om:Property Name="Signal" Value="False" />
+                            </om:Element>
+                            <om:Element Type="MessageAssignment" OID="367f58a9-7b29-42ae-88b5-598ebbe58bf3" ParentLink="ComplexStatement_Statement" LowerBound="136.1" HigherBound="145.1">
+                                <om:Property Name="Expression" Value="xmlDoc.LoadXml(&quot;&lt;ns0:Audit xmlns:ns0=\&quot;http://2020imaging.com/schema/BizTalk\&quot;&gt;&lt;ActivityDateTime&gt;&lt;/ActivityDateTime&gt;&lt;Type&gt;&lt;/Type&gt;&lt;UserId&gt;&lt;/UserId&gt;&lt;SourceId&gt;&lt;/SourceId&gt;&lt;SourceType&gt;&lt;/SourceType&gt;&lt;Description&gt;&lt;/Description&gt;&lt;/ns0:Audit&gt;&quot;);&#xD;&#xA;BREFailureAuditMessage = xmlDoc;&#xD;&#xA;BREFailureAuditMessage.Description = &quot;No Auction taken&quot;;&#xD;&#xA;BREFailureAuditMessage.ActivityDateTime = System.DateTime.Now.ToString(&quot;yyyy-MM-dd hh:mm:ss&quot;);&#xD;&#xA;BREFailureAuditMessage.Type = &quot;RaiseAlert&quot;;&#xD;&#xA;BREFailureAuditMessage.SourceType = &quot;Alert&quot;;&#xD;&#xA;BREFailureAuditMessage.SourceId = AlertMessage.Source;&#xD;&#xA;BREFailureAuditMessage.UserId = AlertMessage.Identifier;" />
+                                <om:Property Name="ReportToAnalyst" Value="False" />
+                                <om:Property Name="Name" Value="MessageAssignment_2" />
+                                <om:Property Name="Signal" Value="True" />
+                            </om:Element>
+                        </om:Element>
+                        <om:Element Type="Exec" OID="e9244d10-fb10-4cf5-8210-ab22e9db45ef" ParentLink="ComplexStatement_Statement" LowerBound="146.1" HigherBound="148.1">
+                            <om:Property Name="Invokee" Value="AMS.Orchestrations.AuditSubmission" />
+                            <om:Property Name="ReportToAnalyst" Value="True" />
+                            <om:Property Name="Name" Value="Audit BRE Failure" />
+                            <om:Property Name="Signal" Value="True" />
+                            <om:Element Type="Parameter" OID="4e43efb8-f66b-47d6-8461-f940ea801ebc" ParentLink="InvokeStatement_Parameter">
+                                <om:Property Name="Direction" Value="In" />
+                                <om:Property Name="Name" Value="BREFailureAuditMessage" />
+                                <om:Property Name="Type" Value="AMS.Orchestrations.Audit" />
+                                <om:Property Name="Signal" Value="False" />
+                            </om:Element>
+                        </om:Element>
+                    </om:Element>
+                </om:Element>
+            </om:Element>
+            <om:Element Type="PortDeclaration" OID="8cd61357-ab88-429c-a272-e972747b9848" ParentLink="ServiceDeclaration_PortDeclaration" LowerBound="42.1" HigherBound="44.1">
+                <om:Property Name="PortModifier" Value="Implements" />
+                <om:Property Name="Orientation" Value="Left" />
+                <om:Property Name="PortIndex" Value="1" />
+                <om:Property Name="IsWebPort" Value="False" />
+                <om:Property Name="OrderedDelivery" Value="False" />
+                <om:Property Name="DeliveryNotification" Value="None" />
+                <om:Property Name="Type" Value="AMS.Orchestrations.EntryPort" />
+                <om:Property Name="ParamDirection" Value="In" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="OrchestrationEntryPort" />
+                <om:Property Name="Signal" Value="False" />
+                <om:Element Type="LogicalBindingAttribute" OID="483a1471-4c3e-44c1-ac3f-fc5eadfb1632" ParentLink="PortDeclaration_CLRAttribute" LowerBound="42.1" HigherBound="43.1">
+                    <om:Property Name="Signal" Value="False" />
+                </om:Element>
+            </om:Element>
+            <om:Element Type="PortDeclaration" OID="de44bde0-cc89-4891-a328-3beb45b2f8fa" ParentLink="ServiceDeclaration_PortDeclaration" LowerBound="44.1" HigherBound="46.1">
+                <om:Property Name="PortModifier" Value="Uses" />
+                <om:Property Name="Orientation" Value="Left" />
+                <om:Property Name="PortIndex" Value="36" />
+                <om:Property Name="IsWebPort" Value="False" />
+                <om:Property Name="OrderedDelivery" Value="False" />
+                <om:Property Name="DeliveryNotification" Value="None" />
+                <om:Property Name="Type" Value="AMS.Orchestrations.IUsersService" />
+                <om:Property Name="ParamDirection" Value="In" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="UsersServiceSendPort" />
+                <om:Property Name="Signal" Value="False" />
+                <om:Element Type="LogicalBindingAttribute" OID="e39a6031-b2b0-484c-9e8c-7f6c71bcef4a" ParentLink="PortDeclaration_CLRAttribute" LowerBound="44.1" HigherBound="45.1">
+                    <om:Property Name="Signal" Value="False" />
+                </om:Element>
+            </om:Element>
+            <om:Element Type="PortDeclaration" OID="32e94189-668e-4be8-87e9-119f14323b5f" ParentLink="ServiceDeclaration_PortDeclaration" LowerBound="46.1" HigherBound="48.1">
+                <om:Property Name="PortModifier" Value="Uses" />
+                <om:Property Name="Orientation" Value="Unbound" />
+                <om:Property Name="PortIndex" Value="-1" />
+                <om:Property Name="IsWebPort" Value="False" />
+                <om:Property Name="OrderedDelivery" Value="False" />
+                <om:Property Name="DeliveryNotification" Value="None" />
+                <om:Property Name="Type" Value="AMS.Orchestrations.PortType_SendToFile" />
+                <om:Property Name="ParamDirection" Value="In" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="Port_SendToFile" />
+                <om:Property Name="Signal" Value="False" />
+                <om:Element Type="LogicalBindingAttribute" OID="ebf05209-7549-466e-afb7-ce56abf79aaa" ParentLink="PortDeclaration_CLRAttribute" LowerBound="46.1" HigherBound="47.1">
+                    <om:Property Name="Signal" Value="False" />
+                </om:Element>
+            </om:Element>
+        </om:Element>
+    </om:Element>
+</om:MetaModel>
+#endif // __DESIGNER_DATA
+[Microsoft.XLANGs.BaseTypes.BPELExportable(false)]
+module AMS.Orchestrations
+{
+    public porttype EntryPort
+    {
+        oneway Operation_1
+        {
+            Alert
+        };
+    };
+    public porttype PortType_1
+    {
+        oneway Operation_1
+        {
+            Alert
+        };
+    };
+    internal porttype PortType_4
+    {
+        oneway Operation_1
+        {
+            IUsersService_GetUsersListByAlertGroup_OutputMessage
+        };
+    };
+    internal porttype PortType_SendToFile
+    {
+        oneway Operation_SendToFile
+        {
+            NotifyListResponseEnvelope
+        };
+    };
+    internal porttype PortType_SendToOutput
+    {
+        oneway Operation_1
+        {
+            UsersService_schemas_datacontract_org_2004_07_AMS_Broker_Contracts_DTO.UserContactInformation
+        };
+    };
+    [Microsoft.XLANGs.BaseTypes.BPELExportable(false)]
+    internal service longrunning transaction ProcessAlert
+    {
+        [Microsoft.XLANGs.BaseTypes.LogicalBinding()]
+        port implements EntryPort OrchestrationEntryPort;
+        [Microsoft.XLANGs.BaseTypes.LogicalBinding()]
+        port uses IUsersService UsersServiceSendPort;
+        [Microsoft.XLANGs.BaseTypes.LogicalBinding()]
+        port uses PortType_SendToFile Port_SendToFile;
+        message Alert AlertMessage;
+        message Audit AuditMessage;
+        message IUsersService_GetUsersListByAlertGroup_OutputMessage NotifyListMessage;
+        message IUsersService_GetUsersListByAlertGroup_InputMessage AlertStatusMessage;
+        message Audit BRESucessAuditMessage;
+        message Audit BREFailureAuditMessage;
+        message AlertStatus RulesMessage;
+        message NotifyListResponseEnvelope NotifyListEnvelopeMessage;
+        message UsersService_schemas_datacontract_org_2004_07_AMS_Broker_Contracts_DTO.UserContactInformation UserContactInformationMessage;
+        System.Xml.XmlDocument xmlDoc;
+        Microsoft.XLANGs.Pipeline.SendPipelineInputMessages SendPipeInput;
+        body ()
+        {
+            [Microsoft.XLANGs.BaseTypes.DesignerPosition("daec5f54-ede6-44e7-9418-b87af2e82c10")]
+            activate receive (OrchestrationEntryPort.Operation_1, AlertMessage);
+            [Microsoft.XLANGs.BaseTypes.DesignerPosition("4f4f3294-5038-4b32-8fa4-01c4dea1d5db")]
+            construct AuditMessage
+            {
+                [Microsoft.XLANGs.BaseTypes.DesignerPosition("5e2114ba-1423-4c47-8213-48ca48437ec3")]
+                xmlDoc = new System.Xml.XmlDocument();
+                xmlDoc.LoadXml("<ns0:Audit xmlns:ns0=\"http://2020imaging.com/schema/BizTalk\"><ActivityDateTime></ActivityDateTime><Type></Type><UserId></UserId><SourceId></SourceId><SourceType></SourceType><Description></Description></ns0:Audit>");
+                AuditMessage = xmlDoc;
+                AuditMessage.Description = "";
+                AuditMessage.ActivityDateTime = System.DateTime.Now.ToString("yyyy-MM-dd hh:mm:ss");
+                AuditMessage.Type = "RaiseAlert";
+                AuditMessage.SourceType = "Workflow";
+                AuditMessage.SourceId = AlertMessage.Source;
+                AuditMessage.UserId = AlertMessage.Identifier;
+            }
+            [Microsoft.XLANGs.BaseTypes.DesignerPosition("6a6adf55-47a2-4288-9d6a-05909b05271a")]
+            call AMS.Orchestrations.AuditSubmission (AuditMessage);
+
+            [Microsoft.XLANGs.BaseTypes.DesignerPosition("84cd72a3-eeae-47db-9df4-3724637925e7")]
+            scope
+            {
+                Microsoft.RuleEngine.Policy  policy_2__;
+
+                body
+                {
+                    
+                    policy_2__ = new Microsoft.RuleEngine.Policy("Basic rulset");
+                    policy_2__.Execute();
+
+                    policy_2__.Dispose();
+                }
+            }
+            [Microsoft.XLANGs.BaseTypes.DesignerPosition("aa2d3e1f-a068-4a90-a819-470e2c3b578e")]
+            if (AlertMessage.WorkflowStatus != "")
+            {
+                [Microsoft.XLANGs.BaseTypes.DesignerPosition("a81b2096-126c-4692-b610-8393ded82b62")]
+                construct BRESucessAuditMessage
+                {
+                    [Microsoft.XLANGs.BaseTypes.DesignerPosition("e10d8c96-b5c2-4126-85b0-7ad664e4e336")]
+                    xmlDoc.LoadXml("<ns0:Audit xmlns:ns0=\"http://2020imaging.com/schema/BizTalk\"><ActivityDateTime></ActivityDateTime><Type></Type><UserId></UserId><SourceId></SourceId><SourceType></SourceType><Description></Description></ns0:Audit>");
+                    BRESucessAuditMessage = xmlDoc;
+                    BRESucessAuditMessage.Description = "The BRE have updated Workflow Station";
+                    BRESucessAuditMessage.ActivityDateTime = System.DateTime.Now.ToString("yyyy-MM-dd hh:mm:ss");
+                    BRESucessAuditMessage.Type = "Success";
+                    BRESucessAuditMessage.SourceType = "RulesEngine";
+                    BRESucessAuditMessage.SourceId = AlertMessage.Source;
+                    BRESucessAuditMessage.UserId = AlertMessage.Identifier;
+                }
+                [Microsoft.XLANGs.BaseTypes.DesignerPosition("e65d8779-a3ed-49b6-98fe-4e3572e3bde1")]
+                call AMS.Orchestrations.AuditSubmission (AuditMessage);
+                [Microsoft.XLANGs.BaseTypes.DesignerPosition("3d8c1ba3-4cc4-4f13-9b6f-cafe8ab2562b")]
+                construct AlertStatusMessage
+                {
+                    [Microsoft.XLANGs.BaseTypes.DesignerPosition("0fdde76e-48ba-4fc0-be5b-619bf2c703f5")]
+                    transform (AlertStatusMessage.parameters) = AMS.Orchestrations.Transform_3 (AlertMessage);
+                }
+                [Microsoft.XLANGs.BaseTypes.DesignerPosition("1707dc77-12de-48b9-838c-adef2fc90985")]
+                send (UsersServiceSendPort.GetUsersListByAlertGroup, AlertStatusMessage);
+                [Microsoft.XLANGs.BaseTypes.DesignerPosition("63e4f4ef-69e3-45a3-b822-709dafc15a96")]
+                receive (UsersServiceSendPort.GetUsersListByAlertGroup, NotifyListMessage);
+                [Microsoft.XLANGs.BaseTypes.DesignerPosition("ee52c19e-0bc9-44b8-b0a7-a6171daf33af")]
+                construct NotifyListEnvelopeMessage
+                {
+                    [Microsoft.XLANGs.BaseTypes.DesignerPosition("2d8ebdec-85c2-49fb-96f4-1c05542e78dd")]
+                    transform (NotifyListEnvelopeMessage) = AMS.Orchestrations.Transform_NotifyListEnvelopeMessage (NotifyListMessage.parameters);
+                }
+                [Microsoft.XLANGs.BaseTypes.DesignerPosition("739f1183-8f33-469e-929a-412c5bef7337")]
+                send (Port_SendToFile.Operation_SendToFile, NotifyListEnvelopeMessage);
+            }
+            else 
+            {
+                [Microsoft.XLANGs.BaseTypes.DesignerPosition("cfa4d92d-1b9f-4dd7-9ee6-e6c118507a15")]
+                construct BREFailureAuditMessage
+                {
+                    [Microsoft.XLANGs.BaseTypes.DesignerPosition("367f58a9-7b29-42ae-88b5-598ebbe58bf3")]
+                    xmlDoc.LoadXml("<ns0:Audit xmlns:ns0=\"http://2020imaging.com/schema/BizTalk\"><ActivityDateTime></ActivityDateTime><Type></Type><UserId></UserId><SourceId></SourceId><SourceType></SourceType><Description></Description></ns0:Audit>");
+                    BREFailureAuditMessage = xmlDoc;
+                    BREFailureAuditMessage.Description = "No Auction taken";
+                    BREFailureAuditMessage.ActivityDateTime = System.DateTime.Now.ToString("yyyy-MM-dd hh:mm:ss");
+                    BREFailureAuditMessage.Type = "RaiseAlert";
+                    BREFailureAuditMessage.SourceType = "Alert";
+                    BREFailureAuditMessage.SourceId = AlertMessage.Source;
+                    BREFailureAuditMessage.UserId = AlertMessage.Identifier;
+                }
+                [Microsoft.XLANGs.BaseTypes.DesignerPosition("e9244d10-fb10-4cf5-8210-ab22e9db45ef")]
+                exec AMS.Orchestrations.AuditSubmission (BREFailureAuditMessage);
+            }
+        }
+    }
+}
+

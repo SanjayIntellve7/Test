@@ -1,0 +1,626 @@
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\AMS.BrokerTests\bin\x86\Debug\AMS.BrokerTests.dll.config
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\AMS.BrokerTests\bin\x86\Debug\AMS.BrokerTests.dll
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\AMS.BrokerTests\bin\x86\Debug\AMS.BrokerTests.pdb
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\AMS.BrokerTests\bin\x86\Debug\AMS.Broker.Contracts.dll
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\AMS.BrokerTests\bin\x86\Debug\AMS.Broker.exe
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\AMS.BrokerTests\bin\x86\Debug\AutoMapper.dll
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\AMS.BrokerTests\bin\x86\Debug\EntityFramework.dll
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.ServiceLocation.dll
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.dll
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.dll
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Interception.Configuration.dll
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Interception.dll
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\AMS.BrokerTests\bin\x86\Debug\Moq.dll
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\AMS.BrokerTests\bin\x86\Debug\PostSharp.dll
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\AMS.BrokerTests\bin\x86\Debug\Logica.RealTimeDataMgmt.WcfContracts.dll
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\AMS.BrokerTests\bin\x86\Debug\NLog.dll
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\AMS.BrokerTests\bin\x86\Debug\Rhino.Security.dll
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\AMS.BrokerTests\bin\x86\Debug\NHibernate.dll
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\AMS.BrokerTests\bin\x86\Debug\Castle.Windsor.dll
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\AMS.BrokerTests\bin\x86\Debug\CacheAspect.dll
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\AMS.BrokerTests\bin\x86\Debug\TwTw.DataLayer.dll
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\AMS.BrokerTests\bin\x86\Debug\TwTw.Domain.dll
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\AMS.BrokerTests\bin\x86\Debug\Iesi.Collections.dll
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\AMS.BrokerTests\bin\x86\Debug\Castle.Core.dll
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\AMS.BrokerTests\bin\x86\Debug\BplusDotNet.dll
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\AMS.BrokerTests\bin\x86\Debug\Microsoft.ApplicationServer.Caching.Client.dll
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\AMS.BrokerTests\bin\x86\Debug\AMS.Broker.Contracts.pdb
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\AMS.BrokerTests\bin\x86\Debug\AMS.Broker.pdb
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\AMS.BrokerTests\bin\x86\Debug\AutoMapper.xml
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\AMS.BrokerTests\bin\x86\Debug\EntityFramework.xml
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.ServiceLocation.pdb
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.ServiceLocation.xml
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.xml
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.xml
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Interception.xml
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Interception.Configuration.xml
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\AMS.BrokerTests\bin\x86\Debug\Moq.pdb
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\AMS.BrokerTests\bin\x86\Debug\Moq.xml
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\AMS.BrokerTests\bin\x86\Debug\PostSharp.xml
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\AMS.BrokerTests\bin\x86\Debug\NLog.xml
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\AMS.BrokerTests\bin\x86\Debug\NHibernate.xml
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\AMS.BrokerTests\bin\x86\Debug\Castle.Windsor.xml
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\AMS.BrokerTests\bin\x86\Debug\CacheAspect.pdb
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\AMS.BrokerTests\bin\x86\Debug\TwTw.DataLayer.pdb
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\AMS.BrokerTests\bin\x86\Debug\TwTw.Domain.pdb
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\AMS.BrokerTests\bin\x86\Debug\Iesi.Collections.xml
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\AMS.BrokerTests\bin\x86\Debug\Castle.Core.xml
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\AMS.BrokerTests\bin\x86\Debug\AMS.BrokerTests.pssym
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\AMS.BrokerTests\obj\x86\Debug\AMS.BrokerTests.csprojResolveAssemblyReference.cache
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\AMS.BrokerTests\obj\x86\Debug\AMS.BrokerTests.dll
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\AMS.BrokerTests\obj\x86\Debug\AMS.BrokerTests.pdb
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\AMS.BrokerTests\obj\x86\Debug\AMS.BrokerTests.dll.postsharp
+D:\SVN 1.4.1\Version 1.4.1 Final\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.BrokerTests.dll.config
+D:\SVN 1.4.1\Version 1.4.1 Final\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.BrokerTests.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.BrokerTests.pdb
+D:\SVN 1.4.1\Version 1.4.1 Final\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.Broker.AutherizationService.exe
+D:\SVN 1.4.1\Version 1.4.1 Final\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.Broker.Contracts.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AutoMapper.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\EntityFramework.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Interception.Configuration.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Moq.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\PostSharp.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\NLog.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Rhino.Security.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\NHibernate.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Castle.Windsor.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Iesi.Collections.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Castle.Core.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.Broker.AutherizationService.pdb
+D:\SVN 1.4.1\Version 1.4.1 Final\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.Broker.Contracts.pdb
+D:\SVN 1.4.1\Version 1.4.1 Final\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AutoMapper.xml
+D:\SVN 1.4.1\Version 1.4.1 Final\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\EntityFramework.xml
+D:\SVN 1.4.1\Version 1.4.1 Final\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\SVN 1.4.1\Version 1.4.1 Final\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\SVN 1.4.1\Version 1.4.1 Final\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.xml
+D:\SVN 1.4.1\Version 1.4.1 Final\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\SVN 1.4.1\Version 1.4.1 Final\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Interception.xml
+D:\SVN 1.4.1\Version 1.4.1 Final\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Interception.Configuration.xml
+D:\SVN 1.4.1\Version 1.4.1 Final\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Moq.pdb
+D:\SVN 1.4.1\Version 1.4.1 Final\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Moq.xml
+D:\SVN 1.4.1\Version 1.4.1 Final\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\PostSharp.xml
+D:\SVN 1.4.1\Version 1.4.1 Final\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\NLog.xml
+D:\SVN 1.4.1\Version 1.4.1 Final\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\NHibernate.xml
+D:\SVN 1.4.1\Version 1.4.1 Final\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Castle.Windsor.xml
+D:\SVN 1.4.1\Version 1.4.1 Final\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Iesi.Collections.xml
+D:\SVN 1.4.1\Version 1.4.1 Final\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Castle.Core.xml
+D:\SVN 1.4.1\Version 1.4.1 Final\BrokerAutherizationService\AMS.BrokerTests\obj\x86\Debug\AMS.BrokerTests.csprojResolveAssemblyReference.cache
+D:\SVN 1.4.1\Version 1.4.1 Final\BrokerAutherizationService\AMS.BrokerTests\obj\x86\Debug\AMS.BrokerTests.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\BrokerAutherizationService\AMS.BrokerTests\obj\x86\Debug\AMS.BrokerTests.pdb
+D:\V1.5 Broker Distribution\BrokerAutherizationService\AMS.BrokerTests\obj\x86\Debug\AMS.BrokerTests.csprojResolveAssemblyReference.cache
+D:\V1.5 Broker Distribution\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.BrokerTests.dll.config
+D:\V1.5 Broker Distribution\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.BrokerTests.dll
+D:\V1.5 Broker Distribution\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.BrokerTests.pdb
+D:\V1.5 Broker Distribution\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.Broker.AutherizationService.exe
+D:\V1.5 Broker Distribution\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.Broker.Contracts.dll
+D:\V1.5 Broker Distribution\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AutoMapper.dll
+D:\V1.5 Broker Distribution\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\EntityFramework.dll
+D:\V1.5 Broker Distribution\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\V1.5 Broker Distribution\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\V1.5 Broker Distribution\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.dll
+D:\V1.5 Broker Distribution\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Interception.Configuration.dll
+D:\V1.5 Broker Distribution\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\V1.5 Broker Distribution\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Moq.dll
+D:\V1.5 Broker Distribution\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\PostSharp.dll
+D:\V1.5 Broker Distribution\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\NLog.dll
+D:\V1.5 Broker Distribution\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Rhino.Security.dll
+D:\V1.5 Broker Distribution\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\NHibernate.dll
+D:\V1.5 Broker Distribution\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Castle.Windsor.dll
+D:\V1.5 Broker Distribution\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Iesi.Collections.dll
+D:\V1.5 Broker Distribution\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Castle.Core.dll
+D:\V1.5 Broker Distribution\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.Broker.AutherizationService.pdb
+D:\V1.5 Broker Distribution\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.Broker.Contracts.pdb
+D:\V1.5 Broker Distribution\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AutoMapper.xml
+D:\V1.5 Broker Distribution\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\EntityFramework.xml
+D:\V1.5 Broker Distribution\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\V1.5 Broker Distribution\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\V1.5 Broker Distribution\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.xml
+D:\V1.5 Broker Distribution\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\V1.5 Broker Distribution\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Interception.xml
+D:\V1.5 Broker Distribution\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Interception.Configuration.xml
+D:\V1.5 Broker Distribution\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Moq.pdb
+D:\V1.5 Broker Distribution\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Moq.xml
+D:\V1.5 Broker Distribution\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\PostSharp.xml
+D:\V1.5 Broker Distribution\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\NLog.xml
+D:\V1.5 Broker Distribution\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\NHibernate.xml
+D:\V1.5 Broker Distribution\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Castle.Windsor.xml
+D:\V1.5 Broker Distribution\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Iesi.Collections.xml
+D:\V1.5 Broker Distribution\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Castle.Core.xml
+D:\V1.5 Broker Distribution\BrokerAutherizationService\AMS.BrokerTests\obj\x86\Debug\AMS.BrokerTests.dll
+D:\V1.5 Broker Distribution\BrokerAutherizationService\AMS.BrokerTests\obj\x86\Debug\AMS.BrokerTests.pdb
+D:\V1.5 Broker Distribution\New Broker\BrokerAutherizationService\AMS.BrokerTests\obj\x86\Debug\AMS.BrokerTests.csprojResolveAssemblyReference.cache
+D:\V1.5 Broker Distribution\New Broker\BrokerAutherizationService\AMS.BrokerTests\obj\x86\Debug\AMS.BrokerTests.dll
+D:\V1.5 Broker Distribution\New Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.BrokerTests.dll.config
+D:\V1.5 Broker Distribution\New Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.BrokerTests.dll
+D:\V1.5 Broker Distribution\New Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.BrokerTests.pdb
+D:\V1.5 Broker Distribution\New Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.Broker.AutherizationService.exe
+D:\V1.5 Broker Distribution\New Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.Broker.Contracts.dll
+D:\V1.5 Broker Distribution\New Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AutoMapper.dll
+D:\V1.5 Broker Distribution\New Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\EntityFramework.dll
+D:\V1.5 Broker Distribution\New Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\V1.5 Broker Distribution\New Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\V1.5 Broker Distribution\New Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.dll
+D:\V1.5 Broker Distribution\New Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Interception.Configuration.dll
+D:\V1.5 Broker Distribution\New Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\V1.5 Broker Distribution\New Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Moq.dll
+D:\V1.5 Broker Distribution\New Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\PostSharp.dll
+D:\V1.5 Broker Distribution\New Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\NLog.dll
+D:\V1.5 Broker Distribution\New Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Rhino.Security.dll
+D:\V1.5 Broker Distribution\New Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\NHibernate.dll
+D:\V1.5 Broker Distribution\New Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Castle.Windsor.dll
+D:\V1.5 Broker Distribution\New Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Iesi.Collections.dll
+D:\V1.5 Broker Distribution\New Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Castle.Core.dll
+D:\V1.5 Broker Distribution\New Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.Broker.AutherizationService.pdb
+D:\V1.5 Broker Distribution\New Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.Broker.Contracts.pdb
+D:\V1.5 Broker Distribution\New Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AutoMapper.xml
+D:\V1.5 Broker Distribution\New Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\EntityFramework.xml
+D:\V1.5 Broker Distribution\New Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\V1.5 Broker Distribution\New Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\V1.5 Broker Distribution\New Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.xml
+D:\V1.5 Broker Distribution\New Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\V1.5 Broker Distribution\New Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Interception.xml
+D:\V1.5 Broker Distribution\New Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Interception.Configuration.xml
+D:\V1.5 Broker Distribution\New Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Moq.pdb
+D:\V1.5 Broker Distribution\New Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Moq.xml
+D:\V1.5 Broker Distribution\New Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\PostSharp.xml
+D:\V1.5 Broker Distribution\New Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\NLog.xml
+D:\V1.5 Broker Distribution\New Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\NHibernate.xml
+D:\V1.5 Broker Distribution\New Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Castle.Windsor.xml
+D:\V1.5 Broker Distribution\New Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Iesi.Collections.xml
+D:\V1.5 Broker Distribution\New Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Castle.Core.xml
+D:\V1.5 Broker Distribution\New Broker\BrokerAutherizationService\AMS.BrokerTests\obj\x86\Debug\AMS.BrokerTests.pdb
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal_06022017\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.BrokerTests.dll.config
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal_06022017\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.BrokerTests.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal_06022017\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.BrokerTests.pdb
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal_06022017\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.Broker.AutherizationService.exe
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal_06022017\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.Broker.Contracts.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal_06022017\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AutoMapper.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal_06022017\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\EntityFramework.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal_06022017\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal_06022017\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal_06022017\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal_06022017\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Interception.Configuration.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal_06022017\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal_06022017\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Moq.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal_06022017\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\PostSharp.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal_06022017\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\NLog.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal_06022017\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Rhino.Security.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal_06022017\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\NHibernate.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal_06022017\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Castle.Windsor.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal_06022017\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Iesi.Collections.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal_06022017\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Castle.Core.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal_06022017\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.Broker.AutherizationService.pdb
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal_06022017\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.Broker.Contracts.pdb
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal_06022017\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AutoMapper.xml
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal_06022017\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\EntityFramework.xml
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal_06022017\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal_06022017\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal_06022017\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.xml
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal_06022017\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal_06022017\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Interception.xml
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal_06022017\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Interception.Configuration.xml
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal_06022017\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Moq.pdb
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal_06022017\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Moq.xml
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal_06022017\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\PostSharp.xml
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal_06022017\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\NLog.xml
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal_06022017\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\NHibernate.xml
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal_06022017\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Castle.Windsor.xml
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal_06022017\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Iesi.Collections.xml
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal_06022017\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Castle.Core.xml
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal_06022017\BrokerAutherizationService\AMS.BrokerTests\obj\x86\Debug\AMS.BrokerTests.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal_06022017\BrokerAutherizationService\AMS.BrokerTests\obj\x86\Debug\AMS.BrokerTests.pdb
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal_06022017\BrokerAutherizationService\AMS.BrokerTests\obj\x86\Debug\AMS.BrokerTests.csprojResolveAssemblyReference.cache
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.BrokerTests.dll.config
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.BrokerTests.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.BrokerTests.pdb
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.Broker.AutherizationService.exe
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.Broker.Contracts.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AutoMapper.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\EntityFramework.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Interception.Configuration.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Moq.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\PostSharp.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\NLog.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Rhino.Security.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\NHibernate.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Castle.Windsor.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Iesi.Collections.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Castle.Core.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.Broker.AutherizationService.pdb
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.Broker.Contracts.pdb
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AutoMapper.xml
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\EntityFramework.xml
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.xml
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Interception.xml
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Interception.Configuration.xml
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Moq.pdb
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Moq.xml
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\PostSharp.xml
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\NLog.xml
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\NHibernate.xml
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Castle.Windsor.xml
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Iesi.Collections.xml
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Castle.Core.xml
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\obj\x86\Debug\AMS.BrokerTests.csprojResolveAssemblyReference.cache
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\obj\x86\Debug\AMS.BrokerTests.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\obj\x86\Debug\AMS.BrokerTests.pdb
+D:\V1.5 Broker Distribution\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.BrokerTests.dll.config
+D:\V1.5 Broker Distribution\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.BrokerTests.dll
+D:\V1.5 Broker Distribution\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.BrokerTests.pdb
+D:\V1.5 Broker Distribution\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.Broker.AutherizationService.exe
+D:\V1.5 Broker Distribution\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.Broker.Contracts.dll
+D:\V1.5 Broker Distribution\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AutoMapper.dll
+D:\V1.5 Broker Distribution\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\EntityFramework.dll
+D:\V1.5 Broker Distribution\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\V1.5 Broker Distribution\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\V1.5 Broker Distribution\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.dll
+D:\V1.5 Broker Distribution\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Interception.Configuration.dll
+D:\V1.5 Broker Distribution\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\V1.5 Broker Distribution\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Moq.dll
+D:\V1.5 Broker Distribution\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\PostSharp.dll
+D:\V1.5 Broker Distribution\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\NLog.dll
+D:\V1.5 Broker Distribution\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Rhino.Security.dll
+D:\V1.5 Broker Distribution\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\NHibernate.dll
+D:\V1.5 Broker Distribution\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Castle.Windsor.dll
+D:\V1.5 Broker Distribution\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Iesi.Collections.dll
+D:\V1.5 Broker Distribution\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Castle.Core.dll
+D:\V1.5 Broker Distribution\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.Broker.AutherizationService.pdb
+D:\V1.5 Broker Distribution\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.Broker.Contracts.pdb
+D:\V1.5 Broker Distribution\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AutoMapper.xml
+D:\V1.5 Broker Distribution\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\EntityFramework.xml
+D:\V1.5 Broker Distribution\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\V1.5 Broker Distribution\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\V1.5 Broker Distribution\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.xml
+D:\V1.5 Broker Distribution\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\V1.5 Broker Distribution\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Interception.xml
+D:\V1.5 Broker Distribution\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Interception.Configuration.xml
+D:\V1.5 Broker Distribution\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Moq.pdb
+D:\V1.5 Broker Distribution\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Moq.xml
+D:\V1.5 Broker Distribution\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\PostSharp.xml
+D:\V1.5 Broker Distribution\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\NLog.xml
+D:\V1.5 Broker Distribution\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\NHibernate.xml
+D:\V1.5 Broker Distribution\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Castle.Windsor.xml
+D:\V1.5 Broker Distribution\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Iesi.Collections.xml
+D:\V1.5 Broker Distribution\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Castle.Core.xml
+D:\V1.5 Broker Distribution\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\obj\x86\Debug\AMS.BrokerTests.csprojResolveAssemblyReference.cache
+D:\V1.5 Broker Distribution\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\obj\x86\Debug\AMS.BrokerTests.dll
+D:\V1.5 Broker Distribution\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\obj\x86\Debug\AMS.BrokerTests.pdb
+D:\SVN 1.4.1\Version 1.4.1 Final\Final Code From Trupti_28022017\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.BrokerTests.dll.config
+D:\SVN 1.4.1\Version 1.4.1 Final\Final Code From Trupti_28022017\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.BrokerTests.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\Final Code From Trupti_28022017\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.BrokerTests.pdb
+D:\SVN 1.4.1\Version 1.4.1 Final\Final Code From Trupti_28022017\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.Broker.AutherizationService.exe
+D:\SVN 1.4.1\Version 1.4.1 Final\Final Code From Trupti_28022017\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.Broker.Contracts.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\Final Code From Trupti_28022017\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AutoMapper.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\Final Code From Trupti_28022017\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\EntityFramework.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\Final Code From Trupti_28022017\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\Final Code From Trupti_28022017\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\Final Code From Trupti_28022017\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\Final Code From Trupti_28022017\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Interception.Configuration.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\Final Code From Trupti_28022017\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\Final Code From Trupti_28022017\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Moq.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\Final Code From Trupti_28022017\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\PostSharp.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\Final Code From Trupti_28022017\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\NLog.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\Final Code From Trupti_28022017\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Rhino.Security.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\Final Code From Trupti_28022017\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\NHibernate.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\Final Code From Trupti_28022017\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Castle.Windsor.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\Final Code From Trupti_28022017\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Iesi.Collections.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\Final Code From Trupti_28022017\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Castle.Core.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\Final Code From Trupti_28022017\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.Broker.AutherizationService.pdb
+D:\SVN 1.4.1\Version 1.4.1 Final\Final Code From Trupti_28022017\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.Broker.Contracts.pdb
+D:\SVN 1.4.1\Version 1.4.1 Final\Final Code From Trupti_28022017\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AutoMapper.xml
+D:\SVN 1.4.1\Version 1.4.1 Final\Final Code From Trupti_28022017\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\EntityFramework.xml
+D:\SVN 1.4.1\Version 1.4.1 Final\Final Code From Trupti_28022017\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\SVN 1.4.1\Version 1.4.1 Final\Final Code From Trupti_28022017\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\SVN 1.4.1\Version 1.4.1 Final\Final Code From Trupti_28022017\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.xml
+D:\SVN 1.4.1\Version 1.4.1 Final\Final Code From Trupti_28022017\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\SVN 1.4.1\Version 1.4.1 Final\Final Code From Trupti_28022017\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Interception.xml
+D:\SVN 1.4.1\Version 1.4.1 Final\Final Code From Trupti_28022017\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Interception.Configuration.xml
+D:\SVN 1.4.1\Version 1.4.1 Final\Final Code From Trupti_28022017\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Moq.pdb
+D:\SVN 1.4.1\Version 1.4.1 Final\Final Code From Trupti_28022017\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Moq.xml
+D:\SVN 1.4.1\Version 1.4.1 Final\Final Code From Trupti_28022017\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\PostSharp.xml
+D:\SVN 1.4.1\Version 1.4.1 Final\Final Code From Trupti_28022017\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\NLog.xml
+D:\SVN 1.4.1\Version 1.4.1 Final\Final Code From Trupti_28022017\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\NHibernate.xml
+D:\SVN 1.4.1\Version 1.4.1 Final\Final Code From Trupti_28022017\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Castle.Windsor.xml
+D:\SVN 1.4.1\Version 1.4.1 Final\Final Code From Trupti_28022017\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Iesi.Collections.xml
+D:\SVN 1.4.1\Version 1.4.1 Final\Final Code From Trupti_28022017\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Castle.Core.xml
+D:\SVN 1.4.1\Version 1.4.1 Final\Final Code From Trupti_28022017\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\obj\x86\Debug\AMS.BrokerTests.csprojResolveAssemblyReference.cache
+D:\SVN 1.4.1\Version 1.4.1 Final\Final Code From Trupti_28022017\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\obj\x86\Debug\AMS.BrokerTests.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\Final Code From Trupti_28022017\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\obj\x86\Debug\AMS.BrokerTests.pdb
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.BrokerTests.dll.config
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.BrokerTests.dll
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.BrokerTests.pdb
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.Broker.AutherizationService.exe
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.Broker.Contracts.dll
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AutoMapper.dll
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\EntityFramework.dll
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.dll
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Interception.Configuration.dll
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Moq.dll
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\PostSharp.dll
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\NLog.dll
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Rhino.Security.dll
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\NHibernate.dll
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Castle.Windsor.dll
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Iesi.Collections.dll
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Castle.Core.dll
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.Broker.AutherizationService.pdb
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.Broker.Contracts.pdb
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AutoMapper.xml
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\EntityFramework.xml
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.xml
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Interception.xml
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Interception.Configuration.xml
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Moq.pdb
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Moq.xml
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\PostSharp.xml
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\NLog.xml
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\NHibernate.xml
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Castle.Windsor.xml
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Iesi.Collections.xml
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Castle.Core.xml
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\obj\x86\Debug\AMS.BrokerTests.csprojResolveAssemblyReference.cache
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\obj\x86\Debug\AMS.BrokerTests.dll
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\obj\x86\Debug\AMS.BrokerTests.pdb
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.BrokerTests.dll.config
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.BrokerTests.dll
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.BrokerTests.pdb
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.Broker.AutherizationService.exe
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.Broker.Contracts.dll
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AutoMapper.dll
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\EntityFramework.dll
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.dll
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Interception.Configuration.dll
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Moq.dll
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\PostSharp.dll
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\NLog.dll
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Rhino.Security.dll
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\NHibernate.dll
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Castle.Windsor.dll
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Iesi.Collections.dll
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Castle.Core.dll
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.Broker.AutherizationService.pdb
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.Broker.Contracts.pdb
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AutoMapper.xml
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\EntityFramework.xml
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.xml
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Interception.xml
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Interception.Configuration.xml
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Moq.pdb
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Moq.xml
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\PostSharp.xml
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\NLog.xml
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\NHibernate.xml
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Castle.Windsor.xml
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Iesi.Collections.xml
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Castle.Core.xml
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\obj\x86\Debug\AMS.BrokerTests.csprojResolveAssemblyReference.cache
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\obj\x86\Debug\AMS.BrokerTests.dll
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.BrokerTests\obj\x86\Debug\AMS.BrokerTests.pdb
+D:\Version 1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\obj\x86\Debug\AMS.BrokerTests.csprojResolveAssemblyReference.cache
+D:\Version 1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.BrokerTests.dll.config
+D:\Version 1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.BrokerTests.dll
+D:\Version 1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.BrokerTests.pdb
+D:\Version 1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.Broker.AutherizationService.exe
+D:\Version 1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.Broker.Contracts.dll
+D:\Version 1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AutoMapper.dll
+D:\Version 1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\EntityFramework.dll
+D:\Version 1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Version 1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\Version 1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.dll
+D:\Version 1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Interception.Configuration.dll
+D:\Version 1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\Version 1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Moq.dll
+D:\Version 1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\PostSharp.dll
+D:\Version 1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\NLog.dll
+D:\Version 1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Rhino.Security.dll
+D:\Version 1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\NHibernate.dll
+D:\Version 1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Castle.Windsor.dll
+D:\Version 1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Iesi.Collections.dll
+D:\Version 1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Castle.Core.dll
+D:\Version 1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.Broker.AutherizationService.pdb
+D:\Version 1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.Broker.Contracts.pdb
+D:\Version 1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AutoMapper.xml
+D:\Version 1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\EntityFramework.xml
+D:\Version 1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\Version 1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\Version 1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.xml
+D:\Version 1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\Version 1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Interception.xml
+D:\Version 1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Interception.Configuration.xml
+D:\Version 1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Moq.pdb
+D:\Version 1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Moq.xml
+D:\Version 1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\PostSharp.xml
+D:\Version 1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\NLog.xml
+D:\Version 1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\NHibernate.xml
+D:\Version 1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Castle.Windsor.xml
+D:\Version 1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Iesi.Collections.xml
+D:\Version 1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Castle.Core.xml
+D:\Version 1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\obj\x86\Debug\AMS.BrokerTests.dll
+D:\Version 1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\obj\x86\Debug\AMS.BrokerTests.pdb
+D:\DeviceLevel_version_1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.BrokerTests.dll.config
+D:\DeviceLevel_version_1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.BrokerTests.dll
+D:\DeviceLevel_version_1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.BrokerTests.pdb
+D:\DeviceLevel_version_1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.Broker.AutherizationService.exe
+D:\DeviceLevel_version_1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.Broker.Contracts.dll
+D:\DeviceLevel_version_1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AutoMapper.dll
+D:\DeviceLevel_version_1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\EntityFramework.dll
+D:\DeviceLevel_version_1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\DeviceLevel_version_1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\DeviceLevel_version_1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.dll
+D:\DeviceLevel_version_1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Interception.Configuration.dll
+D:\DeviceLevel_version_1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\DeviceLevel_version_1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Moq.dll
+D:\DeviceLevel_version_1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\PostSharp.dll
+D:\DeviceLevel_version_1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\NLog.dll
+D:\DeviceLevel_version_1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Rhino.Security.dll
+D:\DeviceLevel_version_1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\NHibernate.dll
+D:\DeviceLevel_version_1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Castle.Windsor.dll
+D:\DeviceLevel_version_1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Iesi.Collections.dll
+D:\DeviceLevel_version_1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Castle.Core.dll
+D:\DeviceLevel_version_1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.Broker.AutherizationService.pdb
+D:\DeviceLevel_version_1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.Broker.Contracts.pdb
+D:\DeviceLevel_version_1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AutoMapper.xml
+D:\DeviceLevel_version_1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\EntityFramework.xml
+D:\DeviceLevel_version_1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\DeviceLevel_version_1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\DeviceLevel_version_1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.xml
+D:\DeviceLevel_version_1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\DeviceLevel_version_1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Interception.xml
+D:\DeviceLevel_version_1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Interception.Configuration.xml
+D:\DeviceLevel_version_1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Moq.pdb
+D:\DeviceLevel_version_1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Moq.xml
+D:\DeviceLevel_version_1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\PostSharp.xml
+D:\DeviceLevel_version_1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\NLog.xml
+D:\DeviceLevel_version_1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\NHibernate.xml
+D:\DeviceLevel_version_1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Castle.Windsor.xml
+D:\DeviceLevel_version_1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Iesi.Collections.xml
+D:\DeviceLevel_version_1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Castle.Core.xml
+D:\DeviceLevel_version_1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\obj\x86\Debug\AMS.BrokerTests.csprojResolveAssemblyReference.cache
+D:\DeviceLevel_version_1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\obj\x86\Debug\AMS.BrokerTests.dll
+D:\DeviceLevel_version_1.4.2\Broker\BrokerAutherizationService\AMS.BrokerTests\obj\x86\Debug\AMS.BrokerTests.pdb
+D:\Version 1.5\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.BrokerTests.dll.config
+D:\Version 1.5\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.BrokerTests.dll
+D:\Version 1.5\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.BrokerTests.pdb
+D:\Version 1.5\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.Broker.AutherizationService.exe
+D:\Version 1.5\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.Broker.Contracts.dll
+D:\Version 1.5\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AutoMapper.dll
+D:\Version 1.5\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\EntityFramework.dll
+D:\Version 1.5\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Version 1.5\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\Version 1.5\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.dll
+D:\Version 1.5\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Interception.Configuration.dll
+D:\Version 1.5\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\Version 1.5\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Moq.dll
+D:\Version 1.5\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\PostSharp.dll
+D:\Version 1.5\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\NLog.dll
+D:\Version 1.5\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Rhino.Security.dll
+D:\Version 1.5\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\NHibernate.dll
+D:\Version 1.5\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Castle.Windsor.dll
+D:\Version 1.5\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Iesi.Collections.dll
+D:\Version 1.5\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.Broker.Contracts.pdb
+D:\Version 1.5\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AutoMapper.xml
+D:\Version 1.5\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\EntityFramework.xml
+D:\Version 1.5\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\Version 1.5\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\Version 1.5\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.xml
+D:\Version 1.5\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\Version 1.5\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Interception.xml
+D:\Version 1.5\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Interception.Configuration.xml
+D:\Version 1.5\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Moq.pdb
+D:\Version 1.5\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Moq.xml
+D:\Version 1.5\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\PostSharp.xml
+D:\Version 1.5\Broker\BrokerAutherizationService\AMS.BrokerTests\obj\x86\Debug\AMS.BrokerTests.csprojResolveAssemblyReference.cache
+D:\Version 1.5\Broker\BrokerAutherizationService\AMS.BrokerTests\obj\x86\Debug\AMS.BrokerTests.dll
+D:\Version 1.5\Broker\BrokerAutherizationService\AMS.BrokerTests\obj\x86\Debug\AMS.BrokerTests.pdb
+D:\Version 1.5\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Castle.Core.dll
+D:\Version 1.5\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.Broker.AutherizationService.pdb
+D:\Version 1.5\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\NLog.xml
+D:\Version 1.5\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\NHibernate.xml
+D:\Version 1.5\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Castle.Windsor.xml
+D:\Version 1.5\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Iesi.Collections.xml
+D:\Version 1.5\Broker\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Castle.Core.xml
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.BrokerTests.dll.config
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.BrokerTests.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.BrokerTests.pdb
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.Broker.AutherizationService.exe
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.Broker.Contracts.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AutoMapper.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\EntityFramework.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Interception.Configuration.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Moq.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\PostSharp.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\NLog.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Rhino.Security.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\NHibernate.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Castle.Windsor.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Iesi.Collections.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Castle.Core.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.Broker.AutherizationService.pdb
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.Broker.Contracts.pdb
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AutoMapper.xml
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\EntityFramework.xml
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.xml
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Interception.xml
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Interception.Configuration.xml
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Moq.pdb
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Moq.xml
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\PostSharp.xml
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\NLog.xml
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\NHibernate.xml
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Castle.Windsor.xml
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Iesi.Collections.xml
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Castle.Core.xml
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\obj\x86\Debug\AMS.BrokerTests.csprojResolveAssemblyReference.cache
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\obj\x86\Debug\AMS.BrokerTests.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\obj\x86\Debug\AMS.BrokerTests.pdb
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.BrokerTests.dll.config
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.BrokerTests.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.BrokerTests.pdb
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.Broker.AutherizationService.exe
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.Broker.Contracts.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AutoMapper.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\EntityFramework.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Interception.Configuration.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Interception.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Moq.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\PostSharp.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\NLog.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Rhino.Security.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\NHibernate.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Castle.Windsor.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Iesi.Collections.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Castle.Core.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.Broker.AutherizationService.pdb
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AMS.Broker.Contracts.pdb
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\AutoMapper.xml
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\EntityFramework.xml
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.ServiceLocation.pdb
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.ServiceLocation.xml
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.xml
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Configuration.xml
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Interception.xml
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Microsoft.Practices.Unity.Interception.Configuration.xml
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Moq.pdb
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Moq.xml
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\PostSharp.xml
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\NLog.xml
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\NHibernate.xml
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Castle.Windsor.xml
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Iesi.Collections.xml
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\bin\x86\Debug\Castle.Core.xml
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\obj\x86\Debug\AMS.BrokerTests.csprojResolveAssemblyReference.cache
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\obj\x86\Debug\AMS.BrokerTests.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.BrokerTests\obj\x86\Debug\AMS.BrokerTests.pdb

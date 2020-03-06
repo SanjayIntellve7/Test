@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AMS.Orchestrations", "AMS.Orchestrations\AMS.Orchestrations.btproj", "{0F87F8A0-C81C-44BF-815E-F2EBCA065D9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MIMEHelper", "MIMEHelper\MIMEHelper.csproj", "{B2D85B2A-C820-4889-A3C9-0DB0D7A38C3F}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "AMS.Orchestrations.Setup", "AMS.Orchestrations.Setup\AMS.Orchestrations.Setup.vdproj", "{61ADDB78-A310-4881-895A-B2736FD77FCF}"
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F87F8A0-C81C-44BF-815E-F2EBCA065D9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F87F8A0-C81C-44BF-815E-F2EBCA065D9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F87F8A0-C81C-44BF-815E-F2EBCA065D9E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{0F87F8A0-C81C-44BF-815E-F2EBCA065D9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F87F8A0-C81C-44BF-815E-F2EBCA065D9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F87F8A0-C81C-44BF-815E-F2EBCA065D9E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{B2D85B2A-C820-4889-A3C9-0DB0D7A38C3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2D85B2A-C820-4889-A3C9-0DB0D7A38C3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2D85B2A-C820-4889-A3C9-0DB0D7A38C3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2D85B2A-C820-4889-A3C9-0DB0D7A38C3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61ADDB78-A310-4881-895A-B2736FD77FCF}.Debug|Any CPU.ActiveCfg = Debug
+		{61ADDB78-A310-4881-895A-B2736FD77FCF}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

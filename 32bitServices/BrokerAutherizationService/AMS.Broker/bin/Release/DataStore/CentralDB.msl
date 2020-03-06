@@ -1,0 +1,2091 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CentralDBModelStoreContainer" CdmEntityContainer="Entities">
+    <EntitySetMapping Name="Account">
+      <EntityTypeMapping TypeName="CentralDBModel.Account">
+        <MappingFragment StoreEntitySet="Account">
+          <ScalarProperty Name="BillingSameAsAccountAddress" ColumnName="BillingSameAsAccountAddress" />
+          <ScalarProperty Name="AccountLogo" ColumnName="AccountLogo" />
+          <ScalarProperty Name="AccountBillingId" ColumnName="AccountBillingId" />
+          <ScalarProperty Name="AccountId" ColumnName="AccountId" />
+          <ScalarProperty Name="AccountTypeId" ColumnName="AccountTypeId" />
+          <ScalarProperty Name="ParentAccountId" ColumnName="ParentAccountId" />
+          <ScalarProperty Name="DeletionStateCode" ColumnName="DeletionStateCode" />
+          <ScalarProperty Name="ServicePackageId" ColumnName="ServicePackageId" />
+          <ScalarProperty Name="PrimaryContactId" ColumnName="PrimaryContactId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="AccountNumber" ColumnName="AccountNumber" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="WebSiteURL" ColumnName="WebSiteURL" />
+          <ScalarProperty Name="TimeZoneId" ColumnName="TimeZoneId" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="ModifiedOn" ColumnName="ModifiedOn" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+          <ScalarProperty Name="ExternalId" ColumnName="ExternalId" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AccountInvoice">
+      <EntityTypeMapping TypeName="CentralDBModel.AccountInvoice">
+        <MappingFragment StoreEntitySet="AccountInvoice">
+          <ScalarProperty Name="InvoiceId" ColumnName="InvoiceId" />
+          <ScalarProperty Name="PriorityCode" ColumnName="PriorityCode" />
+          <ScalarProperty Name="DeletionStateCode" ColumnName="DeletionStateCode" />
+          <ScalarProperty Name="AccountId" ColumnName="AccountId" />
+          <ScalarProperty Name="ContactId" ColumnName="ContactId" />
+          <ScalarProperty Name="InvoiceNumber" ColumnName="InvoiceNumber" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="DiscountAmount" ColumnName="DiscountAmount" />
+          <ScalarProperty Name="FreightAmount" ColumnName="FreightAmount" />
+          <ScalarProperty Name="TotalAmount" ColumnName="TotalAmount" />
+          <ScalarProperty Name="TotalLineItemAmount" ColumnName="TotalLineItemAmount" />
+          <ScalarProperty Name="TotalLineItemDiscountAmount" ColumnName="TotalLineItemDiscountAmount" />
+          <ScalarProperty Name="TotalAmountLessFreight" ColumnName="TotalAmountLessFreight" />
+          <ScalarProperty Name="TotalDiscountAmount" ColumnName="TotalDiscountAmount" />
+          <ScalarProperty Name="TotalTax" ColumnName="TotalTax" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+          <ScalarProperty Name="ModifiedOn" ColumnName="ModifiedOn" />
+          <ScalarProperty Name="StateCode" ColumnName="StateCode" />
+          <ScalarProperty Name="BillTo_Name" ColumnName="BillTo_Name" />
+          <ScalarProperty Name="BillTo_Line1" ColumnName="BillTo_Line1" />
+          <ScalarProperty Name="BillTo_Line2" ColumnName="BillTo_Line2" />
+          <ScalarProperty Name="BillTo_Line3" ColumnName="BillTo_Line3" />
+          <ScalarProperty Name="BillTo_City" ColumnName="BillTo_City" />
+          <ScalarProperty Name="BillTo_StateOrProvince" ColumnName="BillTo_StateOrProvince" />
+          <ScalarProperty Name="BillTo_Country" ColumnName="BillTo_Country" />
+          <ScalarProperty Name="BillTo_PostalCode" ColumnName="BillTo_PostalCode" />
+          <ScalarProperty Name="BillTo_Telephone" ColumnName="BillTo_Telephone" />
+          <ScalarProperty Name="BillTo_Fax" ColumnName="BillTo_Fax" />
+          <ScalarProperty Name="DiscountPercentage" ColumnName="DiscountPercentage" />
+          <ScalarProperty Name="DueDate" ColumnName="DueDate" />
+          <ScalarProperty Name="TimeZoneId" ColumnName="TimeZoneId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AccountType">
+      <EntityTypeMapping TypeName="CentralDBModel.AccountType">
+        <MappingFragment StoreEntitySet="AccountType">
+          <ScalarProperty Name="AccoutTypeId" ColumnName="AccoutTypeId" />
+          <ScalarProperty Name="AccountTypeName" ColumnName="AccountTypeName" />
+          <ScalarProperty Name="SiteEventReport" ColumnName="SiteEventReport" />
+          <ScalarProperty Name="ReportDeliveryMethodId" ColumnName="ReportDeliveryMethodId" />
+          <ScalarProperty Name="OpenCloseMonitoring" ColumnName="OpenCloseMonitoring" />
+          <ScalarProperty Name="DailyOpenCloseReports" ColumnName="DailyOpenCloseReports" />
+          <ScalarProperty Name="WeeklyOpenCloseReporting" ColumnName="WeeklyOpenCloseReporting" />
+          <ScalarProperty Name="SMS" ColumnName="SMS" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Address">
+      <EntityTypeMapping TypeName="CentralDBModel.Address">
+        <MappingFragment StoreEntitySet="Address">
+          <ScalarProperty Name="AddressId" ColumnName="AddressId" />
+          <ScalarProperty Name="AccountId" ColumnName="AccountId" />
+          <ScalarProperty Name="PersonId" ColumnName="PersonId" />
+          <ScalarProperty Name="SiteId" ColumnName="SiteId" />
+          <ScalarProperty Name="DeletionStateCode" ColumnName="DeletionStateCode" />
+          <ScalarProperty Name="AddressNumber" ColumnName="AddressNumber" />
+          <ScalarProperty Name="AddressTypeCode" ColumnName="AddressTypeCode" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Line1" ColumnName="Line1" />
+          <ScalarProperty Name="Line2" ColumnName="Line2" />
+          <ScalarProperty Name="Line3" ColumnName="Line3" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="StateOrProvince" ColumnName="StateOrProvince" />
+          <ScalarProperty Name="County" ColumnName="County" />
+          <ScalarProperty Name="Country" ColumnName="Country" />
+          <ScalarProperty Name="PostOfficeBox" ColumnName="PostOfficeBox" />
+          <ScalarProperty Name="PostalCode" ColumnName="PostalCode" />
+          <ScalarProperty Name="UTCOffset" ColumnName="UTCOffset" />
+          <ScalarProperty Name="UPSZone" ColumnName="UPSZone" />
+          <ScalarProperty Name="Latitude" ColumnName="Latitude" />
+          <ScalarProperty Name="Telephone1" ColumnName="Telephone1" />
+          <ScalarProperty Name="Longitude" ColumnName="Longitude" />
+          <ScalarProperty Name="ShippingMethodCode" ColumnName="ShippingMethodCode" />
+          <ScalarProperty Name="Telephone2" ColumnName="Telephone2" />
+          <ScalarProperty Name="Telephone3" ColumnName="Telephone3" />
+          <ScalarProperty Name="VersionNumber" ColumnName="VersionNumber" />
+          <ScalarProperty Name="Fax" ColumnName="Fax" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+          <ScalarProperty Name="ModifiedOn" ColumnName="ModifiedOn" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Alert">
+      <EntityTypeMapping TypeName="CentralDBModel.Alert">
+        <MappingFragment StoreEntitySet="Alert">
+          <ScalarProperty Name="AlertCloseDateTime" ColumnName="AlertCloseDateTime" />
+          <ScalarProperty Name="AlertAckDateTime" ColumnName="AlertAckDateTime" />
+          <ScalarProperty Name="AlertContext" ColumnName="AlertContext" />
+          <ScalarProperty Name="EventID" ColumnName="EventID" />
+          <ScalarProperty Name="Alertzone" ColumnName="Alertzone" />
+          <ScalarProperty Name="AlertOwner" ColumnName="AlertOwner" />
+          <ScalarProperty Name="MembershipUserId" ColumnName="MembershipUserId" />
+          <ScalarProperty Name="ReceivedDateTime" ColumnName="ReceivedDateTime" />
+          <ScalarProperty Name="AlertId" ColumnName="AlertId" />
+          <ScalarProperty Name="Identifier" ColumnName="Identifier" />
+          <ScalarProperty Name="Sender" ColumnName="Sender" />
+          <ScalarProperty Name="Sent" ColumnName="Sent" />
+          <ScalarProperty Name="StatusId" ColumnName="StatusId" />
+          <ScalarProperty Name="MessageTypeId" ColumnName="MessageTypeId" />
+          <ScalarProperty Name="ScopeId" ColumnName="ScopeId" />
+          <ScalarProperty Name="Source" ColumnName="Source" />
+          <ScalarProperty Name="Restriction" ColumnName="Restriction" />
+          <ScalarProperty Name="Addresses" ColumnName="Addresses" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Note" ColumnName="Note" />
+          <ScalarProperty Name="References" ColumnName="References" />
+          <ScalarProperty Name="Incidents" ColumnName="Incidents" />
+          <ScalarProperty Name="DeviceId" ColumnName="DeviceId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AlertHistory">
+      <EntityTypeMapping TypeName="CentralDBModel.AlertHistory">
+        <MappingFragment StoreEntitySet="AlertHistory">
+          <ScalarProperty Name="AlertHistoryId" ColumnName="AlertHistoryId" />
+          <ScalarProperty Name="AlertId" ColumnName="AlertId" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="MessageTypeId" ColumnName="MessageTypeId" />
+          <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AlertTemplate">
+      <EntityTypeMapping TypeName="CentralDBModel.AlertTemplate">
+        <MappingFragment StoreEntitySet="AlertTemplate">
+          <ScalarProperty Name="AlertTemplateId" ColumnName="AlertTemplateId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AlertTemplateCondition">
+      <EntityTypeMapping TypeName="CentralDBModel.AlertTemplateCondition">
+        <MappingFragment StoreEntitySet="AlertTemplateCondition">
+          <ScalarProperty Name="AlertTemplateConditionId" ColumnName="AlertTemplateConditionId" />
+          <ScalarProperty Name="AlertTemplateId" ColumnName="AlertTemplateId" />
+          <ScalarProperty Name="EventFieldName" ColumnName="EventFieldName" />
+          <ScalarProperty Name="EventFieldType" ColumnName="EventFieldType" />
+          <ScalarProperty Name="ComparationOperationId" ColumnName="ComparationOperationId" />
+          <ScalarProperty Name="Value" ColumnName="Value" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AlertTemplateValue">
+      <EntityTypeMapping TypeName="CentralDBModel.AlertTemplateValue">
+        <MappingFragment StoreEntitySet="AlertTemplateValue">
+          <ScalarProperty Name="AlertTemplateValueId" ColumnName="AlertTemplateValueId" />
+          <ScalarProperty Name="AlertTemplateId" ColumnName="AlertTemplateId" />
+          <ScalarProperty Name="AlertEntityName" ColumnName="AlertEntityName" />
+          <ScalarProperty Name="AlertFieldName" ColumnName="AlertFieldName" />
+          <ScalarProperty Name="ValueFormula" ColumnName="ValueFormula" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Area">
+      <EntityTypeMapping TypeName="CentralDBModel.Area">
+        <MappingFragment StoreEntitySet="Area">
+          <ScalarProperty Name="AreaId" ColumnName="AreaId" />
+          <ScalarProperty Name="SiteId" ColumnName="SiteId" />
+          <ScalarProperty Name="InfoId" ColumnName="InfoId" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Altitude" ColumnName="Altitude" />
+          <ScalarProperty Name="Celing" ColumnName="Celing" />
+          <ScalarProperty Name="Latitude" ColumnName="Latitude" />
+          <ScalarProperty Name="Longitude" ColumnName="Longitude" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AuditLog">
+      <EntityTypeMapping TypeName="CentralDBModel.AuditLog">
+        <MappingFragment StoreEntitySet="AuditLog">
+          <ScalarProperty Name="AuditLogId" ColumnName="AuditLogId" />
+          <ScalarProperty Name="ActivityDateTime" ColumnName="ActivityDateTime" />
+          <ScalarProperty Name="AuditTypeId" ColumnName="AuditTypeId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="SourceId" ColumnName="SourceId" />
+          <ScalarProperty Name="SourceType" ColumnName="SourceType" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AuditType">
+      <EntityTypeMapping TypeName="CentralDBModel.AuditType">
+        <MappingFragment StoreEntitySet="AuditType">
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BBoxPoint">
+      <EntityTypeMapping TypeName="CentralDBModel.BBoxPoint">
+        <MappingFragment StoreEntitySet="BBoxPoint">
+          <ScalarProperty Name="BBoxPointId" ColumnName="BBoxPointId" />
+          <ScalarProperty Name="SiteId" ColumnName="SiteId" />
+          <ScalarProperty Name="Lat" ColumnName="Lat" />
+          <ScalarProperty Name="Long" ColumnName="Long" />
+          <ScalarProperty Name="Alt" ColumnName="Alt" />
+          <ScalarProperty Name="PLat" ColumnName="PLat" />
+          <ScalarProperty Name="PLong" ColumnName="PLong" />
+          <ScalarProperty Name="PAlt" ColumnName="PAlt" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Category">
+      <EntityTypeMapping TypeName="CentralDBModel.Category">
+        <MappingFragment StoreEntitySet="Category">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Certainty">
+      <EntityTypeMapping TypeName="CentralDBModel.Certainty">
+        <MappingFragment StoreEntitySet="Certainty">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ComparisonOperation">
+      <EntityTypeMapping TypeName="CentralDBModel.ComparisonOperation">
+        <MappingFragment StoreEntitySet="ComparisonOperation">
+          <ScalarProperty Name="ComparisonOperationId" ColumnName="ComparisonOperationId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Contact">
+      <EntityTypeMapping TypeName="CentralDBModel.Contact">
+        <MappingFragment StoreEntitySet="Contact">
+          <ScalarProperty Name="FaxNumber" ColumnName="FaxNumber" />
+          <ScalarProperty Name="LyncName" ColumnName="LyncName" />
+          <ScalarProperty Name="MobileNumber" ColumnName="MobileNumber" />
+          <ScalarProperty Name="EmailAddress" ColumnName="EmailAddress" />
+          <ScalarProperty Name="TelephoneNumber" ColumnName="TelephoneNumber" />
+          <ScalarProperty Name="ContactId" ColumnName="ContactId" />
+          <ScalarProperty Name="PersonId" ColumnName="PersonId" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="ModifiedOn" ColumnName="ModifiedOn" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ContactType">
+      <EntityTypeMapping TypeName="CentralDBModel.ContactType">
+        <MappingFragment StoreEntitySet="ContactType">
+          <ScalarProperty Name="ContactTypeId" ColumnName="ContactTypeId" />
+          <ScalarProperty Name="ContactTypeName" ColumnName="ContactTypeName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DeliveryMethod">
+      <EntityTypeMapping TypeName="CentralDBModel.DeliveryMethod">
+        <MappingFragment StoreEntitySet="DeliveryMethod">
+          <ScalarProperty Name="DeliveryMethodId" ColumnName="DeliveryMethodId" />
+          <ScalarProperty Name="DeliveryMethodName" ColumnName="DeliveryMethodName" />
+          <ScalarProperty Name="Frequency" ColumnName="Frequency" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Device">
+      <EntityTypeMapping TypeName="IsTypeOf(CentralDBModel.Device)">
+        <MappingFragment StoreEntitySet="Device">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="DeviceId" ColumnName="DeviceId" />
+          <ScalarProperty Name="IsMovable" ColumnName="IsMovable" />
+          <ScalarProperty Name="HasAbAnalytics" ColumnName="HasAbAnalytics" />
+          <ScalarProperty Name="HasSzAnalytics" ColumnName="HasSzAnalytics" />
+          <ScalarProperty Name="HasPvAnalytics" ColumnName="HasPvAnalytics" />
+          <ScalarProperty Name="ActiveAlert" ColumnName="ActiveAlert" />
+          <ScalarProperty Name="SiteId" ColumnName="SiteId" />
+          <ScalarProperty Name="NvrId" ColumnName="NvrId" />
+          <ScalarProperty Name="CameraGuid" ColumnName="CameraGuid" />
+          <ScalarProperty Name="LocationDescription" ColumnName="LocationDescription" />
+          <ScalarProperty Name="Altitude" ColumnName="Altitude" />
+          <ScalarProperty Name="Long" ColumnName="Long" />
+          <ScalarProperty Name="Lat" ColumnName="Lat" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Metadata" ColumnName="Metadata" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="ExternalId" ColumnName="ExternalId" />
+          <ScalarProperty Name="InterfaceId" ColumnName="InterfaceId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+      <EntityTypeMapping TypeName="IsTypeOf(CentralDBModel.NvrCamera)">
+        <MappingFragment StoreEntitySet="NvrCamera">
+          <ScalarProperty Name="MediaType" ColumnName="MediaType" />
+          <ScalarProperty Name="Mediaurl" ColumnName="Mediaurl" />
+          <ScalarProperty Name="IsEdgeAnalytics" ColumnName="IsEdgeAnalytics" />
+          <ScalarProperty Name="ChanelNo" ColumnName="ChanelNo" />
+          <ScalarProperty Name="NoOfLens" ColumnName="NoOfLens" />
+          <ScalarProperty Name="Lane3" ColumnName="Lane3" />
+          <ScalarProperty Name="Lane2" ColumnName="Lane2" />
+          <ScalarProperty Name="Lane1" ColumnName="Lane1" />
+          <ScalarProperty Name="AnalyticsServerIp" ColumnName="AnalyticsServerIp" />
+          <ScalarProperty Name="CameraType" ColumnName="CameraType" />
+          <ScalarProperty Name="MinBlobHeight" ColumnName="MinBlobHeight" />
+          <ScalarProperty Name="MinBlobWidth" ColumnName="MinBlobWidth" />
+          <ScalarProperty Name="MaxBlobHeight" ColumnName="MaxBlobHeight" />
+          <ScalarProperty Name="MaxBlobWidth" ColumnName="MaxBlobWidth" />
+          <ScalarProperty Name="CamPassword" ColumnName="CamPassword" />
+          <ScalarProperty Name="CamUser" ColumnName="CamUser" />
+          <ScalarProperty Name="CameraPort" ColumnName="CameraPort" />
+          <ScalarProperty Name="CameraUrl" ColumnName="CameraUrl" />
+          <ScalarProperty Name="DirectionFlag" ColumnName="DirectionFlag" />
+          <ScalarProperty Name="LineEnd" ColumnName="LineEnd" />
+          <ScalarProperty Name="LineStart" ColumnName="LineStart" />
+          <ScalarProperty Name="CameraIp" ColumnName="CameraIp" />
+          <ScalarProperty Name="IsPtz" ColumnName="IsPtz" />
+          <ScalarProperty Name="AnalyticsEventTemplateId" ColumnName="AnalyticsEventTemplateId" />
+          <ScalarProperty Name="ZoneData" ColumnName="ZoneData" />
+          <ScalarProperty Name="ZoneColumns" ColumnName="ZoneColumns" />
+          <ScalarProperty Name="ZoneRows" ColumnName="ZoneRows" />
+          <ScalarProperty Name="Height" ColumnName="Height" />
+          <ScalarProperty Name="Width" ColumnName="Width" />
+          <ScalarProperty Name="UpdateRate" ColumnName="UpdateRate" />
+          <ScalarProperty Name="AlarmDelay" ColumnName="AlarmDelay" />
+          <ScalarProperty Name="MinBlobSize" ColumnName="MinBlobSize" />
+          <ScalarProperty Name="MaxBlobSize" ColumnName="MaxBlobSize" />
+          <ScalarProperty Name="Version" ColumnName="Version" />
+          <ScalarProperty Name="AnalyticAlgorithmTypeId" ColumnName="AnalyticAlgorithmTypeId" />
+          <ScalarProperty Name="DeviceId" ColumnName="CameraId" />
+          <ScalarProperty Name="FPS" ColumnName="FPS" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DevicesInZone">
+      <EntityTypeMapping TypeName="CentralDBModel.DevicesInZone">
+        <MappingFragment StoreEntitySet="DevicesInZone">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ZoneId" ColumnName="ZoneId" />
+          <ScalarProperty Name="DeviceId" ColumnName="DeviceId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DeviceType">
+      <EntityTypeMapping TypeName="CentralDBModel.DeviceType">
+        <MappingFragment StoreEntitySet="DeviceType">
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Event">
+      <EntityTypeMapping TypeName="CentralDBModel.Event">
+        <MappingFragment StoreEntitySet="Event">
+          <ScalarProperty Name="ZoneSubsystem" ColumnName="ZoneSubsystem" />
+          <ScalarProperty Name="EventDevID" ColumnName="EventDevID" />
+          <ScalarProperty Name="DriverPortNumber" ColumnName="DriverPortNumber" />
+          <ScalarProperty Name="DriverName" ColumnName="DriverName" />
+          <ScalarProperty Name="LineCode" ColumnName="LineCode" />
+          <ScalarProperty Name="ZoneCode" ColumnName="ZoneCode" />
+          <ScalarProperty Name="EventId" ColumnName="EventId" />
+          <ScalarProperty Name="DeviceId" ColumnName="DeviceId" />
+          <ScalarProperty Name="PanelAccountId" ColumnName="PanelAccountId" />
+          <ScalarProperty Name="EventCode" ColumnName="EventCode" />
+          <ScalarProperty Name="TimeSent" ColumnName="TimeSent" />
+          <ScalarProperty Name="ExternalMessage" ColumnName="ExternalMessage" />
+          <ScalarProperty Name="AreaId" ColumnName="AreaId" />
+          <ScalarProperty Name="AlertId" ColumnName="AlertId" />
+          <ScalarProperty Name="FrameTypeCode" ColumnName="FrameTypeCode" />
+          <ScalarProperty Name="FrameId" ColumnName="FrameId" />
+          <ScalarProperty Name="Qualifier" ColumnName="Qualifier" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Frequency">
+      <EntityTypeMapping TypeName="CentralDBModel.Frequency">
+        <MappingFragment StoreEntitySet="Frequency">
+          <ScalarProperty Name="FrequencyId" ColumnName="FrequencyId" />
+          <ScalarProperty Name="FrequencyName" ColumnName="FrequencyName" />
+          <ScalarProperty Name="Hour" ColumnName="Hour" />
+          <ScalarProperty Name="DayOfWeek" ColumnName="DayOfWeek" />
+          <ScalarProperty Name="Week" ColumnName="Week" />
+          <ScalarProperty Name="DayOfMonth" ColumnName="DayOfMonth" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Gender">
+      <EntityTypeMapping TypeName="CentralDBModel.Gender">
+        <MappingFragment StoreEntitySet="Gender">
+          <ScalarProperty Name="GenderId" ColumnName="GenderId" />
+          <ScalarProperty Name="GenderName" ColumnName="GenderName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GeneralSetting">
+      <EntityTypeMapping TypeName="CentralDBModel.GeneralSetting">
+        <MappingFragment StoreEntitySet="GeneralSetting">
+          <ScalarProperty Name="SystemName" ColumnName="SystemName" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Version" ColumnName="Version" />
+          <ScalarProperty Name="Logo" ColumnName="Logo" />
+          <ScalarProperty Name="DefaultLanguage" ColumnName="DefaultLanguage" />
+          <ScalarProperty Name="DefaultTimeZoneId" ColumnName="DefaultTimeZoneId" />
+          <ScalarProperty Name="LicenceSettingsId" ColumnName="LicenceSettingsId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GeoBox">
+      <EntityTypeMapping TypeName="CentralDBModel.GeoBox">
+        <MappingFragment StoreEntitySet="GeoBox">
+          <ScalarProperty Name="objectId" ColumnName="objectId" />
+          <ScalarProperty Name="objectTypeId" ColumnName="objectTypeId" />
+          <ScalarProperty Name="Lat" ColumnName="Lat" />
+          <ScalarProperty Name="Long" ColumnName="Long" />
+          <ScalarProperty Name="Alt" ColumnName="Alt" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Group">
+      <EntityTypeMapping TypeName="CentralDBModel.Group">
+        <MappingFragment StoreEntitySet="Group">
+          <ScalarProperty Name="GroupId" ColumnName="GroupId" />
+          <ScalarProperty Name="GroupName" ColumnName="GroupName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="IncidentReport">
+      <EntityTypeMapping TypeName="CentralDBModel.IncidentReport">
+        <MappingFragment StoreEntitySet="IncidentReport">
+          <ScalarProperty Name="Comments" ColumnName="Comments" />
+          <ScalarProperty Name="IncidentReportId" ColumnName="IncidentReportId" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="Owner" ColumnName="Owner" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="IncidentReportAlert">
+      <EntityTypeMapping TypeName="CentralDBModel.IncidentReportAlert">
+        <MappingFragment StoreEntitySet="IncidentReportAlert">
+          <ScalarProperty Name="AttachedDateTime" ColumnName="AttachedDateTime" />
+          <ScalarProperty Name="IncidentReportEvidence" ColumnName="IncidentReportEvidence" />
+          <ScalarProperty Name="IncidentReportAlertsId" ColumnName="IncidentReportAlertsId" />
+          <ScalarProperty Name="IncidentReportId" ColumnName="IncidentReportId" />
+          <ScalarProperty Name="AlertId" ColumnName="AlertId" />
+          <ScalarProperty Name="Sequence" ColumnName="Sequence" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="IncidentReportCamera">
+      <EntityTypeMapping TypeName="CentralDBModel.IncidentReportCamera">
+        <MappingFragment StoreEntitySet="IncidentReportCamera">
+          <ScalarProperty Name="AttachedDatime" ColumnName="AttachedDatime" />
+          <ScalarProperty Name="PlyDateTime" ColumnName="PlyDateTime" />
+          <ScalarProperty Name="IncidentReportCamerasId" ColumnName="IncidentReportCamerasId" />
+          <ScalarProperty Name="IncidentReportId" ColumnName="IncidentReportId" />
+          <ScalarProperty Name="CameraId" ColumnName="CameraId" />
+          <ScalarProperty Name="Sequence" ColumnName="Sequence" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="IncidentReportResource">
+      <EntityTypeMapping TypeName="CentralDBModel.IncidentReportResource">
+        <MappingFragment StoreEntitySet="IncidentReportResource">
+          <ScalarProperty Name="IncidentReportResourceId" ColumnName="IncidentReportResourceId" />
+          <ScalarProperty Name="IncidentReportId" ColumnName="IncidentReportId" />
+          <ScalarProperty Name="ResourceId" ColumnName="ResourceId" />
+          <ScalarProperty Name="Appended" ColumnName="Appended" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="IncidentReportStatus">
+      <EntityTypeMapping TypeName="CentralDBModel.IncidentReportStatus">
+        <MappingFragment StoreEntitySet="IncidentReportStatus">
+          <ScalarProperty Name="AuthToken" ColumnName="AuthToken" />
+          <ScalarProperty Name="IncidentReportStatusId" ColumnName="IncidentReportStatusId" />
+          <ScalarProperty Name="IncidentReportId" ColumnName="IncidentReportId" />
+          <ScalarProperty Name="ChangeDate" ColumnName="ChangeDate" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Notes" ColumnName="Notes" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Info">
+      <EntityTypeMapping TypeName="CentralDBModel.Info">
+        <MappingFragment StoreEntitySet="Info">
+          <ScalarProperty Name="EventCode" ColumnName="EventCode" />
+          <ScalarProperty Name="InfoId" ColumnName="InfoId" />
+          <ScalarProperty Name="AlertId" ColumnName="AlertId" />
+          <ScalarProperty Name="UrgencyId" ColumnName="UrgencyId" />
+          <ScalarProperty Name="Event" ColumnName="Event" />
+          <ScalarProperty Name="SeverityId" ColumnName="SeverityId" />
+          <ScalarProperty Name="CertaintyId" ColumnName="CertaintyId" />
+          <ScalarProperty Name="Language" ColumnName="Language" />
+          <ScalarProperty Name="OnSet" ColumnName="OnSet" />
+          <ScalarProperty Name="Expires" ColumnName="Expires" />
+          <ScalarProperty Name="Effective" ColumnName="Effective" />
+          <ScalarProperty Name="Audience" ColumnName="Audience" />
+          <ScalarProperty Name="SenderName" ColumnName="SenderName" />
+          <ScalarProperty Name="Headline" ColumnName="Headline" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Instruction" ColumnName="Instruction" />
+          <ScalarProperty Name="Web" ColumnName="Web" />
+          <ScalarProperty Name="Contact" ColumnName="Contact" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="InfoesCategory">
+      <EntityTypeMapping TypeName="CentralDBModel.InfoesCategory">
+        <MappingFragment StoreEntitySet="InfoesCategory">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="InfoId" ColumnName="InfoId" />
+          <ScalarProperty Name="CategoryId" ColumnName="CategoryId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="InfoesResponseType">
+      <EntityTypeMapping TypeName="CentralDBModel.InfoesResponseType">
+        <MappingFragment StoreEntitySet="InfoesResponseType">
+          <ScalarProperty Name="InfoId" ColumnName="InfoId" />
+          <ScalarProperty Name="ResponseType" ColumnName="ResponseType" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Interface">
+      <EntityTypeMapping TypeName="IsTypeOf(CentralDBModel.Interface)">
+        <MappingFragment StoreEntitySet="Interface">
+          <ScalarProperty Name="InterfaceId" ColumnName="InterfaceId" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="InterfaceTypeId" ColumnName="InterfaceTypeId" />
+          <ScalarProperty Name="AccountId" ColumnName="AccountId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+      <EntityTypeMapping TypeName="IsTypeOf(CentralDBModel.AlarmPanel)">
+        <MappingFragment StoreEntitySet="AlarmPanel">
+          <ScalarProperty Name="InterfaceDevicePort" ColumnName="InterfaceDevicePort" />
+          <ScalarProperty Name="InterfaceDeviceIP" ColumnName="InterfaceDeviceIP" />
+          <ScalarProperty Name="AlarmPanelTypeId" ColumnName="AlarmPanelTypeId" />
+          <ScalarProperty Name="EventTypeTemplateId" ColumnName="EventTypeTemplateId" />
+          <ScalarProperty Name="InterfaceId" ColumnName="AlarmPanelId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="InterfaceType">
+      <EntityTypeMapping TypeName="CentralDBModel.InterfaceType">
+        <MappingFragment StoreEntitySet="InterfaceType">
+          <ScalarProperty Name="InterfaceTypeId" ColumnName="InterfaceTypeId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Language">
+      <EntityTypeMapping TypeName="CentralDBModel.Language">
+        <MappingFragment StoreEntitySet="Language">
+          <ScalarProperty Name="LanguageId" ColumnName="LanguageId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Login">
+      <EntityTypeMapping TypeName="CentralDBModel.Login">
+        <MappingFragment StoreEntitySet="Login">
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Component" ColumnName="Component" />
+          <ScalarProperty Name="IdentifierIP" ColumnName="IdentifierIP" />
+          <ScalarProperty Name="AuthToken" ColumnName="AuthToken" />
+          <ScalarProperty Name="SecurityUserId" ColumnName="SecurityUserId" />
+          <ScalarProperty Name="Identifier" ColumnName="Identifier" />
+          <ScalarProperty Name="LoginDate" ColumnName="LoginDate" />
+          <ScalarProperty Name="LogoutDate" ColumnName="LogoutDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MessageType">
+      <EntityTypeMapping TypeName="CentralDBModel.MessageType">
+        <MappingFragment StoreEntitySet="MessageType">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Parameter">
+      <EntityTypeMapping TypeName="CentralDBModel.Parameter">
+        <MappingFragment StoreEntitySet="Parameter">
+          <ScalarProperty Name="ParameterId" ColumnName="ParameterId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Value" ColumnName="Value" />
+          <ScalarProperty Name="InfoId" ColumnName="InfoId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Permission">
+      <EntityTypeMapping TypeName="CentralDBModel.Permission">
+        <MappingFragment StoreEntitySet="Permission">
+          <ScalarProperty Name="PermissionId" ColumnName="PermissionId" />
+          <ScalarProperty Name="PermissionName" ColumnName="PermissionName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Person">
+      <EntityTypeMapping TypeName="CentralDBModel.Person">
+        <MappingFragment StoreEntitySet="Person">
+          <ScalarProperty Name="PrimaryAccountAdministratorPassword" ColumnName="PrimaryAccountAdministratorPassword" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="JobTitle" ColumnName="JobTitle" />
+          <ScalarProperty Name="AccountId" ColumnName="AccountId" />
+          <ScalarProperty Name="PersonId" ColumnName="PersonId" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="NickName" ColumnName="NickName" />
+          <ScalarProperty Name="MiddleName" ColumnName="MiddleName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="Suffix" ColumnName="Suffix" />
+          <ScalarProperty Name="FullName" ColumnName="FullName" />
+          <ScalarProperty Name="BirthDate" ColumnName="BirthDate" />
+          <ScalarProperty Name="AgeRange" ColumnName="AgeRange" />
+          <ScalarProperty Name="Ethnicity" ColumnName="Ethnicity" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="GenderCode" ColumnName="GenderCode" />
+          <ScalarProperty Name="EducationCode" ColumnName="EducationCode" />
+          <ScalarProperty Name="ExternalIdentifier" ColumnName="ExternalIdentifier" />
+          <ScalarProperty Name="Portrait" ColumnName="Portrait" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="ModifiedOn" ColumnName="ModifiedOn" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Resource">
+      <EntityTypeMapping TypeName="CentralDBModel.Resource">
+        <MappingFragment StoreEntitySet="Resource">
+          <ScalarProperty Name="ResourceId" ColumnName="ResourceId" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="MimeType" ColumnName="MimeType" />
+          <ScalarProperty Name="Size" ColumnName="Size" />
+          <ScalarProperty Name="Uri" ColumnName="Uri" />
+          <ScalarProperty Name="DerefUri" ColumnName="DerefUri" />
+          <ScalarProperty Name="Digest" ColumnName="Digest" />
+          <ScalarProperty Name="InfoId" ColumnName="InfoId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ResourcesData">
+      <EntityTypeMapping TypeName="CentralDBModel.ResourcesData">
+        <MappingFragment StoreEntitySet="ResourcesData">
+          <ScalarProperty Name="FileName" ColumnName="FileName" />
+          <ScalarProperty Name="EvidenceType" ColumnName="EvidenceType" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Data" ColumnName="Data" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ResponseType">
+      <EntityTypeMapping TypeName="CentralDBModel.ResponseType">
+        <MappingFragment StoreEntitySet="ResponseType">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Scope">
+      <EntityTypeMapping TypeName="CentralDBModel.Scope">
+        <MappingFragment StoreEntitySet="Scope">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ServicePackage">
+      <EntityTypeMapping TypeName="CentralDBModel.ServicePackage">
+        <MappingFragment StoreEntitySet="ServicePackage">
+          <ScalarProperty Name="ServicePackageId" ColumnName="ServicePackageId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="PackagePrice" ColumnName="PackagePrice" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Severity">
+      <EntityTypeMapping TypeName="CentralDBModel.Severity">
+        <MappingFragment StoreEntitySet="Severity">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Site">
+      <EntityTypeMapping TypeName="CentralDBModel.Site">
+        <MappingFragment StoreEntitySet="Site">
+          <ScalarProperty Name="IsBingMap" ColumnName="IsBingMap" />
+          <ScalarProperty Name="SiteId" ColumnName="SiteId" />
+          <ScalarProperty Name="ParentId" ColumnName="ParentId" />
+          <ScalarProperty Name="AccountId" ColumnName="AccountId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Lat" ColumnName="Lat" />
+          <ScalarProperty Name="Long" ColumnName="Long" />
+          <ScalarProperty Name="Alt" ColumnName="Alt" />
+          <ScalarProperty Name="Map" ColumnName="Map" />
+          <ScalarProperty Name="Pin" ColumnName="Pin" />
+          <ScalarProperty Name="MapUrl" ColumnName="MapUrl" />
+          <ScalarProperty Name="PinUrl" ColumnName="PinUrl" />
+          <ScalarProperty Name="siteTypeId" ColumnName="siteTypeId" />
+          <ScalarProperty Name="Icon" ColumnName="Icon" />
+          <ScalarProperty Name="AddressId" ColumnName="AddressId" />
+          <ScalarProperty Name="ExternalIdentifier" ColumnName="ExternalIdentifier" />
+          <ScalarProperty Name="BBox" ColumnName="BBox" />
+          <ScalarProperty Name="PLat" ColumnName="PLat" />
+          <ScalarProperty Name="PLong" ColumnName="PLong" />
+          <ScalarProperty Name="PAlt" ColumnName="PAlt" />
+          <ScalarProperty Name="ZoomLevel" ColumnName="ZoomLevel" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SiteType">
+      <EntityTypeMapping TypeName="CentralDBModel.SiteType">
+        <MappingFragment StoreEntitySet="SiteType">
+          <ScalarProperty Name="HierarchyLevel" ColumnName="HierarchyLevel" />
+          <ScalarProperty Name="siteTypeId" ColumnName="siteTypeId" />
+          <ScalarProperty Name="siteTypeName" ColumnName="siteTypeName" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Icon" ColumnName="Icon" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Station">
+      <EntityTypeMapping TypeName="CentralDBModel.Station">
+        <MappingFragment StoreEntitySet="Station">
+          <ScalarProperty Name="SiteID" ColumnName="SiteID" />
+          <ScalarProperty Name="StationId" ColumnName="StationId" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="Identifier" ColumnName="Identifier" />
+          <ScalarProperty Name="StationTypeId" ColumnName="StationTypeId" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Metadata" ColumnName="Metadata" />
+          <ScalarProperty Name="ActivationDate" ColumnName="ActivationDate" />
+          <ScalarProperty Name="Lat" ColumnName="Lat" />
+          <ScalarProperty Name="Long" ColumnName="Long" />
+          <ScalarProperty Name="Altitude" ColumnName="Altitude" />
+          <ScalarProperty Name="LocationDescription" ColumnName="LocationDescription" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StationType">
+      <EntityTypeMapping TypeName="CentralDBModel.StationType">
+        <MappingFragment StoreEntitySet="StationType">
+          <ScalarProperty Name="StationType1" ColumnName="StationType" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Status">
+      <EntityTypeMapping TypeName="CentralDBModel.Status">
+        <MappingFragment StoreEntitySet="Status">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TimeZone">
+      <EntityTypeMapping TypeName="CentralDBModel.TimeZone">
+        <MappingFragment StoreEntitySet="TimeZone">
+          <ScalarProperty Name="TimeZoneId" ColumnName="TimeZoneId" />
+          <ScalarProperty Name="Abbreviation" ColumnName="Abbreviation" />
+          <ScalarProperty Name="Fullname" ColumnName="Fullname" />
+          <ScalarProperty Name="Location" ColumnName="Location" />
+          <ScalarProperty Name="Shift" ColumnName="Shift" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TuchControlLicenceSettings">
+      <EntityTypeMapping TypeName="CentralDBModel.TuchControlLicenceSettings">
+        <MappingFragment StoreEntitySet="TuchControlLicenceSettings">
+          <ScalarProperty Name="LicenceSettingsId" ColumnName="LicenceSettingsId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Urgency">
+      <EntityTypeMapping TypeName="CentralDBModel.Urgency">
+        <MappingFragment StoreEntitySet="Urgency">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="User">
+      <EntityTypeMapping TypeName="CentralDBModel.User">
+        <MappingFragment StoreEntitySet="User">
+          <ScalarProperty Name="MembershipUserId" ColumnName="MembershipUserId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="UserSid" ColumnName="UserSid" />
+          <ScalarProperty Name="UserTypeId" ColumnName="UserTypeId" />
+          <ScalarProperty Name="PersonId" ColumnName="PersonId" />
+          <ScalarProperty Name="StatusCode" ColumnName="StatusCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserLocation">
+      <EntityTypeMapping TypeName="CentralDBModel.UserLocation">
+        <MappingFragment StoreEntitySet="UserLocation">
+          <ScalarProperty Name="Favaddress" ColumnName="Favaddress" />
+          <ScalarProperty Name="Zoomlevel" ColumnName="Zoomlevel" />
+          <ScalarProperty Name="LocationId" ColumnName="LocationId" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Lat" ColumnName="Lat" />
+          <ScalarProperty Name="Long" ColumnName="Long" />
+          <ScalarProperty Name="Alt" ColumnName="Alt" />
+          <ScalarProperty Name="IsFavorite" ColumnName="IsFavorite" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserType">
+      <EntityTypeMapping TypeName="CentralDBModel.UserType">
+        <MappingFragment StoreEntitySet="UserType">
+          <ScalarProperty Name="UserTypeId" ColumnName="UserTypeId" />
+          <ScalarProperty Name="UserTypeName" ColumnName="UserTypeName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ValuesHistory">
+      <EntityTypeMapping TypeName="CentralDBModel.ValuesHistory">
+        <MappingFragment StoreEntitySet="ValuesHistory">
+          <ScalarProperty Name="ValuesHistoryId" ColumnName="ValuesHistoryId" />
+          <ScalarProperty Name="ItemId" ColumnName="ItemId" />
+          <ScalarProperty Name="Value" ColumnName="Value" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ValuesLookUp">
+      <EntityTypeMapping TypeName="CentralDBModel.ValuesLookUp">
+        <MappingFragment StoreEntitySet="ValuesLookUp">
+          <ScalarProperty Name="ItemId" ColumnName="ItemId" />
+          <ScalarProperty Name="Value" ColumnName="Value" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Zone">
+      <EntityTypeMapping TypeName="CentralDBModel.Zone">
+        <MappingFragment StoreEntitySet="Zone">
+          <ScalarProperty Name="ZoneId" ColumnName="ZoneId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Metadata" ColumnName="Metadata" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ZoneGroup">
+      <EntityTypeMapping TypeName="CentralDBModel.ZoneGroup">
+        <MappingFragment StoreEntitySet="ZoneGroup">
+          <ScalarProperty Name="ZoneGroupId" ColumnName="ZoneGroupId" />
+          <ScalarProperty Name="ParenZoneId" ColumnName="ParenZoneId" />
+          <ScalarProperty Name="ZoneId" ColumnName="ZoneId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ZoneLocation">
+      <EntityTypeMapping TypeName="CentralDBModel.ZoneLocation">
+        <MappingFragment StoreEntitySet="ZoneLocation">
+          <ScalarProperty Name="LocationId" ColumnName="LocationId" />
+          <ScalarProperty Name="ZoneId" ColumnName="ZoneId" />
+          <ScalarProperty Name="Lat" ColumnName="Lat" />
+          <ScalarProperty Name="Long" ColumnName="Long" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ZoneUser">
+      <EntityTypeMapping TypeName="CentralDBModel.ZoneUser">
+        <MappingFragment StoreEntitySet="ZoneUser">
+          <ScalarProperty Name="ZoneUserId" ColumnName="ZoneUserId" />
+          <ScalarProperty Name="ZoneId" ColumnName="ZoneId" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="GroupPermission" TypeName="CentralDBModel.GroupPermission" StoreEntitySet="GroupPermission">
+      <EndProperty Name="Group">
+        <ScalarProperty Name="GroupId" ColumnName="GroupId" />
+      </EndProperty>
+      <EndProperty Name="Permission">
+        <ScalarProperty Name="PermissionId" ColumnName="PermissionId" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <EntitySetMapping Name="EventCode">
+      <EntityTypeMapping TypeName="CentralDBModel.EventCode">
+        <MappingFragment StoreEntitySet="EventCode">
+          <ScalarProperty Name="EventGroupId" ColumnName="EventGroupId" />
+          <ScalarProperty Name="EventAssociated" ColumnName="EventAssociated" />
+          <ScalarProperty Name="EventCode1" ColumnName="EventCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EventGroup">
+      <EntityTypeMapping TypeName="CentralDBModel.EventGroup">
+        <MappingFragment StoreEntitySet="EventGroup">
+          <ScalarProperty Name="EventCodeGroupDescription" ColumnName="EventCodeGroupDescription" />
+          <ScalarProperty Name="EventCodeMax" ColumnName="EventCodeMax" />
+          <ScalarProperty Name="EventCodeMin" ColumnName="EventCodeMin" />
+          <ScalarProperty Name="EventGroupId" ColumnName="EventGroupId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EventQualifier">
+      <EntityTypeMapping TypeName="CentralDBModel.EventQualifier">
+        <MappingFragment StoreEntitySet="EventQualifier">
+          <ScalarProperty Name="EventQualifierDescription" ColumnName="EventQualifierDescription" />
+          <ScalarProperty Name="EventQualifierId" ColumnName="EventQualifierId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EventTypeTemplate">
+      <EntityTypeMapping TypeName="CentralDBModel.EventTypeTemplate">
+        <MappingFragment StoreEntitySet="EventTypeTemplate">
+          <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+          <ScalarProperty Name="ExternalId" ColumnName="ExternalId" />
+          <ScalarProperty Name="EventTemplateName" ColumnName="EventTemplateName" />
+          <ScalarProperty Name="EventTypeTemplateId" ColumnName="EventTypeTemplateId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EventTemplate">
+      <EntityTypeMapping TypeName="CentralDBModel.EventTemplate">
+        <MappingFragment StoreEntitySet="EventTemplate">
+          <ScalarProperty Name="Scope" ColumnName="Scope" />
+          <ScalarProperty Name="Instruction" ColumnName="Instruction" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="ResponseType" ColumnName="ResponseType" />
+          <ScalarProperty Name="Certainty" ColumnName="Certainty" />
+          <ScalarProperty Name="Severity" ColumnName="Severity" />
+          <ScalarProperty Name="Urgency" ColumnName="Urgency" />
+          <ScalarProperty Name="Category" ColumnName="Category" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="MessageType" ColumnName="MessageType" />
+          <ScalarProperty Name="EventType" ColumnName="EventType" />
+          <ScalarProperty Name="Headline" ColumnName="Headline" />
+          <ScalarProperty Name="EventQualifierId" ColumnName="EventQualifierId" />
+          <ScalarProperty Name="EventCodeId" ColumnName="EventCodeId" />
+          <ScalarProperty Name="EventTypeTeplateId" ColumnName="EventTypeTeplateId" />
+          <ScalarProperty Name="EventTemplateId" ColumnName="EventTemplateId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EventFieldDefinition">
+      <EntityTypeMapping TypeName="CentralDBModel.EventFieldDefinition">
+        <MappingFragment StoreEntitySet="EventFieldDefinition">
+          <ScalarProperty Name="NumberOfBytes" ColumnName="NumberOfBytes" />
+          <ScalarProperty Name="StartByte" ColumnName="StartByte" />
+          <ScalarProperty Name="FieldName" ColumnName="FieldName" />
+          <ScalarProperty Name="EventFieldId" ColumnName="EventFieldId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EventFieldType">
+      <EntityTypeMapping TypeName="CentralDBModel.EventFieldType">
+        <MappingFragment StoreEntitySet="EventFieldType">
+          <ScalarProperty Name="Format" ColumnName="Format" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="FieldTypeId" ColumnName="FieldTypeId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="FK_EventFieldDefinition_EventTypeTemplate" TypeName="CentralDBModel.FK_EventFieldDefinition_EventTypeTemplate" StoreEntitySet="EventFieldDefinition">
+      <EndProperty Name="EventFieldDefinition">
+        <ScalarProperty Name="EventFieldId" ColumnName="EventFieldId" />
+      </EndProperty>
+      <EndProperty Name="EventTypeTemplate">
+        <ScalarProperty Name="EventTypeTemplateId" ColumnName="EventTypeId" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="FK_EventFieldDefinition_FieldType" TypeName="CentralDBModel.FK_EventFieldDefinition_FieldType" StoreEntitySet="EventFieldDefinition">
+      <EndProperty Name="EventFieldDefinition">
+        <ScalarProperty Name="EventFieldId" ColumnName="EventFieldId" />
+      </EndProperty>
+      <EndProperty Name="EventFieldType">
+        <ScalarProperty Name="FieldTypeId" ColumnName="FieldTypeId" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <EntitySetMapping Name="AlertType">
+      <EntityTypeMapping TypeName="CentralDBModel.AlertType">
+        <MappingFragment StoreEntitySet="AlertType">
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="AlertTypeId" ColumnName="AlertTypeId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="AccountAlert" TypeName="CentralDBModel.AccountAlert" StoreEntitySet="AccountAlert">
+      <EndProperty Name="AlertType">
+        <ScalarProperty Name="AlertTypeId" ColumnName="AlertTypeId" />
+      </EndProperty>
+      <EndProperty Name="Account">
+        <ScalarProperty Name="AccountId" ColumnName="AccountId" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="InterfaceTypeAlertType" TypeName="CentralDBModel.InterfaceTypeAlertType" StoreEntitySet="InterfaceTypeAlertType">
+      <EndProperty Name="InterfaceType">
+        <ScalarProperty Name="InterfaceTypeId" ColumnName="InterfaceTypeId" />
+      </EndProperty>
+      <EndProperty Name="AlertType">
+        <ScalarProperty Name="AlertTypeId" ColumnName="AlertTypeId" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <EntitySetMapping Name="DeviceExternalIdDefinition">
+      <EntityTypeMapping TypeName="CentralDBModel.DeviceExternalIdDefinition">
+        <MappingFragment StoreEntitySet="DeviceExternalIdDefinition">
+          <ScalarProperty Name="InterfaceId" ColumnName="InterfaceId" />
+          <ScalarProperty Name="order" ColumnName="order" />
+          <ScalarProperty Name="EventFieldId" ColumnName="EventFieldId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="FK_Interface_Site" TypeName="CentralDBModel.FK_Interface_Site" StoreEntitySet="Interface">
+      <EndProperty Name="Interface">
+        <ScalarProperty Name="InterfaceId" ColumnName="InterfaceId" />
+      </EndProperty>
+      <EndProperty Name="Site">
+        <ScalarProperty Name="SiteId" ColumnName="SiteId" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <EntitySetMapping Name="AnalyticAlgorithmType">
+      <EntityTypeMapping TypeName="CentralDBModel.AnalyticAlgorithmType">
+        <MappingFragment StoreEntitySet="AnalyticAlgorithmType">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="AnalyticAlgorithmId" ColumnName="AnalyticAlgorithmId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AccountBilling">
+      <EntityTypeMapping TypeName="CentralDBModel.AccountBilling">
+        <MappingFragment StoreEntitySet="AccountBilling">
+          <ScalarProperty Name="AddressId" ColumnName="AddressId" />
+          <ScalarProperty Name="PaymentMethodId" ColumnName="PaymentMethodId" />
+          <ScalarProperty Name="AccountBillingId" ColumnName="AccountBillingId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ContactMethod">
+      <EntityTypeMapping TypeName="CentralDBModel.ContactMethod">
+        <MappingFragment StoreEntitySet="ContactMethod">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ContactMethodId" ColumnName="ContactMethodId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PaymentMethod">
+      <EntityTypeMapping TypeName="CentralDBModel.PaymentMethod">
+        <MappingFragment StoreEntitySet="PaymentMethod">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="PaymentMethodId" ColumnName="PaymentMethodId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PersonContactType">
+      <EntityTypeMapping TypeName="CentralDBModel.PersonContactType">
+        <MappingFragment StoreEntitySet="PersonContactType">
+          <ScalarProperty Name="ContactTypeId" ColumnName="ContactTypeId" />
+          <ScalarProperty Name="PersonId" ColumnName="PersonId" />
+          <ScalarProperty Name="PersonContactTypeId" ColumnName="PersonContactTypeId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PreferedContatMethod">
+      <EntityTypeMapping TypeName="CentralDBModel.PreferedContatMethod">
+        <MappingFragment StoreEntitySet="PreferedContatMethod">
+          <ScalarProperty Name="ContactMethodId" ColumnName="ContactMethodId" />
+          <ScalarProperty Name="ContactId" ColumnName="ContactId" />
+          <ScalarProperty Name="PreferedContacMethodtId" ColumnName="PreferedContacMethodtId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AccountAlarmPanel">
+      <EntityTypeMapping TypeName="CentralDBModel.AccountAlarmPanel">
+        <MappingFragment StoreEntitySet="AccountAlarmPanel">
+          <ScalarProperty Name="EventGroupId" ColumnName="EventGroupId" />
+          <ScalarProperty Name="AccountId" ColumnName="AccountId" />
+          <ScalarProperty Name="AccountAlarmPanelId" ColumnName="AccountAlarmPanelId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AccountAnalyticsAlgorithmType">
+      <EntityTypeMapping TypeName="CentralDBModel.AccountAnalyticsAlgorithmType">
+        <MappingFragment StoreEntitySet="AccountAnalyticsAlgorithmType">
+          <ScalarProperty Name="AnalyticsAlgorithTypeId" ColumnName="AnalyticsAlgorithTypeId" />
+          <ScalarProperty Name="AccountId" ColumnName="AccountId" />
+          <ScalarProperty Name="AccountAnalyticsAlgorithmTypeId" ColumnName="AccountAnalyticsAlgorithmTypeId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AccountNvrAlertType">
+      <EntityTypeMapping TypeName="CentralDBModel.AccountNvrAlertType">
+        <MappingFragment StoreEntitySet="AccountNvrAlertType">
+          <ScalarProperty Name="NvrAlertTypeId" ColumnName="NvrAlertTypeId" />
+          <ScalarProperty Name="AccountId" ColumnName="AccountId" />
+          <ScalarProperty Name="AccountNvrAlertTypeId" ColumnName="AccountNvrAlertTypeId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NvrAlertType">
+      <EntityTypeMapping TypeName="CentralDBModel.NvrAlertType">
+        <MappingFragment StoreEntitySet="NvrAlertType">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="NvrAlertTypeId" ColumnName="NvrAlertTypeId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AccountView">
+      <EntityTypeMapping TypeName="CentralDBModel.AccountView">
+        <MappingFragment StoreEntitySet="AccountView">
+          <ScalarProperty Name="UserCount" ColumnName="UserCount" />
+          <ScalarProperty Name="Location" ColumnName="Location" />
+          <ScalarProperty Name="Devices" ColumnName="Devices" />
+          <ScalarProperty Name="Sites" ColumnName="Sites" />
+          <ScalarProperty Name="AccountNumber" ColumnName="AccountNumber" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="AccountId" ColumnName="AccountId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AnalyticsEventTemplate">
+      <EntityTypeMapping TypeName="CentralDBModel.AnalyticsEventTemplate">
+        <MappingFragment StoreEntitySet="AnalyticsEventTemplate">
+          <ScalarProperty Name="AnalyticAlgorithmTypeId" ColumnName="AnalyticAlgorithmTypeId" />
+          <ScalarProperty Name="Scope" ColumnName="Scope" />
+          <ScalarProperty Name="Instruction" ColumnName="Instruction" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="ResponseType" ColumnName="ResponseType" />
+          <ScalarProperty Name="Certainty" ColumnName="Certainty" />
+          <ScalarProperty Name="Severity" ColumnName="Severity" />
+          <ScalarProperty Name="Urgency" ColumnName="Urgency" />
+          <ScalarProperty Name="Category" ColumnName="Category" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="MessageType" ColumnName="MessageType" />
+          <ScalarProperty Name="EventType" ColumnName="EventType" />
+          <ScalarProperty Name="Headline" ColumnName="Headline" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="EventTypeTeplateId" ColumnName="EventTypeTeplateId" />
+          <ScalarProperty Name="AnalyticsEventTemplateId" ColumnName="AnalyticsEventTemplateId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VideoAanalyticsEvent">
+      <EntityTypeMapping TypeName="CentralDBModel.VideoAanalyticsEvent">
+        <MappingFragment StoreEntitySet="VideoAanalyticsEvent">
+          <ScalarProperty Name="AlertId" ColumnName="AlertId" />
+          <ScalarProperty Name="AlgorithmName" ColumnName="AlgorithmName" />
+          <ScalarProperty Name="AlarmLevel" ColumnName="AlarmLevel" />
+          <ScalarProperty Name="IsInZone" ColumnName="IsInZone" />
+          <ScalarProperty Name="SentTime" ColumnName="SentTime" />
+          <ScalarProperty Name="CenterY" ColumnName="CenterY" />
+          <ScalarProperty Name="CenterX" ColumnName="CenterX" />
+          <ScalarProperty Name="Width" ColumnName="Width" />
+          <ScalarProperty Name="Height" ColumnName="Height" />
+          <ScalarProperty Name="ObjectId" ColumnName="ObjectId" />
+          <ScalarProperty Name="CameraGuid" ColumnName="CameraGuid" />
+          <ScalarProperty Name="VideoAanalyticsEventId" ColumnName="VideoAanalyticsEventId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="IncidentReportReference">
+      <EntityTypeMapping TypeName="CentralDBModel.IncidentReportReference">
+        <MappingFragment StoreEntitySet="IncidentReportReference">
+          <ScalarProperty Name="AttachDateTime" ColumnName="AttachDateTime" />
+          <ScalarProperty Name="Sequence" ColumnName="Sequence" />
+          <ScalarProperty Name="IncidentReportReferenceId" ColumnName="IncidentReportReferenceId" />
+          <ScalarProperty Name="IncidentReportId" ColumnName="IncidentReportId" />
+          <ScalarProperty Name="IncidentReportReportsId" ColumnName="IncidentReportReportsId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Team">
+      <EntityTypeMapping TypeName="CentralDBModel.Team">
+        <MappingFragment StoreEntitySet="vw_Team">
+          <ScalarProperty Name="Parent" ColumnName="Parent" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserRole">
+      <EntityTypeMapping TypeName="CentralDBModel.UserRole">
+        <MappingFragment StoreEntitySet="vw_UserRole">
+          <ScalarProperty Name="Parent" ColumnName="Parent" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UsersGroup">
+      <EntityTypeMapping TypeName="CentralDBModel.UsersGroup">
+        <MappingFragment StoreEntitySet="security_UsersGroups">
+          <ScalarProperty Name="Parent" ColumnName="Parent" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="security_UsersToUsersGroups" TypeName="CentralDBModel.security_UsersToUsersGroups" StoreEntitySet="security_UsersToUsersGroups">
+      <EndProperty Name="User">
+        <ScalarProperty Name="UserId" ColumnName="UserId" />
+      </EndProperty>
+      <EndProperty Name="security_UsersGroups">
+        <ScalarProperty Name="Id" ColumnName="GroupId" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <FunctionImportMapping FunctionImportName="usp_GetUsersInTeam" FunctionName="CentralDBModel.Store.usp_GetUsersInTeam" />
+    <FunctionImportMapping FunctionImportName="Users" FunctionName="CentralDBModel.Store.usp_GetUsersInTeam" />
+    <EntitySetMapping Name="MembershipUser">
+      <EntityTypeMapping TypeName="CentralDBModel.MUser">
+        <MappingFragment StoreEntitySet="aspnet_Users">
+          <ScalarProperty Name="LastActivityDate" ColumnName="LastActivityDate" />
+          <ScalarProperty Name="IsAnonymous" ColumnName="IsAnonymous" />
+          <ScalarProperty Name="MobileAlias" ColumnName="MobileAlias" />
+          <ScalarProperty Name="LoweredUserName" ColumnName="LoweredUserName" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="ApplicationId" ColumnName="ApplicationId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbpeoplecounter">
+      <EntityTypeMapping TypeName="CentralDBModel.tbpeoplecounter">
+        <MappingFragment StoreEntitySet="tbpeoplecounter">
+          <ScalarProperty Name="EventCount" ColumnName="EventCount" />
+          <ScalarProperty Name="EventDate" ColumnName="EventDate" />
+          <ScalarProperty Name="DeviceID" ColumnName="DeviceID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbgeolocation">
+      <EntityTypeMapping TypeName="CentralDBModel.tbgeolocation">
+        <MappingFragment StoreEntitySet="tbgeolocation">
+          <ScalarProperty Name="GLong" ColumnName="GLong" />
+          <ScalarProperty Name="GLat" ColumnName="GLat" />
+          <ScalarProperty Name="DeviceID" ColumnName="DeviceID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BioAlerts">
+      <EntityTypeMapping TypeName="CentralDBModel.BioAlerts">
+        <MappingFragment StoreEntitySet="BioAlerts">
+          <ScalarProperty Name="alertID" ColumnName="alertID" />
+          <ScalarProperty Name="SubjectLastName" ColumnName="SubjectLastName" />
+          <ScalarProperty Name="SubjectName" ColumnName="SubjectName" />
+          <ScalarProperty Name="SubjectCode" ColumnName="SubjectCode" />
+          <ScalarProperty Name="SubjectId" ColumnName="SubjectId" />
+          <ScalarProperty Name="SubjectModelImage" ColumnName="SubjectModelImage" />
+          <ScalarProperty Name="SubjectFaceImage" ColumnName="SubjectFaceImage" />
+          <ScalarProperty Name="FacePosition" ColumnName="FacePosition" />
+          <ScalarProperty Name="FaceSize" ColumnName="FaceSize" />
+          <ScalarProperty Name="FrameIndex" ColumnName="FrameIndex" />
+          <ScalarProperty Name="FrameImage" ColumnName="FrameImage" />
+          <ScalarProperty Name="Score" ColumnName="Score" />
+          <ScalarProperty Name="Quality" ColumnName="Quality" />
+          <ScalarProperty Name="CameraId" ColumnName="CameraId" />
+          <ScalarProperty Name="TimeStamp" ColumnName="TimeStamp" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="BioAlertID" ColumnName="BioAlertID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SubMember">
+      <EntityTypeMapping TypeName="CentralDBModel.SubMember">
+        <MappingFragment StoreEntitySet="SubMember">
+          <ScalarProperty Name="DeviceID" ColumnName="DeviceID" />
+          <ScalarProperty Name="Photo" ColumnName="Photo" />
+          <ScalarProperty Name="Mobile" ColumnName="Mobile" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="AccountNumber" ColumnName="AccountNumber" />
+          <ScalarProperty Name="MemID" ColumnName="MemID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="SPInsertAccount" FunctionName="CentralDBModel.Store.SPInsertAccount" />
+    <FunctionImportMapping FunctionImportName="SPInsertDevice" FunctionName="CentralDBModel.Store.SPInsertDevice" />
+    <EntitySetMapping Name="DeviceVAnalyticsSchedule">
+      <EntityTypeMapping TypeName="CentralDBModel.DeviceVAnalyticsSchedule">
+        <MappingFragment StoreEntitySet="DeviceVAnalyticsSchedule">
+          <ScalarProperty Name="nHrs" ColumnName="nHrs" />
+          <ScalarProperty Name="nDay" ColumnName="nDay" />
+          <ScalarProperty Name="DevSchEnb" ColumnName="DevSchEnb" />
+          <ScalarProperty Name="DeviceID" ColumnName="DeviceID" />
+          <ScalarProperty Name="DevSchID" ColumnName="DevSchID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DvrNvrTypeMaster">
+      <EntityTypeMapping TypeName="CentralDBModel.DvrNvrTypeMaster">
+        <MappingFragment StoreEntitySet="DvrNvrTypeMaster">
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="DvrNvrTypeId" ColumnName="DvrNvrTypeId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DeviceZoneData">
+      <EntityTypeMapping TypeName="CentralDBModel.DeviceZoneData">
+        <MappingFragment StoreEntitySet="DeviceZoneData">
+          <ScalarProperty Name="ZoneData" ColumnName="ZoneData" />
+          <ScalarProperty Name="DeviceID" ColumnName="DeviceID" />
+          <ScalarProperty Name="DZID" ColumnName="DZID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblNok">
+      <EntityTypeMapping TypeName="CentralDBModel.tblNok">
+        <MappingFragment StoreEntitySet="tblNok">
+          <ScalarProperty Name="IsLoop" ColumnName="IsLoop" />
+          <ScalarProperty Name="IsAlert" ColumnName="IsAlert" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbluserassigmentlog">
+      <EntityTypeMapping TypeName="CentralDBModel.tbluserassigmentlog">
+        <MappingFragment StoreEntitySet="tbluserassigmentlog">
+          <ScalarProperty Name="AuthToken" ColumnName="AuthToken" />
+          <ScalarProperty Name="OperationsMasterID" ColumnName="OperationsMasterID" />
+          <ScalarProperty Name="updatedatetime" ColumnName="updatedatetime" />
+          <ScalarProperty Name="NewMembershipID" ColumnName="NewMembershipID" />
+          <ScalarProperty Name="ExistingMembershipID" ColumnName="ExistingMembershipID" />
+          <ScalarProperty Name="AlertID" ColumnName="AlertID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblVehicleCounter">
+      <EntityTypeMapping TypeName="CentralDBModel.tblVehicleCounter">
+        <MappingFragment StoreEntitySet="tblVehicleCounter">
+          <ScalarProperty Name="DeviceID" ColumnName="DeviceID" />
+          <ScalarProperty Name="Count" ColumnName="Count" />
+          <ScalarProperty Name="TxnDateTime" ColumnName="TxnDateTime" />
+          <ScalarProperty Name="VehicleTypeID" ColumnName="VehicleTypeID" />
+          <ScalarProperty Name="LaneID" ColumnName="LaneID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VehicleTypeMaster">
+      <EntityTypeMapping TypeName="CentralDBModel.VehicleTypeMaster">
+        <MappingFragment StoreEntitySet="VehicleTypeMaster">
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="VehicleTypeID" ColumnName="VehicleTypeID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="WebClientAudit">
+      <EntityTypeMapping TypeName="CentralDBModel.WebClientAudit">
+        <MappingFragment StoreEntitySet="WebClientAudit">
+          <ScalarProperty Name="LoginDateTime" ColumnName="LoginDateTime" />
+          <ScalarProperty Name="Identifier" ColumnName="Identifier" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblDeviceGeoTrackHistory">
+      <EntityTypeMapping TypeName="CentralDBModel.tblDeviceGeoTrackHistory">
+        <MappingFragment StoreEntitySet="tblDeviceGeoTrackHistory">
+          <ScalarProperty Name="LocDateTime" ColumnName="LocDateTime" />
+          <ScalarProperty Name="LOCATION" ColumnName="LOCATION" />
+          <ScalarProperty Name="IGNSTATUS" ColumnName="IGNSTATUS" />
+          <ScalarProperty Name="POSDATETIME" ColumnName="POSDATETIME" />
+          <ScalarProperty Name="HEADING" ColumnName="HEADING" />
+          <ScalarProperty Name="SPEED" ColumnName="SPEED" />
+          <ScalarProperty Name="LONGITUDE" ColumnName="LONGITUDE" />
+          <ScalarProperty Name="LATITUDE" ColumnName="LATITUDE" />
+          <ScalarProperty Name="AssetName" ColumnName="AssetName" />
+          <ScalarProperty Name="DevId" ColumnName="DevId" />
+          <ScalarProperty Name="DevMovHisID" ColumnName="DevMovHisID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblGeoFencingAlert">
+      <EntityTypeMapping TypeName="CentralDBModel.tblGeoFencingAlert">
+        <MappingFragment StoreEntitySet="tblGeoFencingAlert">
+          <ScalarProperty Name="AlertDate" ColumnName="AlertDate" />
+          <ScalarProperty Name="Location" ColumnName="Location" />
+          <ScalarProperty Name="AlertDatetime" ColumnName="AlertDatetime" />
+          <ScalarProperty Name="Eventvalue" ColumnName="Eventvalue" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="Regno" ColumnName="Regno" />
+          <ScalarProperty Name="Assetname" ColumnName="Assetname" />
+          <ScalarProperty Name="IMEI" ColumnName="IMEI" />
+          <ScalarProperty Name="Direction" ColumnName="Direction" />
+          <ScalarProperty Name="Long" ColumnName="Long" />
+          <ScalarProperty Name="Lat" ColumnName="Lat" />
+          <ScalarProperty Name="Speed" ColumnName="Speed" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="AlertId" ColumnName="AlertId" />
+          <ScalarProperty Name="GeoFenceAlertID" ColumnName="GeoFenceAlertID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblGeoFencingHistory">
+      <EntityTypeMapping TypeName="CentralDBModel.tblGeoFencingHistory">
+        <MappingFragment StoreEntitySet="tblGeoFencingHistory">
+          <ScalarProperty Name="HisDateTime" ColumnName="HisDateTime" />
+          <ScalarProperty Name="User" ColumnName="User" />
+          <ScalarProperty Name="Distance" ColumnName="Distance" />
+          <ScalarProperty Name="Tripname" ColumnName="Tripname" />
+          <ScalarProperty Name="Remarkdate" ColumnName="Remarkdate" />
+          <ScalarProperty Name="Remark" ColumnName="Remark" />
+          <ScalarProperty Name="Legend" ColumnName="Legend" />
+          <ScalarProperty Name="Eventname" ColumnName="Eventname" />
+          <ScalarProperty Name="Eventno" ColumnName="Eventno" />
+          <ScalarProperty Name="Asset" ColumnName="Asset" />
+          <ScalarProperty Name="Battery" ColumnName="Battery" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Location" ColumnName="Location" />
+          <ScalarProperty Name="Speed" ColumnName="Speed" />
+          <ScalarProperty Name="Heading" ColumnName="Heading" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="DateTime" ColumnName="DateTime" />
+          <ScalarProperty Name="Long" ColumnName="Long" />
+          <ScalarProperty Name="Lat" ColumnName="Lat" />
+          <ScalarProperty Name="AlertId" ColumnName="AlertId" />
+          <ScalarProperty Name="DeviceId" ColumnName="DeviceId" />
+          <ScalarProperty Name="GeoFenceHistoryID" ColumnName="GeoFenceHistoryID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblMeonMembers">
+      <EntityTypeMapping TypeName="CentralDBModel.tblMeonMembers">
+        <MappingFragment StoreEntitySet="tblMeonMembers">
+          <ScalarProperty Name="EscallationMember" ColumnName="EscallationMember" />
+          <ScalarProperty Name="DeviceID" ColumnName="DeviceID" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="Mobile_Number" ColumnName="Mobile_Number" />
+          <ScalarProperty Name="IMEI_Number" ColumnName="IMEI_Number" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblgeofencesequence">
+      <EntityTypeMapping TypeName="CentralDBModel.tblgeofencesequence">
+        <MappingFragment StoreEntitySet="tblgeofencesequence">
+          <ScalarProperty Name="SeqNo" ColumnName="SeqNo" />
+          <ScalarProperty Name="SiteID" ColumnName="SiteID" />
+          <ScalarProperty Name="DeviceID" ColumnName="DeviceID" />
+          <ScalarProperty Name="SeqID" ColumnName="SeqID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblCameraStatus">
+      <EntityTypeMapping TypeName="CentralDBModel.tblCameraStatus">
+        <MappingFragment StoreEntitySet="tblCameraStatus">
+          <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="DeviceID" ColumnName="DeviceID" />
+          <ScalarProperty Name="CameraStatusID" ColumnName="CameraStatusID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblANPRMaster">
+      <EntityTypeMapping TypeName="CentralDBModel.tblANPRMaster">
+        <MappingFragment StoreEntitySet="tblANPRMaster">
+          <ScalarProperty Name="appkey" ColumnName="appkey" />
+          <ScalarProperty Name="ANPRCameraName" ColumnName="ANPRCameraName" />
+          <ScalarProperty Name="DeviceID" ColumnName="DeviceID" />
+          <ScalarProperty Name="ANPRID" ColumnName="ANPRID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblANPRTransDetails">
+      <EntityTypeMapping TypeName="CentralDBModel.tblANPRTransDetails">
+        <MappingFragment StoreEntitySet="tblANPRTransDetails">
+          <ScalarProperty Name="AlertID" ColumnName="AlertID" />
+          <ScalarProperty Name="Confidence" ColumnName="Confidence" />
+          <ScalarProperty Name="VehicleMake" ColumnName="VehicleMake" />
+          <ScalarProperty Name="VehicleType" ColumnName="VehicleType" />
+          <ScalarProperty Name="NPImagePath" ColumnName="NPImagePath" />
+          <ScalarProperty Name="DriverImagePath" ColumnName="DriverImagePath" />
+          <ScalarProperty Name="ExtractedLPImage" ColumnName="ExtractedLPImage" />
+          <ScalarProperty Name="Validated" ColumnName="Validated" />
+          <ScalarProperty Name="AccessStatus" ColumnName="AccessStatus" />
+          <ScalarProperty Name="ContactNum" ColumnName="ContactNum" />
+          <ScalarProperty Name="DriverImage" ColumnName="DriverImage" />
+          <ScalarProperty Name="RegName" ColumnName="RegName" />
+          <ScalarProperty Name="Direction" ColumnName="Direction" />
+          <ScalarProperty Name="DateTime" ColumnName="DateTime" />
+          <ScalarProperty Name="RecNum" ColumnName="RecNum" />
+          <ScalarProperty Name="LPImage" ColumnName="LPImage" />
+          <ScalarProperty Name="No" ColumnName="No" />
+          <ScalarProperty Name="CamName" ColumnName="CamName" />
+          <ScalarProperty Name="AppKey" ColumnName="AppKey" />
+          <ScalarProperty Name="U_Id" ColumnName="U_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblUserSiteMaster">
+      <EntityTypeMapping TypeName="CentralDBModel.tblUserSiteMaster">
+        <MappingFragment StoreEntitySet="tblUserSiteMaster">
+          <ScalarProperty Name="UserType" ColumnName="UserType" />
+          <ScalarProperty Name="SiteID" ColumnName="SiteID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="UserSiteID" ColumnName="UserSiteID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblRssAlertMaster">
+      <EntityTypeMapping TypeName="CentralDBModel.tblRssAlertMaster">
+        <MappingFragment StoreEntitySet="tblRssAlertMaster">
+          <ScalarProperty Name="NegativeComments" ColumnName="NegativeComments" />
+          <ScalarProperty Name="RssfeebackID" ColumnName="RssfeebackID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblRssFeed">
+      <EntityTypeMapping TypeName="CentralDBModel.tblRssFeed">
+        <MappingFragment StoreEntitySet="tblRssFeed">
+          <ScalarProperty Name="RssLastUpdateTime" ColumnName="RssLastUpdateTime" />
+          <ScalarProperty Name="RssPublisdateTime" ColumnName="RssPublisdateTime" />
+          <ScalarProperty Name="RssText" ColumnName="RssText" />
+          <ScalarProperty Name="RSSID" ColumnName="RSSID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblCameraViewMode">
+      <EntityTypeMapping TypeName="CentralDBModel.tblCameraViewMode">
+        <MappingFragment StoreEntitySet="tblCameraViewMode">
+          <ScalarProperty Name="ISEnabled" ColumnName="ISEnabled" />
+          <ScalarProperty Name="InstanceRunning" ColumnName="InstanceRunning" />
+          <ScalarProperty Name="BandWidth" ColumnName="BandWidth" />
+          <ScalarProperty Name="CameraResolution" ColumnName="CameraResolution" />
+          <ScalarProperty Name="FPS" ColumnName="FPS" />
+          <ScalarProperty Name="CameraID" ColumnName="CameraID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblAnaLyticsStatus">
+      <EntityTypeMapping TypeName="CentralDBModel.tblAnaLyticsStatus">
+        <MappingFragment StoreEntitySet="tblAnaLyticsStatus">
+          <ScalarProperty Name="AnaStopTime" ColumnName="AnaStopTime" />
+          <ScalarProperty Name="AnaStartTime" ColumnName="AnaStartTime" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="DeviceId" ColumnName="DeviceId" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AlarmPanelTypeMaster">
+      <EntityTypeMapping TypeName="CentralDBModel.AlarmPanelTypeMaster">
+        <MappingFragment StoreEntitySet="AlarmPanelTypeMaster">
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="AlarmPanelTypeId" ColumnName="AlarmPanelTypeId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblCameraBookMark">
+      <EntityTypeMapping TypeName="CentralDBModel.tblCameraBookMark">
+        <MappingFragment StoreEntitySet="tblCameraBookMark">
+          <ScalarProperty Name="Reserve1" ColumnName="Reserve1" />
+          <ScalarProperty Name="Remark" ColumnName="Remark" />
+          <ScalarProperty Name="DateTime" ColumnName="DateTime" />
+          <ScalarProperty Name="DeviceID" ColumnName="DeviceID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="SPSearch" FunctionName="CentralDBModel.Store.SPSearch">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="CentralDBModel.SPSearch_Result">
+          <ScalarProperty Name="AlertID" ColumnName="AlertID" />
+          <ScalarProperty Name="Addresses" ColumnName="Addresses" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="AlertOwner" ColumnName="AlertOwner" />
+          <ScalarProperty Name="DataDateTime" ColumnName="DataDateTime" />
+          <ScalarProperty Name="SiteID" ColumnName="SiteID" />
+          <ScalarProperty Name="SiteName" ColumnName="SiteName" />
+          <ScalarProperty Name="DeviceID" ColumnName="DeviceID" />
+          <ScalarProperty Name="DeviceName" ColumnName="DeviceName" />
+          <ScalarProperty Name="DeviceDesc" ColumnName="DeviceDesc" />
+          <ScalarProperty Name="DType" ColumnName="DType" />
+          <ScalarProperty Name="LocationDescription" ColumnName="LocationDescription" />
+          <ScalarProperty Name="IncidentReportID" ColumnName="IncidentReportID" />
+          <ScalarProperty Name="IOwner" ColumnName="IOwner" />
+          <ScalarProperty Name="Comments" ColumnName="Comments" />
+          <ScalarProperty Name="ICreateDate" ColumnName="ICreateDate" />
+          <ScalarProperty Name="SearchType" ColumnName="SearchType" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <EntitySetMapping Name="tblPTZPresetAssociation">
+      <EntityTypeMapping TypeName="CentralDBModel.tblPTZPresetAssociation">
+        <MappingFragment StoreEntitySet="tblPTZPresetAssociation">
+          <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+          <ScalarProperty Name="PresetNo" ColumnName="PresetNo" />
+          <ScalarProperty Name="PTZCamId" ColumnName="PTZCamId" />
+          <ScalarProperty Name="DevId" ColumnName="DevId" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="SPRDLLocationAlertDashboard" FunctionName="CentralDBModel.Store.SPRDLLocationAlertDashboard">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="CentralDBModel.SPRDLLocationAlertDashboard_Result">
+          <ScalarProperty Name="AlertId" ColumnName="AlertId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="SPRDLLocationDeviceDashboard" FunctionName="CentralDBModel.Store.SPRDLLocationDeviceDashboard">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="CentralDBModel.SPRDLLocationDeviceDashboard_Result">
+          <ScalarProperty Name="ZoneName" ColumnName="ZoneName" />
+          <ScalarProperty Name="DeviceName" ColumnName="DeviceName" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <EntitySetMapping Name="tblDvrChanelMaster">
+      <EntityTypeMapping TypeName="CentralDBModel.tblDvrChanelMaster">
+        <MappingFragment StoreEntitySet="tblDvrChanelMaster">
+          <ScalarProperty Name="Chanel" ColumnName="Chanel" />
+          <ScalarProperty Name="InterfaceId" ColumnName="InterfaceId" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="SP_RDLLocationVSDevice" FunctionName="CentralDBModel.Store.SP_RDLLocationVSDevice">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="CentralDBModel.SP_RDLLocationVSDevice_Result">
+          <ScalarProperty Name="DeviceCount" ColumnName="DeviceCount" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="SPRDLAlertStatusDashboard" FunctionName="CentralDBModel.Store.SPRDLAlertStatusDashboard">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="CentralDBModel.SPRDLAlertStatusDashboard_Result">
+          <ScalarProperty Name="AlertId" ColumnName="AlertId" />
+          <ScalarProperty Name="MessageTypeId" ColumnName="MessageTypeId" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="SPRDLAlertTypeDashBoard" FunctionName="CentralDBModel.Store.SPRDLAlertTypeDashBoard">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="CentralDBModel.SPRDLAlertTypeDashBoard_Result">
+          <ScalarProperty Name="AlertID" ColumnName="AlertID" />
+          <ScalarProperty Name="AlertType" ColumnName="AlertType" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="SPRDLCummalativeDashBoard" FunctionName="CentralDBModel.Store.SPRDLCummalativeDashBoard">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="CentralDBModel.SPRDLCummalativeDashBoard_Result">
+          <ScalarProperty Name="AlertID" ColumnName="AlertID" />
+          <ScalarProperty Name="AlertType" ColumnName="AlertType" />
+          <ScalarProperty Name="Operatorname" ColumnName="Operatorname" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Devicename" ColumnName="Devicename" />
+          <ScalarProperty Name="LocationName" ColumnName="LocationName" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="SPRDLUserAlertDashboard" FunctionName="CentralDBModel.Store.SPRDLUserAlertDashboard">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="CentralDBModel.SPRDLUserAlertDashboard_Result">
+          <ScalarProperty Name="AlertId" ColumnName="AlertId" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <EntitySetMapping Name="tblCustomMapinfo">
+      <EntityTypeMapping TypeName="CentralDBModel.tblCustomMapinfo">
+        <MappingFragment StoreEntitySet="tblCustomMapinfo">
+          <ScalarProperty Name="IsBingMap" ColumnName="IsBingMap" />
+          <ScalarProperty Name="Map" ColumnName="Map" />
+          <ScalarProperty Name="SiteName" ColumnName="SiteName" />
+          <ScalarProperty Name="SiteID" ColumnName="SiteID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblDisasterManagement">
+      <EntityTypeMapping TypeName="CentralDBModel.tblDisasterManagement">
+        <MappingFragment StoreEntitySet="tblDisasterManagement">
+          <ScalarProperty Name="AlertFlag" ColumnName="AlertFlag" />
+          <ScalarProperty Name="EntityFlag" ColumnName="EntityFlag" />
+          <ScalarProperty Name="Longitude" ColumnName="Longitude" />
+          <ScalarProperty Name="Latitude" ColumnName="Latitude" />
+          <ScalarProperty Name="ShelterType" ColumnName="ShelterType" />
+          <ScalarProperty Name="Location" ColumnName="Location" />
+          <ScalarProperty Name="VehicleType" ColumnName="VehicleType" />
+          <ScalarProperty Name="VehicleNo" ColumnName="VehicleNo" />
+          <ScalarProperty Name="EmailID" ColumnName="EmailID" />
+          <ScalarProperty Name="MobileNo" ColumnName="MobileNo" />
+          <ScalarProperty Name="Role" ColumnName="Role" />
+          <ScalarProperty Name="AvailableBeds" ColumnName="AvailableBeds" />
+          <ScalarProperty Name="TotalBeds" ColumnName="TotalBeds" />
+          <ScalarProperty Name="PostalCode" ColumnName="PostalCode" />
+          <ScalarProperty Name="FacilityType" ColumnName="FacilityType" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Organization" ColumnName="Organization" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblCrimeHeatMap">
+      <EntityTypeMapping TypeName="CentralDBModel.tblCrimeHeatMap">
+        <MappingFragment StoreEntitySet="tblCrimeHeatMap">
+          <ScalarProperty Name="Deg" ColumnName="Deg" />
+          <ScalarProperty Name="lon" ColumnName="lon" />
+          <ScalarProperty Name="Lat" ColumnName="Lat" />
+          <ScalarProperty Name="Crime" ColumnName="Crime" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblDisasterMap">
+      <EntityTypeMapping TypeName="CentralDBModel.tblDisasterMap">
+        <MappingFragment StoreEntitySet="tblDisasterMap">
+          <ScalarProperty Name="Deg" ColumnName="Deg" />
+          <ScalarProperty Name="Lat" ColumnName="Lat" />
+          <ScalarProperty Name="lon" ColumnName="lon" />
+          <ScalarProperty Name="RescueType" ColumnName="RescueType" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblSwachchaBharatMap">
+      <EntityTypeMapping TypeName="CentralDBModel.tblSwachchaBharatMap">
+        <MappingFragment StoreEntitySet="tblSwachchaBharatMap">
+          <ScalarProperty Name="Deg" ColumnName="Deg" />
+          <ScalarProperty Name="Lat" ColumnName="Lat" />
+          <ScalarProperty Name="lon" ColumnName="lon" />
+          <ScalarProperty Name="SWCHType" ColumnName="SWCHType" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblSmartCityStreetElec">
+      <EntityTypeMapping TypeName="CentralDBModel.tblSmartCityStreetElec">
+        <MappingFragment StoreEntitySet="tblSmartCityStreetElec">
+          <ScalarProperty Name="Telephone" ColumnName="Telephone" />
+          <ScalarProperty Name="ElecAddress" ColumnName="ElecAddress" />
+          <ScalarProperty Name="Long" ColumnName="Long" />
+          <ScalarProperty Name="Lat" ColumnName="Lat" />
+          <ScalarProperty Name="ElecName" ColumnName="ElecName" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblSmartCityStreetLight">
+      <EntityTypeMapping TypeName="CentralDBModel.tblSmartCityStreetLight">
+        <MappingFragment StoreEntitySet="tblSmartCityStreetLight">
+          <ScalarProperty Name="Long" ColumnName="Long" />
+          <ScalarProperty Name="Lat" ColumnName="Lat" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblMatrixEvtInfo">
+      <EntityTypeMapping TypeName="CentralDBModel.tblMatrixEvtInfo">
+        <MappingFragment StoreEntitySet="tblMatrixEvtInfo">
+          <ScalarProperty Name="ProcFlag" ColumnName="ProcFlag" />
+          <ScalarProperty Name="IDateTime" ColumnName="IDateTime" />
+          <ScalarProperty Name="EvtDataStr" ColumnName="EvtDataStr" />
+          <ScalarProperty Name="EVTSeqNo" ColumnName="EVTSeqNo" />
+          <ScalarProperty Name="MID" ColumnName="MID" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblWeatherchastronomy">
+      <EntityTypeMapping TypeName="CentralDBModel.tblWeatherchastronomy">
+        <MappingFragment StoreEntitySet="tblWeatherchastronomy">
+          <ScalarProperty Name="Sunset" ColumnName="Sunset" />
+          <ScalarProperty Name="Sunrise" ColumnName="Sunrise" />
+          <ScalarProperty Name="CityID" ColumnName="CityID" />
+          <ScalarProperty Name="CityName" ColumnName="CityName" />
+          <ScalarProperty Name="AstronomyDate" ColumnName="AstronomyDate" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblWeatherchforecastdetails">
+      <EntityTypeMapping TypeName="CentralDBModel.tblWeatherchforecastdetails">
+        <MappingFragment StoreEntitySet="tblWeatherchforecastdetails">
+          <ScalarProperty Name="AlertID" ColumnName="AlertID" />
+          <ScalarProperty Name="MinHumidity" ColumnName="MinHumidity" />
+          <ScalarProperty Name="MaxHumidity" ColumnName="MaxHumidity" />
+          <ScalarProperty Name="AVGHumidity" ColumnName="AVGHumidity" />
+          <ScalarProperty Name="AVGWindDegree" ColumnName="AVGWindDegree" />
+          <ScalarProperty Name="AVGWindDirection" ColumnName="AVGWindDirection" />
+          <ScalarProperty Name="AVGWind" ColumnName="AVGWind" />
+          <ScalarProperty Name="MaxWindDegrees" ColumnName="MaxWindDegrees" />
+          <ScalarProperty Name="MaxWindDirection" ColumnName="MaxWindDirection" />
+          <ScalarProperty Name="MaxWind" ColumnName="MaxWind" />
+          <ScalarProperty Name="POP" ColumnName="POP" />
+          <ScalarProperty Name="ForecatIconURL" ColumnName="ForecatIconURL" />
+          <ScalarProperty Name="ForecastIcon" ColumnName="ForecastIcon" />
+          <ScalarProperty Name="Forecastonditions" ColumnName="Forecastonditions" />
+          <ScalarProperty Name="Lowtemp" ColumnName="Lowtemp" />
+          <ScalarProperty Name="Hightemp" ColumnName="Hightemp" />
+          <ScalarProperty Name="Period" ColumnName="Period" />
+          <ScalarProperty Name="Pretty" ColumnName="Pretty" />
+          <ScalarProperty Name="ForecastDateepoc" ColumnName="ForecastDateepoc" />
+          <ScalarProperty Name="Forecastday" ColumnName="Forecastday" />
+          <ScalarProperty Name="ForcasteDate" ColumnName="ForcasteDate" />
+          <ScalarProperty Name="CityID" ColumnName="CityID" />
+          <ScalarProperty Name="CityName" ColumnName="CityName" />
+          <ScalarProperty Name="ForecastRefTransactionID" ColumnName="ForecastRefTransactionID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblWeatherCityName">
+      <EntityTypeMapping TypeName="CentralDBModel.tblWeatherCityName">
+        <MappingFragment StoreEntitySet="tblWeatherCityName">
+          <ScalarProperty Name="long" ColumnName="long" />
+          <ScalarProperty Name="lat" ColumnName="lat" />
+          <ScalarProperty Name="CityName" ColumnName="CityName" />
+          <ScalarProperty Name="CityID" ColumnName="CityID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblWeatherthreshold">
+      <EntityTypeMapping TypeName="CentralDBModel.tblWeatherthreshold">
+        <MappingFragment StoreEntitySet="tblWeatherthreshold">
+          <ScalarProperty Name="WeatherName" ColumnName="WeatherName" />
+          <ScalarProperty Name="CloudNamethreshold" ColumnName="CloudNamethreshold" />
+          <ScalarProperty Name="Cloudsthreshold" ColumnName="Cloudsthreshold" />
+          <ScalarProperty Name="Winddirnamethreshold" ColumnName="Winddirnamethreshold" />
+          <ScalarProperty Name="Winddirthreshold" ColumnName="Winddirthreshold" />
+          <ScalarProperty Name="WindNamethreshold" ColumnName="WindNamethreshold" />
+          <ScalarProperty Name="Windspeedthreshold" ColumnName="Windspeedthreshold" />
+          <ScalarProperty Name="Pressurethreshold" ColumnName="Pressurethreshold" />
+          <ScalarProperty Name="Humiditythreshold" ColumnName="Humiditythreshold" />
+          <ScalarProperty Name="Maxtempthreshold" ColumnName="Maxtempthreshold" />
+          <ScalarProperty Name="Mintempthreshold" ColumnName="Mintempthreshold" />
+          <ScalarProperty Name="Tempthreshold" ColumnName="Tempthreshold" />
+          <ScalarProperty Name="CityName" ColumnName="CityName" />
+          <ScalarProperty Name="CityID" ColumnName="CityID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="SP_RDLHourlyWeatherReport" FunctionName="CentralDBModel.Store.SP_RDLHourlyWeatherReport">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="CentralDBModel.SP_RDLHourlyWeatherReport_Result">
+          <ScalarProperty Name="Temp" ColumnName="Temp" />
+          <ScalarProperty Name="Dewpoint" ColumnName="Dewpoint" />
+          <ScalarProperty Name="Sky" ColumnName="Sky" />
+          <ScalarProperty Name="WindSpeed" ColumnName="WindSpeed" />
+          <ScalarProperty Name="UV" ColumnName="UV" />
+          <ScalarProperty Name="HeatIndex" ColumnName="HeatIndex" />
+          <ScalarProperty Name="MSLP" ColumnName="MSLP" />
+          <ScalarProperty Name="Hours" ColumnName="Hours" />
+          <ScalarProperty Name="ForecastDatetime" ColumnName="ForecastDatetime" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <EntitySetMapping Name="NVR">
+      <EntityTypeMapping TypeName="CentralDBModel.NVR">
+        <MappingFragment StoreEntitySet="NVR">
+          <ScalarProperty Name="CameraStream" ColumnName="CameraStream" />
+          <ScalarProperty Name="DvrNvrTypeId" ColumnName="DvrNvrTypeId" />
+          <ScalarProperty Name="InterfaceId" ColumnName="InterfaceId" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Port" ColumnName="Port" />
+          <ScalarProperty Name="IPAddress" ColumnName="IPAddress" />
+          <ScalarProperty Name="NvrUrl" ColumnName="NvrUrl" />
+          <ScalarProperty Name="NvrId" ColumnName="NvrId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="SP_CloseAllAlert" FunctionName="CentralDBModel.Store.SP_CloseAllAlert" />
+    <FunctionImportMapping FunctionImportName="SP_GetAlertCount" FunctionName="CentralDBModel.Store.SP_GetAlertCount">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="CentralDBModel.SP_GetAlertCount_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ACount" ColumnName="ACount" />
+          <ScalarProperty Name="TotalCount" ColumnName="TotalCount" />
+          <ScalarProperty Name="Severity" ColumnName="Severity" />
+          <ScalarProperty Name="MemberID" ColumnName="MemberID" />
+          <ScalarProperty Name="MsgID" ColumnName="MsgID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <EntitySetMapping Name="tblcustomermaster">
+      <EntityTypeMapping TypeName="CentralDBModel.tblcustomermaster">
+        <MappingFragment StoreEntitySet="tblcustomermaster">
+          <ScalarProperty Name="CID" ColumnName="CID" />
+          <ScalarProperty Name="ownership" ColumnName="ownership" />
+          <ScalarProperty Name="emailid" ColumnName="emailid" />
+          <ScalarProperty Name="contactnumber" ColumnName="contactnumber" />
+          <ScalarProperty Name="lastname" ColumnName="lastname" />
+          <ScalarProperty Name="firstname" ColumnName="firstname" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblModuleFieldMaster">
+      <EntityTypeMapping TypeName="CentralDBModel.tblModuleFieldMaster">
+        <MappingFragment StoreEntitySet="tblModuleFieldMaster">
+          <ScalarProperty Name="FieldName" ColumnName="FieldName" />
+          <ScalarProperty Name="ModuleID" ColumnName="ModuleID" />
+          <ScalarProperty Name="ModuleFieldID" ColumnName="ModuleFieldID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblModuleMaster">
+      <EntityTypeMapping TypeName="CentralDBModel.tblModuleMaster">
+        <MappingFragment StoreEntitySet="tblModuleMaster">
+          <ScalarProperty Name="ModuleName" ColumnName="ModuleName" />
+          <ScalarProperty Name="ModuleID" ColumnName="ModuleID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblsmarthomeeventcode">
+      <EntityTypeMapping TypeName="CentralDBModel.tblsmarthomeeventcode">
+        <MappingFragment StoreEntitySet="tblsmarthomeeventcode">
+          <ScalarProperty Name="C_Event" ColumnName="C_Event" />
+          <ScalarProperty Name="C_Eventcode" ColumnName="C_Eventcode" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="aspnet_Membership">
+      <EntityTypeMapping TypeName="CentralDBModel.aspnet_Membership">
+        <MappingFragment StoreEntitySet="aspnet_Membership">
+          <ScalarProperty Name="PasswordValidity" ColumnName="PasswordValidity" />
+          <ScalarProperty Name="Comment" ColumnName="Comment" />
+          <ScalarProperty Name="FailedPasswordAnswerAttemptWindowStart" ColumnName="FailedPasswordAnswerAttemptWindowStart" />
+          <ScalarProperty Name="FailedPasswordAnswerAttemptCount" ColumnName="FailedPasswordAnswerAttemptCount" />
+          <ScalarProperty Name="FailedPasswordAttemptWindowStart" ColumnName="FailedPasswordAttemptWindowStart" />
+          <ScalarProperty Name="FailedPasswordAttemptCount" ColumnName="FailedPasswordAttemptCount" />
+          <ScalarProperty Name="LastLockoutDate" ColumnName="LastLockoutDate" />
+          <ScalarProperty Name="LastPasswordChangedDate" ColumnName="LastPasswordChangedDate" />
+          <ScalarProperty Name="LastLoginDate" ColumnName="LastLoginDate" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="IsLockedOut" ColumnName="IsLockedOut" />
+          <ScalarProperty Name="IsApproved" ColumnName="IsApproved" />
+          <ScalarProperty Name="PasswordAnswer" ColumnName="PasswordAnswer" />
+          <ScalarProperty Name="PasswordQuestion" ColumnName="PasswordQuestion" />
+          <ScalarProperty Name="LoweredEmail" ColumnName="LoweredEmail" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="MobilePIN" ColumnName="MobilePIN" />
+          <ScalarProperty Name="PasswordSalt" ColumnName="PasswordSalt" />
+          <ScalarProperty Name="PasswordFormat" ColumnName="PasswordFormat" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="ApplicationId" ColumnName="ApplicationId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblweatherchcurrent">
+      <EntityTypeMapping TypeName="CentralDBModel.tblweatherchcurrent">
+        <MappingFragment StoreEntitySet="tblweatherchcurrent">
+          <ScalarProperty Name="AlertID" ColumnName="AlertID" />
+          <ScalarProperty Name="Icon_url" ColumnName="Icon_url" />
+          <ScalarProperty Name="Icon" ColumnName="Icon" />
+          <ScalarProperty Name="UV" ColumnName="UV" />
+          <ScalarProperty Name="feelslike" ColumnName="feelslike" />
+          <ScalarProperty Name="Precipitation" ColumnName="Precipitation" />
+          <ScalarProperty Name="visibility" ColumnName="visibility" />
+          <ScalarProperty Name="heatindex" ColumnName="heatindex" />
+          <ScalarProperty Name="dewpoint" ColumnName="dewpoint" />
+          <ScalarProperty Name="pressure" ColumnName="pressure" />
+          <ScalarProperty Name="windblow" ColumnName="windblow" />
+          <ScalarProperty Name="Winddirection" ColumnName="Winddirection" />
+          <ScalarProperty Name="wind_string" ColumnName="wind_string" />
+          <ScalarProperty Name="currenthumidity" ColumnName="currenthumidity" />
+          <ScalarProperty Name="currenttemp" ColumnName="currenttemp" />
+          <ScalarProperty Name="Weather" ColumnName="Weather" />
+          <ScalarProperty Name="LocalTime" ColumnName="LocalTime" />
+          <ScalarProperty Name="Local_Time" ColumnName="Local_Time" />
+          <ScalarProperty Name="ObservationTime" ColumnName="ObservationTime" />
+          <ScalarProperty Name="Observation_Time" ColumnName="Observation_Time" />
+          <ScalarProperty Name="lon" ColumnName="lon" />
+          <ScalarProperty Name="lat" ColumnName="lat" />
+          <ScalarProperty Name="CountryName" ColumnName="CountryName" />
+          <ScalarProperty Name="Country" ColumnName="Country" />
+          <ScalarProperty Name="WeatherType" ColumnName="WeatherType" />
+          <ScalarProperty Name="CurrentDateTime" ColumnName="CurrentDateTime" />
+          <ScalarProperty Name="CurrentDate" ColumnName="CurrentDate" />
+          <ScalarProperty Name="CityName" ColumnName="CityName" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblWeatherchforecast">
+      <EntityTypeMapping TypeName="CentralDBModel.tblWeatherchforecast">
+        <MappingFragment StoreEntitySet="tblWeatherchforecast">
+          <ScalarProperty Name="AlertID" ColumnName="AlertID" />
+          <ScalarProperty Name="POP" ColumnName="POP" />
+          <ScalarProperty Name="ForecastText" ColumnName="ForecastText" />
+          <ScalarProperty Name="Daytitle" ColumnName="Daytitle" />
+          <ScalarProperty Name="ForecastIconurl" ColumnName="ForecastIconurl" />
+          <ScalarProperty Name="ForecastIcon" ColumnName="ForecastIcon" />
+          <ScalarProperty Name="ForeCastDay" ColumnName="ForeCastDay" />
+          <ScalarProperty Name="ForecastPeriod" ColumnName="ForecastPeriod" />
+          <ScalarProperty Name="ForecastDate" ColumnName="ForecastDate" />
+          <ScalarProperty Name="TransactionID" ColumnName="TransactionID" />
+          <ScalarProperty Name="CityID" ColumnName="CityID" />
+          <ScalarProperty Name="CityName" ColumnName="CityName" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblWeatherhourlyforecast">
+      <EntityTypeMapping TypeName="CentralDBModel.tblWeatherhourlyforecast">
+        <MappingFragment StoreEntitySet="tblWeatherhourlyforecast">
+          <ScalarProperty Name="AlertID" ColumnName="AlertID" />
+          <ScalarProperty Name="MSLP" ColumnName="MSLP" />
+          <ScalarProperty Name="POP" ColumnName="POP" />
+          <ScalarProperty Name="Snow" ColumnName="Snow" />
+          <ScalarProperty Name="QPF" ColumnName="QPF" />
+          <ScalarProperty Name="Feelslike" ColumnName="Feelslike" />
+          <ScalarProperty Name="HeatIndex" ColumnName="HeatIndex" />
+          <ScalarProperty Name="UV" ColumnName="UV" />
+          <ScalarProperty Name="WindName" ColumnName="WindName" />
+          <ScalarProperty Name="WindDirection" ColumnName="WindDirection" />
+          <ScalarProperty Name="WindSpeed" ColumnName="WindSpeed" />
+          <ScalarProperty Name="Sky" ColumnName="Sky" />
+          <ScalarProperty Name="Fctcode" ColumnName="Fctcode" />
+          <ScalarProperty Name="Icon_URL" ColumnName="Icon_URL" />
+          <ScalarProperty Name="Icon" ColumnName="Icon" />
+          <ScalarProperty Name="Condition" ColumnName="Condition" />
+          <ScalarProperty Name="Dewpoint" ColumnName="Dewpoint" />
+          <ScalarProperty Name="Temp" ColumnName="Temp" />
+          <ScalarProperty Name="Pretty" ColumnName="Pretty" />
+          <ScalarProperty Name="Epoc" ColumnName="Epoc" />
+          <ScalarProperty Name="ForecastDateTime" ColumnName="ForecastDateTime" />
+          <ScalarProperty Name="ForecastDate" ColumnName="ForecastDate" />
+          <ScalarProperty Name="CityName" ColumnName="CityName" />
+          <ScalarProperty Name="CityID" ColumnName="CityID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="SP_GetIncidentReport" FunctionName="CentralDBModel.Store.SP_GetIncidentReport">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="CentralDBModel.SP_GetIncidentReport_Result">
+          <ScalarProperty Name="IIncidentReportId" ColumnName="IIncidentReportId" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="Owner" ColumnName="Owner" />
+          <ScalarProperty Name="AlertID" ColumnName="AlertID" />
+          <ScalarProperty Name="SiteId" ColumnName="SiteId" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <EntitySetMapping Name="tblDeviceFCMToken">
+      <EntityTypeMapping TypeName="CentralDBModel.tblDeviceFCMToken">
+        <MappingFragment StoreEntitySet="tblDeviceFCMToken">
+          <ScalarProperty Name="FCMToken" ColumnName="FCMToken" />
+          <ScalarProperty Name="Device_ID" ColumnName="Device_ID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

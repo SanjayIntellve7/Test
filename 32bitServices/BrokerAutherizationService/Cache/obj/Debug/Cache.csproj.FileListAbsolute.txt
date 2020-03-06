@@ -1,0 +1,88 @@
+D:\Yogesh\2020Imaging\code\trunk\AMS\Broker\Cache\bin\Debug\CacheAspect.dll
+D:\Yogesh\2020Imaging\code\trunk\AMS\Broker\Cache\bin\Debug\CacheAspect.pdb
+D:\Yogesh\2020Imaging\code\trunk\AMS\Broker\Cache\bin\Debug\BplusDotNet.dll
+D:\Yogesh\2020Imaging\code\trunk\AMS\Broker\Cache\bin\Debug\Microsoft.ApplicationServer.Caching.Client.dll
+D:\Yogesh\2020Imaging\code\trunk\AMS\Broker\Cache\bin\Debug\PostSharp.dll
+D:\Yogesh\2020Imaging\code\trunk\AMS\Broker\Cache\bin\Debug\PostSharp.Laos.dll
+D:\Yogesh\2020Imaging\code\trunk\AMS\Broker\Cache\bin\Debug\Microsoft.ApplicationServer.Caching.Core.dll
+D:\Yogesh\2020Imaging\code\trunk\AMS\Broker\Cache\bin\Debug\Microsoft.WindowsFabric.Data.Common.dll
+D:\Yogesh\2020Imaging\code\trunk\AMS\Broker\Cache\bin\Debug\Microsoft.WindowsFabric.Common.dll
+D:\Yogesh\2020Imaging\code\trunk\AMS\Broker\Cache\bin\Debug\Microsoft.ApplicationServer.Caching.Core.xml
+D:\Yogesh\2020Imaging\code\trunk\AMS\Broker\Cache\obj\Debug\CacheAspect.dll
+D:\Yogesh\2020Imaging\code\trunk\AMS\Broker\Cache\obj\Debug\CacheAspect.pdb
+D:\Yogesh\2020Imaging\code\trunk\AMS\Broker\Cache\obj\Debug\Cache.csprojResolveAssemblyReference.cache
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\Cache\bin\Debug\CacheAspect.dll
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\Cache\bin\Debug\CacheAspect.pdb
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\Cache\bin\Debug\BplusDotNet.dll
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\Cache\bin\Debug\Microsoft.ApplicationServer.Caching.Client.dll
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\Cache\bin\Debug\PostSharp.dll
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\Cache\bin\Debug\PostSharp.Laos.dll
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\Cache\bin\Debug\Microsoft.ApplicationServer.Caching.Core.dll
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\Cache\bin\Debug\Microsoft.WindowsFabric.Data.Common.dll
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\Cache\bin\Debug\Microsoft.WindowsFabric.Common.dll
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\Cache\bin\Debug\Microsoft.ApplicationServer.Caching.Core.xml
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\Cache\obj\Debug\CacheAspect.dll
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\Cache\obj\Debug\CacheAspect.pdb
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\Cache\obj\Debug\Cache.csprojResolveAssemblyReference.cache
+D:\2020Imaging\code\Broker\Cache\bin\Debug\CacheAspect.dll
+D:\2020Imaging\code\Broker\Cache\bin\Debug\CacheAspect.pdb
+D:\2020Imaging\code\Broker\Cache\bin\Debug\BplusDotNet.dll
+D:\2020Imaging\code\Broker\Cache\bin\Debug\Microsoft.ApplicationServer.Caching.Client.dll
+D:\2020Imaging\code\Broker\Cache\bin\Debug\PostSharp.dll
+D:\2020Imaging\code\Broker\Cache\bin\Debug\PostSharp.Laos.dll
+D:\2020Imaging\code\Broker\Cache\bin\Debug\Microsoft.ApplicationServer.Caching.Core.dll
+D:\2020Imaging\code\Broker\Cache\bin\Debug\Microsoft.WindowsFabric.Data.Common.dll
+D:\2020Imaging\code\Broker\Cache\bin\Debug\Microsoft.WindowsFabric.Common.dll
+D:\2020Imaging\code\Broker\Cache\bin\Debug\Microsoft.ApplicationServer.Caching.Core.xml
+D:\2020Imaging\code\Broker\Cache\obj\Debug\CacheAspect.dll
+D:\2020Imaging\code\Broker\Cache\obj\Debug\CacheAspect.pdb
+D:\2020Imaging\code\Broker\Cache\obj\Debug\Cache.csprojResolveAssemblyReference.cache
+G:\SVN Code Repository\trunk\AMS\Broker\Cache\bin\Debug\CacheAspect.dll
+G:\SVN Code Repository\trunk\AMS\Broker\Cache\bin\Debug\CacheAspect.pdb
+G:\SVN Code Repository\trunk\AMS\Broker\Cache\bin\Debug\BplusDotNet.dll
+G:\SVN Code Repository\trunk\AMS\Broker\Cache\bin\Debug\Microsoft.ApplicationServer.Caching.Client.dll
+G:\SVN Code Repository\trunk\AMS\Broker\Cache\bin\Debug\PostSharp.dll
+G:\SVN Code Repository\trunk\AMS\Broker\Cache\bin\Debug\PostSharp.Laos.dll
+G:\SVN Code Repository\trunk\AMS\Broker\Cache\bin\Debug\Microsoft.ApplicationServer.Caching.Core.dll
+G:\SVN Code Repository\trunk\AMS\Broker\Cache\bin\Debug\Microsoft.WindowsFabric.Data.Common.dll
+G:\SVN Code Repository\trunk\AMS\Broker\Cache\bin\Debug\Microsoft.WindowsFabric.Common.dll
+G:\SVN Code Repository\trunk\AMS\Broker\Cache\bin\Debug\Microsoft.ApplicationServer.Caching.Core.xml
+G:\SVN Code Repository\trunk\AMS\Broker\Cache\obj\Debug\Cache.csprojResolveAssemblyReference.cache
+G:\SVN Code Repository\trunk\AMS\Broker\Cache\obj\Debug\CacheAspect.dll
+G:\SVN Code Repository\trunk\AMS\Broker\Cache\obj\Debug\CacheAspect.pdb
+D:\Svn code Repository 21 Nov 14 latest\AMS\Broker\Cache\bin\Debug\CacheAspect.dll
+D:\Svn code Repository 21 Nov 14 latest\AMS\Broker\Cache\bin\Debug\CacheAspect.pdb
+D:\Svn code Repository 21 Nov 14 latest\AMS\Broker\Cache\bin\Debug\BplusDotNet.dll
+D:\Svn code Repository 21 Nov 14 latest\AMS\Broker\Cache\bin\Debug\Microsoft.ApplicationServer.Caching.Client.dll
+D:\Svn code Repository 21 Nov 14 latest\AMS\Broker\Cache\bin\Debug\PostSharp.dll
+D:\Svn code Repository 21 Nov 14 latest\AMS\Broker\Cache\bin\Debug\PostSharp.Laos.dll
+D:\Svn code Repository 21 Nov 14 latest\AMS\Broker\Cache\bin\Debug\Microsoft.ApplicationServer.Caching.Core.dll
+D:\Svn code Repository 21 Nov 14 latest\AMS\Broker\Cache\bin\Debug\Microsoft.WindowsFabric.Data.Common.dll
+D:\Svn code Repository 21 Nov 14 latest\AMS\Broker\Cache\bin\Debug\Microsoft.WindowsFabric.Common.dll
+D:\Svn code Repository 21 Nov 14 latest\AMS\Broker\Cache\bin\Debug\Microsoft.ApplicationServer.Caching.Core.xml
+D:\Svn code Repository 21 Nov 14 latest\AMS\Broker\Cache\obj\Debug\CacheAspect.dll
+D:\Svn code Repository 21 Nov 14 latest\AMS\Broker\Cache\obj\Debug\CacheAspect.pdb
+G:\SVNCodeRepository\trunk\AMS\Broker\Cache\bin\Debug\CacheAspect.dll
+G:\SVNCodeRepository\trunk\AMS\Broker\Cache\bin\Debug\CacheAspect.pdb
+G:\SVNCodeRepository\trunk\AMS\Broker\Cache\bin\Debug\BplusDotNet.dll
+G:\SVNCodeRepository\trunk\AMS\Broker\Cache\bin\Debug\Microsoft.ApplicationServer.Caching.Client.dll
+G:\SVNCodeRepository\trunk\AMS\Broker\Cache\bin\Debug\PostSharp.dll
+G:\SVNCodeRepository\trunk\AMS\Broker\Cache\bin\Debug\PostSharp.Laos.dll
+G:\SVNCodeRepository\trunk\AMS\Broker\Cache\bin\Debug\Microsoft.ApplicationServer.Caching.Core.dll
+G:\SVNCodeRepository\trunk\AMS\Broker\Cache\bin\Debug\Microsoft.WindowsFabric.Data.Common.dll
+G:\SVNCodeRepository\trunk\AMS\Broker\Cache\bin\Debug\Microsoft.WindowsFabric.Common.dll
+G:\SVNCodeRepository\trunk\AMS\Broker\Cache\bin\Debug\Microsoft.ApplicationServer.Caching.Core.xml
+G:\SVNCodeRepository\trunk\AMS\Broker\Cache\obj\Debug\CacheAspect.dll
+G:\SVNCodeRepository\trunk\AMS\Broker\Cache\obj\Debug\CacheAspect.pdb
+G:\TouchControl version 1.2\Broker\Cache\bin\Debug\CacheAspect.dll
+G:\TouchControl version 1.2\Broker\Cache\bin\Debug\CacheAspect.pdb
+G:\TouchControl version 1.2\Broker\Cache\bin\Debug\BplusDotNet.dll
+G:\TouchControl version 1.2\Broker\Cache\bin\Debug\Microsoft.ApplicationServer.Caching.Client.dll
+G:\TouchControl version 1.2\Broker\Cache\bin\Debug\PostSharp.dll
+G:\TouchControl version 1.2\Broker\Cache\bin\Debug\PostSharp.Laos.dll
+G:\TouchControl version 1.2\Broker\Cache\bin\Debug\Microsoft.ApplicationServer.Caching.Core.dll
+G:\TouchControl version 1.2\Broker\Cache\bin\Debug\Microsoft.WindowsFabric.Data.Common.dll
+G:\TouchControl version 1.2\Broker\Cache\bin\Debug\Microsoft.WindowsFabric.Common.dll
+G:\TouchControl version 1.2\Broker\Cache\bin\Debug\Microsoft.ApplicationServer.Caching.Core.xml
+G:\TouchControl version 1.2\Broker\Cache\obj\Debug\CacheAspect.dll
+G:\TouchControl version 1.2\Broker\Cache\obj\Debug\CacheAspect.pdb

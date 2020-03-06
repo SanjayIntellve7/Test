@@ -1,0 +1,1 @@
+node -expose-gc 2020mobi.js

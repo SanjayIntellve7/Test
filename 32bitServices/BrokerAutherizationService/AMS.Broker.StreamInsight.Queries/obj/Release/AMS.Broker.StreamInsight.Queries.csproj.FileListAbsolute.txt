@@ -1,0 +1,168 @@
+D:\V 1.4\Broker\AMS.Broker.StreamInsight.Queries\bin\Release\AMS.Broker.StreamInsight.Queries.dll
+D:\V 1.4\Broker\AMS.Broker.StreamInsight.Queries\bin\Release\AMS.Broker.StreamInsight.Queries.pdb
+D:\V 1.4\Broker\AMS.Broker.StreamInsight.Queries\bin\Release\Logica.RealTimeDataMgmt.dll
+D:\V 1.4\Broker\AMS.Broker.StreamInsight.Queries\bin\Release\Microsoft.ComplexEventProcessing.Adapters.dll
+D:\V 1.4\Broker\AMS.Broker.StreamInsight.Queries\bin\Release\Microsoft.ComplexEventProcessing.dll
+D:\V 1.4\Broker\AMS.Broker.StreamInsight.Queries\bin\Release\System.Reactive.dll
+D:\V 1.4\Broker\AMS.Broker.StreamInsight.Queries\bin\Release\Logica.RealTimeDataMgmt.WcfContracts.dll
+D:\V 1.4\Broker\AMS.Broker.StreamInsight.Queries\bin\Release\Logica.RealTimeDataMgmt.NLog.dll
+D:\V 1.4\Broker\AMS.Broker.StreamInsight.Queries\bin\Release\NLog.dll
+D:\V 1.4\Broker\AMS.Broker.StreamInsight.Queries\bin\Release\Logica.RealTimeDataMgmt.Licensing.dll
+D:\V 1.4\Broker\AMS.Broker.StreamInsight.Queries\bin\Release\Microsoft.ComplexEventProcessing.ManagementService.dll
+D:\V 1.4\Broker\AMS.Broker.StreamInsight.Queries\bin\Release\System.Reactive.Providers.dll
+D:\V 1.4\Broker\AMS.Broker.StreamInsight.Queries\bin\Release\Microsoft.ComplexEventProcessing.xml
+D:\V 1.4\Broker\AMS.Broker.StreamInsight.Queries\bin\Release\System.Reactive.xml
+D:\V 1.4\Broker\AMS.Broker.StreamInsight.Queries\bin\Release\NLog.xml
+D:\V 1.4\Broker\AMS.Broker.StreamInsight.Queries\bin\Release\System.Reactive.Providers.xml
+D:\V 1.4\Broker\AMS.Broker.StreamInsight.Queries\obj\Release\AMS.Broker.StreamInsight.Queries.dll
+D:\V 1.4\Broker\AMS.Broker.StreamInsight.Queries\obj\Release\AMS.Broker.StreamInsight.Queries.pdb
+D:\Svn Repo Version 1.4\AMS\Broker\AMS.Broker.StreamInsight.Queries\bin\Release\AMS.Broker.StreamInsight.Queries.dll
+D:\Svn Repo Version 1.4\AMS\Broker\AMS.Broker.StreamInsight.Queries\bin\Release\AMS.Broker.StreamInsight.Queries.pdb
+D:\Svn Repo Version 1.4\AMS\Broker\AMS.Broker.StreamInsight.Queries\bin\Release\Logica.RealTimeDataMgmt.dll
+D:\Svn Repo Version 1.4\AMS\Broker\AMS.Broker.StreamInsight.Queries\bin\Release\Microsoft.ComplexEventProcessing.Adapters.dll
+D:\Svn Repo Version 1.4\AMS\Broker\AMS.Broker.StreamInsight.Queries\bin\Release\Microsoft.ComplexEventProcessing.dll
+D:\Svn Repo Version 1.4\AMS\Broker\AMS.Broker.StreamInsight.Queries\bin\Release\System.Reactive.dll
+D:\Svn Repo Version 1.4\AMS\Broker\AMS.Broker.StreamInsight.Queries\bin\Release\Logica.RealTimeDataMgmt.WcfContracts.dll
+D:\Svn Repo Version 1.4\AMS\Broker\AMS.Broker.StreamInsight.Queries\bin\Release\Logica.RealTimeDataMgmt.NLog.dll
+D:\Svn Repo Version 1.4\AMS\Broker\AMS.Broker.StreamInsight.Queries\bin\Release\NLog.dll
+D:\Svn Repo Version 1.4\AMS\Broker\AMS.Broker.StreamInsight.Queries\bin\Release\Logica.RealTimeDataMgmt.Licensing.dll
+D:\Svn Repo Version 1.4\AMS\Broker\AMS.Broker.StreamInsight.Queries\bin\Release\Microsoft.ComplexEventProcessing.ManagementService.dll
+D:\Svn Repo Version 1.4\AMS\Broker\AMS.Broker.StreamInsight.Queries\bin\Release\System.Reactive.Providers.dll
+D:\Svn Repo Version 1.4\AMS\Broker\AMS.Broker.StreamInsight.Queries\bin\Release\Microsoft.ComplexEventProcessing.xml
+D:\Svn Repo Version 1.4\AMS\Broker\AMS.Broker.StreamInsight.Queries\bin\Release\System.Reactive.xml
+D:\Svn Repo Version 1.4\AMS\Broker\AMS.Broker.StreamInsight.Queries\bin\Release\NLog.xml
+D:\Svn Repo Version 1.4\AMS\Broker\AMS.Broker.StreamInsight.Queries\bin\Release\System.Reactive.Providers.xml
+D:\Svn Repo Version 1.4\AMS\Broker\AMS.Broker.StreamInsight.Queries\obj\Release\AMS.Broker.StreamInsight.Queries.dll
+D:\Svn Repo Version 1.4\AMS\Broker\AMS.Broker.StreamInsight.Queries\obj\Release\AMS.Broker.StreamInsight.Queries.pdb
+D:\SvnRepo\trunk\AMS\Broker\AMS.Broker.StreamInsight.Queries\bin\Release\AMS.Broker.StreamInsight.Queries.dll
+D:\SvnRepo\trunk\AMS\Broker\AMS.Broker.StreamInsight.Queries\bin\Release\AMS.Broker.StreamInsight.Queries.pdb
+D:\SvnRepo\trunk\AMS\Broker\AMS.Broker.StreamInsight.Queries\bin\Release\Logica.RealTimeDataMgmt.dll
+D:\SvnRepo\trunk\AMS\Broker\AMS.Broker.StreamInsight.Queries\bin\Release\Microsoft.ComplexEventProcessing.Adapters.dll
+D:\SvnRepo\trunk\AMS\Broker\AMS.Broker.StreamInsight.Queries\bin\Release\Microsoft.ComplexEventProcessing.dll
+D:\SvnRepo\trunk\AMS\Broker\AMS.Broker.StreamInsight.Queries\bin\Release\System.Reactive.dll
+D:\SvnRepo\trunk\AMS\Broker\AMS.Broker.StreamInsight.Queries\bin\Release\Logica.RealTimeDataMgmt.WcfContracts.dll
+D:\SvnRepo\trunk\AMS\Broker\AMS.Broker.StreamInsight.Queries\bin\Release\Logica.RealTimeDataMgmt.NLog.dll
+D:\SvnRepo\trunk\AMS\Broker\AMS.Broker.StreamInsight.Queries\bin\Release\NLog.dll
+D:\SvnRepo\trunk\AMS\Broker\AMS.Broker.StreamInsight.Queries\bin\Release\Logica.RealTimeDataMgmt.Licensing.dll
+D:\SvnRepo\trunk\AMS\Broker\AMS.Broker.StreamInsight.Queries\bin\Release\Microsoft.ComplexEventProcessing.ManagementService.dll
+D:\SvnRepo\trunk\AMS\Broker\AMS.Broker.StreamInsight.Queries\bin\Release\System.Reactive.Providers.dll
+D:\SvnRepo\trunk\AMS\Broker\AMS.Broker.StreamInsight.Queries\bin\Release\Microsoft.ComplexEventProcessing.xml
+D:\SvnRepo\trunk\AMS\Broker\AMS.Broker.StreamInsight.Queries\bin\Release\System.Reactive.xml
+D:\SvnRepo\trunk\AMS\Broker\AMS.Broker.StreamInsight.Queries\bin\Release\NLog.xml
+D:\SvnRepo\trunk\AMS\Broker\AMS.Broker.StreamInsight.Queries\bin\Release\System.Reactive.Providers.xml
+D:\SvnRepo\trunk\AMS\Broker\AMS.Broker.StreamInsight.Queries\obj\Release\AMS.Broker.StreamInsight.Queries.dll
+D:\SvnRepo\trunk\AMS\Broker\AMS.Broker.StreamInsight.Queries\obj\Release\AMS.Broker.StreamInsight.Queries.pdb
+D:\SvnRepo\trunk\AMS\Broker\AMS.Broker.StreamInsight.Queries\obj\Release\AMS.Broker.StreamInsight.Queries.csprojResolveAssemblyReference.cache
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\AMS.Broker.StreamInsight.Queries.dll
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\AMS.Broker.StreamInsight.Queries.pdb
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\Logica.RealTimeDataMgmt.dll
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\Microsoft.ComplexEventProcessing.Adapters.dll
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\Microsoft.ComplexEventProcessing.dll
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\System.Reactive.dll
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\Logica.RealTimeDataMgmt.WcfContracts.dll
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\Logica.RealTimeDataMgmt.NLog.dll
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\NLog.dll
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\Logica.RealTimeDataMgmt.Licensing.dll
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\Microsoft.ComplexEventProcessing.ManagementService.dll
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\System.Reactive.Providers.dll
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\Microsoft.ComplexEventProcessing.xml
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\System.Reactive.xml
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\NLog.xml
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\System.Reactive.Providers.xml
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\obj\Release\AMS.Broker.StreamInsight.Queries.dll
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\obj\Release\AMS.Broker.StreamInsight.Queries.pdb
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\obj\Release\AMS.Broker.StreamInsight.Queries.csprojResolveAssemblyReference.cache
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\AMS.Broker.StreamInsight.Queries.dll
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\AMS.Broker.StreamInsight.Queries.pdb
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\Logica.RealTimeDataMgmt.dll
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\Microsoft.ComplexEventProcessing.Adapters.dll
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\Microsoft.ComplexEventProcessing.dll
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\System.Reactive.dll
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\Logica.RealTimeDataMgmt.WcfContracts.dll
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\Logica.RealTimeDataMgmt.NLog.dll
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\NLog.dll
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\Logica.RealTimeDataMgmt.Licensing.dll
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\Microsoft.ComplexEventProcessing.ManagementService.dll
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\System.Reactive.Providers.dll
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\Microsoft.ComplexEventProcessing.xml
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\System.Reactive.xml
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\NLog.xml
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\System.Reactive.Providers.xml
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\obj\Release\AMS.Broker.StreamInsight.Queries.csprojResolveAssemblyReference.cache
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\obj\Release\AMS.Broker.StreamInsight.Queries.dll
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\obj\Release\AMS.Broker.StreamInsight.Queries.pdb
+D:\Version 1.4.2\Broker\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\AMS.Broker.StreamInsight.Queries.dll
+D:\Version 1.4.2\Broker\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\AMS.Broker.StreamInsight.Queries.pdb
+D:\Version 1.4.2\Broker\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\Logica.RealTimeDataMgmt.dll
+D:\Version 1.4.2\Broker\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\Microsoft.ComplexEventProcessing.Adapters.dll
+D:\Version 1.4.2\Broker\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\Microsoft.ComplexEventProcessing.dll
+D:\Version 1.4.2\Broker\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\System.Reactive.dll
+D:\Version 1.4.2\Broker\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\Logica.RealTimeDataMgmt.WcfContracts.dll
+D:\Version 1.4.2\Broker\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\Logica.RealTimeDataMgmt.NLog.dll
+D:\Version 1.4.2\Broker\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\NLog.dll
+D:\Version 1.4.2\Broker\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\Logica.RealTimeDataMgmt.Licensing.dll
+D:\Version 1.4.2\Broker\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\Microsoft.ComplexEventProcessing.ManagementService.dll
+D:\Version 1.4.2\Broker\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\System.Reactive.Providers.dll
+D:\Version 1.4.2\Broker\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\Microsoft.ComplexEventProcessing.xml
+D:\Version 1.4.2\Broker\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\System.Reactive.xml
+D:\Version 1.4.2\Broker\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\NLog.xml
+D:\Version 1.4.2\Broker\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\System.Reactive.Providers.xml
+D:\Version 1.4.2\Broker\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\obj\Release\AMS.Broker.StreamInsight.Queries.dll
+D:\Version 1.4.2\Broker\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\obj\Release\AMS.Broker.StreamInsight.Queries.pdb
+D:\Version 1.4.2\Broker\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\obj\Release\AMS.Broker.StreamInsight.Queries.csprojResolveAssemblyReference.cache
+D:\Version 1.5\Broker\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\AMS.Broker.StreamInsight.Queries.dll
+D:\Version 1.5\Broker\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\AMS.Broker.StreamInsight.Queries.pdb
+D:\Version 1.5\Broker\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\Logica.RealTimeDataMgmt.dll
+D:\Version 1.5\Broker\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\Microsoft.ComplexEventProcessing.Adapters.dll
+D:\Version 1.5\Broker\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\Microsoft.ComplexEventProcessing.dll
+D:\Version 1.5\Broker\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\System.Reactive.dll
+D:\Version 1.5\Broker\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\Logica.RealTimeDataMgmt.WcfContracts.dll
+D:\Version 1.5\Broker\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\Logica.RealTimeDataMgmt.NLog.dll
+D:\Version 1.5\Broker\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\NLog.dll
+D:\Version 1.5\Broker\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\Logica.RealTimeDataMgmt.Licensing.dll
+D:\Version 1.5\Broker\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\Microsoft.ComplexEventProcessing.ManagementService.dll
+D:\Version 1.5\Broker\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\System.Reactive.Providers.dll
+D:\Version 1.5\Broker\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\Microsoft.ComplexEventProcessing.xml
+D:\Version 1.5\Broker\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\System.Reactive.xml
+D:\Version 1.5\Broker\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\NLog.xml
+D:\Version 1.5\Broker\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\System.Reactive.Providers.xml
+D:\Version 1.5\Broker\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\obj\Release\AMS.Broker.StreamInsight.Queries.dll
+D:\Version 1.5\Broker\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\obj\Release\AMS.Broker.StreamInsight.Queries.pdb
+D:\Version 1.5\Broker\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\obj\Release\AMS.Broker.StreamInsight.Queries.csprojResolveAssemblyReference.cache
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\AMS.Broker.StreamInsight.Queries.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\AMS.Broker.StreamInsight.Queries.pdb
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\Logica.RealTimeDataMgmt.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\Microsoft.ComplexEventProcessing.Adapters.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\Microsoft.ComplexEventProcessing.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\System.Reactive.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\Logica.RealTimeDataMgmt.WcfContracts.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\Logica.RealTimeDataMgmt.NLog.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\NLog.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\Logica.RealTimeDataMgmt.Licensing.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\Microsoft.ComplexEventProcessing.ManagementService.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\System.Reactive.Providers.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\Microsoft.ComplexEventProcessing.xml
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\System.Reactive.xml
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\NLog.xml
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\System.Reactive.Providers.xml
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\obj\Release\AMS.Broker.StreamInsight.Queries.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\obj\Release\AMS.Broker.StreamInsight.Queries.pdb
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\AMS.Broker.StreamInsight.Queries.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\AMS.Broker.StreamInsight.Queries.pdb
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\Logica.RealTimeDataMgmt.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\Microsoft.ComplexEventProcessing.Adapters.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\Microsoft.ComplexEventProcessing.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\System.Reactive.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\Logica.RealTimeDataMgmt.WcfContracts.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\Logica.RealTimeDataMgmt.NLog.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\NLog.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\Logica.RealTimeDataMgmt.Licensing.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\Microsoft.ComplexEventProcessing.ManagementService.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\System.Reactive.Providers.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\Microsoft.ComplexEventProcessing.xml
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\System.Reactive.xml
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\NLog.xml
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\bin\Release\System.Reactive.Providers.xml
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\obj\Release\AMS.Broker.StreamInsight.Queries.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\obj\Release\AMS.Broker.StreamInsight.Queries.pdb
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerAutherizationService\AMS.Broker.StreamInsight.Queries\obj\Release\AMS.Broker.StreamInsight.Queries.csprojResolveAssemblyReference.cache

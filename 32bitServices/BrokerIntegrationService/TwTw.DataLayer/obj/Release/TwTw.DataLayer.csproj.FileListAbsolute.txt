@@ -1,0 +1,100 @@
+D:\V 1.4\Broker\TwTw.DataLayer\bin\Release\TwTw.DataLayer.dll.config
+D:\V 1.4\Broker\TwTw.DataLayer\bin\Release\TwTw.DataLayer.dll
+D:\V 1.4\Broker\TwTw.DataLayer\bin\Release\TwTw.DataLayer.pdb
+D:\V 1.4\Broker\TwTw.DataLayer\bin\Release\EntityFramework.dll
+D:\V 1.4\Broker\TwTw.DataLayer\bin\Release\TwTw.Domain.dll
+D:\V 1.4\Broker\TwTw.DataLayer\bin\Release\TwTw.Domain.pdb
+D:\V 1.4\Broker\TwTw.DataLayer\bin\Release\EntityFramework.xml
+D:\V 1.4\Broker\TwTw.DataLayer\obj\Release\TwTw.DataLayer.csprojResolveAssemblyReference.cache
+D:\V 1.4\Broker\TwTw.DataLayer\obj\Release\TwTw.DataLayer.dll
+D:\V 1.4\Broker\TwTw.DataLayer\obj\Release\TwTw.DataLayer.pdb
+D:\Svn Repo Version 1.4\AMS\Broker\TwTw.DataLayer\bin\Release\TwTw.DataLayer.dll.config
+D:\Svn Repo Version 1.4\AMS\Broker\TwTw.DataLayer\bin\Release\TwTw.DataLayer.dll
+D:\Svn Repo Version 1.4\AMS\Broker\TwTw.DataLayer\bin\Release\TwTw.DataLayer.pdb
+D:\Svn Repo Version 1.4\AMS\Broker\TwTw.DataLayer\bin\Release\EntityFramework.dll
+D:\Svn Repo Version 1.4\AMS\Broker\TwTw.DataLayer\bin\Release\TwTw.Domain.dll
+D:\Svn Repo Version 1.4\AMS\Broker\TwTw.DataLayer\bin\Release\TwTw.Domain.pdb
+D:\Svn Repo Version 1.4\AMS\Broker\TwTw.DataLayer\bin\Release\EntityFramework.xml
+D:\Svn Repo Version 1.4\AMS\Broker\TwTw.DataLayer\obj\Release\TwTw.DataLayer.csprojResolveAssemblyReference.cache
+D:\Svn Repo Version 1.4\AMS\Broker\TwTw.DataLayer\obj\Release\TwTw.DataLayer.dll
+D:\Svn Repo Version 1.4\AMS\Broker\TwTw.DataLayer\obj\Release\TwTw.DataLayer.pdb
+D:\SvnRepo\trunk\AMS\Broker\TwTw.DataLayer\bin\Release\TwTw.DataLayer.dll.config
+D:\SvnRepo\trunk\AMS\Broker\TwTw.DataLayer\bin\Release\TwTw.DataLayer.dll
+D:\SvnRepo\trunk\AMS\Broker\TwTw.DataLayer\bin\Release\TwTw.DataLayer.pdb
+D:\SvnRepo\trunk\AMS\Broker\TwTw.DataLayer\bin\Release\EntityFramework.dll
+D:\SvnRepo\trunk\AMS\Broker\TwTw.DataLayer\bin\Release\TwTw.Domain.dll
+D:\SvnRepo\trunk\AMS\Broker\TwTw.DataLayer\bin\Release\TwTw.Domain.pdb
+D:\SvnRepo\trunk\AMS\Broker\TwTw.DataLayer\bin\Release\EntityFramework.xml
+D:\SvnRepo\trunk\AMS\Broker\TwTw.DataLayer\obj\Release\TwTw.DataLayer.csprojResolveAssemblyReference.cache
+D:\SvnRepo\trunk\AMS\Broker\TwTw.DataLayer\obj\Release\TwTw.DataLayer.dll
+D:\SvnRepo\trunk\AMS\Broker\TwTw.DataLayer\obj\Release\TwTw.DataLayer.pdb
+D:\SVN 1.4.1\Version 1.4.1 Final\Final Code From Trupti_28022017\ChangeBrokerAuthtokenFinal\BrokerIntegrationService\TwTw.DataLayer\bin\Release\TwTw.DataLayer.dll.config
+D:\SVN 1.4.1\Version 1.4.1 Final\Final Code From Trupti_28022017\ChangeBrokerAuthtokenFinal\BrokerIntegrationService\TwTw.DataLayer\bin\Release\TwTw.DataLayer.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\Final Code From Trupti_28022017\ChangeBrokerAuthtokenFinal\BrokerIntegrationService\TwTw.DataLayer\bin\Release\TwTw.DataLayer.pdb
+D:\SVN 1.4.1\Version 1.4.1 Final\Final Code From Trupti_28022017\ChangeBrokerAuthtokenFinal\BrokerIntegrationService\TwTw.DataLayer\bin\Release\EntityFramework.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\Final Code From Trupti_28022017\ChangeBrokerAuthtokenFinal\BrokerIntegrationService\TwTw.DataLayer\bin\Release\TwTw.Domain.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\Final Code From Trupti_28022017\ChangeBrokerAuthtokenFinal\BrokerIntegrationService\TwTw.DataLayer\bin\Release\TwTw.Domain.pdb
+D:\SVN 1.4.1\Version 1.4.1 Final\Final Code From Trupti_28022017\ChangeBrokerAuthtokenFinal\BrokerIntegrationService\TwTw.DataLayer\bin\Release\EntityFramework.xml
+D:\SVN 1.4.1\Version 1.4.1 Final\Final Code From Trupti_28022017\ChangeBrokerAuthtokenFinal\BrokerIntegrationService\TwTw.DataLayer\obj\Release\TwTw.DataLayer.csprojResolveAssemblyReference.cache
+D:\SVN 1.4.1\Version 1.4.1 Final\Final Code From Trupti_28022017\ChangeBrokerAuthtokenFinal\BrokerIntegrationService\TwTw.DataLayer\obj\Release\TwTw.DataLayer.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\Final Code From Trupti_28022017\ChangeBrokerAuthtokenFinal\BrokerIntegrationService\TwTw.DataLayer\obj\Release\TwTw.DataLayer.pdb
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerIntegrationService\TwTw.DataLayer\bin\Release\TwTw.DataLayer.dll.config
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerIntegrationService\TwTw.DataLayer\bin\Release\TwTw.DataLayer.dll
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerIntegrationService\TwTw.DataLayer\bin\Release\TwTw.DataLayer.pdb
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerIntegrationService\TwTw.DataLayer\bin\Release\EntityFramework.dll
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerIntegrationService\TwTw.DataLayer\bin\Release\TwTw.Domain.dll
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerIntegrationService\TwTw.DataLayer\bin\Release\TwTw.Domain.pdb
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerIntegrationService\TwTw.DataLayer\bin\Release\EntityFramework.xml
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerIntegrationService\TwTw.DataLayer\obj\Release\TwTw.DataLayer.csprojResolveAssemblyReference.cache
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerIntegrationService\TwTw.DataLayer\obj\Release\TwTw.DataLayer.dll
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerIntegrationService\TwTw.DataLayer\obj\Release\TwTw.DataLayer.pdb
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerIntegrationService\TwTw.DataLayer\bin\Release\TwTw.DataLayer.dll.config
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerIntegrationService\TwTw.DataLayer\bin\Release\TwTw.DataLayer.dll
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerIntegrationService\TwTw.DataLayer\bin\Release\TwTw.DataLayer.pdb
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerIntegrationService\TwTw.DataLayer\bin\Release\EntityFramework.dll
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerIntegrationService\TwTw.DataLayer\bin\Release\TwTw.Domain.dll
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerIntegrationService\TwTw.DataLayer\bin\Release\TwTw.Domain.pdb
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerIntegrationService\TwTw.DataLayer\bin\Release\EntityFramework.xml
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerIntegrationService\TwTw.DataLayer\obj\Release\TwTw.DataLayer.csprojResolveAssemblyReference.cache
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerIntegrationService\TwTw.DataLayer\obj\Release\TwTw.DataLayer.dll
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerIntegrationService\TwTw.DataLayer\obj\Release\TwTw.DataLayer.pdb
+D:\Version 1.4.2\Broker\BrokerIntegrationService\TwTw.DataLayer\bin\Release\TwTw.DataLayer.dll.config
+D:\Version 1.4.2\Broker\BrokerIntegrationService\TwTw.DataLayer\bin\Release\TwTw.DataLayer.dll
+D:\Version 1.4.2\Broker\BrokerIntegrationService\TwTw.DataLayer\bin\Release\TwTw.DataLayer.pdb
+D:\Version 1.4.2\Broker\BrokerIntegrationService\TwTw.DataLayer\bin\Release\EntityFramework.dll
+D:\Version 1.4.2\Broker\BrokerIntegrationService\TwTw.DataLayer\bin\Release\TwTw.Domain.dll
+D:\Version 1.4.2\Broker\BrokerIntegrationService\TwTw.DataLayer\bin\Release\TwTw.Domain.pdb
+D:\Version 1.4.2\Broker\BrokerIntegrationService\TwTw.DataLayer\bin\Release\EntityFramework.xml
+D:\Version 1.4.2\Broker\BrokerIntegrationService\TwTw.DataLayer\obj\Release\TwTw.DataLayer.csprojResolveAssemblyReference.cache
+D:\Version 1.4.2\Broker\BrokerIntegrationService\TwTw.DataLayer\obj\Release\TwTw.DataLayer.dll
+D:\Version 1.4.2\Broker\BrokerIntegrationService\TwTw.DataLayer\obj\Release\TwTw.DataLayer.pdb
+D:\Version 1.5\Broker\BrokerIntegrationService\TwTw.DataLayer\bin\Release\TwTw.DataLayer.dll.config
+D:\Version 1.5\Broker\BrokerIntegrationService\TwTw.DataLayer\bin\Release\TwTw.DataLayer.dll
+D:\Version 1.5\Broker\BrokerIntegrationService\TwTw.DataLayer\bin\Release\TwTw.DataLayer.pdb
+D:\Version 1.5\Broker\BrokerIntegrationService\TwTw.DataLayer\bin\Release\EntityFramework.dll
+D:\Version 1.5\Broker\BrokerIntegrationService\TwTw.DataLayer\bin\Release\TwTw.Domain.dll
+D:\Version 1.5\Broker\BrokerIntegrationService\TwTw.DataLayer\bin\Release\TwTw.Domain.pdb
+D:\Version 1.5\Broker\BrokerIntegrationService\TwTw.DataLayer\bin\Release\EntityFramework.xml
+D:\Version 1.5\Broker\BrokerIntegrationService\TwTw.DataLayer\obj\Release\TwTw.DataLayer.csprojResolveAssemblyReference.cache
+D:\Version 1.5\Broker\BrokerIntegrationService\TwTw.DataLayer\obj\Release\TwTw.DataLayer.dll
+D:\Version 1.5\Broker\BrokerIntegrationService\TwTw.DataLayer\obj\Release\TwTw.DataLayer.pdb
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\TwTw.DataLayer\bin\Release\TwTw.DataLayer.dll.config
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\TwTw.DataLayer\bin\Release\TwTw.DataLayer.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\TwTw.DataLayer\bin\Release\TwTw.DataLayer.pdb
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\TwTw.DataLayer\bin\Release\EntityFramework.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\TwTw.DataLayer\bin\Release\TwTw.Domain.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\TwTw.DataLayer\bin\Release\TwTw.Domain.pdb
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\TwTw.DataLayer\bin\Release\EntityFramework.xml
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\TwTw.DataLayer\obj\Release\TwTw.DataLayer.csprojResolveAssemblyReference.cache
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\TwTw.DataLayer\obj\Release\TwTw.DataLayer.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\TwTw.DataLayer\obj\Release\TwTw.DataLayer.pdb
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\TwTw.DataLayer\bin\Release\TwTw.DataLayer.dll.config
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\TwTw.DataLayer\bin\Release\TwTw.DataLayer.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\TwTw.DataLayer\bin\Release\TwTw.DataLayer.pdb
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\TwTw.DataLayer\bin\Release\EntityFramework.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\TwTw.DataLayer\bin\Release\TwTw.Domain.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\TwTw.DataLayer\bin\Release\TwTw.Domain.pdb
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\TwTw.DataLayer\bin\Release\EntityFramework.xml
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\TwTw.DataLayer\obj\Release\TwTw.DataLayer.csprojResolveAssemblyReference.cache
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\TwTw.DataLayer\obj\Release\TwTw.DataLayer.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\TwTw.DataLayer\obj\Release\TwTw.DataLayer.pdb

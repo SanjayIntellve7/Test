@@ -1,0 +1,298 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:tns="http://schemas.datacontract.org/2004/07/AMS.Broker.Contracts.DTO" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/AMS.Broker.Contracts.DTO" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation=".\UsersService_schemas_microsoft_com_2003_10_Serialization.xsd" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:complexType name="ArrayOfUser">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="User" nillable="true" type="tns:User" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfUser" nillable="true" type="tns:ArrayOfUser" />
+  <xs:complexType name="User">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ActiveFrom" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="ActiveTill" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="AuthToken" type="ser:guid" />
+      <xs:element minOccurs="0" name="Identifier" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Machines" nillable="true" type="tns:ArrayOfStation" />
+      <xs:element minOccurs="0" name="SecurityUserId" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="User" nillable="true" type="tns:User" />
+  <xs:complexType name="ArrayOfStation">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Station" nillable="true" type="tns:Station" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfStation" nillable="true" type="tns:ArrayOfStation" />
+  <xs:complexType name="Station">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ActivationDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Identifier" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IsActive" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Latitude" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Longitued" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Metadata" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="StationId" type="xs:int" />
+      <xs:element minOccurs="0" name="Type" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Station" nillable="true" type="tns:Station" />
+  <xs:complexType name="AlertStatusWrapper">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AlertObject" nillable="true" type="tns:Alert" />
+      <xs:element minOccurs="0" name="Status" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="AlertStatusWrapper" nillable="true" type="tns:AlertStatusWrapper" />
+  <xs:complexType name="Alert">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Addresses" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AlertId" type="xs:long" />
+      <xs:element minOccurs="0" name="AuthToken" type="ser:guid" />
+      <xs:element minOccurs="0" name="Code" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Identifier" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Incidents" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="InfoCollection" nillable="true" type="tns:ArrayOfInfo" />
+      <xs:element minOccurs="0" name="MessageTypeId" type="tns:MessageType" />
+      <xs:element minOccurs="0" name="Note" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="References" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Restriction" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ScopeId" type="tns:Scope" />
+      <xs:element minOccurs="0" name="Sender" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SentAsString" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Source" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="StatusId" type="tns:Status" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Alert" nillable="true" type="tns:Alert" />
+  <xs:complexType name="ArrayOfInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Info" nillable="true" type="tns:Info" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfInfo" nillable="true" type="tns:ArrayOfInfo" />
+  <xs:complexType name="Info">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AlertId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AreasCollection" nillable="true" type="tns:ArrayOfArea" />
+      <xs:element minOccurs="0" name="Audience" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CategoriesCollection" nillable="true" type="tns:ArrayOfCategory" />
+      <xs:element minOccurs="0" name="CertaintyId" type="tns:Certainty" />
+      <xs:element minOccurs="0" name="Contact" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Effective" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Event" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EventCodesCollection" nillable="true" type="tns:ArrayOfEventCode" />
+      <xs:element minOccurs="0" name="Expires" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Headline" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="InfoId" type="xs:long" />
+      <xs:element minOccurs="0" name="Instruction" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Language" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="OnSet" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ParametersCollection" nillable="true" type="tns:ArrayOfParameter" />
+      <xs:element minOccurs="0" name="ResourcesCollection" nillable="true" type="tns:ArrayOfResource" />
+      <xs:element minOccurs="0" name="ResponseTypesCollection" nillable="true" type="tns:ArrayOfResponseType" />
+      <xs:element minOccurs="0" name="SenderName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SeverityId" type="tns:Severity" />
+      <xs:element minOccurs="0" name="UrgencyId" type="tns:Urgency" />
+      <xs:element minOccurs="0" name="Web" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Info" nillable="true" type="tns:Info" />
+  <xs:complexType name="ArrayOfArea">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Area" nillable="true" type="tns:Area" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfArea" nillable="true" type="tns:ArrayOfArea" />
+  <xs:complexType name="Area">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Altitude" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" name="AreaId" type="xs:long" />
+      <xs:element minOccurs="0" name="Celing" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="InfoId" type="xs:long" />
+      <xs:element minOccurs="0" name="Latitude" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" name="Longitude" nillable="true" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Area" nillable="true" type="tns:Area" />
+  <xs:complexType name="ArrayOfCategory">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Category" type="tns:Category" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCategory" nillable="true" type="tns:ArrayOfCategory" />
+  <xs:simpleType name="Category">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="CBRNE" />
+      <xs:enumeration value="Env" />
+      <xs:enumeration value="Fire" />
+      <xs:enumeration value="Geo" />
+      <xs:enumeration value="Health" />
+      <xs:enumeration value="Infra" />
+      <xs:enumeration value="Met" />
+      <xs:enumeration value="Other" />
+      <xs:enumeration value="Rescue" />
+      <xs:enumeration value="Safety" />
+      <xs:enumeration value="Security" />
+      <xs:enumeration value="Transport" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="Category" nillable="true" type="tns:Category" />
+  <xs:simpleType name="Certainty">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Likely" />
+      <xs:enumeration value="Observed" />
+      <xs:enumeration value="Possible" />
+      <xs:enumeration value="Unknown" />
+      <xs:enumeration value="Unlikely" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="Certainty" nillable="true" type="tns:Certainty" />
+  <xs:complexType name="ArrayOfEventCode">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="EventCode" nillable="true" type="tns:EventCode" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfEventCode" nillable="true" type="tns:ArrayOfEventCode" />
+  <xs:complexType name="EventCode">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Key" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Value" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="EventCode" nillable="true" type="tns:EventCode" />
+  <xs:complexType name="ArrayOfParameter">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Parameter" nillable="true" type="tns:Parameter" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfParameter" nillable="true" type="tns:ArrayOfParameter" />
+  <xs:complexType name="Parameter">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Key" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Value" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Parameter" nillable="true" type="tns:Parameter" />
+  <xs:complexType name="ArrayOfResource">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Resource" nillable="true" type="tns:Resource" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfResource" nillable="true" type="tns:ArrayOfResource" />
+  <xs:complexType name="Resource">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DerefUri" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Digest" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="InfoId" type="xs:int" />
+      <xs:element minOccurs="0" name="MimeType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ResourceId" type="xs:int" />
+      <xs:element minOccurs="0" name="Size" type="xs:int" />
+      <xs:element minOccurs="0" name="Uri" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Resource" nillable="true" type="tns:Resource" />
+  <xs:complexType name="ArrayOfResponseType">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ResponseType" type="tns:ResponseType" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfResponseType" nillable="true" type="tns:ArrayOfResponseType" />
+  <xs:simpleType name="ResponseType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Assess" />
+      <xs:enumeration value="Evacuate" />
+      <xs:enumeration value="Execute" />
+      <xs:enumeration value="Monitor" />
+      <xs:enumeration value="None" />
+      <xs:enumeration value="Prepare" />
+      <xs:enumeration value="Shelter" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="ResponseType" nillable="true" type="tns:ResponseType" />
+  <xs:simpleType name="Severity">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Extreme" />
+      <xs:enumeration value="Minor" />
+      <xs:enumeration value="Moderate" />
+      <xs:enumeration value="Severe" />
+      <xs:enumeration value="Unknown" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="Severity" nillable="true" type="tns:Severity" />
+  <xs:simpleType name="Urgency">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Expected" />
+      <xs:enumeration value="Future" />
+      <xs:enumeration value="Immediate" />
+      <xs:enumeration value="Past" />
+      <xs:enumeration value="Unknown" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="Urgency" nillable="true" type="tns:Urgency" />
+  <xs:simpleType name="MessageType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Ack" />
+      <xs:enumeration value="Alert" />
+      <xs:enumeration value="Cancel" />
+      <xs:enumeration value="Error" />
+      <xs:enumeration value="Update" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="MessageType" nillable="true" type="tns:MessageType" />
+  <xs:simpleType name="Scope">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Private" />
+      <xs:enumeration value="Public" />
+      <xs:enumeration value="Restricted" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="Scope" nillable="true" type="tns:Scope" />
+  <xs:simpleType name="Status">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Actual" />
+      <xs:enumeration value="Exercise" />
+      <xs:enumeration value="System" />
+      <xs:enumeration value="Test" />
+      <xs:enumeration value="Draft" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="Status" nillable="true" type="tns:Status" />
+  <xs:complexType name="NotifyList">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Alert" nillable="true" type="tns:Alert" />
+      <xs:element minOccurs="0" name="UsersCollection" nillable="true" type="tns:ArrayOfUserContactInformation" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="NotifyList" nillable="true" type="tns:NotifyList" />
+  <xs:complexType name="ArrayOfUserContactInformation">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="UserContactInformation" nillable="true" type="tns:UserContactInformation" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfUserContactInformation" nillable="true" type="tns:ArrayOfUserContactInformation" />
+  <xs:complexType name="UserContactInformation">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ContactMethodsCollection" nillable="true" type="tns:ArrayOfContactMethod" />
+      <xs:element minOccurs="0" name="Username" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="UserContactInformation" nillable="true" type="tns:UserContactInformation" />
+  <xs:complexType name="ArrayOfContactMethod">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ContactMethod" nillable="true" type="tns:ContactMethod" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfContactMethod" nillable="true" type="tns:ArrayOfContactMethod" />
+  <xs:complexType name="ContactMethod">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Value" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ContactMethod" nillable="true" type="tns:ContactMethod" />
+</xs:schema>

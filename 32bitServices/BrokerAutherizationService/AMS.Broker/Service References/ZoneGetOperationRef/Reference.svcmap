@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="b0d23b9b-05a1-4f57-b9ad-0f96f03fd2e6" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>false</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="https://192.168.0.193:6530/soap/ZoneGetOperation" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ZoneGetOperation.xsd" MetadataType="Schema" ID="00fbf719-6fb7-4046-82ae-70913733a47e" SourceId="1" SourceUrl="https://localhost:6530/SOAP/ZoneGetOperation?xsd=xsd0" />
+    <MetadataFile FileName="ZoneGetOperation1.xsd" MetadataType="Schema" ID="57474583-4fed-4879-8022-e6ecf1901dd1" SourceId="1" SourceUrl="https://localhost:6530/SOAP/ZoneGetOperation?xsd=xsd1" />
+    <MetadataFile FileName="ZoneGetOperation2.xsd" MetadataType="Schema" ID="ed6ac3b5-c09e-4dd1-9ec1-404984199ba3" SourceId="1" SourceUrl="https://localhost:6530/SOAP/ZoneGetOperation?xsd=xsd2" />
+    <MetadataFile FileName="ZoneGetOperation3.xsd" MetadataType="Schema" ID="09faa20b-85cb-4610-b4ae-95357420f003" SourceId="1" SourceUrl="https://localhost:6530/SOAP/ZoneGetOperation?xsd=xsd3" />
+    <MetadataFile FileName="ZoneGetOperation.disco" MetadataType="Disco" ID="225ada5d-0db1-4df5-9100-56275dfe362f" SourceId="1" SourceUrl="https://localhost:6530/SOAP/ZoneGetOperation?disco" />
+    <MetadataFile FileName="ZonesGetOperationService.wsdl" MetadataType="Wsdl" ID="8e8126a6-e091-4199-8fb7-e65995d1f67e" SourceId="1" SourceUrl="https://localhost:6530/SOAP/ZoneGetOperation?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -1,0 +1,174 @@
+D:\2020Imaging\code\Broker\AMS.Broker.StreamInsight\bin\Release\2020Imaging.lic
+D:\2020Imaging\code\Broker\AMS.Broker.StreamInsight\bin\Release\ConfigDB\OpcConfiguration.sdf
+D:\2020Imaging\code\Broker\AMS.Broker.StreamInsight\bin\Release\ConfigDB\StockConfiguration.sdf
+D:\2020Imaging\code\Broker\AMS.Broker.StreamInsight\bin\Release\AMS.Broker.StreamInsight.exe.config
+D:\2020Imaging\code\Broker\AMS.Broker.StreamInsight\bin\Release\AMS.Broker.StreamInsight.exe
+D:\2020Imaging\code\Broker\AMS.Broker.StreamInsight\bin\Release\AMS.Broker.StreamInsight.pdb
+D:\2020Imaging\code\Broker\AMS.Broker.StreamInsight\bin\Release\AMS.Broker.StreamInsight.Queries.dll
+D:\2020Imaging\code\Broker\AMS.Broker.StreamInsight\bin\Release\Logica.RealTimeDataMgmt.Adapters.OPC.dll
+D:\2020Imaging\code\Broker\AMS.Broker.StreamInsight\bin\Release\Logica.RealTimeDataMgmt.dll
+D:\2020Imaging\code\Broker\AMS.Broker.StreamInsight\bin\Release\Logica.RealTimeDataMgmt.Licensing.dll
+D:\2020Imaging\code\Broker\AMS.Broker.StreamInsight\bin\Release\Logica.RealTimeDataMgmt.WcfContracts.dll
+D:\2020Imaging\code\Broker\AMS.Broker.StreamInsight\bin\Release\Microsoft.ComplexEventProcessing.Adapters.dll
+D:\2020Imaging\code\Broker\AMS.Broker.StreamInsight\bin\Release\Microsoft.ComplexEventProcessing.dll
+D:\2020Imaging\code\Broker\AMS.Broker.StreamInsight\bin\Release\Microsoft.ComplexEventProcessing.ManagementService.dll
+D:\2020Imaging\code\Broker\AMS.Broker.StreamInsight\bin\Release\NLog.dll
+D:\2020Imaging\code\Broker\AMS.Broker.StreamInsight\bin\Release\OpcDaNet.dll
+D:\2020Imaging\code\Broker\AMS.Broker.StreamInsight\bin\Release\OpcLabs.EasyOpcClassic.dll
+D:\2020Imaging\code\Broker\AMS.Broker.StreamInsight\bin\Release\OpcNetApi.Com.dll
+D:\2020Imaging\code\Broker\AMS.Broker.StreamInsight\bin\Release\OpcNetApi.dll
+D:\2020Imaging\code\Broker\AMS.Broker.StreamInsight\bin\Release\System.Reactive.dll
+D:\2020Imaging\code\Broker\AMS.Broker.StreamInsight\bin\Release\Logica.RealTimeDataMgmt.NLog.dll
+D:\2020Imaging\code\Broker\AMS.Broker.StreamInsight\bin\Release\AMS.Broker.StreamInsight.Queries.pdb
+D:\2020Imaging\code\Broker\AMS.Broker.StreamInsight\bin\Release\Microsoft.ComplexEventProcessing.xml
+D:\2020Imaging\code\Broker\AMS.Broker.StreamInsight\bin\Release\NLog.xml
+D:\2020Imaging\code\Broker\AMS.Broker.StreamInsight\obj\x86\Release\AMS.Broker.StreamInsight.csprojResolveAssemblyReference.cache
+D:\2020Imaging\code\Broker\AMS.Broker.StreamInsight\obj\x86\Release\AMS.Broker.StreamInsight.StreamInsightServiceInstaller.resources
+D:\2020Imaging\code\Broker\AMS.Broker.StreamInsight\obj\x86\Release\AMS.Broker.StreamInsight.csproj.GenerateResource.Cache
+D:\2020Imaging\code\Broker\AMS.Broker.StreamInsight\obj\x86\Release\AMS.Broker.StreamInsight.exe
+D:\2020Imaging\code\Broker\AMS.Broker.StreamInsight\obj\x86\Release\AMS.Broker.StreamInsight.pdb
+D:\Yogesh\2020Imaging\code\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\2020Imaging.lic
+D:\Yogesh\2020Imaging\code\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\ConfigDB\OpcConfiguration.sdf
+D:\Yogesh\2020Imaging\code\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\ConfigDB\StockConfiguration.sdf
+D:\Yogesh\2020Imaging\code\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\AMS.Broker.StreamInsight.exe.config
+D:\Yogesh\2020Imaging\code\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\AMS.Broker.StreamInsight.exe
+D:\Yogesh\2020Imaging\code\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\AMS.Broker.StreamInsight.pdb
+D:\Yogesh\2020Imaging\code\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\AMS.Broker.StreamInsight.Queries.dll
+D:\Yogesh\2020Imaging\code\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\Logica.RealTimeDataMgmt.Adapters.OPC.dll
+D:\Yogesh\2020Imaging\code\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\Logica.RealTimeDataMgmt.dll
+D:\Yogesh\2020Imaging\code\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\Logica.RealTimeDataMgmt.Licensing.dll
+D:\Yogesh\2020Imaging\code\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\Logica.RealTimeDataMgmt.WcfContracts.dll
+D:\Yogesh\2020Imaging\code\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\Microsoft.ComplexEventProcessing.Adapters.dll
+D:\Yogesh\2020Imaging\code\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\Microsoft.ComplexEventProcessing.dll
+D:\Yogesh\2020Imaging\code\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\Microsoft.ComplexEventProcessing.ManagementService.dll
+D:\Yogesh\2020Imaging\code\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\NLog.dll
+D:\Yogesh\2020Imaging\code\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\OpcDaNet.dll
+D:\Yogesh\2020Imaging\code\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\OpcLabs.EasyOpcClassic.dll
+D:\Yogesh\2020Imaging\code\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\OpcNetApi.Com.dll
+D:\Yogesh\2020Imaging\code\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\OpcNetApi.dll
+D:\Yogesh\2020Imaging\code\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\System.Reactive.dll
+D:\Yogesh\2020Imaging\code\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\Logica.RealTimeDataMgmt.NLog.dll
+D:\Yogesh\2020Imaging\code\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\AMS.Broker.StreamInsight.Queries.pdb
+D:\Yogesh\2020Imaging\code\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\Microsoft.ComplexEventProcessing.xml
+D:\Yogesh\2020Imaging\code\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\NLog.xml
+D:\Yogesh\2020Imaging\code\trunk\AMS\Broker\AMS.Broker.StreamInsight\obj\x86\Release\AMS.Broker.StreamInsight.csprojResolveAssemblyReference.cache
+D:\Yogesh\2020Imaging\code\trunk\AMS\Broker\AMS.Broker.StreamInsight\obj\x86\Release\AMS.Broker.StreamInsight.StreamInsightServiceInstaller.resources
+D:\Yogesh\2020Imaging\code\trunk\AMS\Broker\AMS.Broker.StreamInsight\obj\x86\Release\AMS.Broker.StreamInsight.csproj.GenerateResource.Cache
+D:\Yogesh\2020Imaging\code\trunk\AMS\Broker\AMS.Broker.StreamInsight\obj\x86\Release\AMS.Broker.StreamInsight.exe
+D:\Yogesh\2020Imaging\code\trunk\AMS\Broker\AMS.Broker.StreamInsight\obj\x86\Release\AMS.Broker.StreamInsight.pdb
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\2020Imaging.lic
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\ConfigDB\OpcConfiguration.sdf
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\ConfigDB\StockConfiguration.sdf
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\AMS.Broker.StreamInsight.exe.config
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\AMS.Broker.StreamInsight.exe
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\AMS.Broker.StreamInsight.pdb
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\AMS.Broker.StreamInsight.Queries.dll
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\Logica.RealTimeDataMgmt.Adapters.OPC.dll
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\Logica.RealTimeDataMgmt.dll
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\Logica.RealTimeDataMgmt.Licensing.dll
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\Logica.RealTimeDataMgmt.WcfContracts.dll
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\Microsoft.ComplexEventProcessing.Adapters.dll
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\Microsoft.ComplexEventProcessing.dll
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\Microsoft.ComplexEventProcessing.ManagementService.dll
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\NLog.dll
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\OpcDaNet.dll
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\OpcLabs.EasyOpcClassic.dll
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\OpcNetApi.Com.dll
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\OpcNetApi.dll
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\System.Reactive.dll
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\Logica.RealTimeDataMgmt.NLog.dll
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\AMS.Broker.StreamInsight.Queries.pdb
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\Microsoft.ComplexEventProcessing.xml
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\NLog.xml
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\AMS.Broker.StreamInsight\obj\x86\Release\AMS.Broker.StreamInsight.csprojResolveAssemblyReference.cache
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\AMS.Broker.StreamInsight\obj\x86\Release\AMS.Broker.StreamInsight.StreamInsightServiceInstaller.resources
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\AMS.Broker.StreamInsight\obj\x86\Release\AMS.Broker.StreamInsight.csproj.GenerateResource.Cache
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\AMS.Broker.StreamInsight\obj\x86\Release\AMS.Broker.StreamInsight.exe
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\AMS.Broker.StreamInsight\obj\x86\Release\AMS.Broker.StreamInsight.pdb
+G:\SVN Code Repository\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\2020Imaging.lic
+G:\SVN Code Repository\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\ConfigDB\OpcConfiguration.sdf
+G:\SVN Code Repository\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\ConfigDB\StockConfiguration.sdf
+G:\SVN Code Repository\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\AMS.Broker.StreamInsight.exe.config
+G:\SVN Code Repository\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\AMS.Broker.StreamInsight.exe
+G:\SVN Code Repository\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\AMS.Broker.StreamInsight.pdb
+G:\SVN Code Repository\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\AMS.Broker.StreamInsight.Queries.dll
+G:\SVN Code Repository\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\Logica.RealTimeDataMgmt.Adapters.OPC.dll
+G:\SVN Code Repository\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\Logica.RealTimeDataMgmt.dll
+G:\SVN Code Repository\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\Logica.RealTimeDataMgmt.Licensing.dll
+G:\SVN Code Repository\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\Logica.RealTimeDataMgmt.WcfContracts.dll
+G:\SVN Code Repository\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\Microsoft.ComplexEventProcessing.Adapters.dll
+G:\SVN Code Repository\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\Microsoft.ComplexEventProcessing.dll
+G:\SVN Code Repository\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\Microsoft.ComplexEventProcessing.ManagementService.dll
+G:\SVN Code Repository\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\NLog.dll
+G:\SVN Code Repository\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\OpcDaNet.dll
+G:\SVN Code Repository\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\OpcLabs.EasyOpcClassic.dll
+G:\SVN Code Repository\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\OpcNetApi.Com.dll
+G:\SVN Code Repository\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\OpcNetApi.dll
+G:\SVN Code Repository\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\System.Reactive.dll
+G:\SVN Code Repository\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\Logica.RealTimeDataMgmt.NLog.dll
+G:\SVN Code Repository\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\AMS.Broker.StreamInsight.Queries.pdb
+G:\SVN Code Repository\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\Microsoft.ComplexEventProcessing.xml
+G:\SVN Code Repository\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\NLog.xml
+G:\SVN Code Repository\trunk\AMS\Broker\AMS.Broker.StreamInsight\obj\x86\Release\AMS.Broker.StreamInsight.csprojResolveAssemblyReference.cache
+G:\SVN Code Repository\trunk\AMS\Broker\AMS.Broker.StreamInsight\obj\x86\Release\AMS.Broker.StreamInsight.StreamInsightServiceInstaller.resources
+G:\SVN Code Repository\trunk\AMS\Broker\AMS.Broker.StreamInsight\obj\x86\Release\AMS.Broker.StreamInsight.csproj.GenerateResource.Cache
+G:\SVN Code Repository\trunk\AMS\Broker\AMS.Broker.StreamInsight\obj\x86\Release\AMS.Broker.StreamInsight.exe
+G:\SVN Code Repository\trunk\AMS\Broker\AMS.Broker.StreamInsight\obj\x86\Release\AMS.Broker.StreamInsight.pdb
+D:\Svn code Repository 21 Nov 14 latest\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\2020Imaging.lic
+D:\Svn code Repository 21 Nov 14 latest\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\ConfigDB\OpcConfiguration.sdf
+D:\Svn code Repository 21 Nov 14 latest\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\ConfigDB\StockConfiguration.sdf
+D:\Svn code Repository 21 Nov 14 latest\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\AMS.Broker.StreamInsight.exe.config
+D:\Svn code Repository 21 Nov 14 latest\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\AMS.Broker.StreamInsight.exe
+D:\Svn code Repository 21 Nov 14 latest\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\AMS.Broker.StreamInsight.pdb
+D:\Svn code Repository 21 Nov 14 latest\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\AMS.Broker.StreamInsight.Queries.dll
+D:\Svn code Repository 21 Nov 14 latest\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\Logica.RealTimeDataMgmt.Adapters.OPC.dll
+D:\Svn code Repository 21 Nov 14 latest\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\Logica.RealTimeDataMgmt.dll
+D:\Svn code Repository 21 Nov 14 latest\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\Logica.RealTimeDataMgmt.Licensing.dll
+D:\Svn code Repository 21 Nov 14 latest\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\Logica.RealTimeDataMgmt.WcfContracts.dll
+D:\Svn code Repository 21 Nov 14 latest\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\Microsoft.ComplexEventProcessing.Adapters.dll
+D:\Svn code Repository 21 Nov 14 latest\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\Microsoft.ComplexEventProcessing.dll
+D:\Svn code Repository 21 Nov 14 latest\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\Microsoft.ComplexEventProcessing.ManagementService.dll
+D:\Svn code Repository 21 Nov 14 latest\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\NLog.dll
+D:\Svn code Repository 21 Nov 14 latest\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\OpcDaNet.dll
+D:\Svn code Repository 21 Nov 14 latest\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\OpcLabs.EasyOpcClassic.dll
+D:\Svn code Repository 21 Nov 14 latest\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\OpcNetApi.Com.dll
+D:\Svn code Repository 21 Nov 14 latest\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\OpcNetApi.dll
+D:\Svn code Repository 21 Nov 14 latest\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\System.Reactive.dll
+D:\Svn code Repository 21 Nov 14 latest\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\Logica.RealTimeDataMgmt.NLog.dll
+D:\Svn code Repository 21 Nov 14 latest\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\AMS.Broker.StreamInsight.Queries.pdb
+D:\Svn code Repository 21 Nov 14 latest\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\Microsoft.ComplexEventProcessing.xml
+D:\Svn code Repository 21 Nov 14 latest\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\NLog.xml
+D:\Svn code Repository 21 Nov 14 latest\AMS\Broker\AMS.Broker.StreamInsight\obj\x86\Release\AMS.Broker.StreamInsight.csprojResolveAssemblyReference.cache
+D:\Svn code Repository 21 Nov 14 latest\AMS\Broker\AMS.Broker.StreamInsight\obj\x86\Release\AMS.Broker.StreamInsight.StreamInsightServiceInstaller.resources
+D:\Svn code Repository 21 Nov 14 latest\AMS\Broker\AMS.Broker.StreamInsight\obj\x86\Release\AMS.Broker.StreamInsight.csproj.GenerateResource.Cache
+D:\Svn code Repository 21 Nov 14 latest\AMS\Broker\AMS.Broker.StreamInsight\obj\x86\Release\AMS.Broker.StreamInsight.exe
+D:\Svn code Repository 21 Nov 14 latest\AMS\Broker\AMS.Broker.StreamInsight\obj\x86\Release\AMS.Broker.StreamInsight.pdb
+G:\SVNCodeRepository\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\2020Imaging.lic
+G:\SVNCodeRepository\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\ConfigDB\OpcConfiguration.sdf
+G:\SVNCodeRepository\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\ConfigDB\StockConfiguration.sdf
+G:\SVNCodeRepository\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\AMS.Broker.StreamInsight.exe.config
+G:\SVNCodeRepository\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\AMS.Broker.StreamInsight.exe
+G:\SVNCodeRepository\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\AMS.Broker.StreamInsight.pdb
+G:\SVNCodeRepository\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\AMS.Broker.StreamInsight.Queries.dll
+G:\SVNCodeRepository\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\Logica.RealTimeDataMgmt.Adapters.OPC.dll
+G:\SVNCodeRepository\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\Logica.RealTimeDataMgmt.dll
+G:\SVNCodeRepository\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\Logica.RealTimeDataMgmt.Licensing.dll
+G:\SVNCodeRepository\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\Logica.RealTimeDataMgmt.WcfContracts.dll
+G:\SVNCodeRepository\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\Microsoft.ComplexEventProcessing.Adapters.dll
+G:\SVNCodeRepository\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\Microsoft.ComplexEventProcessing.dll
+G:\SVNCodeRepository\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\Microsoft.ComplexEventProcessing.ManagementService.dll
+G:\SVNCodeRepository\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\NLog.dll
+G:\SVNCodeRepository\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\OpcDaNet.dll
+G:\SVNCodeRepository\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\OpcLabs.EasyOpcClassic.dll
+G:\SVNCodeRepository\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\OpcNetApi.Com.dll
+G:\SVNCodeRepository\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\OpcNetApi.dll
+G:\SVNCodeRepository\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\System.Reactive.dll
+G:\SVNCodeRepository\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\Logica.RealTimeDataMgmt.NLog.dll
+G:\SVNCodeRepository\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\AMS.Broker.StreamInsight.Queries.pdb
+G:\SVNCodeRepository\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\Microsoft.ComplexEventProcessing.xml
+G:\SVNCodeRepository\trunk\AMS\Broker\AMS.Broker.StreamInsight\bin\Release\NLog.xml
+G:\SVNCodeRepository\trunk\AMS\Broker\AMS.Broker.StreamInsight\obj\x86\Release\AMS.Broker.StreamInsight.csprojResolveAssemblyReference.cache
+G:\SVNCodeRepository\trunk\AMS\Broker\AMS.Broker.StreamInsight\obj\x86\Release\AMS.Broker.StreamInsight.StreamInsightServiceInstaller.resources
+G:\SVNCodeRepository\trunk\AMS\Broker\AMS.Broker.StreamInsight\obj\x86\Release\AMS.Broker.StreamInsight.csproj.GenerateResource.Cache
+G:\SVNCodeRepository\trunk\AMS\Broker\AMS.Broker.StreamInsight\obj\x86\Release\AMS.Broker.StreamInsight.exe
+G:\SVNCodeRepository\trunk\AMS\Broker\AMS.Broker.StreamInsight\obj\x86\Release\AMS.Broker.StreamInsight.pdb

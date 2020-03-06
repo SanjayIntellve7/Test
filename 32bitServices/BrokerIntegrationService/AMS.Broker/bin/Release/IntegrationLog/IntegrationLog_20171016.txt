@@ -1,0 +1,6 @@
+16/10/2017 17:05:00   In Broker inside BrokerIntegrationService
+16/10/2017 17:05:02  ACSIntegrationService--start Exception  = Exception has been thrown by the target of an invocation.
+16/10/2017 17:05:02  VideoAnalyticsManagerIntegrationServiceImpl- Exception = The argument 'nameOrConnectionString' cannot be null, empty or contain only white space.
+16/10/2017 17:05:02  VideoAnalyticsManagerIntegrationService-Initialise -- Exception1 = Exception has been thrown by the target of an invocation.
+16/10/2017 17:05:02  MatrixControllerService-Initialise -- Exception = Exception has been thrown by the target of an invocation.
+16/10/2017 17:05:02  CamTcpListenerService-Initialise -- Exception1 = Exception has been thrown by the target of an invocation.

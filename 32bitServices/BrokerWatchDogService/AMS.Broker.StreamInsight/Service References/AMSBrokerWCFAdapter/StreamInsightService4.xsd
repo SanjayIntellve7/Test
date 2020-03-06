@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://www.logica.com/RealTimeDataManagement/Services" elementFormDefault="qualified" targetNamespace="http://www.logica.com/RealTimeDataManagement/Services" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://192.168.0.52:4530/SOAP/StreamInsightService?xsd=xsd2" namespace="http://www.logica.com/RealTimeDataManagement/DataContract" />
+  <xs:element name="ConsumeEvent">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://www.logica.com/RealTimeDataManagement/DataContract" minOccurs="0" name="eventData" nillable="true" type="q1:WcfEventData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

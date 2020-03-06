@@ -1,0 +1,271 @@
+D:\SVN Version 1.5\trunk\AMS\Broker\BrokerIntegrationService\AMS.Broker\bin\Release\AMS.Broker.IntegrationService.exe.config
+D:\SVN Version 1.5\trunk\AMS\Broker\BrokerIntegrationService\AMS.Broker\obj\Release\Interop.QLAuthenticatorLib.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\BrokerIntegrationService\AMS.Broker\obj\Release\AMS.Broker.IntegrationService.csproj.ResolveComReference.cache
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\AMS.Broker.IntegrationService.exe.config
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\obj\Release\Interop.QLAuthenticatorLib.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\obj\Release\AMS.Broker.IntegrationService.csproj.ResolveComReference.cache
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\AMS.Broker.IntegrationService.exe
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\AMS.Broker.Contracts.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\AutoMapper.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\BplusDotNet.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\CacheAspect.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\Castle.Core.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\Castle.Facilities.NHibernateIntegration.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\Castle.Windsor.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\CloudinaryDotNet.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\DirectShowLib-2005.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\EntityFramework.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\Iesi.Collections.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\Logica.RealTimeDataMgmt.WcfContracts.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\Microsoft.ApplicationServer.Caching.Client.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\Microsoft.Practices.Prism.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\Microsoft.Practices.Prism.Interactivity.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\Microsoft.Practices.Prism.UnityExtensions.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\Microsoft.Practices.ServiceLocation.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\Microsoft.Practices.Unity.Configuration.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\Microsoft.Practices.Unity.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\Microsoft.Practices.Unity.Interception.Configuration.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\Microsoft.Practices.Unity.Interception.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\Microsoft.Reactive.Testing.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\Microsoft.SqlServer.Types.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\Modbus.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\Newtonsoft.Json.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\NHibernate.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\NLog.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\PostSharp.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\PresentationCore.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\PresentationFramework.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\QL.ComInterop.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\QL.Communication.Authentication.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\QL.Communication.DataPresentation.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\QL.Communication.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\QL.Communication.Messaging.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\QL.Communication.Multiserver.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\QL.Communication.Network.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\QL.Communication.Server.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\QL.ComponentsModel.ComponentsManagement.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\QL.ComponentsModel.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\QL.Configuration.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\QL.Configuration.Service.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\QL.Configuration.Settings.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\QL.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\QL.PresentationCore.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\QL.PresentationCore.Localization.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\QL.ServiceModel.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\QL.VideoBrowser.Controllers.CamerasManagement.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\QL.VideoBrowser.Controllers.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\QL.VideoBrowser.Controllers.VideoServersManagement.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\QL.VideoBrowser.Controls.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\QL.VideoBrowser.Controls.Media.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\QL.VideoBrowser.Themes.Black.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\QL.VideoBrowser.Utils.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\Rhino.Security.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\SnmpSharpNet.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\System.ComponentModel.Composition.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\System.ComponentModel.DataAnnotations.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\System.Configuration.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\System.Configuration.Install.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\System.Data.DataSetExtensions.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\System.Data.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\System.Data.Entity.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\System.Device.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\System.DirectoryServices.AccountManagement.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\System.DirectoryServices.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\System.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\System.Drawing.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\System.IdentityModel.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\System.Net.Http.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\System.Reactive.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\System.Runtime.Caching.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\System.Runtime.Serialization.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\System.Security.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\System.ServiceModel.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\System.ServiceModel.PollingDuplex.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\System.ServiceModel.Web.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\System.ServiceProcess.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\System.Web.ApplicationServices.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\System.Web.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\System.Web.Extensions.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\System.Web.Services.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\System.Windows.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\System.Windows.Interactivity.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\System.Windows.Presentation.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\System.Xaml.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\System.Xml.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\System.Xml.Linq.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\TwTw.DataLayer.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\TwTw.Domain.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\Unme.Common.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\WindowsBase.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\QL.LogicCore.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\System.Reactive.Windows.Threading.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\CacheAspect.pdb
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\TwTw.DataLayer.pdb
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\TwTw.Domain.pdb
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\AMS.Broker.Contracts.pdb
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\AutoMapper.xml
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\Castle.Core.xml
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\Castle.Windsor.xml
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\EntityFramework.xml
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\Iesi.Collections.xml
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.pdb
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\Microsoft.Practices.EnterpriseLibrary.Logging.pdb
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\Microsoft.Practices.Prism.pdb
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\Microsoft.Practices.Prism.xml
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\Microsoft.Practices.Prism.Interactivity.pdb
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\Microsoft.Practices.Prism.Interactivity.xml
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\Microsoft.Practices.Prism.UnityExtensions.pdb
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\Microsoft.Practices.Prism.UnityExtensions.xml
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\Microsoft.Practices.ServiceLocation.xml
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\Microsoft.Practices.Unity.xml
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\Microsoft.Reactive.Testing.xml
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\Newtonsoft.Json.xml
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\NHibernate.xml
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\NLog.xml
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\PostSharp.xml
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\System.Reactive.xml
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\System.Windows.Interactivity.xml
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\System.Reactive.Windows.Threading.xml
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\AMS.Broker.IntegrationService.pssym
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\obj\Release\AMS.Broker.IntegrationService.csprojResolveAssemblyReference.cache
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\obj\Release\AMS.Broker.IntegrationService.exe
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\obj\Release\AMS.Broker.IntegrationService.exe.postsharp
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\AMS.Broker.IntegrationService.exe.config
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\obj\Release\Interop.QLAuthenticatorLib.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\obj\Release\AMS.Broker.IntegrationService.csproj.ResolveComReference.cache
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\obj\Release\AMS.Broker.IntegrationService.exe
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\AMS.Broker.IntegrationService.exe
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\AMS.Broker.Contracts.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\AutoMapper.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\BplusDotNet.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\CacheAspect.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\Castle.Core.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\Castle.Facilities.NHibernateIntegration.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\Castle.Windsor.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\CloudinaryDotNet.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\DirectShowLib-2005.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\EntityFramework.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\Iesi.Collections.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\log4net.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\Logica.RealTimeDataMgmt.WcfContracts.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\Microsoft.ApplicationServer.Caching.Client.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\Microsoft.Practices.Prism.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\Microsoft.Practices.Prism.Interactivity.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\Microsoft.Practices.Prism.UnityExtensions.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\Microsoft.Practices.ServiceLocation.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\Microsoft.Practices.Unity.Configuration.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\Microsoft.Practices.Unity.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\Microsoft.Practices.Unity.Interception.Configuration.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\Microsoft.Practices.Unity.Interception.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\Microsoft.Reactive.Testing.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\Microsoft.SqlServer.Types.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\Modbus.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\Newtonsoft.Json.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\NHibernate.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\NLog.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\PostSharp.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\PresentationCore.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\PresentationFramework.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\QL.ComInterop.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\QL.Communication.Authentication.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\QL.Communication.DataPresentation.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\QL.Communication.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\QL.Communication.Messaging.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\QL.Communication.Multiserver.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\QL.Communication.Network.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\QL.Communication.Server.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\QL.ComponentsModel.ComponentsManagement.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\QL.ComponentsModel.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\QL.Configuration.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\QL.Configuration.Service.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\QL.Configuration.Settings.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\QL.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\QL.PresentationCore.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\QL.PresentationCore.Localization.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\QL.ServiceModel.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\QL.VideoBrowser.Controllers.CamerasManagement.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\QL.VideoBrowser.Controllers.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\QL.VideoBrowser.Controllers.VideoServersManagement.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\QL.VideoBrowser.Controls.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\QL.VideoBrowser.Controls.Media.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\QL.VideoBrowser.Themes.Black.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\QL.VideoBrowser.Utils.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\Rhino.Security.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\SnmpSharpNet.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\System.ComponentModel.Composition.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\System.ComponentModel.DataAnnotations.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\System.Configuration.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\System.Configuration.Install.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\System.Data.DataSetExtensions.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\System.Data.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\System.Data.Entity.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\System.Device.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\System.DirectoryServices.AccountManagement.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\System.DirectoryServices.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\System.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\System.Drawing.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\System.IdentityModel.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\System.Net.Http.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\System.Reactive.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\System.Runtime.Caching.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\System.Runtime.Serialization.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\System.Security.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\System.ServiceModel.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\System.ServiceModel.PollingDuplex.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\System.ServiceModel.Web.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\System.ServiceProcess.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\System.Web.ApplicationServices.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\System.Web.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\System.Web.Extensions.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\System.Web.Services.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\System.Windows.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\System.Windows.Interactivity.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\System.Windows.Presentation.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\System.Xaml.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\System.Xml.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\System.Xml.Linq.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\TwTw.DataLayer.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\TwTw.Domain.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\Unme.Common.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\WindowsBase.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\QL.LogicCore.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\System.Reactive.Windows.Threading.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\CacheAspect.pdb
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\TwTw.DataLayer.pdb
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\TwTw.Domain.pdb
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\AMS.Broker.Contracts.pdb
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\AutoMapper.xml
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\Castle.Core.xml
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\Castle.Windsor.xml
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\EntityFramework.xml
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\Iesi.Collections.xml
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\log4net.xml
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.pdb
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.xml
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\Microsoft.Practices.EnterpriseLibrary.Logging.pdb
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\Microsoft.Practices.Prism.pdb
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\Microsoft.Practices.Prism.xml
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\Microsoft.Practices.Prism.Interactivity.pdb
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\Microsoft.Practices.Prism.Interactivity.xml
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\Microsoft.Practices.Prism.UnityExtensions.pdb
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\Microsoft.Practices.Prism.UnityExtensions.xml
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\Microsoft.Practices.ServiceLocation.xml
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\Microsoft.Practices.Unity.xml
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\Microsoft.Reactive.Testing.xml
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\Newtonsoft.Json.xml
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\NHibernate.xml
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\NLog.xml
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\PostSharp.xml
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\System.Reactive.xml
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\System.Windows.Interactivity.xml
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\System.Reactive.Windows.Threading.xml
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\bin\Release\AMS.Broker.IntegrationService.pssym
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\obj\Release\AMS.Broker.IntegrationService.csprojResolveAssemblyReference.cache
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerIntegrationService\AMS.Broker\obj\Release\AMS.Broker.IntegrationService.exe.postsharp

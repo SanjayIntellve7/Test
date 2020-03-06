@@ -1,0 +1,16 @@
+13/07/2017 20:59:34  VideoAnalyticsManagerIntegrationService-GetStatus -- cameraId:2--!--version:Abandoned Baggage Version 3.0--!--authToken:4ae0b3be-95da-4d09-8000-192168000193
+13/07/2017 20:59:34  VideoAnalyticsManagerIntegrationService-GetDeviceById -- deviceId  = 2
+13/07/2017 21:08:52  VideoAnalyticsManagerIntegrationService-GetStatus -- cameraId:2--!--version:Abandoned Baggage Version 3.0--!--authToken:ae240ebd-f02f-493c-ad3b-192168000193
+13/07/2017 21:08:52  VideoAnalyticsManagerIntegrationService-GetDeviceById -- deviceId  = 2
+13/07/2017 21:16:14  VideoAnalyticsManagerIntegrationService-GetStatus -- cameraId:2--!--version:Abandoned Baggage Version 3.0--!--authToken:ae240ebd-f02f-493c-ad3b-192168000193
+13/07/2017 21:16:14  VideoAnalyticsManagerIntegrationService-GetDeviceById -- deviceId  = 2
+13/07/2017 21:17:30  VideoAnalyticsManagerIntegrationService-GetStatus -- cameraId:2--!--version:Abandoned Baggage Version 3.0--!--authToken:ae240ebd-f02f-493c-ad3b-192168000193
+13/07/2017 21:17:30  VideoAnalyticsManagerIntegrationService-GetDeviceById -- deviceId  = 2
+13/07/2017 21:17:46  VideoAnalyticsManagerIntegrationService-GetStatus -- cameraId:2--!--version:Abandoned Baggage Version 3.0--!--authToken:ae240ebd-f02f-493c-ad3b-192168000193
+13/07/2017 21:17:46  VideoAnalyticsManagerIntegrationService-GetDeviceById -- deviceId  = 2
+13/07/2017 22:00:14  VideoAnalyticsManagerIntegrationService-GetStatus -- cameraId:2--!--version:Abandoned Baggage Version 3.0--!--authToken:4008c34e-0bf2-44f4-9fb3-192168000193
+13/07/2017 22:00:14  VideoAnalyticsManagerIntegrationService-GetDeviceById -- deviceId  = 2
+13/07/2017 22:04:41  VideoAnalyticsManagerIntegrationService-GetStatus -- cameraId:2--!--version:Abandoned Baggage Version 3.0--!--authToken:4008c34e-0bf2-44f4-9fb3-192168000193
+13/07/2017 22:04:41  VideoAnalyticsManagerIntegrationService-GetDeviceById -- deviceId  = 2
+13/07/2017 22:10:17  VideoAnalyticsManagerIntegrationService-GetStatus -- cameraId:2--!--version:Abandoned Baggage Version 3.0--!--authToken:78bf104b-a894-4bce-8603-192168000193
+13/07/2017 22:10:17  VideoAnalyticsManagerIntegrationService-GetDeviceById -- deviceId  = 2

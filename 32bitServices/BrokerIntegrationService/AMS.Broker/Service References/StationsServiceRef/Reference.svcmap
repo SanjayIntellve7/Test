@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="ef1e6764-7d1a-4feb-8935-3c549376c714" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>false</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="https://localhost:6530/SOAP/StationsService" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="StationsService.xsd" MetadataType="Schema" ID="171e283c-6059-4c84-a6aa-9ee74ef3e1a9" SourceId="1" SourceUrl="https://localhost:6530/SOAP/StationsService?xsd=xsd3" />
+    <MetadataFile FileName="StationsService.wsdl" MetadataType="Wsdl" ID="46b9a0a1-1cd8-41fd-b0d0-b5007c2e390e" SourceId="1" SourceUrl="https://localhost:6530/SOAP/StationsService?wsdl" />
+    <MetadataFile FileName="StationsService1.xsd" MetadataType="Schema" ID="2d016a9d-32fc-48c9-9193-54e2df672d5e" SourceId="1" SourceUrl="https://localhost:6530/SOAP/StationsService?xsd=xsd0" />
+    <MetadataFile FileName="StationsService.disco" MetadataType="Disco" ID="468cc003-5ac6-454c-b2b2-28b03eb784e3" SourceId="1" SourceUrl="https://localhost:6530/SOAP/StationsService?disco" />
+    <MetadataFile FileName="StationsService2.xsd" MetadataType="Schema" ID="4d1cd286-d975-4d2c-a03a-5449429dda06" SourceId="1" SourceUrl="https://localhost:6530/SOAP/StationsService?xsd=xsd2" />
+    <MetadataFile FileName="StationsService3.xsd" MetadataType="Schema" ID="c6666d54-2e02-4c7d-903f-548f0e07a459" SourceId="1" SourceUrl="https://localhost:6530/SOAP/StationsService?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

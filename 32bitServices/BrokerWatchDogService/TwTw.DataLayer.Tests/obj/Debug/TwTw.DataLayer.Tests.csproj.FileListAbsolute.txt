@@ -1,0 +1,312 @@
+D:\Yogesh\2020Imaging\code\trunk\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.dll.config
+D:\Yogesh\2020Imaging\code\trunk\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.dll
+D:\Yogesh\2020Imaging\code\trunk\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.pdb
+D:\Yogesh\2020Imaging\code\trunk\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.dll
+D:\Yogesh\2020Imaging\code\trunk\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.Domain.dll
+D:\Yogesh\2020Imaging\code\trunk\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\EntityFramework.dll
+D:\Yogesh\2020Imaging\code\trunk\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.pdb
+D:\Yogesh\2020Imaging\code\trunk\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.Domain.pdb
+D:\Yogesh\2020Imaging\code\trunk\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\EntityFramework.xml
+D:\Yogesh\2020Imaging\code\trunk\AMS\Broker\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.csprojResolveAssemblyReference.cache
+D:\Yogesh\2020Imaging\code\trunk\AMS\Broker\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.dll
+D:\Yogesh\2020Imaging\code\trunk\AMS\Broker\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.pdb
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.dll.config
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.dll
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.pdb
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.dll
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.Domain.dll
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\EntityFramework.dll
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.pdb
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.Domain.pdb
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\EntityFramework.xml
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.csprojResolveAssemblyReference.cache
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.dll
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.pdb
+D:\2020Imaging\code\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.dll.config
+D:\2020Imaging\code\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.dll
+D:\2020Imaging\code\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.pdb
+D:\2020Imaging\code\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.dll
+D:\2020Imaging\code\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.Domain.dll
+D:\2020Imaging\code\Broker\TwTw.DataLayer.Tests\bin\Debug\EntityFramework.dll
+D:\2020Imaging\code\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.pdb
+D:\2020Imaging\code\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.Domain.pdb
+D:\2020Imaging\code\Broker\TwTw.DataLayer.Tests\bin\Debug\EntityFramework.xml
+D:\2020Imaging\code\Broker\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.csprojResolveAssemblyReference.cache
+D:\2020Imaging\code\Broker\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.dll
+D:\2020Imaging\code\Broker\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.pdb
+G:\SVN Code Repository\trunk\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.dll.config
+G:\SVN Code Repository\trunk\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.dll
+G:\SVN Code Repository\trunk\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.pdb
+G:\SVN Code Repository\trunk\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.dll
+G:\SVN Code Repository\trunk\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.Domain.dll
+G:\SVN Code Repository\trunk\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\EntityFramework.dll
+G:\SVN Code Repository\trunk\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.pdb
+G:\SVN Code Repository\trunk\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.Domain.pdb
+G:\SVN Code Repository\trunk\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\EntityFramework.xml
+G:\SVN Code Repository\trunk\AMS\Broker\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.csprojResolveAssemblyReference.cache
+G:\SVN Code Repository\trunk\AMS\Broker\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.dll
+G:\SVN Code Repository\trunk\AMS\Broker\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.pdb
+D:\Svn code Repository 21 Nov 14 latest\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.dll.config
+D:\Svn code Repository 21 Nov 14 latest\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.dll
+D:\Svn code Repository 21 Nov 14 latest\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.pdb
+D:\Svn code Repository 21 Nov 14 latest\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.dll
+D:\Svn code Repository 21 Nov 14 latest\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.Domain.dll
+D:\Svn code Repository 21 Nov 14 latest\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\EntityFramework.dll
+D:\Svn code Repository 21 Nov 14 latest\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.pdb
+D:\Svn code Repository 21 Nov 14 latest\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.Domain.pdb
+D:\Svn code Repository 21 Nov 14 latest\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\EntityFramework.xml
+D:\Svn code Repository 21 Nov 14 latest\AMS\Broker\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.csprojResolveAssemblyReference.cache
+D:\Svn code Repository 21 Nov 14 latest\AMS\Broker\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.dll
+D:\Svn code Repository 21 Nov 14 latest\AMS\Broker\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.pdb
+G:\SVNCodeRepository\trunk\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.dll.config
+G:\SVNCodeRepository\trunk\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.dll
+G:\SVNCodeRepository\trunk\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.pdb
+G:\SVNCodeRepository\trunk\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.dll
+G:\SVNCodeRepository\trunk\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.Domain.dll
+G:\SVNCodeRepository\trunk\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\EntityFramework.dll
+G:\SVNCodeRepository\trunk\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.pdb
+G:\SVNCodeRepository\trunk\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.Domain.pdb
+G:\SVNCodeRepository\trunk\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\EntityFramework.xml
+G:\SVNCodeRepository\trunk\AMS\Broker\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.csprojResolveAssemblyReference.cache
+G:\SVNCodeRepository\trunk\AMS\Broker\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.dll
+G:\SVNCodeRepository\trunk\AMS\Broker\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.pdb
+G:\TouchControl version 1.2\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.dll.config
+G:\TouchControl version 1.2\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.dll
+G:\TouchControl version 1.2\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.pdb
+G:\TouchControl version 1.2\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.dll
+G:\TouchControl version 1.2\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.Domain.dll
+G:\TouchControl version 1.2\Broker\TwTw.DataLayer.Tests\bin\Debug\EntityFramework.dll
+G:\TouchControl version 1.2\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.pdb
+G:\TouchControl version 1.2\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.Domain.pdb
+G:\TouchControl version 1.2\Broker\TwTw.DataLayer.Tests\bin\Debug\EntityFramework.xml
+G:\TouchControl version 1.2\Broker\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.csprojResolveAssemblyReference.cache
+G:\TouchControl version 1.2\Broker\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.dll
+G:\TouchControl version 1.2\Broker\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.pdb
+D:\SVN 1.4.1\Version 1.4.1 Final\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.dll.config
+D:\SVN 1.4.1\Version 1.4.1 Final\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.pdb
+D:\SVN 1.4.1\Version 1.4.1 Final\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.Domain.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\EntityFramework.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.pdb
+D:\SVN 1.4.1\Version 1.4.1 Final\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.Domain.pdb
+D:\SVN 1.4.1\Version 1.4.1 Final\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\EntityFramework.xml
+D:\SVN 1.4.1\Version 1.4.1 Final\BrokerWatchDogService\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.csprojResolveAssemblyReference.cache
+D:\SVN 1.4.1\Version 1.4.1 Final\BrokerWatchDogService\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\BrokerWatchDogService\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.pdb
+D:\V1.5 Broker Distribution\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.dll.config
+D:\V1.5 Broker Distribution\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.dll
+D:\V1.5 Broker Distribution\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.pdb
+D:\V1.5 Broker Distribution\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.dll
+D:\V1.5 Broker Distribution\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.Domain.dll
+D:\V1.5 Broker Distribution\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\EntityFramework.dll
+D:\V1.5 Broker Distribution\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.pdb
+D:\V1.5 Broker Distribution\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.Domain.pdb
+D:\V1.5 Broker Distribution\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\EntityFramework.xml
+D:\V1.5 Broker Distribution\BrokerWatchDogService\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.csprojResolveAssemblyReference.cache
+D:\V1.5 Broker Distribution\BrokerWatchDogService\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.dll
+D:\V1.5 Broker Distribution\BrokerWatchDogService\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.pdb
+D:\SVN 1.4.1\Version 1.4.1 Final\New Broker\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.dll.config
+D:\SVN 1.4.1\Version 1.4.1 Final\New Broker\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\New Broker\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.pdb
+D:\SVN 1.4.1\Version 1.4.1 Final\New Broker\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\New Broker\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.Domain.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\New Broker\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\EntityFramework.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\New Broker\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.pdb
+D:\SVN 1.4.1\Version 1.4.1 Final\New Broker\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.Domain.pdb
+D:\SVN 1.4.1\Version 1.4.1 Final\New Broker\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\EntityFramework.xml
+D:\SVN 1.4.1\Version 1.4.1 Final\New Broker\BrokerWatchDogService\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.csprojResolveAssemblyReference.cache
+D:\SVN 1.4.1\Version 1.4.1 Final\New Broker\BrokerWatchDogService\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\New Broker\BrokerWatchDogService\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.pdb
+D:\V1.5 Broker Distribution\New Broker\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.dll.config
+D:\V1.5 Broker Distribution\New Broker\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.dll
+D:\V1.5 Broker Distribution\New Broker\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.pdb
+D:\V1.5 Broker Distribution\New Broker\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.dll
+D:\V1.5 Broker Distribution\New Broker\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.Domain.dll
+D:\V1.5 Broker Distribution\New Broker\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\EntityFramework.dll
+D:\V1.5 Broker Distribution\New Broker\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.pdb
+D:\V1.5 Broker Distribution\New Broker\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.Domain.pdb
+D:\V1.5 Broker Distribution\New Broker\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\EntityFramework.xml
+D:\V1.5 Broker Distribution\New Broker\BrokerWatchDogService\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.csprojResolveAssemblyReference.cache
+D:\V1.5 Broker Distribution\New Broker\BrokerWatchDogService\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.dll
+D:\V1.5 Broker Distribution\New Broker\BrokerWatchDogService\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.pdb
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal_06022017\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.dll.config
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal_06022017\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal_06022017\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.pdb
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal_06022017\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal_06022017\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.Domain.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal_06022017\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\EntityFramework.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal_06022017\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.pdb
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal_06022017\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.Domain.pdb
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal_06022017\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\EntityFramework.xml
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal_06022017\BrokerWatchDogService\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.csprojResolveAssemblyReference.cache
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal_06022017\BrokerWatchDogService\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal_06022017\BrokerWatchDogService\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.pdb
+D:\V1.5 Broker Distribution\ChangeBrokerAuthtokenFinal_06022017\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.dll.config
+D:\V1.5 Broker Distribution\ChangeBrokerAuthtokenFinal_06022017\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.dll
+D:\V1.5 Broker Distribution\ChangeBrokerAuthtokenFinal_06022017\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.pdb
+D:\V1.5 Broker Distribution\ChangeBrokerAuthtokenFinal_06022017\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.dll
+D:\V1.5 Broker Distribution\ChangeBrokerAuthtokenFinal_06022017\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.Domain.dll
+D:\V1.5 Broker Distribution\ChangeBrokerAuthtokenFinal_06022017\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\EntityFramework.dll
+D:\V1.5 Broker Distribution\ChangeBrokerAuthtokenFinal_06022017\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.pdb
+D:\V1.5 Broker Distribution\ChangeBrokerAuthtokenFinal_06022017\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.Domain.pdb
+D:\V1.5 Broker Distribution\ChangeBrokerAuthtokenFinal_06022017\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\EntityFramework.xml
+D:\V1.5 Broker Distribution\ChangeBrokerAuthtokenFinal_06022017\BrokerWatchDogService\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.csprojResolveAssemblyReference.cache
+D:\V1.5 Broker Distribution\ChangeBrokerAuthtokenFinal_06022017\BrokerWatchDogService\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.dll
+D:\V1.5 Broker Distribution\ChangeBrokerAuthtokenFinal_06022017\BrokerWatchDogService\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.pdb
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.dll.config
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.pdb
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.Domain.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\EntityFramework.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.pdb
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.Domain.pdb
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\EntityFramework.xml
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal\BrokerWatchDogService\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.csprojResolveAssemblyReference.cache
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal\BrokerWatchDogService\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\ChangeBrokerAuthtokenFinal\BrokerWatchDogService\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.pdb
+D:\V1.5 Broker Distribution\ChangeBrokerAuthtokenFinal\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.dll.config
+D:\V1.5 Broker Distribution\ChangeBrokerAuthtokenFinal\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.dll
+D:\V1.5 Broker Distribution\ChangeBrokerAuthtokenFinal\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.pdb
+D:\V1.5 Broker Distribution\ChangeBrokerAuthtokenFinal\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.dll
+D:\V1.5 Broker Distribution\ChangeBrokerAuthtokenFinal\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.Domain.dll
+D:\V1.5 Broker Distribution\ChangeBrokerAuthtokenFinal\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\EntityFramework.dll
+D:\V1.5 Broker Distribution\ChangeBrokerAuthtokenFinal\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.pdb
+D:\V1.5 Broker Distribution\ChangeBrokerAuthtokenFinal\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.Domain.pdb
+D:\V1.5 Broker Distribution\ChangeBrokerAuthtokenFinal\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\EntityFramework.xml
+D:\V1.5 Broker Distribution\ChangeBrokerAuthtokenFinal\BrokerWatchDogService\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.csprojResolveAssemblyReference.cache
+D:\V1.5 Broker Distribution\ChangeBrokerAuthtokenFinal\BrokerWatchDogService\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.dll
+D:\V1.5 Broker Distribution\ChangeBrokerAuthtokenFinal\BrokerWatchDogService\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.pdb
+D:\SVN 1.4.1\Version 1.4.1 Final\Final Code From Trupti_28022017\ChangeBrokerAuthtokenFinal\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.dll.config
+D:\SVN 1.4.1\Version 1.4.1 Final\Final Code From Trupti_28022017\ChangeBrokerAuthtokenFinal\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\Final Code From Trupti_28022017\ChangeBrokerAuthtokenFinal\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.pdb
+D:\SVN 1.4.1\Version 1.4.1 Final\Final Code From Trupti_28022017\ChangeBrokerAuthtokenFinal\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\Final Code From Trupti_28022017\ChangeBrokerAuthtokenFinal\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.Domain.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\Final Code From Trupti_28022017\ChangeBrokerAuthtokenFinal\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\EntityFramework.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\Final Code From Trupti_28022017\ChangeBrokerAuthtokenFinal\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.pdb
+D:\SVN 1.4.1\Version 1.4.1 Final\Final Code From Trupti_28022017\ChangeBrokerAuthtokenFinal\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.Domain.pdb
+D:\SVN 1.4.1\Version 1.4.1 Final\Final Code From Trupti_28022017\ChangeBrokerAuthtokenFinal\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\EntityFramework.xml
+D:\SVN 1.4.1\Version 1.4.1 Final\Final Code From Trupti_28022017\ChangeBrokerAuthtokenFinal\BrokerWatchDogService\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.csprojResolveAssemblyReference.cache
+D:\SVN 1.4.1\Version 1.4.1 Final\Final Code From Trupti_28022017\ChangeBrokerAuthtokenFinal\BrokerWatchDogService\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.dll
+D:\SVN 1.4.1\Version 1.4.1 Final\Final Code From Trupti_28022017\ChangeBrokerAuthtokenFinal\BrokerWatchDogService\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.pdb
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.dll.config
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.dll
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.pdb
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.dll
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.Domain.dll
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\EntityFramework.dll
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.pdb
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.Domain.pdb
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\EntityFramework.xml
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerWatchDogService\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.csprojResolveAssemblyReference.cache
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerWatchDogService\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.dll
+D:\SVN 1.4.1\Code for chennai\ChangeBrokerAuthtokenFinal\BrokerWatchDogService\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.pdb
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.dll.config
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.dll
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.pdb
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.dll
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.Domain.dll
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\EntityFramework.dll
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.pdb
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.Domain.pdb
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\EntityFramework.xml
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerWatchDogService\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.csprojResolveAssemblyReference.cache
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerWatchDogService\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.dll
+D:\Version 1.4.2\ChangeBrokerAuthtokenFinal\BrokerWatchDogService\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.pdb
+D:\DeviceLevel_version_1.4.2\Broker\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.dll.config
+D:\DeviceLevel_version_1.4.2\Broker\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.dll
+D:\DeviceLevel_version_1.4.2\Broker\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.pdb
+D:\DeviceLevel_version_1.4.2\Broker\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.dll
+D:\DeviceLevel_version_1.4.2\Broker\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.Domain.dll
+D:\DeviceLevel_version_1.4.2\Broker\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\EntityFramework.dll
+D:\DeviceLevel_version_1.4.2\Broker\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.pdb
+D:\DeviceLevel_version_1.4.2\Broker\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.Domain.pdb
+D:\DeviceLevel_version_1.4.2\Broker\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\EntityFramework.xml
+D:\DeviceLevel_version_1.4.2\Broker\BrokerWatchDogService\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.csprojResolveAssemblyReference.cache
+D:\DeviceLevel_version_1.4.2\Broker\BrokerWatchDogService\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.dll
+D:\DeviceLevel_version_1.4.2\Broker\BrokerWatchDogService\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.pdb
+D:\Version 1.4.2\Broker\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.dll.config
+D:\Version 1.4.2\Broker\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.dll
+D:\Version 1.4.2\Broker\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.pdb
+D:\Version 1.4.2\Broker\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.dll
+D:\Version 1.4.2\Broker\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.Domain.dll
+D:\Version 1.4.2\Broker\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\EntityFramework.dll
+D:\Version 1.4.2\Broker\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.pdb
+D:\Version 1.4.2\Broker\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.Domain.pdb
+D:\Version 1.4.2\Broker\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\EntityFramework.xml
+D:\Version 1.4.2\Broker\BrokerWatchDogService\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.csprojResolveAssemblyReference.cache
+D:\Version 1.4.2\Broker\BrokerWatchDogService\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.dll
+D:\Version 1.4.2\Broker\BrokerWatchDogService\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.pdb
+D:\Version 1.5\Broker\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.dll.config
+D:\Version 1.5\Broker\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.dll
+D:\Version 1.5\Broker\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.pdb
+D:\Version 1.5\Broker\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.dll
+D:\Version 1.5\Broker\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.Domain.dll
+D:\Version 1.5\Broker\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\EntityFramework.dll
+D:\Version 1.5\Broker\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.pdb
+D:\Version 1.5\Broker\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.Domain.pdb
+D:\Version 1.5\Broker\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\EntityFramework.xml
+D:\Version 1.5\Broker\BrokerWatchDogService\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.csprojResolveAssemblyReference.cache
+D:\Version 1.5\Broker\BrokerWatchDogService\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.dll
+D:\Version 1.5\Broker\BrokerWatchDogService\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.pdb
+D:\SVN Version 1.5\trunk\AMS\Broker\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.dll.config
+D:\SVN Version 1.5\trunk\AMS\Broker\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.pdb
+D:\SVN Version 1.5\trunk\AMS\Broker\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.Domain.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\EntityFramework.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.pdb
+D:\SVN Version 1.5\trunk\AMS\Broker\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.Domain.pdb
+D:\SVN Version 1.5\trunk\AMS\Broker\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\EntityFramework.xml
+D:\SVN Version 1.5\trunk\AMS\Broker\BrokerWatchDogService\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.csprojResolveAssemblyReference.cache
+D:\SVN Version 1.5\trunk\AMS\Broker\BrokerWatchDogService\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\BrokerWatchDogService\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.pdb
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.dll.config
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.pdb
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.Domain.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\EntityFramework.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.pdb
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.Domain.pdb
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\EntityFramework.xml
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.csprojResolveAssemblyReference.cache
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.pdb
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.dll.config
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.pdb
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.Domain.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\EntityFramework.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.pdb
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.Domain.pdb
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\EntityFramework.xml
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.csprojResolveAssemblyReference.cache
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.pdb
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.dll.config
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.pdb
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.Domain.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\EntityFramework.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.pdb
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.Domain.pdb
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\EntityFramework.xml
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.csprojResolveAssemblyReference.cache
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.pdb
+E:\SVN Repository\Version 1.5\Broker\32bitServices\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.dll.config
+E:\SVN Repository\Version 1.5\Broker\32bitServices\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.dll
+E:\SVN Repository\Version 1.5\Broker\32bitServices\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.pdb
+E:\SVN Repository\Version 1.5\Broker\32bitServices\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.dll
+E:\SVN Repository\Version 1.5\Broker\32bitServices\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.Domain.dll
+E:\SVN Repository\Version 1.5\Broker\32bitServices\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\EntityFramework.dll
+E:\SVN Repository\Version 1.5\Broker\32bitServices\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.pdb
+E:\SVN Repository\Version 1.5\Broker\32bitServices\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\TwTw.Domain.pdb
+E:\SVN Repository\Version 1.5\Broker\32bitServices\BrokerWatchDogService\TwTw.DataLayer.Tests\bin\Debug\EntityFramework.xml
+E:\SVN Repository\Version 1.5\Broker\32bitServices\BrokerWatchDogService\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.csprojResolveAssemblyReference.cache
+E:\SVN Repository\Version 1.5\Broker\32bitServices\BrokerWatchDogService\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.dll
+E:\SVN Repository\Version 1.5\Broker\32bitServices\BrokerWatchDogService\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.pdb

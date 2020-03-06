@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/Logica.RealTimeDataMgmt.WcfContracts" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Logica.RealTimeDataMgmt.WcfContracts" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://192.168.0.52:4530/SOAP/StreamInsightService?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/System" />
+  <xs:complexType name="WcfBaseEvent">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="EventShape" type="tns:WcfEventShape" />
+      <xs:element minOccurs="0" name="Source" nillable="true" type="xs:string" />
+      <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/System" minOccurs="0" name="StartTime" type="q1:DateTimeOffset" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="WcfBaseEvent" nillable="true" type="tns:WcfBaseEvent" />
+  <xs:simpleType name="WcfEventShape">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Interval" />
+      <xs:enumeration value="Edge" />
+      <xs:enumeration value="Point" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="WcfEventShape" nillable="true" type="tns:WcfEventShape" />
+  <xs:simpleType name="WcfEdgeType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Start" />
+      <xs:enumeration value="End" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="WcfEdgeType" nillable="true" type="tns:WcfEdgeType" />
+</xs:schema>

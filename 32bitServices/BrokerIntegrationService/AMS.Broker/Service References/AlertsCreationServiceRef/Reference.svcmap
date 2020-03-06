@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="e3996dc6-7633-49b8-a082-7d0c64d2339e" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>false</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="https://localhost:6530/SOAP/AlertsCreationService" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="AlertsCreationService.xsd" MetadataType="Schema" ID="8ab54a6c-56fc-4ead-bfa0-823b7db89dca" SourceId="1" SourceUrl="https://localhost:6530/SOAP/AlertsCreationService?xsd=xsd0" />
+    <MetadataFile FileName="AlertsCreationService.disco" MetadataType="Disco" ID="e6422aa1-058f-4a4d-a1b6-0b9dc7cd2e2b" SourceId="1" SourceUrl="https://localhost:6530/SOAP/AlertsCreationService?disco" />
+    <MetadataFile FileName="AlertsCreationService2.xsd" MetadataType="Schema" ID="5848c080-f07f-4e03-9dea-517a0d8d1cae" SourceId="1" SourceUrl="https://localhost:6530/SOAP/AlertsCreationService?xsd=xsd2" />
+    <MetadataFile FileName="AlertsCreationService1.xsd" MetadataType="Schema" ID="9639d390-56e1-4588-9e53-87ff17ecd4d1" SourceId="1" SourceUrl="https://localhost:6530/SOAP/AlertsCreationService?xsd=xsd1" />
+    <MetadataFile FileName="AlertsCreationService.wsdl" MetadataType="Wsdl" ID="b2f47f4d-b172-45b2-8962-a54ce59a5e63" SourceId="1" SourceUrl="https://localhost:6530/SOAP/AlertsCreationService?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

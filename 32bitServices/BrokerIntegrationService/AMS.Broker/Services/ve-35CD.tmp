@@ -1,0 +1,758 @@
+﻿using System.Collections.Generic;
+using System.ComponentModel.Composition;
+using System.ServiceModel;
+using System.ServiceModel.Activation;
+using System.ServiceModel.Web;
+using AMS.Broker.IntegrationService.BusinessLogic.Factories;
+using AMS.Broker.IntegrationService.Contracts.DTO;
+using AMS.Broker.IntegrationService.Contracts.Services;
+using NLog;
+using Microsoft.Practices.Unity;
+using System.IO;
+using System;
+using AMS.Broker.IntegrationService.DataStore;
+using AutoMapper;
+using System.Text;
+using System.Globalization;
+using System.Linq;
+using System.Linq.Expressions;
+
+using AlertDTO = AMS.Broker.IntegrationService.Contracts.DTO.Alert;
+using InfoDTO = AMS.Broker.IntegrationService.Contracts.DTO.Info;
+using ResourceDTO = AMS.Broker.IntegrationService.Contracts.DTO.Resource;
+using AreaDTO = AMS.Broker.IntegrationService.Contracts.DTO.Area;
+using Status = AMS.Broker.IntegrationService.Contracts.DTO.Status;
+//using EventDTO = AMS.Broker.IntegrationService.Contracts.DTO.Event;
+
+namespace AMS.Broker.IntegrationService.Services
+{
+    [ServiceBehavior(InstanceContextMode = InstanceContextMode.Single)]
+    [AspNetCompatibilityRequirements(RequirementsMode = AspNetCompatibilityRequirementsMode.Allowed)]
+    public sealed class KronosService : IKronosService
+    {
+        private static readonly Logger Logger = LogManager.GetCurrentClassLogger();
+
+        readonly IKronosService _kronosServiceImpl;
+        readonly IAlertsService _alertServiceImpl;
+        readonly IAlertsCreationService _alertCreationService;
+        public static StreamWriter sw ;//= new StreamWriter("C:\\KronosServerReceivedData.txt");
+
+        public KronosService(IAlertsService alertService, IAlertsCreationService alertCreationService)
+        {
+            _kronosServiceImpl = BrokerService.Container.Resolve<IKronosService>();
+            _alertServiceImpl = alertService;
+            _alertCreationService = alertCreationService;
+        }
+
+        public KronosService()
+        {
+            _kronosServiceImpl = BrokerService.Container.Resolve<IKronosService>();
+        }
+        ~KronosService()
+        {
+            sw.Close();
+        }
+
+        internal static void Initialise(IAlertsService alertService, IAlertsCreationService alertCreationService)
+        {
+            try
+            {
+                Logger.Info("------------------------------------");
+                Logger.Info("starting KronosService");
+
+                sw = new StreamWriter("C:\\KronosServerReceivedData.txt");
+
+                var service = new KronosService(alertService, alertCreationService);
+                var controllerHost = new ServiceHost(service);
+                controllerHost.Open();
+
+                Logger.Info("listening at {0}", controllerHost.Description.Endpoints[0].ListenUri);
+                Logger.Info("------------------------------------");
+
+                AppDomain.CurrentDomain.UnhandledException += new UnhandledExceptionEventHandler(CurrentDomain_UnhandledException);   //amit 04112016
+            }
+            catch (Exception ex)
+            {
+                Logger.Info("KronosService Initialise() Exception" + ex.Message); 
+            }
+        }
+        static void CurrentDomain_UnhandledException(object sender, UnhandledExceptionEventArgs e) //amit 04112016       
+        {
+            Logger.Info("Kronos Service Unhandled UI Exception" + (e.ExceptionObject as Exception).Message);
+        }
+        public int GetHexToNumber(string hex)
+        {
+            int nRetVal = 0;
+            string _strTmp = "";
+            string _strResult = "";
+            try
+            {
+                for (int n = 0; n < hex.Length; n++)
+                {
+                    _strTmp = hex.Substring(n,2);
+                    nRetVal = Convert.ToInt32(_strTmp, 16);
+                    _strResult = _strResult + nRetVal.ToString();
+                    n++;
+                }
+                nRetVal = Convert.ToInt32(_strResult);
+            }
+            catch (Exception ex)
+            {
+                Logger.Info("KronosService GetHexToNumber() Exception" + ex.Message); 
+            }
+
+            return nRetVal;
+        }
+
+        public DateTime GetHexToDateTime(string hex)
+        {
+            DateTime nRet = new DateTime(); //DateTime.Now;
+            int nRetVal = 0;
+            string _strTmp = "";
+            string _strResult = "";
+            string _strYear = "";
+            string _strMonth = "";
+            string _strDay = "";
+            string _strHH = "";
+            string _strMM = "";
+            string _strSS = "";
+
+            try
+            {
+                //Year
+                _strTmp = hex.Substring(0, 2);
+                nRetVal = Convert.ToInt32(_strTmp, 16);
+                _strYear = nRetVal.ToString();
+
+                 //Month
+                _strTmp = hex.Substring(2, 2);
+                nRetVal = Convert.ToInt32(_strTmp, 16);
+                _strMonth = nRetVal.ToString();
+                if (_strMonth.Length == 1)
+                    _strMonth = "0" + _strMonth;
+                 //Day
+                _strTmp = hex.Substring(4, 2);
+                nRetVal = Convert.ToInt32(_strTmp, 16);
+                _strDay = nRetVal.ToString();
+                if (_strDay.ToString().Length == 1)
+                    _strDay = "0" + _strDay;
+                _strResult = "20" + _strYear.Trim() + "-" + _strMonth.Trim() + "-" + _strDay.ToString() + " ";
+
+                 //HH
+                _strTmp = hex.Substring(6, 2);
+                nRetVal = Convert.ToInt32(_strTmp, 16);
+                _strHH = nRetVal.ToString();
+                if (_strHH.Length == 1)
+                    _strHH = "0" + _strHH;
+                _strResult = _strResult + _strHH.ToString() + ":";                
+                //MM
+                _strTmp = hex.Substring(8, 2);
+                nRetVal = Convert.ToInt32(_strTmp, 16);
+                _strMM = nRetVal.ToString();
+                if (_strMM.Length == 1)
+                    _strMM = "0" + _strMM;
+                _strResult = _strResult + _strMM.ToString() + ":";
+
+                //SS
+                _strTmp = hex.Substring(10, 2);
+                nRetVal = Convert.ToInt32(_strTmp, 16);
+                _strSS = nRetVal.ToString();
+                if (_strSS.Length == 1)
+                    _strSS = "0" + _strSS;
+                _strResult = _strResult + _strSS.ToString();
+
+                string _myFormat = "yyyy-MM-dd HH:mm:ss";
+                //ParseExact(MyString, "yyyy-MM-dd HH:mm tt",
+                nRet = DateTime.ParseExact(_strResult,_myFormat, null);
+
+               // nRet = Convert.ToDateTime(_strResult.Trim());
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                Logger.Info("KronosService GetHexToDateTime() Exception" + ex.Message); 
+            }
+
+            return nRet;
+        }
+
+        public string GetHexToString(string hex)
+        {
+            int _value = 0;
+            string _strRetVal = "";
+            string _strTmp="";
+            string _strResult="";
+            try
+            {
+                for (int n = 0; n < hex.Length; n++)
+                {
+                    _strTmp = hex.Substring(n,2);
+                    _value = Convert.ToInt32(_strTmp, 16);
+                    // Get the character corresponding to the integral value. 
+                    string stringValue = Char.ConvertFromUtf32(_value);
+                    char charValue = (char)_value;
+                    _strRetVal = charValue.ToString();
+                    //Console.WriteLine("hexadecimal value = {0}, int value = {1}, char value = {2} or {3}",_strTmp, _value, stringValue, charValue);     
+                   _strResult = _strResult + _strRetVal.ToString();
+                    n++;
+                }      
+                _strRetVal=_strResult.Trim();
+            }
+            catch (Exception ex)
+            {
+                Logger.Info("KronosService GetHexToString() Exception" + ex.Message); 
+            }
+
+            return _strRetVal;
+        }
+
+        public string GetASCIIToString(string str)
+        {
+            string strRetVal = "";
+            string _strTmp = "";           
+            string _strResult = "";
+            try
+            {
+                for (int n = 0; n < str.Length; n++)
+                {
+                    _strTmp = str.Substring(n, 2);
+
+                    int chk=0;
+                    bool chkInt = int.TryParse(_strTmp,out chk);
+
+                    if (chkInt == true)
+                    {
+                        // int chk = Convert.ToInt32(_strTmp);
+
+                        if (chk >= 30 && chk < 40)
+                        {
+                            int nc = Int32.Parse(_strTmp, System.Globalization.NumberStyles.HexNumber);
+                            char chars = Convert.ToChar(nc);
+                            _strResult = _strResult + chars.ToString();
+                        }
+                        else
+                        {
+                            _strResult = "0";
+                        }
+                    }
+                    else
+                    {
+                        _strResult = "0";
+                    }
+
+                    n++;
+                }
+                strRetVal = _strResult;
+            }
+            catch (Exception ex)
+            {
+                Logger.Info("KronosService GetASCIIToString() Exception:" + ex.Message); 
+            }
+
+            return strRetVal;
+        }
+
+        public long GetDeviceID(string _strExtDevID)
+        {
+            long nRetVal = 0;
+            try
+            {
+                using (var context = new CentralDBEntities())
+                {
+                    var deviceId = (from deviceTemp in context.Device
+                                    where deviceTemp.ExternalId == _strExtDevID
+                                    select (deviceTemp.DeviceId)).Single();
+
+                    if (deviceId != null)
+                    {
+                        nRetVal = deviceId;
+                    }
+                }
+            }
+            catch(Exception ex)
+            {
+                Logger.Info("KronosService GetDeviceID() Exception:" + ex.Message); 
+            }
+            return nRetVal;
+        }
+
+        public EventDTO ParceData(List<EventFieldDefinitionDto> _evtDef,string _strData)
+        {
+            EventDTO _eventData = new EventDTO();
+            string strTestError = "";
+            string _strTemp = "";
+
+            try
+            {
+                string _strFeildName;
+                int _nFeildType;
+                int _nStartByte;
+                int _nNumberOfByte;
+                                
+                _eventData.ExternalMessage = _strData;
+                _strData = _strData.Replace("-", "");
+
+                _strTemp = _strData.Substring(0, 1);
+                _strTemp = _strTemp.Replace(System.Environment.NewLine, "");
+                _strTemp = _strTemp.Replace("\n", String.Empty);
+                _strTemp = _strTemp.Replace("\r", String.Empty);
+                _strTemp = _strTemp.Replace("\t", String.Empty);
+                int y = _strTemp.Length;
+                if (y > 0)
+                {
+                    _strData = _strData.Substring(1);
+                }
+
+                foreach (EventFieldDefinitionDto value in _evtDef)
+                {
+                    strTestError = value.FieldName;
+                    //Frame Type
+                    if (value.FieldName.Equals("FrameTypeCode"))
+                    {
+                        _strFeildName = value.FieldName;
+                        //_nFeildType =value.EventFieldType;
+                        _nStartByte = value.StartByte;
+                        _nNumberOfByte = value.NumberOfBytes;
+
+                        if (_strData != null && !(_strData.Equals("")) && _strData.Length > 0)
+                        {
+                            _strTemp = _strData.Substring(_nStartByte, _nNumberOfByte * 2);
+                            if (_strTemp != null && !(_strTemp.Equals("")))
+                            {
+                                _eventData.FrameTypeCode = Convert.ToInt32(_strTemp);
+                            }
+                        }
+                    }
+                    //Encription Marker
+                    if (value.FieldName.Equals("EncryptionMarker"))
+                    {
+
+                    }
+                    //FrameID
+                    if (value.FieldName.Equals("FrameID"))
+                    {
+                        _strFeildName = value.FieldName;
+                        //_nFeildType =value.EventFieldType;
+                        _nStartByte = value.StartByte;
+                        _nNumberOfByte = value.NumberOfBytes;
+
+                        if (_strData != null && !(_strData.Equals("")) && _strData.Length > 0)
+                        {
+                            _strTemp = _strData.Substring(_nStartByte * 2, _nNumberOfByte * 2);
+                            if (_strTemp != null && !(_strTemp.Equals("")))
+                            {
+                                _eventData.FrameId = GetHexToNumber(_strTemp);
+                            }
+                        }
+                    }
+                    //Driver Name
+                    if (value.FieldName.Equals("DriverName"))
+                    {
+                        _strFeildName = value.FieldName;
+                        //_nFeildType =value.EventFieldType;
+                        _nStartByte = value.StartByte;
+                        _nNumberOfByte = value.NumberOfBytes;
+
+                        if (_strData != null && !(_strData.Equals("")) && _strData.Length > 0)
+                        {
+                            _strTemp = _strData.Substring(_nStartByte * 2, _nNumberOfByte * 2);
+                            if (_strTemp != null && !(_strTemp.Equals("")))
+                            {
+                                _eventData.DriverName = GetHexToString(_strTemp);
+                            }
+                        }
+                    }
+                    //Driver Port
+                    if (value.FieldName.Equals("DriverPort"))
+                    {
+                        _strFeildName = value.FieldName;
+                        //_nFeildType =value.EventFieldType;
+                        _nStartByte = value.StartByte;
+                        _nNumberOfByte = value.NumberOfBytes;
+
+                        if (_strData != null && !(_strData.Equals("")) && _strData.Length > 0)
+                        {
+                            _strTemp = _strData.Substring(_nStartByte * 2, _nNumberOfByte * 2);
+                            if (_strTemp != null && !(_strTemp.Equals("")))
+                            {
+                                _eventData.DriverPortNumber = GetHexToString(_strTemp);
+                            }
+                        }
+                    }
+                    //Dev's ID
+                    if (value.FieldName.Equals("DevID"))
+                    {
+                        _strFeildName = value.FieldName;
+                        //_nFeildType =value.EventFieldType;
+                        _nStartByte = value.StartByte;
+                        _nNumberOfByte = value.NumberOfBytes;
+
+                        if (_strData != null && !(_strData.Equals("")) && _strData.Length > 0)
+                        {
+                            _strTemp = _strData.Substring(_nStartByte * 2, _nNumberOfByte * 2);
+                            if (_strTemp != null && !(_strTemp.Equals("")))
+                            {
+                                _eventData.EventDevID = GetHexToString(_strTemp);
+                                //Get Device ID from external ID
+                                _eventData.DeviceId = GetDeviceID("0000001920");
+                            }
+                        }
+                    }
+                    //Event Time
+                    if (value.FieldName.Equals("EventTime"))
+                    {
+                        _strFeildName = value.FieldName;
+                        //_nFeildType =value.EventFieldType;
+                        _nStartByte = value.StartByte;
+                        _nNumberOfByte = value.NumberOfBytes;
+
+                        if (_strData != null && !(_strData.Equals("")) && _strData.Length > 0)
+                        {
+                            _strTemp = _strData.Substring(_nStartByte * 2, _nNumberOfByte * 2);
+                            if (_strTemp != null && !(_strTemp.Equals("")))
+                            {
+                                _eventData.TimeSent = GetHexToDateTime(_strTemp);
+                            }
+                        }
+                    }
+                    //Zone & SubSsystem
+                    if (value.FieldName.Equals("ZoneAndSubSys"))
+                    {
+                        _strFeildName = value.FieldName;
+                        //_nFeildType =value.EventFieldType;
+                        _nStartByte = value.StartByte;
+                        _nNumberOfByte = value.NumberOfBytes;
+
+                        if (_strData != null && !(_strData.Equals("")) && _strData.Length > 0)
+                        {
+                            _strTemp = _strData.Substring(_nStartByte * 2, _nNumberOfByte * 2);
+                            if (_strTemp != null && !(_strTemp.Equals("")))
+                            {
+                                _eventData.ZoneSubsystem = GetHexToString(_strTemp);
+                            }
+                        }
+                    }
+                    //Accound ID
+                    if (value.FieldName.Equals("AccountID"))
+                    {
+                        _strFeildName = value.FieldName;
+                        //_nFeildType =value.EventFieldType;
+                        _nStartByte = value.StartByte;
+                        _nNumberOfByte = value.NumberOfBytes;
+
+                        if (_strData != null && !(_strData.Equals("")) && _strData.Length > 0)
+                        {
+                            _strTemp = _strData.Substring(_nStartByte * 2, _nNumberOfByte * 2);
+                            if (_strTemp != null && !(_strTemp.Equals("")))
+                            {
+                                string strTest = GetASCIIToString(_strTemp);
+                                _eventData.PanelAccountId = Convert.ToInt32(strTest);
+                            }
+                        }
+                    }
+                    //Qualifier
+                    if (value.FieldName.Equals("Qualifier"))
+                    {
+                        _strFeildName = value.FieldName;
+                        //_nFeildType =value.EventFieldType;
+                        _nStartByte = value.StartByte;
+                        _nNumberOfByte = value.NumberOfBytes;
+
+                        if (_strData != null && !(_strData.Equals("")) && _strData.Length > 0)
+                        {
+                            _strTemp = _strData.Substring(_nStartByte * 2, _nNumberOfByte * 2);
+                            if (_strTemp != null && !(_strTemp.Equals("")))
+                            {
+                                _eventData.Qualifier ="1" ;//GetASCIIToString(_strTemp);
+                            }
+                        }
+                    }
+                    //Event Code
+                    if (value.FieldName.Equals("EvenyCode"))
+                    {
+                        _strFeildName = value.FieldName;
+                        //_nFeildType =value.EventFieldType;
+                        _nStartByte = value.StartByte;
+                        _nNumberOfByte = value.NumberOfBytes;
+
+                        if (_strData != null && !(_strData.Equals("")) && _strData.Length > 0)
+                        {
+                            _strTemp = _strData.Substring(_nStartByte * 2, _nNumberOfByte * 2);
+                            if (_strTemp != null && !(_strTemp.Equals("")))
+                            {
+                                _eventData.EventCode = GetASCIIToString(_strTemp);//110
+                            }
+                        }
+                    }
+                    //Zone Code
+                    if (value.FieldName.Equals("ZoneCode"))
+                    {
+                        _strFeildName = value.FieldName;
+                        //_nFeildType =value.EventFieldType;
+                        _nStartByte = value.StartByte;
+                        _nNumberOfByte = value.NumberOfBytes;
+
+                        if (_strData != null && !(_strData.Equals("")) && _strData.Length > 0)
+                        {
+                            _strTemp = _strData.Substring(_nStartByte * 2, _nNumberOfByte * 2);
+                            if (_strTemp != null && !(_strTemp.Equals("")))
+                            {
+                                _eventData.ZoneCode = GetASCIIToString(_strTemp);
+                            }
+                        }
+                    }
+                    //Line Code
+                    if (value.FieldName.Equals("LineCode"))
+                    {
+                        _strFeildName = value.FieldName;
+                        //_nFeildType =value.EventFieldType;
+                        _nStartByte = value.StartByte;
+                        _nNumberOfByte = value.NumberOfBytes;
+
+                        if (_strData != null && !(_strData.Equals("")) && _strData.Length > 0)
+                        {
+                            _strTemp = _strData.Substring(_nStartByte * 2, _nNumberOfByte * 2);
+                            if (_strTemp != null && !(_strTemp.Equals("")))
+                            {
+                                _eventData.LineCode = GetASCIIToString(_strTemp);
+                            }
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                string strError = strTestError + _strTemp;
+                Console.WriteLine(ex.Message);
+                Logger.Info("KronosService ParceData() Exception:" + ex.Message); 
+            }
+            
+            /*
+            events.DeviceId = 7;
+            events.PanelAccountId = 7;
+            events.EventCode = "001";
+            events.TimeSent = DateTime.Now;
+            events.ExternalMessage = message.ToString();
+            events.FrameTypeCode = 1;
+            events.FrameId = 6;
+            events.Qualifier = "0";
+            events.ZoneCode = "001";
+            events.LineCode = "001";
+            events.DriverName = "Bosh";
+            events.DriverPortNumber = "1081";
+            events.EventDevID = "0";
+            events.ZoneSubsystem = "0";
+            events.AlertId = 0;
+            events.AreaId = 0;    */
+            return _eventData;
+        }
+
+        public string GetActualFrameID(string _strFframeID)
+        {
+            switch (_strFframeID)
+            {
+                case "06":
+                    return "6";
+                case "05":
+                    return "5";
+                default:
+                    return "0";
+            }
+        }
+
+        [Import("KronosAlertBuilder")]
+        private IAlertBuilder<EventDTO> _alertBuilder;
+
+        public int ConsumeEvent(string message)
+        {
+            Logger.Info("");
+            Logger.Info("------------------------------------");
+            Logger.Info("Kronos: Service ConsumeEvent" + message.ToString());
+            string _strFrameType="";
+            int nRetVal = 0;
+
+            try
+            {
+              ////Get the frame type from input string
+                if(!(message.ToString().Equals("")))
+                {                    
+                    _strFrameType = message.ToString().Substring(1,2);
+                }
+
+                _strFrameType = GetActualFrameID(_strFrameType);
+                ////Get the Protocl defination
+                EventTypeTemplateDto clsProtocol = GetEventTypeTemplate(_strFrameType);
+                if (clsProtocol != null)
+                {
+                    string _strEvtTmpName = clsProtocol.EventTemplateName;
+                    Logger.Info("Kronos: Service strEvtTmpName " + _strEvtTmpName.ToString());
+                    List<EventFieldDefinitionDto> _evtDef = clsProtocol.EventFieldDefinition;
+                    Logger.Info("Kronos: Service EventFieldDefinition Size : " + _evtDef.Count);
+                    //public List<EventFieldDefinitionDto> EventFieldDefinition { get; set; }
+
+                    try
+                    {
+                        /////Parce the data
+                        if (_evtDef.Count > 0)
+                        {
+                            EventDTO events = ParceData(_evtDef, message.ToString());
+                            if (events != null)
+                            {
+                                ////Event Push in to Database
+                                using (var context = new CentralDBEntities())
+                                {
+                                    var eventDB = Mapper.Map<AMS.Broker.IntegrationService.DataStore.Event>(events);
+
+                                    context.Event.Add(eventDB);
+
+                                    bool result = context.SaveChanges() > 0;
+                                    ////Finally
+                                    if (result)
+                                        nRetVal = 1;
+
+                                    /////To Identify ...This Event ..Is it a Alart..?
+                                    var count = 0;
+                                    var templatedefid = 0;
+
+                                    /////////Get Event Desc....from EventCode Table
+                                    string strEventDesc =eventDB.EventCode;
+                                    using (var dbeventdesc = new CentralDBEntities())
+                                    {
+                                        int nErrorCcode = 0;
+                                        if (!(strEventDesc.Equals("")))
+                                        {
+                                            nErrorCcode = Int32.Parse(strEventDesc.Trim());
+                                        }
+
+                                        var subquery = from u in dbeventdesc.EventCode
+                                                       where u.EventCode1 == nErrorCcode
+                                                       select u.EventAssociated;
+
+                                        count = subquery.Count();
+                                        if(count > 0)
+                                            strEventDesc = subquery.FirstOrDefault();                                         
+                                    }
+
+                                    using (var dbeventtype = new CentralDBEntities())
+                                    {
+                                        string strFrameID = "";
+                                        strFrameID = eventDB.FrameTypeCode.ToString();//eventDB.FrameId.ToString();
+                                        var subquery = from u in dbeventtype.EventTypeTemplate
+                                                       where u.ExternalId == strFrameID
+                                                       select u.EventTypeTemplateId;
+
+                                        count = subquery.Count();
+                                        templatedefid = subquery.FirstOrDefault();
+                                        Logger.Info("---------------Count for Template = " + count);
+                                    }
+
+                                    if (count > 0)
+                                    {
+                                        using (var dbcontext = new CentralDBEntities())
+                                        {
+                                            int nEvtCode = Int32.Parse(eventDB.EventCode);
+                                            int nQualifire = Int32.Parse(eventDB.Qualifier);
+                                            var alerttemplates = from tc in dbcontext.EventTemplate
+                                                                 where tc.EventCodeId == nEvtCode
+                                                                 where tc.EventQualifierId == nQualifire
+                                                                 where tc.EventTemplateId == templatedefid
+                                                                 select tc;
+                                            var alerttemplate = alerttemplates.FirstOrDefault();
+                                            count = alerttemplates.Count();
+                                            if (count > 0)
+                                            {
+                                                EventTemplateDto evtdto = Mapper.Map<EventTemplateDto>(alerttemplate);
+                                                ////////Get Device details...
+                                                DeviceDto deviceDto = null;
+                                                using (var devicecontext = new CentralDBEntities())
+                                                {
+                                                    var devicetemplates = from dc in devicecontext.Device
+                                                                          where dc.DeviceId == eventDB.DeviceId
+                                                                          select dc;
+                                                    var devicetemplate = devicetemplates.FirstOrDefault();
+                                                    count = devicetemplates.Count();
+                                                    if (count > 0)
+                                                        deviceDto = Mapper.Map<DeviceDto>(devicetemplate); ;// Mapper.Map<DeviceDto>(alerttemplate);
+                                                }
+
+                                                if (count > 0)//////device count
+                                                {
+                                                    ///////Now Alert found......Process for database in Alert , Info and Area Table....
+                                                    var alert = new AlertDTO
+                                                    {
+                                                        DeviceId = eventDB.DeviceId,
+                                                        Sender = "Device-" + eventDB.DeviceId,      //// Device-DeviceID
+                                                        Source = deviceDto.InterfaceId.ToString(),  ////InterfaceId from deviceDTO   ////Should be Name of the Interface
+                                                        //SentAsString = eventDB.TimeSent.ToString(), ////EventDto event datetime
+                                                        Sent = DateTime.Now,
+                                                        Identifier = Guid.NewGuid().ToString(),
+                                                        StatusId = (Status)Enum.Parse(typeof(Status), (string)evtdto.Status),////Status FROM EventTemplateDto
+                                                        MessageTypeId = Contracts.DTO.MessageType.Alert,////////MessageType FROM EventTemplateDto
+                                                        ScopeId = (Contracts.DTO.Scope)Enum.Parse(typeof(Contracts.DTO.Scope), (string)evtdto.Scope),////Scope FROM EventTemplateDto
+                                                        Code = strEventDesc,//eventDB.EventCode,/////EventDto Eeventcode
+                                                        Addresses = deviceDto.Description,//(string)wcfEvent.Payload["Address"],////site address from site table
+                                                        InfoCollection = new List<InfoDTO>()
+                                                    {
+                                                        new InfoDTO
+                                                            {
+                                                                Headline = evtdto.Headline,
+                                                                Description =  (string)evtdto.Description,////Description FROM EventTemplateDto
+                                                                Instruction =  (string)evtdto.Instruction,////Instruction FROM EventTemplateDto
+                                                                Contact = "",//(string)wcfEvent.Payload["Contact"],////Contactid get from account id get from site id
+                                                                UrgencyId = (Contracts.DTO.Urgency)Enum.Parse(typeof(Contracts.DTO.Urgency), (string)evtdto.Urgency),
+                                                                SeverityId = (Contracts.DTO.Severity)Enum.Parse(typeof(Contracts.DTO.Severity), (string)evtdto.Severity),
+                                                                CertaintyId = (Contracts.DTO.Certainty)Enum.Parse(typeof(Contracts.DTO.Certainty), (string)evtdto.Certainty),
+                                                                Event = strEventDesc,//eventDB.EventCode,////Actual event code from event
+                                                                AreasCollection = new List<AreaDTO>()
+                                                                    {
+                                                                        new AreaDTO
+                                                                            {
+                                                                                SiteId = deviceDto.SiteId,
+                                                                                Latitude = Convert.ToDouble(deviceDto.Lat),
+                                                                                Longitude = Convert.ToDouble(deviceDto.Long),
+                                                                                Altitude =  Convert.ToDouble(deviceDto.Altitude)
+                                                                            }
+                                                                    }
+                                                            }
+                                                    }
+                                                    };
+
+                                                    _alertCreationService.SubmitNewAlert(alert);
+                                                }
+
+                                                ///////If Yes then otherwise break here
+                                                /*_alertBuilder.SetSource(events);
+                                                _alertBuilder.BuildInfo();
+                                                _alertBuilder.BuildArea();
+                                                _alertBuilder.BuildAlert();
+                                                var alert = _alertBuilder.GetResult();
+                                                _alertServiceImpl.SubmitNewAlert(alert);*/
+                                            }
+                                        }
+                                    }
+
+                                }
+                            }
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        Logger.Info("Kronos: Service Event DB insertion error " + ex.Message.ToString());
+                    }
+                }
+
+            }
+            catch (Exception ex)
+            {
+                Logger.Info("Kronos: Service strEvtTmpName error " + ex.Message.ToString());
+            }
+
+            return nRetVal;
+        }
+
+        public EventTypeTemplateDto GetEventTypeTemplate(string protocolId)
+        {
+            return _kronosServiceImpl.GetEventTypeTemplate(protocolId);
+        }
+    }
+}

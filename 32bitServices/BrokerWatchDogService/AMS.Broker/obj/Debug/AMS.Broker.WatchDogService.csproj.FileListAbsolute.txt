@@ -1,0 +1,414 @@
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\AMS.Broker.WatchDogService.exe.config
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\AMS.Broker.WatchDogService.exe
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\AMS.Broker.WatchDogService.pdb
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\AMS.Broker.Contracts.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\AutoMapper.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\BplusDotNet.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\CacheAspect.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Castle.Core.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Castle.Facilities.NHibernateIntegration.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Castle.Windsor.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\CloudinaryDotNet.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\DirectShowLib-2005.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\EntityFramework.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Iesi.Collections.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Logica.RealTimeDataMgmt.WcfContracts.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Microsoft.ApplicationServer.Caching.Client.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Microsoft.Practices.Prism.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Microsoft.Practices.Prism.Interactivity.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Microsoft.Practices.Unity.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Microsoft.Practices.Unity.Interception.Configuration.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Microsoft.Reactive.Testing.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Modbus.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Newtonsoft.Json.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\NHibernate.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\NLog.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\PostSharp.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\PresentationCore.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\PresentationFramework.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\QL.ComInterop.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\QL.Communication.Authentication.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\QL.Communication.DataPresentation.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\QL.Communication.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\QL.Communication.Messaging.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\QL.Communication.Multiserver.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\QL.Communication.Network.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\QL.Communication.Server.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\QL.ComponentsModel.ComponentsManagement.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\QL.ComponentsModel.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\QL.Configuration.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\QL.Configuration.Service.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\QL.Configuration.Settings.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\QL.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\QL.PresentationCore.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\QL.PresentationCore.Localization.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\QL.ServiceModel.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\QL.VideoBrowser.Controllers.CamerasManagement.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\QL.VideoBrowser.Controllers.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\QL.VideoBrowser.Controllers.VideoServersManagement.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\QL.VideoBrowser.Controls.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\QL.VideoBrowser.Controls.Media.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\QL.VideoBrowser.Themes.Black.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\QL.VideoBrowser.Utils.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Rhino.Security.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\SnmpSharpNet.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.ComponentModel.Composition.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.ComponentModel.DataAnnotations.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.Configuration.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.Configuration.Install.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.Data.DataSetExtensions.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.Data.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.Data.Entity.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.Device.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.DirectoryServices.AccountManagement.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.DirectoryServices.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.Drawing.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.IdentityModel.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.Net.Http.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.Reactive.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.Runtime.Caching.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.Runtime.Serialization.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.Security.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.ServiceModel.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.ServiceModel.PollingDuplex.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.ServiceModel.Web.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.ServiceProcess.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.Web.ApplicationServices.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.Web.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.Web.Extensions.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.Web.Services.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.Windows.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.Windows.Interactivity.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.Windows.Presentation.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.Xaml.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.Xml.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.Xml.Linq.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\TwTw.DataLayer.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\TwTw.Domain.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Unme.Common.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\WindowsBase.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\QL.LogicCore.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.Reactive.Windows.Threading.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\CacheAspect.pdb
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\TwTw.DataLayer.pdb
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\TwTw.Domain.pdb
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\AMS.Broker.Contracts.pdb
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\AutoMapper.xml
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Castle.Core.xml
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Castle.Windsor.xml
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\EntityFramework.xml
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Iesi.Collections.xml
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.pdb
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.pdb
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Microsoft.Practices.Prism.pdb
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Microsoft.Practices.Prism.xml
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Microsoft.Practices.Prism.Interactivity.pdb
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Microsoft.Practices.Prism.Interactivity.xml
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.pdb
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.xml
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Microsoft.Practices.Unity.xml
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Microsoft.Reactive.Testing.xml
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Newtonsoft.Json.xml
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\NHibernate.xml
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\NLog.xml
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\PostSharp.xml
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.Reactive.xml
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.Windows.Interactivity.xml
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.Reactive.Windows.Threading.xml
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\obj\Debug\AMS.Broker.WatchDogService.csprojResolveAssemblyReference.cache
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\obj\Debug\Interop.QLAuthenticatorLib.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\obj\Debug\AMS.Broker.WatchDogService.csproj.ResolveComReference.cache
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\obj\Debug\AMS.Broker.WatchDogService.exe
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\obj\Debug\AMS.Broker.WatchDogService.pdb
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\AMS.Broker.WatchDogService.pssym
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\obj\Debug\AMS.Broker.WatchDogService.exe.postsharp
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\AMS.Broker.WatchDogService.exe.config
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\AMS.Broker.WatchDogService.exe
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\AMS.Broker.WatchDogService.pdb
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\AMS.Broker.Contracts.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\AutoMapper.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\BplusDotNet.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\CacheAspect.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Castle.Core.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Castle.Facilities.NHibernateIntegration.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Castle.Windsor.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\CloudinaryDotNet.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\DirectShowLib-2005.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\EntityFramework.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Iesi.Collections.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\log4net.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Logica.RealTimeDataMgmt.WcfContracts.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Microsoft.ApplicationServer.Caching.Client.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Microsoft.Practices.Prism.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Microsoft.Practices.Prism.Interactivity.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Microsoft.Practices.Unity.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Microsoft.Practices.Unity.Interception.Configuration.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Microsoft.Reactive.Testing.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Microsoft.SqlServer.Types.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Modbus.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Newtonsoft.Json.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\NHibernate.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\NLog.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\PostSharp.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\PresentationCore.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\PresentationFramework.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\QL.ComInterop.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\QL.Communication.Authentication.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\QL.Communication.DataPresentation.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\QL.Communication.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\QL.Communication.Messaging.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\QL.Communication.Multiserver.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\QL.Communication.Network.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\QL.Communication.Server.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\QL.ComponentsModel.ComponentsManagement.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\QL.ComponentsModel.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\QL.Configuration.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\QL.Configuration.Service.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\QL.Configuration.Settings.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\QL.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\QL.PresentationCore.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\QL.PresentationCore.Localization.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\QL.ServiceModel.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\QL.VideoBrowser.Controllers.CamerasManagement.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\QL.VideoBrowser.Controllers.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\QL.VideoBrowser.Controllers.VideoServersManagement.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\QL.VideoBrowser.Controls.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\QL.VideoBrowser.Controls.Media.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\QL.VideoBrowser.Themes.Black.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\QL.VideoBrowser.Utils.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Rhino.Security.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\SnmpSharpNet.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.ComponentModel.Composition.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.ComponentModel.DataAnnotations.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.Configuration.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.Configuration.Install.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.Data.DataSetExtensions.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.Data.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.Data.Entity.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.Device.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.DirectoryServices.AccountManagement.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.DirectoryServices.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.Drawing.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.IdentityModel.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.Net.Http.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.Reactive.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.Runtime.Caching.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.Runtime.Serialization.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.Security.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.ServiceModel.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.ServiceModel.PollingDuplex.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.ServiceModel.Web.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.ServiceProcess.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.Web.ApplicationServices.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.Web.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.Web.Extensions.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.Web.Services.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.Windows.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.Windows.Interactivity.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.Windows.Presentation.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.Xaml.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.Xml.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.Xml.Linq.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\TwTw.DataLayer.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\TwTw.Domain.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Unme.Common.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\WindowsBase.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\QL.LogicCore.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.Reactive.Windows.Threading.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\CacheAspect.pdb
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\TwTw.DataLayer.pdb
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\TwTw.Domain.pdb
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\AMS.Broker.Contracts.pdb
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\AutoMapper.xml
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Castle.Core.xml
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Castle.Windsor.xml
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\EntityFramework.xml
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Iesi.Collections.xml
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\log4net.xml
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.pdb
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.pdb
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Microsoft.Practices.Prism.pdb
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Microsoft.Practices.Prism.xml
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Microsoft.Practices.Prism.Interactivity.pdb
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Microsoft.Practices.Prism.Interactivity.xml
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.pdb
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.xml
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Microsoft.Practices.Unity.xml
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Microsoft.Reactive.Testing.xml
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Newtonsoft.Json.xml
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\NHibernate.xml
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\NLog.xml
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\PostSharp.xml
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.Reactive.xml
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.Windows.Interactivity.xml
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.Reactive.Windows.Threading.xml
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\obj\Debug\AMS.Broker.WatchDogService.csprojResolveAssemblyReference.cache
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\obj\Debug\Interop.QLAuthenticatorLib.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\obj\Debug\AMS.Broker.WatchDogService.csproj.ResolveComReference.cache
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\obj\Debug\AMS.Broker.WatchDogService.exe
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\obj\Debug\AMS.Broker.WatchDogService.pdb
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\AMS.Broker.WatchDogService.pssym
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\obj\Debug\AMS.Broker.WatchDogService.exe.postsharp
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\AMS.Broker.WatchDogService.exe.config
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\AMS.Broker.WatchDogService.exe
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\AMS.Broker.WatchDogService.pdb
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\AMS.Broker.Contracts.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\AutoMapper.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\BplusDotNet.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\CacheAspect.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Castle.Core.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Castle.Facilities.NHibernateIntegration.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Castle.Windsor.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\CloudinaryDotNet.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\DirectShowLib-2005.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\EntityFramework.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Iesi.Collections.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\log4net.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Logica.RealTimeDataMgmt.WcfContracts.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Microsoft.ApplicationServer.Caching.Client.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Microsoft.Practices.Prism.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Microsoft.Practices.Prism.Interactivity.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Microsoft.Practices.Unity.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Microsoft.Practices.Unity.Interception.Configuration.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Microsoft.Reactive.Testing.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Modbus.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Newtonsoft.Json.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\NHibernate.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\NLog.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\PostSharp.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\PresentationCore.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\PresentationFramework.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\QL.ComInterop.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\QL.Communication.Authentication.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\QL.Communication.DataPresentation.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\QL.Communication.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\QL.Communication.Messaging.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\QL.Communication.Multiserver.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\QL.Communication.Network.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\QL.Communication.Server.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\QL.ComponentsModel.ComponentsManagement.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\QL.ComponentsModel.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\QL.Configuration.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\QL.Configuration.Service.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\QL.Configuration.Settings.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\QL.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\QL.PresentationCore.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\QL.PresentationCore.Localization.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\QL.ServiceModel.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\QL.VideoBrowser.Controllers.CamerasManagement.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\QL.VideoBrowser.Controllers.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\QL.VideoBrowser.Controllers.VideoServersManagement.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\QL.VideoBrowser.Controls.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\QL.VideoBrowser.Controls.Media.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\QL.VideoBrowser.Themes.Black.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\QL.VideoBrowser.Utils.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Rhino.Security.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\SnmpSharpNet.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.ComponentModel.Composition.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.ComponentModel.DataAnnotations.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.Configuration.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.Configuration.Install.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.Data.DataSetExtensions.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.Data.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.Data.Entity.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.Device.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.DirectoryServices.AccountManagement.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.DirectoryServices.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.Drawing.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.IdentityModel.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.Net.Http.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.Reactive.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.Runtime.Caching.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.Runtime.Serialization.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.Security.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.ServiceModel.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.ServiceModel.PollingDuplex.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.ServiceModel.Web.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.ServiceProcess.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.Web.ApplicationServices.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.Web.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.Web.Extensions.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.Web.Services.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.Windows.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.Windows.Interactivity.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.Windows.Presentation.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.Xaml.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.Xml.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.Xml.Linq.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\TwTw.DataLayer.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\TwTw.Domain.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Unme.Common.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\WindowsBase.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\QL.LogicCore.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.Reactive.Windows.Threading.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\CacheAspect.pdb
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\TwTw.DataLayer.pdb
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\TwTw.Domain.pdb
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\AMS.Broker.Contracts.pdb
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\AutoMapper.xml
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Castle.Core.xml
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Castle.Windsor.xml
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\EntityFramework.xml
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Iesi.Collections.xml
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\log4net.xml
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.pdb
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.pdb
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Microsoft.Practices.Prism.pdb
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Microsoft.Practices.Prism.xml
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Microsoft.Practices.Prism.Interactivity.pdb
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Microsoft.Practices.Prism.Interactivity.xml
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.pdb
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.xml
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Microsoft.Practices.Unity.xml
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Microsoft.Reactive.Testing.xml
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\Newtonsoft.Json.xml
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\NHibernate.xml
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\NLog.xml
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\PostSharp.xml
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.Reactive.xml
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.Windows.Interactivity.xml
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\System.Reactive.Windows.Threading.xml
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\bin\Debug\AMS.Broker.WatchDogService.pssym
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\obj\Debug\AMS.Broker.WatchDogService.csprojResolveAssemblyReference.cache
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\obj\Debug\Interop.QLAuthenticatorLib.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\obj\Debug\AMS.Broker.WatchDogService.csproj.ResolveComReference.cache
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\obj\Debug\AMS.Broker.WatchDogService.exe
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\obj\Debug\AMS.Broker.WatchDogService.pdb
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\obj\Debug\AMS.Broker.WatchDogService.exe.postsharp
+E:\SVN Repository\Version 1.5\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\obj\Debug\AMS.Broker.WatchDogService.csprojResolveAssemblyReference.cache
+E:\SVN Repository\Version 1.5\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\obj\Debug\Interop.QLAuthenticatorLib.dll
+E:\SVN Repository\Version 1.5\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\obj\Debug\AMS.Broker.WatchDogService.csproj.ResolveComReference.cache
+E:\SVN Repository\Version 1.5\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\obj\Debug\AMS.Broker.WatchDogService.exe
+E:\SVN Repository\Version 1.5\Broker\32bitServices\BrokerWatchDogService\AMS.Broker\obj\Debug\AMS.Broker.WatchDogService.pdb

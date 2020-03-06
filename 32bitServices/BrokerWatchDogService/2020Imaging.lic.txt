@@ -1,0 +1,10 @@
+License Info:
+The Real Time Data Management framework is registered to 2020Imaging
+License Key: 89BC-26CA1F5C-F8BE06C3-2800
+Expires:Sunday, June 30, 2013
+
+Generated at 4/10/2013 5:07:38 PM
+---------------------
+
+
+<license licensedUser="2020Imaging" licenseKey="89BC-26CA1F5C-F8BE06C3-2800" licenseFile="2020Imaging.lic" />

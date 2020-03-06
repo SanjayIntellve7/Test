@@ -1,0 +1,5 @@
+02/09/2017 18:21:17  ACSIntegrationService--start Exception  = Exception has been thrown by the target of an invocation.
+02/09/2017 18:21:17  VideoAnalyticsManagerIntegrationServiceImpl- Exception = The underlying provider failed on Open.
+02/09/2017 18:21:17  VideoAnalyticsManagerIntegrationService-Initialise -- Exception1 = Exception has been thrown by the target of an invocation.
+02/09/2017 18:21:17  MatrixControllerService-Initialise -- Exception = Exception has been thrown by the target of an invocation.
+02/09/2017 18:21:18  CamTcpListenerService-Initialise -- Exception1 = Exception has been thrown by the target of an invocation.

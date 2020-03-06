@@ -1,0 +1,69 @@
+D:\SVN Version 1.5\trunk\AMS\Broker\BrokerWatchDogService\AMS.Broker.Contracts\bin\Debug\AMS.Broker.Contracts.dll.config
+D:\SVN Version 1.5\trunk\AMS\Broker\BrokerWatchDogService\AMS.Broker.Contracts\bin\Debug\AMS.Broker.Contracts.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\BrokerWatchDogService\AMS.Broker.Contracts\bin\Debug\AMS.Broker.Contracts.pdb
+D:\SVN Version 1.5\trunk\AMS\Broker\BrokerWatchDogService\AMS.Broker.Contracts\bin\Debug\EntityFramework.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\BrokerWatchDogService\AMS.Broker.Contracts\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\BrokerWatchDogService\AMS.Broker.Contracts\bin\Debug\Microsoft.Practices.Unity.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\BrokerWatchDogService\AMS.Broker.Contracts\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\BrokerWatchDogService\AMS.Broker.Contracts\bin\Debug\Rhino.Security.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\BrokerWatchDogService\AMS.Broker.Contracts\bin\Debug\EntityFramework.xml
+D:\SVN Version 1.5\trunk\AMS\Broker\BrokerWatchDogService\AMS.Broker.Contracts\bin\Debug\Microsoft.Practices.Unity.xml
+D:\SVN Version 1.5\trunk\AMS\Broker\BrokerWatchDogService\AMS.Broker.Contracts\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\SVN Version 1.5\trunk\AMS\Broker\BrokerWatchDogService\AMS.Broker.Contracts\obj\Debug\AMS.Broker.Contracts.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\BrokerWatchDogService\AMS.Broker.Contracts\obj\Debug\AMS.Broker.Contracts.pdb
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker.Contracts\bin\Debug\AMS.Broker.Contracts.dll.config
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker.Contracts\bin\Debug\AMS.Broker.Contracts.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker.Contracts\bin\Debug\AMS.Broker.Contracts.pdb
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker.Contracts\bin\Debug\EntityFramework.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker.Contracts\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker.Contracts\bin\Debug\Microsoft.Practices.Unity.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker.Contracts\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker.Contracts\bin\Debug\Rhino.Security.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker.Contracts\bin\Debug\EntityFramework.xml
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker.Contracts\bin\Debug\Microsoft.Practices.Unity.xml
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker.Contracts\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker.Contracts\obj\Debug\AMS.Broker.Contracts.csprojResolveAssemblyReference.cache
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker.Contracts\obj\Debug\AMS.Broker.Contracts.dll
+D:\SVN Version 1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker.Contracts\obj\Debug\AMS.Broker.Contracts.pdb
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker.Contracts\bin\Debug\AMS.Broker.Contracts.dll.config
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker.Contracts\bin\Debug\AMS.Broker.Contracts.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker.Contracts\bin\Debug\AMS.Broker.Contracts.pdb
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker.Contracts\bin\Debug\EntityFramework.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker.Contracts\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker.Contracts\bin\Debug\Microsoft.Practices.Unity.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker.Contracts\bin\Debug\Microsoft.SqlServer.Types.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker.Contracts\bin\Debug\Rhino.Security.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker.Contracts\bin\Debug\EntityFramework.xml
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker.Contracts\bin\Debug\Microsoft.Practices.Unity.xml
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker.Contracts\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker.Contracts\obj\Debug\AMS.Broker.Contracts.csprojResolveAssemblyReference.cache
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker.Contracts\obj\Debug\AMS.Broker.Contracts.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker.Contracts\obj\Debug\AMS.Broker.Contracts.pdb
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker.Contracts\bin\Debug\AMS.Broker.Contracts.dll.config
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker.Contracts\bin\Debug\AMS.Broker.Contracts.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker.Contracts\bin\Debug\AMS.Broker.Contracts.pdb
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker.Contracts\bin\Debug\EntityFramework.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker.Contracts\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker.Contracts\bin\Debug\Microsoft.Practices.Unity.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker.Contracts\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker.Contracts\bin\Debug\Rhino.Security.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker.Contracts\bin\Debug\EntityFramework.xml
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker.Contracts\bin\Debug\Microsoft.Practices.Unity.xml
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker.Contracts\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker.Contracts\obj\Debug\AMS.Broker.Contracts.csprojResolveAssemblyReference.cache
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker.Contracts\obj\Debug\AMS.Broker.Contracts.dll
+D:\SVN Repository v1.5\AMS\Broker\32bitServices\BrokerWatchDogService\AMS.Broker.Contracts\obj\Debug\AMS.Broker.Contracts.pdb
+E:\SVN Repository\Version 1.5\Broker\32bitServices\BrokerWatchDogService\AMS.Broker.Contracts\bin\Debug\AMS.Broker.Contracts.dll.config
+E:\SVN Repository\Version 1.5\Broker\32bitServices\BrokerWatchDogService\AMS.Broker.Contracts\bin\Debug\AMS.Broker.Contracts.dll
+E:\SVN Repository\Version 1.5\Broker\32bitServices\BrokerWatchDogService\AMS.Broker.Contracts\bin\Debug\AMS.Broker.Contracts.pdb
+E:\SVN Repository\Version 1.5\Broker\32bitServices\BrokerWatchDogService\AMS.Broker.Contracts\bin\Debug\EntityFramework.dll
+E:\SVN Repository\Version 1.5\Broker\32bitServices\BrokerWatchDogService\AMS.Broker.Contracts\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+E:\SVN Repository\Version 1.5\Broker\32bitServices\BrokerWatchDogService\AMS.Broker.Contracts\bin\Debug\Microsoft.Practices.Unity.dll
+E:\SVN Repository\Version 1.5\Broker\32bitServices\BrokerWatchDogService\AMS.Broker.Contracts\bin\Debug\Microsoft.SqlServer.Types.dll
+E:\SVN Repository\Version 1.5\Broker\32bitServices\BrokerWatchDogService\AMS.Broker.Contracts\bin\Debug\Rhino.Security.dll
+E:\SVN Repository\Version 1.5\Broker\32bitServices\BrokerWatchDogService\AMS.Broker.Contracts\bin\Debug\EntityFramework.xml
+E:\SVN Repository\Version 1.5\Broker\32bitServices\BrokerWatchDogService\AMS.Broker.Contracts\bin\Debug\Microsoft.Practices.Unity.xml
+E:\SVN Repository\Version 1.5\Broker\32bitServices\BrokerWatchDogService\AMS.Broker.Contracts\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+E:\SVN Repository\Version 1.5\Broker\32bitServices\BrokerWatchDogService\AMS.Broker.Contracts\obj\Debug\AMS.Broker.Contracts.dll
+E:\SVN Repository\Version 1.5\Broker\32bitServices\BrokerWatchDogService\AMS.Broker.Contracts\obj\Debug\AMS.Broker.Contracts.pdb
+E:\SVN Repository\Version 1.5\Broker\32bitServices\BrokerWatchDogService\AMS.Broker.Contracts\obj\Debug\AMS.Broker.Contracts.csprojResolveAssemblyReference.cache

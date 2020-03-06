@@ -1,0 +1,373 @@
+﻿#if __DESIGNER_DATA
+#error Do not define __DESIGNER_DATA.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<om:MetaModel MajorVersion="1" MinorVersion="3" Core="2b131234-7959-458d-834f-2dc0769ce683" ScheduleModel="66366196-361d-448d-976f-cab5e87496d2" xmlns:om="http://schemas.microsoft.com/BizTalk/2003/DesignerData">
+    <om:Element Type="Module" OID="30fa386b-e463-4d97-87a5-ea856fcf925d" LowerBound="1.1" HigherBound="104.1">
+        <om:Property Name="ReportToAnalyst" Value="True" />
+        <om:Property Name="Name" Value="UICentric.AMS.Orchestrations" />
+        <om:Property Name="Signal" Value="False" />
+        <om:Element Type="PortType" OID="b75e6e2e-36e8-47a3-808e-725004569da8" ParentLink="Module_PortType" LowerBound="4.1" HigherBound="11.1">
+            <om:Property Name="Synchronous" Value="False" />
+            <om:Property Name="TypeModifier" Value="Public" />
+            <om:Property Name="ReportToAnalyst" Value="True" />
+            <om:Property Name="Name" Value="EntryPort" />
+            <om:Property Name="Signal" Value="False" />
+            <om:Element Type="OperationDeclaration" OID="5ad1d6d7-6eb5-42f3-987a-97fab394af69" ParentLink="PortType_OperationDeclaration" LowerBound="6.1" HigherBound="10.1">
+                <om:Property Name="OperationType" Value="OneWay" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="Operation_1" />
+                <om:Property Name="Signal" Value="False" />
+                <om:Element Type="MessageRef" OID="286d65d0-fc94-4a08-9e19-f257f4a502fb" ParentLink="OperationDeclaration_RequestMessageRef" LowerBound="8.13" HigherBound="8.37">
+                    <om:Property Name="Ref" Value="AMS.Orchestrations.Alert" />
+                    <om:Property Name="ReportToAnalyst" Value="True" />
+                    <om:Property Name="Name" Value="Request" />
+                    <om:Property Name="Signal" Value="False" />
+                </om:Element>
+            </om:Element>
+        </om:Element>
+        <om:Element Type="ServiceDeclaration" OID="4aaa92c8-ad77-4096-b998-e6cce0ac05b9" ParentLink="Module_ServiceDeclaration" LowerBound="11.1" HigherBound="103.1">
+            <om:Property Name="InitializedTransactionType" Value="False" />
+            <om:Property Name="IsInvokable" Value="False" />
+            <om:Property Name="TypeModifier" Value="Internal" />
+            <om:Property Name="ReportToAnalyst" Value="True" />
+            <om:Property Name="Name" Value="UpdateStatus" />
+            <om:Property Name="Signal" Value="True" />
+            <om:Element Type="VariableDeclaration" OID="aea83622-76d7-4fc7-a1b3-c6c729874dbb" ParentLink="ServiceDeclaration_VariableDeclaration" LowerBound="22.1" HigherBound="23.1">
+                <om:Property Name="UseDefaultConstructor" Value="True" />
+                <om:Property Name="Type" Value="System.Xml.XmlDocument" />
+                <om:Property Name="ParamDirection" Value="In" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="xmlDoc" />
+                <om:Property Name="Signal" Value="True" />
+            </om:Element>
+            <om:Element Type="MessageDeclaration" OID="be168703-ff2a-48fb-93f2-44119aa9f61b" ParentLink="ServiceDeclaration_MessageDeclaration" LowerBound="18.1" HigherBound="19.1">
+                <om:Property Name="Type" Value="AMS.Orchestrations.Alert" />
+                <om:Property Name="ParamDirection" Value="In" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="AlertMessage" />
+                <om:Property Name="Signal" Value="True" />
+            </om:Element>
+            <om:Element Type="MessageDeclaration" OID="b8d82d15-4c2f-4502-8660-2313e0150d7d" ParentLink="ServiceDeclaration_MessageDeclaration" LowerBound="19.1" HigherBound="20.1">
+                <om:Property Name="Type" Value="AMS.Orchestrations.Audit" />
+                <om:Property Name="ParamDirection" Value="In" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="AuditMessage" />
+                <om:Property Name="Signal" Value="True" />
+            </om:Element>
+            <om:Element Type="MessageDeclaration" OID="0435431e-0bf0-461c-89d2-e3390723f52a" ParentLink="ServiceDeclaration_MessageDeclaration" LowerBound="20.1" HigherBound="21.1">
+                <om:Property Name="Type" Value="AMS.Orchestrations.UsersService.IUsersService_GetUsersListByAlertGroup_InputMessage" />
+                <om:Property Name="ParamDirection" Value="In" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="AlertStatusMessage" />
+                <om:Property Name="Signal" Value="True" />
+            </om:Element>
+            <om:Element Type="MessageDeclaration" OID="bb93face-d103-4c9c-ad8e-b7230fe5d3f3" ParentLink="ServiceDeclaration_MessageDeclaration" LowerBound="21.1" HigherBound="22.1">
+                <om:Property Name="Type" Value="AMS.Orchestrations.UsersService.IUsersService_GetUsersListByAlertGroup_OutputMessage" />
+                <om:Property Name="ParamDirection" Value="In" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="NotifyListMessage" />
+                <om:Property Name="Signal" Value="True" />
+            </om:Element>
+            <om:Element Type="ServiceBody" OID="e747fcb5-50c2-4139-b441-fedad4ece658" ParentLink="ServiceDeclaration_ServiceBody">
+                <om:Property Name="Signal" Value="False" />
+                <om:Element Type="Receive" OID="daec5f54-ede6-44e7-9418-b87af2e82c10" ParentLink="ServiceBody_Statement" LowerBound="25.1" HigherBound="28.1">
+                    <om:Property Name="Activate" Value="True" />
+                    <om:Property Name="PortName" Value="OrchestrationEntryPort" />
+                    <om:Property Name="MessageName" Value="AlertMessage" />
+                    <om:Property Name="OperationName" Value="Operation_1" />
+                    <om:Property Name="OperationMessageName" Value="Request" />
+                    <om:Property Name="ReportToAnalyst" Value="True" />
+                    <om:Property Name="Name" Value="Receive_1" />
+                    <om:Property Name="Signal" Value="True" />
+                </om:Element>
+                <om:Element Type="Construct" OID="4f4f3294-5038-4b32-8fa4-01c4dea1d5db" ParentLink="ServiceBody_Statement" LowerBound="28.1" HigherBound="41.1">
+                    <om:Property Name="ReportToAnalyst" Value="True" />
+                    <om:Property Name="Name" Value="ConstructMessage_1" />
+                    <om:Property Name="Signal" Value="True" />
+                    <om:Element Type="MessageRef" OID="138af9ca-98b0-465d-9092-3e0799d02950" ParentLink="Construct_MessageRef" LowerBound="29.23" HigherBound="29.35">
+                        <om:Property Name="Ref" Value="AuditMessage" />
+                        <om:Property Name="ReportToAnalyst" Value="True" />
+                        <om:Property Name="Signal" Value="False" />
+                    </om:Element>
+                    <om:Element Type="MessageAssignment" OID="5e2114ba-1423-4c47-8213-48ca48437ec3" ParentLink="ComplexStatement_Statement" LowerBound="31.1" HigherBound="40.1">
+                        <om:Property Name="Expression" Value="xmlDoc.LoadXml(&quot;&lt;ns0:Audit xmlns:ns0=\&quot;http://UICentric.AMS.Orchestrations.Audit\&quot;&gt;&lt;ActivityDateTime&gt;&lt;/ActivityDateTime&gt;&lt;Type&gt;&lt;/Type&gt;&lt;UserId&gt;&lt;/UserId&gt;&lt;SourceId&gt;&lt;/SourceId&gt;&lt;SourceType&gt;&lt;/SourceType&gt;&lt;Description&gt;&lt;/Description&gt;&lt;/ns0:Audit&gt;&quot;);&#xD;&#xA;AuditMessage = xmlDoc;&#xD;&#xA;AuditMessage.Description = &quot;&quot;;&#xD;&#xA;AuditMessage.ActivityDateTime = System.DateTime.Now.ToString(&quot;yyyy-MM-dd hh:mm:ss&quot;);&#xD;&#xA;AuditMessage.Type = &quot;RaiseAlert&quot;;&#xD;&#xA;AuditMessage.SourceType = &quot;Alert&quot;;&#xD;&#xA;AuditMessage.SourceId = AlertMessage.Source;&#xD;&#xA;AuditMessage.UserId = AlertMessage.Identifier;" />
+                        <om:Property Name="ReportToAnalyst" Value="False" />
+                        <om:Property Name="Name" Value="MessageAssignment_2" />
+                        <om:Property Name="Signal" Value="True" />
+                    </om:Element>
+                </om:Element>
+                <om:Element Type="Call" OID="c5d6228b-0487-4662-b1c1-58886e199590" ParentLink="ServiceBody_Statement" LowerBound="41.1" HigherBound="43.1">
+                    <om:Property Name="Identifier" Value="SubmitAudit" />
+                    <om:Property Name="Invokee" Value="AMS.Orchestrations.AuditSubmission" />
+                    <om:Property Name="ReportToAnalyst" Value="True" />
+                    <om:Property Name="Name" Value="SubmitAudit" />
+                    <om:Property Name="Signal" Value="False" />
+                    <om:Element Type="Parameter" OID="acd6b416-03ec-45c0-af0e-b7e63092d719" ParentLink="InvokeStatement_Parameter">
+                        <om:Property Name="Direction" Value="In" />
+                        <om:Property Name="Name" Value="AuditMessage" />
+                        <om:Property Name="Type" Value="AMS.Orchestrations.Audit" />
+                        <om:Property Name="Signal" Value="False" />
+                    </om:Element>
+                </om:Element>
+                <om:Element Type="CallRules" OID="c599030a-88c5-4b1f-a146-10a5d85115ca" ParentLink="ServiceBody_Statement" LowerBound="43.1" HigherBound="67.1">
+                    <om:Property Name="PolicyName" Value="SubmitBasedOnSender" />
+                    <om:Property Name="PolicyVersion" Value="1.7" />
+                    <om:Property Name="ReportToAnalyst" Value="False" />
+                    <om:Property Name="Name" Value="UpdateStatus" />
+                    <om:Property Name="Signal" Value="False" />
+                    <om:Element Type="RulesParameterRef" OID="94e4f7a0-7343-40cd-bdea-71095a39db25" ParentLink="CallRules_RulesParameterRef">
+                        <om:Property Name="Reference" Value="AlertMessage" />
+                        <om:Property Name="Alias" Value="UICentric.AMS.Orchestrations.Alert" />
+                        <om:Property Name="ReportToAnalyst" Value="True" />
+                        <om:Property Name="Name" Value="RulesParameterRef_1" />
+                        <om:Property Name="Signal" Value="False" />
+                    </om:Element>
+                </om:Element>
+                <om:Element Type="Decision" OID="aa2d3e1f-a068-4a90-a819-470e2c3b578e" ParentLink="ServiceBody_Statement" LowerBound="67.1" HigherBound="101.1">
+                    <om:Property Name="ReportToAnalyst" Value="True" />
+                    <om:Property Name="Name" Value="Decide_1" />
+                    <om:Property Name="Signal" Value="False" />
+                    <om:Element Type="DecisionBranch" OID="3e1aec98-13c6-43e9-9c48-ec4515473446" ParentLink="ReallyComplexStatement_Branch" LowerBound="68.13" HigherBound="83.1">
+                        <om:Property Name="Expression" Value="AlertMessage.WorkflowStatus != &quot;&quot;" />
+                        <om:Property Name="IsGhostBranch" Value="True" />
+                        <om:Property Name="ReportToAnalyst" Value="True" />
+                        <om:Property Name="Name" Value="Rule_1" />
+                        <om:Property Name="Signal" Value="True" />
+                        <om:Element Type="Construct" OID="4c1fa2b4-6602-4f6f-a466-fc87952210a0" ParentLink="ComplexStatement_Statement" LowerBound="70.1" HigherBound="76.1">
+                            <om:Property Name="ReportToAnalyst" Value="True" />
+                            <om:Property Name="Name" Value="ConstructMessage_2" />
+                            <om:Property Name="Signal" Value="True" />
+                            <om:Element Type="Transform" OID="a2def2e5-9c5d-44c0-b9b4-da3c6c6d13b5" ParentLink="ComplexStatement_Statement" LowerBound="73.1" HigherBound="75.1">
+                                <om:Property Name="ClassName" Value="AMS.Orchestrations.Transform_2" />
+                                <om:Property Name="ReportToAnalyst" Value="True" />
+                                <om:Property Name="Name" Value="Transform_2" />
+                                <om:Property Name="Signal" Value="False" />
+                                <om:Element Type="MessagePartRef" OID="28122522-e5dd-42c0-9c35-ebcd1729daad" ParentLink="Transform_InputMessagePartRef" LowerBound="74.97" HigherBound="74.109">
+                                    <om:Property Name="MessageRef" Value="AlertMessage" />
+                                    <om:Property Name="ReportToAnalyst" Value="True" />
+                                    <om:Property Name="Name" Value="MessagePartReference_1" />
+                                    <om:Property Name="Signal" Value="False" />
+                                </om:Element>
+                                <om:Element Type="MessagePartRef" OID="e8a0df17-98ae-4d43-9dfd-3d7ef07485ee" ParentLink="Transform_OutputMessagePartRef" LowerBound="74.32" HigherBound="74.61">
+                                    <om:Property Name="MessageRef" Value="AlertStatusMessage" />
+                                    <om:Property Name="PartRef" Value="parameters" />
+                                    <om:Property Name="ReportToAnalyst" Value="True" />
+                                    <om:Property Name="Name" Value="MessagePartReference_2" />
+                                    <om:Property Name="Signal" Value="False" />
+                                </om:Element>
+                            </om:Element>
+                            <om:Element Type="MessageRef" OID="5e801df5-29f1-4762-a5ed-fffd05e5d55e" ParentLink="Construct_MessageRef" LowerBound="71.27" HigherBound="71.45">
+                                <om:Property Name="Ref" Value="AlertStatusMessage" />
+                                <om:Property Name="ReportToAnalyst" Value="True" />
+                                <om:Property Name="Signal" Value="False" />
+                            </om:Element>
+                        </om:Element>
+                        <om:Element Type="Send" OID="f0aae542-98bc-4de0-b756-fcf6bcf32830" ParentLink="ComplexStatement_Statement" LowerBound="76.1" HigherBound="78.1">
+                            <om:Property Name="PortName" Value="UsersServiceSentPort" />
+                            <om:Property Name="MessageName" Value="AlertStatusMessage" />
+                            <om:Property Name="OperationName" Value="GetUsersListByAlertGroup" />
+                            <om:Property Name="OperationMessageName" Value="Request" />
+                            <om:Property Name="ReportToAnalyst" Value="True" />
+                            <om:Property Name="Name" Value="SendAlertStatus" />
+                            <om:Property Name="Signal" Value="True" />
+                        </om:Element>
+                        <om:Element Type="Receive" OID="62dc70eb-712e-418a-bdbe-5bfd1f438459" ParentLink="ComplexStatement_Statement" LowerBound="78.1" HigherBound="80.1">
+                            <om:Property Name="Activate" Value="False" />
+                            <om:Property Name="PortName" Value="UsersServiceSentPort" />
+                            <om:Property Name="MessageName" Value="NotifyListMessage" />
+                            <om:Property Name="OperationName" Value="GetUsersListByAlertGroup" />
+                            <om:Property Name="OperationMessageName" Value="Response" />
+                            <om:Property Name="ReportToAnalyst" Value="True" />
+                            <om:Property Name="Name" Value="ReceiveNotifyList" />
+                            <om:Property Name="Signal" Value="True" />
+                        </om:Element>
+                        <om:Element Type="Exec" OID="7a47e8f2-45cd-4cea-a88a-c2eb0aaf7ab1" ParentLink="ComplexStatement_Statement" LowerBound="80.1" HigherBound="82.1">
+                            <om:Property Name="Invokee" Value="AMS.Orchestrations.ProcessNotifyList" />
+                            <om:Property Name="ReportToAnalyst" Value="True" />
+                            <om:Property Name="Name" Value="StartProcessNotifyList" />
+                            <om:Property Name="Signal" Value="False" />
+                            <om:Element Type="Parameter" OID="bcab9568-9ce6-4e33-92bf-d8bbb4202264" ParentLink="InvokeStatement_Parameter">
+                                <om:Property Name="Direction" Value="In" />
+                                <om:Property Name="Name" Value="NotifyListMessage" />
+                                <om:Property Name="Type" Value="AMS.Orchestrations.UsersService.IUsersService_GetUsersListByAlertGroup_OutputMessage" />
+                                <om:Property Name="Signal" Value="False" />
+                            </om:Element>
+                        </om:Element>
+                    </om:Element>
+                    <om:Element Type="DecisionBranch" OID="c828b06e-48dd-4bda-b9be-4ef4a95a931d" ParentLink="ReallyComplexStatement_Branch">
+                        <om:Property Name="IsGhostBranch" Value="True" />
+                        <om:Property Name="ReportToAnalyst" Value="True" />
+                        <om:Property Name="Name" Value="Else" />
+                        <om:Property Name="Signal" Value="False" />
+                        <om:Element Type="Construct" OID="cfa4d92d-1b9f-4dd7-9ee6-e6c118507a15" ParentLink="ComplexStatement_Statement" LowerBound="85.1" HigherBound="98.1">
+                            <om:Property Name="ReportToAnalyst" Value="True" />
+                            <om:Property Name="Name" Value="ConstructMessage_1" />
+                            <om:Property Name="Signal" Value="True" />
+                            <om:Element Type="MessageRef" OID="81ffe123-59f6-4b2a-a991-e80423e4a10e" ParentLink="Construct_MessageRef" LowerBound="86.27" HigherBound="86.39">
+                                <om:Property Name="Ref" Value="AuditMessage" />
+                                <om:Property Name="ReportToAnalyst" Value="True" />
+                                <om:Property Name="Signal" Value="False" />
+                            </om:Element>
+                            <om:Element Type="MessageAssignment" OID="367f58a9-7b29-42ae-88b5-598ebbe58bf3" ParentLink="ComplexStatement_Statement" LowerBound="88.1" HigherBound="97.1">
+                                <om:Property Name="Expression" Value="xmlDoc.LoadXml(&quot;&lt;ns0:Audit xmlns:ns0=\&quot;http://UICentric.AMS.Orchestrations.Audit\&quot;&gt;&lt;ActivityDateTime&gt;&lt;/ActivityDateTime&gt;&lt;Type&gt;&lt;/Type&gt;&lt;UserId&gt;&lt;/UserId&gt;&lt;SourceId&gt;&lt;/SourceId&gt;&lt;SourceType&gt;&lt;/SourceType&gt;&lt;Description&gt;&lt;/Description&gt;&lt;/ns0:Audit&gt;&quot;);&#xD;&#xA;AuditMessage = xmlDoc;&#xD;&#xA;AuditMessage.Description = &quot;&quot;;&#xD;&#xA;AuditMessage.ActivityDateTime = System.DateTime.Now.ToString(&quot;yyyy-MM-dd hh:mm:ss&quot;);&#xD;&#xA;AuditMessage.Type = &quot;RaiseAlert&quot;;&#xD;&#xA;AuditMessage.SourceType = &quot;Alert&quot;;&#xD;&#xA;AuditMessage.SourceId = AlertMessage.Source;&#xD;&#xA;AuditMessage.UserId = AlertMessage.Identifier;" />
+                                <om:Property Name="ReportToAnalyst" Value="False" />
+                                <om:Property Name="Name" Value="MessageAssignment_2" />
+                                <om:Property Name="Signal" Value="True" />
+                            </om:Element>
+                        </om:Element>
+                        <om:Element Type="Call" OID="ace27ecd-0d57-4e13-bb10-0302efa3f60f" ParentLink="ComplexStatement_Statement" LowerBound="98.1" HigherBound="100.1">
+                            <om:Property Name="Identifier" Value="CallOrchestration_1" />
+                            <om:Property Name="Invokee" Value="AMS.Orchestrations.AuditSubmission" />
+                            <om:Property Name="ReportToAnalyst" Value="True" />
+                            <om:Property Name="Name" Value="SubmitAudit" />
+                            <om:Property Name="Signal" Value="False" />
+                            <om:Element Type="Parameter" OID="a877b312-c712-434a-9cde-4a54fb92dd31" ParentLink="InvokeStatement_Parameter">
+                                <om:Property Name="Direction" Value="In" />
+                                <om:Property Name="Name" Value="AuditMessage" />
+                                <om:Property Name="Type" Value="AMS.Orchestrations.Audit" />
+                                <om:Property Name="Signal" Value="False" />
+                            </om:Element>
+                        </om:Element>
+                    </om:Element>
+                </om:Element>
+            </om:Element>
+            <om:Element Type="PortDeclaration" OID="66ef7bec-7c3c-4abf-8ff8-dadaddc50d23" ParentLink="ServiceDeclaration_PortDeclaration" LowerBound="14.1" HigherBound="16.1">
+                <om:Property Name="PortModifier" Value="Uses" />
+                <om:Property Name="Orientation" Value="Left" />
+                <om:Property Name="PortIndex" Value="35" />
+                <om:Property Name="IsWebPort" Value="False" />
+                <om:Property Name="OrderedDelivery" Value="False" />
+                <om:Property Name="DeliveryNotification" Value="None" />
+                <om:Property Name="Type" Value="AMS.Orchestrations.UsersService.IUsersService" />
+                <om:Property Name="ParamDirection" Value="In" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="UsersServiceSentPort" />
+                <om:Property Name="Signal" Value="False" />
+                <om:Element Type="LogicalBindingAttribute" OID="012866c9-2635-4f99-b49c-a0758ac7050c" ParentLink="PortDeclaration_CLRAttribute" LowerBound="14.1" HigherBound="15.1">
+                    <om:Property Name="Signal" Value="False" />
+                </om:Element>
+            </om:Element>
+            <om:Element Type="PortDeclaration" OID="8cd61357-ab88-429c-a272-e972747b9848" ParentLink="ServiceDeclaration_PortDeclaration" LowerBound="16.1" HigherBound="18.1">
+                <om:Property Name="PortModifier" Value="Implements" />
+                <om:Property Name="Orientation" Value="Left" />
+                <om:Property Name="PortIndex" Value="1" />
+                <om:Property Name="IsWebPort" Value="False" />
+                <om:Property Name="OrderedDelivery" Value="False" />
+                <om:Property Name="DeliveryNotification" Value="None" />
+                <om:Property Name="Type" Value="UICentric.AMS.Orchestrations.EntryPort" />
+                <om:Property Name="ParamDirection" Value="In" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="OrchestrationEntryPort" />
+                <om:Property Name="Signal" Value="False" />
+                <om:Element Type="LogicalBindingAttribute" OID="483a1471-4c3e-44c1-ac3f-fc5eadfb1632" ParentLink="PortDeclaration_CLRAttribute" LowerBound="16.1" HigherBound="17.1">
+                    <om:Property Name="Signal" Value="False" />
+                </om:Element>
+            </om:Element>
+        </om:Element>
+    </om:Element>
+</om:MetaModel>
+#endif // __DESIGNER_DATA
+[Microsoft.XLANGs.BaseTypes.BPELExportable(false)]
+module UICentric.AMS.Orchestrations
+{
+    public porttype EntryPort
+    {
+        oneway Operation_1
+        {
+            AMS.Orchestrations.Alert
+        };
+    };
+    [Microsoft.XLANGs.BaseTypes.BPELExportable(false)]
+    internal service UpdateStatus
+    {
+        [Microsoft.XLANGs.BaseTypes.LogicalBinding()]
+        port uses AMS.Orchestrations.UsersService.IUsersService UsersServiceSentPort;
+        [Microsoft.XLANGs.BaseTypes.LogicalBinding()]
+        port implements EntryPort OrchestrationEntryPort;
+        message AMS.Orchestrations.Alert AlertMessage;
+        message AMS.Orchestrations.Audit AuditMessage;
+        message AMS.Orchestrations.UsersService.IUsersService_GetUsersListByAlertGroup_InputMessage AlertStatusMessage;
+        message AMS.Orchestrations.UsersService.IUsersService_GetUsersListByAlertGroup_OutputMessage NotifyListMessage;
+        System.Xml.XmlDocument xmlDoc;
+        body ()
+        {
+            [Microsoft.XLANGs.BaseTypes.DesignerPosition("daec5f54-ede6-44e7-9418-b87af2e82c10")]
+            activate receive (OrchestrationEntryPort.Operation_1, AlertMessage);
+            xmlDoc = new System.Xml.XmlDocument();
+            [Microsoft.XLANGs.BaseTypes.DesignerPosition("4f4f3294-5038-4b32-8fa4-01c4dea1d5db")]
+            construct AuditMessage
+            {
+                [Microsoft.XLANGs.BaseTypes.DesignerPosition("5e2114ba-1423-4c47-8213-48ca48437ec3")]
+                xmlDoc.LoadXml("<ns0:Audit xmlns:ns0=\"http://UICentric.AMS.Orchestrations.Audit\"><ActivityDateTime></ActivityDateTime><Type></Type><UserId></UserId><SourceId></SourceId><SourceType></SourceType><Description></Description></ns0:Audit>");
+                AuditMessage = xmlDoc;
+                AuditMessage.Description = "";
+                AuditMessage.ActivityDateTime = System.DateTime.Now.ToString("yyyy-MM-dd hh:mm:ss");
+                AuditMessage.Type = "RaiseAlert";
+                AuditMessage.SourceType = "Alert";
+                AuditMessage.SourceId = AlertMessage.Source;
+                AuditMessage.UserId = AlertMessage.Identifier;
+            }
+            [Microsoft.XLANGs.BaseTypes.DesignerPosition("c5d6228b-0487-4662-b1c1-58886e199590")]
+            call AMS.Orchestrations.AuditSubmission (AuditMessage);
+
+            [Microsoft.XLANGs.BaseTypes.DesignerPosition("c599030a-88c5-4b1f-a146-10a5d85115ca")]
+            scope
+            {
+                Microsoft.RuleEngine.Policy  policy_2__;
+                System.Xml.XmlDocument policyParam_2_2__;
+                Microsoft.RuleEngine.TypedXmlDocument policyParamAsTXD_2_2__;
+
+                body
+                {
+                                        policyParam_2_2__ = AlertMessage;
+                    policyParamAsTXD_2_2__ = new Microsoft.RuleEngine.TypedXmlDocument("UICentric.AMS.Orchestrations.Alert", policyParam_2_2__);
+
+                    policy_2__ = new Microsoft.RuleEngine.Policy("SubmitBasedOnSender");
+                    policy_2__.Execute(
+                        policyParamAsTXD_2_2__);
+                    construct AlertMessage
+                    {
+                        AlertMessage = policyParamAsTXD_2_2__.Document;
+                    }
+
+                    policy_2__.Dispose();
+                }
+            }
+            [Microsoft.XLANGs.BaseTypes.DesignerPosition("aa2d3e1f-a068-4a90-a819-470e2c3b578e")]
+            if (AlertMessage.WorkflowStatus != "")
+            {
+                [Microsoft.XLANGs.BaseTypes.DesignerPosition("4c1fa2b4-6602-4f6f-a466-fc87952210a0")]
+                construct AlertStatusMessage
+                {
+                    [Microsoft.XLANGs.BaseTypes.DesignerPosition("a2def2e5-9c5d-44c0-b9b4-da3c6c6d13b5")]
+                    transform (AlertStatusMessage.parameters) = AMS.Orchestrations.Transform_2 (AlertMessage);
+                }
+                [Microsoft.XLANGs.BaseTypes.DesignerPosition("f0aae542-98bc-4de0-b756-fcf6bcf32830")]
+                send (UsersServiceSentPort.GetUsersListByAlertGroup, AlertStatusMessage);
+                [Microsoft.XLANGs.BaseTypes.DesignerPosition("62dc70eb-712e-418a-bdbe-5bfd1f438459")]
+                receive (UsersServiceSentPort.GetUsersListByAlertGroup, NotifyListMessage);
+                [Microsoft.XLANGs.BaseTypes.DesignerPosition("7a47e8f2-45cd-4cea-a88a-c2eb0aaf7ab1")]
+                exec AMS.Orchestrations.ProcessNotifyList (NotifyListMessage);
+            }
+            else 
+            {
+                [Microsoft.XLANGs.BaseTypes.DesignerPosition("cfa4d92d-1b9f-4dd7-9ee6-e6c118507a15")]
+                construct AuditMessage
+                {
+                    [Microsoft.XLANGs.BaseTypes.DesignerPosition("367f58a9-7b29-42ae-88b5-598ebbe58bf3")]
+                    xmlDoc.LoadXml("<ns0:Audit xmlns:ns0=\"http://UICentric.AMS.Orchestrations.Audit\"><ActivityDateTime></ActivityDateTime><Type></Type><UserId></UserId><SourceId></SourceId><SourceType></SourceType><Description></Description></ns0:Audit>");
+                    AuditMessage = xmlDoc;
+                    AuditMessage.Description = "";
+                    AuditMessage.ActivityDateTime = System.DateTime.Now.ToString("yyyy-MM-dd hh:mm:ss");
+                    AuditMessage.Type = "RaiseAlert";
+                    AuditMessage.SourceType = "Alert";
+                    AuditMessage.SourceId = AlertMessage.Source;
+                    AuditMessage.UserId = AlertMessage.Identifier;
+                }
+                [Microsoft.XLANGs.BaseTypes.DesignerPosition("ace27ecd-0d57-4e13-bb10-0302efa3f60f")]
+                call AMS.Orchestrations.AuditSubmission (AuditMessage);
+            }
+        }
+    }
+}
+

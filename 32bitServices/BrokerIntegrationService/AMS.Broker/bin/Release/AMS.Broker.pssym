@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Symbols xmlns="http://schemas.postsharp.org/2.0/symbols">
+  <Class Class="#1=T:[AMS.Broker]AMS.Broker.Helpers.UniqueConstraintHandlerAttribute">
+    <Instance Declaration="#2=M:[AMS.Broker]AMS.Broker.Services.ServicesImplementations.AccountsServiceImpl::AddAccount(AMS.Broker.Contracts.DTO.AccountDto)" Id="b5cab846393ea881">
+      <Target>
+        <JoinPoint Description="#3=Wrapped by advice(s) OnEntry, OnSuccess, OnException, OnExit" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#4=M:[AMS.Broker]AMS.Broker.Services.ServicesImplementations.SecurityServiceImpl::AddUser(AMS.Broker.Contracts.DTO.UserDto)" Id="b5cab8468f43f5b4">
+      <Target>
+        <JoinPoint Description="#3" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#5=M:[AMS.Broker]AMS.Broker.Services.ServicesImplementations.SitesServiceImpl::AddSite(AMS.Broker.Contracts.DTO.SiteDto, AMS.Broker.Contracts.DTO.SiteTypeDto, AMS.Broker.Contracts.DTO.SiteDto, AMS.Broker.Contracts.DTO.AddressDto, AMS.Broker.Contracts.DTO.AccountDto, System.Collections.Generic.List{[AMS.Broker.Contracts]AMS.Broker.Contracts.DTO.BBoxPointDto})" Id="b5cab846a14993fa">
+      <Target>
+        <JoinPoint Description="#3" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#6=M:[AMS.Broker]AMS.Broker.Services.ServicesImplementations.SitesServiceImpl::UpdateSite(AMS.Broker.Contracts.DTO.SiteDto)" Id="b5cab8462abd09b5">
+      <Target>
+        <JoinPoint Description="#3" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#7=M:[AMS.Broker]AMS.Broker.Services.ServicesImplementations.SystemServiceImpl::AddNvrToNvrInterface(AMS.Broker.Contracts.DTO.DeviceDto, AMS.Broker.Contracts.DTO.NvrCameraDto, System.Int32)" Id="b5cab846d0884316">
+      <Target>
+        <JoinPoint Description="#3" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#8=M:[AMS.Broker]AMS.Broker.Services.ServicesImplementations.SystemServiceImpl::AddDeviceToInterface(AMS.Broker.Contracts.DTO.DeviceDto, System.Int32)" Id="b5cab8461c64c4c3">
+      <Target>
+        <JoinPoint Description="#3" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#9=M:[AMS.Broker]AMS.Broker.Services.ServicesImplementations.SystemServiceImpl::SaveAnalyticsEventTemplate(AMS.Broker.Contracts.DTO.AnalyticsEventTemplateDto)" Id="b5cab8462aea5d51">
+      <Target>
+        <JoinPoint Description="#3" />
+      </Target>
+    </Instance>
+  </Class>
+  <Class Class="#10=T:[AMS.Broker]AMS.Broker.Helpers.ExceptionHandlerAttribute">
+    <Instance Declaration="#11=M:[AMS.Broker]AMS.Broker.Services.ControllerService::GetUsers(System.String)" Id="b5cab846934a3864">
+      <Target>
+        <JoinPoint Description="#3" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#12=M:[AMS.Broker]AMS.Broker.Services.ControllerService::GetNvrById(System.String, System.Int64)" Id="b5cab846bee38a9b">
+      <Target>
+        <JoinPoint Description="#3" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#13=M:[AMS.Broker]AMS.Broker.Services.ControllerService::GetNvrByInterfaceId(System.String, System.Int64)" Id="b5cab84630683261">
+      <Target>
+        <JoinPoint Description="#3" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#14=M:[AMS.Broker]AMS.Broker.Services.ServicesImplementations.AlertsServiceImpl::GetNvrById(System.String, System.Int64)" Id="b5cab8466cdd895e">
+      <Target>
+        <JoinPoint Description="#3" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#15=M:[AMS.Broker]AMS.Broker.Services.ServicesImplementations.ControllerServiceImpl::GetNvrById(System.String, System.Int64)" Id="b5cab8461831fa25">
+      <Target>
+        <JoinPoint Description="#3" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#16=M:[AMS.Broker]AMS.Broker.Services.ServicesImplementations.ControllerServiceImpl::GetNvrByInterfaceId(System.String, System.Int64)" Id="b5cab8461a008755">
+      <Target>
+        <JoinPoint Description="#3" />
+      </Target>
+    </Instance>
+  </Class>
+  <Class Class="#17=T:[CacheAspect]CacheAspect.Attributes.Cache+TriggerInvalidation">
+    <Instance Declaration="#18=M:[AMS.Broker]AMS.Broker.Services.AlertsCreationService::SubmitNewAlert(AMS.Broker.Contracts.DTO.Alert)" Id="b5cab846bcfcc015">
+      <Target>
+        <JoinPoint Advising="#17" Description="#3" Ordinal="2" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#18" Id="b5cab8461a6bdd3c">
+      <Target>
+        <JoinPoint Advising="#17" Description="#3" Ordinal="3" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#19=M:[AMS.Broker]AMS.Broker.Services.AlertsCreationService::SubmitNewAlertMycs(AMS.Broker.Contracts.DTO.Alert)" Id="b5cab846382f6191">
+      <Target>
+        <JoinPoint Advising="#17" Description="#3" Ordinal="2" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#19" Id="b5cab846feb1856e">
+      <Target>
+        <JoinPoint Advising="#17" Description="#3" Ordinal="3" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#20=M:[AMS.Broker]AMS.Broker.Services.ServicesImplementations.AccountsServiceImpl::UpdateAccount(AMS.Broker.Contracts.DTO.AccountDto)" Id="b5cab8466e817261">
+      <Target>
+        <JoinPoint Advising="#17" Description="#3" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#21=M:[AMS.Broker]AMS.Broker.Services.ServicesImplementations.AlertsServiceImpl::AcknowledgeAlerts(System.String)" Id="b5cab846597dfeba">
+      <Target>
+        <JoinPoint Advising="#17" Description="#3" Ordinal="3" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#21" Id="b5cab846ecc6feb0">
+      <Target>
+        <JoinPoint Advising="#17" Description="#3" Ordinal="4" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#21" Id="b5cab846e8a94c0f">
+      <Target>
+        <JoinPoint Advising="#17" Description="#3" Ordinal="5" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#22=M:[AMS.Broker]AMS.Broker.Services.ServicesImplementations.AlertsServiceImpl::AcknowledgeAlertsMobile(System.String)" Id="b5cab846f3bb8781">
+      <Target>
+        <JoinPoint Advising="#17" Description="#3" Ordinal="3" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#22" Id="b5cab8469531fc92">
+      <Target>
+        <JoinPoint Advising="#17" Description="#3" Ordinal="4" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#22" Id="b5cab846918e4411">
+      <Target>
+        <JoinPoint Advising="#17" Description="#3" Ordinal="5" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#23=M:[AMS.Broker]AMS.Broker.Services.ServicesImplementations.AlertsServiceImpl::CancelAlerts(System.String)" Id="b5cab846df902a30">
+      <Target>
+        <JoinPoint Advising="#17" Description="#3" Ordinal="4" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#23" Id="b5cab846c2f3d88f">
+      <Target>
+        <JoinPoint Advising="#17" Description="#3" Ordinal="5" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#23" Id="b5cab846a2545765">
+      <Target>
+        <JoinPoint Advising="#17" Description="#3" Ordinal="6" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#23" Id="b5cab84658ce7c13">
+      <Target>
+        <JoinPoint Advising="#17" Description="#3" Ordinal="7" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#24=M:[AMS.Broker]AMS.Broker.Services.ServicesImplementations.AlertsServiceImpl::CancelAlertsMobile(System.String)" Id="b5cab8467208c13b">
+      <Target>
+        <JoinPoint Advising="#17" Description="#3" Ordinal="4" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#24" Id="b5cab84600f90e8b">
+      <Target>
+        <JoinPoint Advising="#17" Description="#3" Ordinal="5" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#24" Id="b5cab846515e3965">
+      <Target>
+        <JoinPoint Advising="#17" Description="#3" Ordinal="6" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#24" Id="b5cab8462a6c86e9">
+      <Target>
+        <JoinPoint Advising="#17" Description="#3" Ordinal="7" />
+      </Target>
+    </Instance>
+  </Class>
+  <Class Class="#25=T:[CacheAspect]CacheAspect.Attributes.Cache+Cacheable">
+    <Instance Declaration="#26=M:[AMS.Broker]AMS.Broker.Services.ServicesImplementations.AccountsServiceImpl::GetAccount(System.Int32)" Id="b5cab846fb1ecd0c">
+      <Target>
+        <JoinPoint Advising="#25" Description="#3" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#27=M:[AMS.Broker]AMS.Broker.Services.ServicesImplementations.AlertsServiceImpl::GetCurrentOpenAlerts(System.String)" Id="b5cab8468cc5834b">
+      <Target>
+        <JoinPoint Advising="#25" Description="#3" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#28=M:[AMS.Broker]AMS.Broker.Services.ServicesImplementations.AlertsServiceImpl::GetNewOpenAlerts(System.String)" Id="b5cab8466ab6885d">
+      <Target>
+        <JoinPoint Advising="#25" Description="#3" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#29=M:[AMS.Broker]AMS.Broker.Services.ServicesImplementations.AlertsServiceImpl::GetClosedAlerts(System.String)" Id="b5cab8466898432f">
+      <Target>
+        <JoinPoint Advising="#25" Description="#3" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#30=M:[AMS.Broker]AMS.Broker.Services.ServicesImplementations.ControllerServiceImpl::GetDevicesCollectionMobImpl(System.String)" Id="b5cab8465541d741">
+      <Target>
+        <JoinPoint Advising="#25" Description="#3" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#31=M:[AMS.Broker]AMS.Broker.Services.ServicesImplementations.ControllerServiceImpl::GetNvrDtosImpl(System.String)" Id="b5cab846106e93b9">
+      <Target>
+        <JoinPoint Advising="#25" Description="#3" />
+      </Target>
+    </Instance>
+  </Class>
+</Symbols>

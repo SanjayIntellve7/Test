@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:tns="http://schemas.datacontract.org/2004/07/TwTw.VideoAnaliyticsService" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/TwTw.VideoAnaliyticsService" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:complexType name="VideoAnalyticsParameters">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AlarmDelay" type="xs:int" />
+      <xs:element minOccurs="0" name="CamIp" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CamPass" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CamUrl" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CamUser" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CameraGuid" type="ser:guid" />
+      <xs:element minOccurs="0" name="FPS" type="xs:int" />
+      <xs:element minOccurs="0" name="Height" type="xs:int" />
+      <xs:element minOccurs="0" name="MaxBlobSize" type="xs:int" />
+      <xs:element minOccurs="0" name="MinBlobSize" type="xs:int" />
+      <xs:element minOccurs="0" name="NvrPassword" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NvrUser" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PeopleCounterStartCount" type="xs:int" />
+      <xs:element minOccurs="0" name="ResvOne" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ResvThree" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ResvTwo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TripWireDirectionFlag" type="xs:int" />
+      <xs:element minOccurs="0" name="UpdateRate" type="xs:float" />
+      <xs:element minOccurs="0" name="Version" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="VideoPath" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Width" type="xs:int" />
+      <xs:element minOccurs="0" name="ZoneColumns" type="xs:int" />
+      <xs:element minOccurs="0" name="ZoneData" nillable="true" type="xs:base64Binary" />
+      <xs:element minOccurs="0" name="ZoneRows" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="VideoAnalyticsParameters" nillable="true" type="tns:VideoAnalyticsParameters" />
+</xs:schema>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="802bc25c-5c0c-41f5-8a92-916c839d12a1" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="https://192.168.0.230:6532/soap/DashBoardCallBackCommServiceClient" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="DashBoardCallBackCommServiceClient.disco" MetadataType="Disco" ID="29830c57-54db-4d79-a609-9dda297d896f" SourceId="1" SourceUrl="https://localhost:6532/SOAP/DashBoardCallBackCommServiceClient?disco" />
+    <MetadataFile FileName="DashBoardCallBackCommServiceClient.wsdl" MetadataType="Wsdl" ID="6ce2dfdd-c165-4ee7-8b17-d52e623c4494" SourceId="1" SourceUrl="https://localhost:6532/SOAP/DashBoardCallBackCommServiceClient?wsdl" />
+    <MetadataFile FileName="DashBoardCallBackCommServiceClient.xsd" MetadataType="Schema" ID="6eeed0af-7c1a-43a2-8f15-e5934e843786" SourceId="1" SourceUrl="https://localhost:6532/SOAP/DashBoardCallBackCommServiceClient?xsd=xsd0" />
+    <MetadataFile FileName="DashBoardCallBackCommServiceClient1.xsd" MetadataType="Schema" ID="67275d10-d218-46ee-a9be-519fd1507848" SourceId="1" SourceUrl="https://localhost:6532/SOAP/DashBoardCallBackCommServiceClient?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

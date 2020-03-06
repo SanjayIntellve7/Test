@@ -1,0 +1,161 @@
+08/12/2017 10:45:21  In Broker inside BrokerAutherizationService
+08/12/2017 10:45:21  ------------------------------------
+08/12/2017 10:45:21  starting Authentication service
+08/12/2017 10:45:25  ------------------------------------
+08/12/2017 10:45:25  starting Directory service
+08/12/2017 10:45:25  listening at https://localhost:6530/Directory
+08/12/2017 10:45:25  ------------------------------------
+08/12/2017 10:45:25  ------------------------------------
+08/12/2017 10:45:25  starting MobileAppCommunication Service.
+08/12/2017 10:50:54  In Broker inside BrokerAutherizationService
+08/12/2017 10:50:54  ------------------------------------
+08/12/2017 10:50:54  starting Authentication service
+08/12/2017 10:50:55  ------------------------------------
+08/12/2017 10:50:55  starting Directory service
+08/12/2017 10:50:55  listening at https://localhost:6530/Directory
+08/12/2017 10:50:55  ------------------------------------
+08/12/2017 10:50:55  ------------------------------------
+08/12/2017 10:50:55  starting MobileAppCommunication Service.
+08/12/2017 10:53:26  AuthServiceMembershipImpl InformAboutUserLoggedIn(): Start
+08/12/2017 10:53:26  AuthServiceMembershipImpl InformAboutUserLoggedIn(): _strUrlhttps://192.168.0.193:6530/soap/StationsService
+08/12/2017 10:53:26  AuthServiceMembershipImpl GetServerConfigIpAddress(): Start
+08/12/2017 11:05:32  AuthServiceMembershipImpl InformAboutUserLoggedIn(): Start
+08/12/2017 11:05:32  AuthServiceMembershipImpl InformAboutUserLoggedIn(): _strUrlhttps://192.168.0.193:6530/soap/StationsService
+08/12/2017 11:05:32  AuthServiceMembershipImpl GetServerConfigIpAddress(): Start
+08/12/2017 11:08:30  AuthServiceMembershipImpl InformAboutUserLoggedIn(): Start
+08/12/2017 11:08:30  AuthServiceMembershipImpl InformAboutUserLoggedIn(): _strUrlhttps://192.168.0.193:6530/soap/StationsService
+08/12/2017 11:08:30  AuthServiceMembershipImpl GetServerConfigIpAddress(): Start
+08/12/2017 11:18:06  AuthServiceMembershipImpl InformAboutUserLoggedIn(): Start
+08/12/2017 11:18:06  AuthServiceMembershipImpl InformAboutUserLoggedIn(): _strUrlhttps://192.168.0.193:6530/soap/StationsService
+08/12/2017 11:18:06  AuthServiceMembershipImpl GetServerConfigIpAddress(): Start
+08/12/2017 11:25:08  AuthServiceMembershipImpl InformAboutUserLoggedIn(): Start
+08/12/2017 11:25:08  AuthServiceMembershipImpl InformAboutUserLoggedIn(): _strUrlhttps://192.168.0.193:6530/soap/StationsService
+08/12/2017 11:25:08  AuthServiceMembershipImpl GetServerConfigIpAddress(): Start
+08/12/2017 11:28:35  AuthServiceMembershipImpl InformAboutUserLoggedIn(): Start
+08/12/2017 11:28:35  AuthServiceMembershipImpl InformAboutUserLoggedIn(): _strUrlhttps://192.168.0.193:6530/soap/StationsService
+08/12/2017 11:28:35  AuthServiceMembershipImpl GetServerConfigIpAddress(): Start
+08/12/2017 11:31:17  AuthServiceMembershipImpl InformAboutUserLoggedIn(): Start
+08/12/2017 11:31:17  AuthServiceMembershipImpl InformAboutUserLoggedIn(): _strUrlhttps://192.168.0.193:6530/soap/StationsService
+08/12/2017 11:31:17  AuthServiceMembershipImpl GetServerConfigIpAddress(): Start
+08/12/2017 11:31:57  AuthServiceMembershipImpl InformAboutUserLoggedIn(): Start
+08/12/2017 11:31:57  AuthServiceMembershipImpl InformAboutUserLoggedIn(): _strUrlhttps://192.168.0.193:6530/soap/StationsService
+08/12/2017 11:31:57  AuthServiceMembershipImpl GetServerConfigIpAddress(): Start
+08/12/2017 11:35:28  AuthServiceMembershipImpl InformAboutUserLoggedIn(): Start
+08/12/2017 11:35:28  AuthServiceMembershipImpl InformAboutUserLoggedIn(): _strUrlhttps://192.168.0.193:6530/soap/StationsService
+08/12/2017 11:35:28  AuthServiceMembershipImpl GetServerConfigIpAddress(): Start
+08/12/2017 11:41:37  AuthServiceMembershipImpl InformAboutUserLoggedIn(): Start
+08/12/2017 11:41:37  AuthServiceMembershipImpl InformAboutUserLoggedIn(): _strUrlhttps://192.168.0.193:6530/soap/StationsService
+08/12/2017 11:41:37  AuthServiceMembershipImpl GetServerConfigIpAddress(): Start
+08/12/2017 11:47:56  AuthServiceMembershipImpl InformAboutUserLoggedIn(): Start
+08/12/2017 11:47:56  AuthServiceMembershipImpl InformAboutUserLoggedIn(): _strUrlhttps://192.168.0.193:6530/soap/StationsService
+08/12/2017 11:47:56  AuthServiceMembershipImpl GetServerConfigIpAddress(): Start
+08/12/2017 11:50:07  AuthServiceMembershipImpl CreateSession() user name/password not valid 
+08/12/2017 11:50:41  AuthServiceMembershipImpl InformAboutUserLoggedIn(): Start
+08/12/2017 11:50:41  AuthServiceMembershipImpl GetServerConfigIpAddress(): Start
+08/12/2017 11:54:28  AuthServiceMembershipImpl InformAboutUserLoggedIn(): Start
+08/12/2017 11:54:28  AuthServiceMembershipImpl InformAboutUserLoggedIn(): _strUrlhttps://192.168.0.193:6530/soap/StationsService
+08/12/2017 11:54:28  AuthServiceMembershipImpl GetServerConfigIpAddress(): Start
+08/12/2017 12:07:29  AuthServiceMembershipImpl InformAboutUserLoggedIn(): Start
+08/12/2017 12:07:29  AuthServiceMembershipImpl InformAboutUserLoggedIn(): _strUrlhttps://192.168.0.193:6530/soap/StationsService
+08/12/2017 12:07:29  AuthServiceMembershipImpl GetServerConfigIpAddress(): Start
+08/12/2017 12:08:10  AuthServiceMembershipImpl InformAboutUserLoggedIn(): Start
+08/12/2017 12:08:10  AuthServiceMembershipImpl InformAboutUserLoggedIn(): _strUrlhttps://192.168.0.193:6530/soap/StationsService
+08/12/2017 12:08:10  AuthServiceMembershipImpl GetServerConfigIpAddress(): Start
+08/12/2017 12:10:25  AuthServiceMembershipImpl InformAboutUserLoggedIn(): Start
+08/12/2017 12:10:25  AuthServiceMembershipImpl InformAboutUserLoggedIn(): _strUrlhttps://192.168.0.193:6530/soap/StationsService
+08/12/2017 12:10:25  AuthServiceMembershipImpl GetServerConfigIpAddress(): Start
+08/12/2017 12:14:29  AuthServiceMembershipImpl InformAboutUserLoggedIn(): Start
+08/12/2017 12:14:29  AuthServiceMembershipImpl InformAboutUserLoggedIn(): _strUrlhttps://192.168.0.193:6530/soap/StationsService
+08/12/2017 12:14:29  AuthServiceMembershipImpl GetServerConfigIpAddress(): Start
+08/12/2017 12:46:06  AuthServiceMembershipImpl InformAboutUserLoggedIn(): Start
+08/12/2017 12:46:06  AuthServiceMembershipImpl InformAboutUserLoggedIn(): _strUrlhttps://192.168.0.193:6530/soap/StationsService
+08/12/2017 12:46:06  AuthServiceMembershipImpl GetServerConfigIpAddress(): Start
+08/12/2017 12:48:05  AuthServiceMembershipImpl InformAboutUserLoggedIn(): Start
+08/12/2017 12:48:05  AuthServiceMembershipImpl InformAboutUserLoggedIn(): _strUrlhttps://192.168.0.193:6530/soap/StationsService
+08/12/2017 12:48:05  AuthServiceMembershipImpl GetServerConfigIpAddress(): Start
+08/12/2017 13:08:59  AuthServiceMembershipImpl InformAboutUserLoggedIn(): Start
+08/12/2017 13:08:59  AuthServiceMembershipImpl InformAboutUserLoggedIn(): _strUrlhttps://192.168.0.193:6530/soap/StationsService
+08/12/2017 13:08:59  AuthServiceMembershipImpl GetServerConfigIpAddress(): Start
+08/12/2017 13:12:53  AuthServiceMembershipImpl InformAboutUserLoggedIn(): Start
+08/12/2017 13:12:53  AuthServiceMembershipImpl InformAboutUserLoggedIn(): _strUrlhttps://192.168.0.193:6530/soap/StationsService
+08/12/2017 13:12:53  AuthServiceMembershipImpl GetServerConfigIpAddress(): Start
+08/12/2017 13:49:22  AuthServiceMembershipImpl InformAboutUserLoggedIn(): Start
+08/12/2017 13:49:22  AuthServiceMembershipImpl InformAboutUserLoggedIn(): _strUrlhttps://192.168.0.193:6530/soap/StationsService
+08/12/2017 13:49:22  AuthServiceMembershipImpl GetServerConfigIpAddress(): Start
+08/12/2017 13:55:08  AuthServiceMembershipImpl InformAboutUserLoggedIn(): Start
+08/12/2017 13:55:08  AuthServiceMembershipImpl InformAboutUserLoggedIn(): _strUrlhttps://192.168.0.193:6530/soap/StationsService
+08/12/2017 13:55:09  AuthServiceMembershipImpl GetServerConfigIpAddress(): Start
+08/12/2017 13:58:56  AuthServiceMembershipImpl InformAboutUserLoggedIn(): Start
+08/12/2017 13:58:56  AuthServiceMembershipImpl InformAboutUserLoggedIn(): _strUrlhttps://192.168.0.193:6530/soap/StationsService
+08/12/2017 13:58:56  AuthServiceMembershipImpl GetServerConfigIpAddress(): Start
+08/12/2017 14:14:37  AuthServiceMembershipImpl InformAboutUserLoggedIn(): Start
+08/12/2017 14:14:37  AuthServiceMembershipImpl InformAboutUserLoggedIn(): _strUrlhttps://192.168.0.193:6530/soap/StationsService
+08/12/2017 14:14:37  AuthServiceMembershipImpl GetServerConfigIpAddress(): Start
+08/12/2017 14:30:14  AuthServiceMembershipImpl InformAboutUserLoggedIn(): Start
+08/12/2017 14:30:14  AuthServiceMembershipImpl InformAboutUserLoggedIn(): _strUrlhttps://192.168.0.193:6530/soap/StationsService
+08/12/2017 14:30:14  AuthServiceMembershipImpl GetServerConfigIpAddress(): Start
+08/12/2017 15:04:03  AuthServiceMembershipImpl InformAboutUserLoggedIn(): Start
+08/12/2017 15:04:03  AuthServiceMembershipImpl InformAboutUserLoggedIn(): _strUrlhttps://192.168.0.193:6530/soap/StationsService
+08/12/2017 15:04:04  AuthServiceMembershipImpl GetServerConfigIpAddress(): Start
+08/12/2017 15:18:38  AuthServiceMembershipImpl InformAboutUserLoggedIn(): Start
+08/12/2017 15:18:38  AuthServiceMembershipImpl InformAboutUserLoggedIn(): _strUrlhttps://192.168.0.193:6530/soap/StationsService
+08/12/2017 15:18:38  AuthServiceMembershipImpl GetServerConfigIpAddress(): Start
+08/12/2017 15:43:43  AuthServiceMembershipImpl InformAboutUserLoggedIn(): Start
+08/12/2017 15:43:43  AuthServiceMembershipImpl InformAboutUserLoggedIn(): _strUrlhttps://192.168.0.193:6530/soap/StationsService
+08/12/2017 15:43:43  AuthServiceMembershipImpl GetServerConfigIpAddress(): Start
+08/12/2017 15:43:44  AuthServiceMembershipImpl InformAboutUserLoggedIn(): Exception :There was no endpoint listening at https://192.168.0.193:6530/soap/StationsService that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+08/12/2017 15:56:18  AuthServiceMembershipImpl InformAboutUserLoggedIn(): Start
+08/12/2017 15:56:18  AuthServiceMembershipImpl InformAboutUserLoggedIn(): _strUrlhttps://192.168.0.193:6530/soap/StationsService
+08/12/2017 15:56:18  AuthServiceMembershipImpl InformAboutUserLoggedIn(): Exception :There was no endpoint listening at https://192.168.0.193:6530/soap/StationsService that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+08/12/2017 15:56:18  AuthServiceMembershipImpl GetServerConfigIpAddress(): Start
+08/12/2017 15:58:07  AuthServiceMembershipImpl InformAboutUserLoggedIn(): Start
+08/12/2017 15:58:07  AuthServiceMembershipImpl InformAboutUserLoggedIn(): _strUrlhttps://192.168.0.193:6530/soap/StationsService
+08/12/2017 15:58:07  AuthServiceMembershipImpl InformAboutUserLoggedIn(): Exception :There was no endpoint listening at https://192.168.0.193:6530/soap/StationsService that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+08/12/2017 15:58:07  AuthServiceMembershipImpl GetServerConfigIpAddress(): Start
+08/12/2017 16:04:00  AuthServiceMembershipImpl InformAboutUserLoggedIn(): Start
+08/12/2017 16:04:00  AuthServiceMembershipImpl InformAboutUserLoggedIn(): _strUrlhttps://192.168.0.193:6530/soap/StationsService
+08/12/2017 16:04:00  AuthServiceMembershipImpl GetServerConfigIpAddress(): Start
+08/12/2017 17:24:28  In Broker inside BrokerAutherizationService
+08/12/2017 17:24:28  ------------------------------------
+08/12/2017 17:24:28  starting Authentication service
+08/12/2017 17:24:29  ------------------------------------
+08/12/2017 17:24:29  starting Directory service
+08/12/2017 17:24:29  listening at https://localhost:6530/Directory
+08/12/2017 17:24:29  ------------------------------------
+08/12/2017 17:24:29  ------------------------------------
+08/12/2017 17:24:29  starting MobileAppCommunication Service.
+08/12/2017 17:33:57  AuthServiceMembershipImpl InformAboutUserLoggedIn(): Start
+08/12/2017 17:33:57  AuthServiceMembershipImpl InformAboutUserLoggedIn(): _strUrlhttps://192.168.0.193:6530/soap/StationsService
+08/12/2017 17:33:58  AuthServiceMembershipImpl GetServerConfigIpAddress(): Start
+08/12/2017 17:38:20  AuthServiceMembershipImpl InformAboutUserLoggedIn(): Start
+08/12/2017 17:38:20  AuthServiceMembershipImpl InformAboutUserLoggedIn(): _strUrlhttps://192.168.0.193:6530/soap/StationsService
+08/12/2017 17:38:20  AuthServiceMembershipImpl GetServerConfigIpAddress(): Start
+08/12/2017 17:47:26  AuthServiceMembershipImpl InformAboutUserLoggedIn(): Start
+08/12/2017 17:47:26  AuthServiceMembershipImpl InformAboutUserLoggedIn(): _strUrlhttps://192.168.0.193:6530/soap/StationsService
+08/12/2017 17:47:26  AuthServiceMembershipImpl GetServerConfigIpAddress(): Start
+08/12/2017 17:50:01  AuthServiceMembershipImpl InformAboutUserLoggedIn(): Start
+08/12/2017 17:50:01  AuthServiceMembershipImpl InformAboutUserLoggedIn(): _strUrlhttps://192.168.0.193:6530/soap/StationsService
+08/12/2017 17:50:01  AuthServiceMembershipImpl GetServerConfigIpAddress(): Start
+08/12/2017 18:04:15  AuthServiceMembershipImpl InformAboutUserLoggedIn(): Start
+08/12/2017 18:04:15  AuthServiceMembershipImpl InformAboutUserLoggedIn(): _strUrlhttps://192.168.0.193:6530/soap/StationsService
+08/12/2017 18:04:15  AuthServiceMembershipImpl GetServerConfigIpAddress(): Start
+08/12/2017 18:16:02  AuthServiceMembershipImpl InformAboutUserLoggedIn(): Start
+08/12/2017 18:16:02  AuthServiceMembershipImpl InformAboutUserLoggedIn(): _strUrlhttps://192.168.0.193:6530/soap/StationsService
+08/12/2017 18:16:02  AuthServiceMembershipImpl GetServerConfigIpAddress(): Start
+08/12/2017 18:23:16  AuthServiceMembershipImpl InformAboutUserLoggedIn(): Start
+08/12/2017 18:23:16  AuthServiceMembershipImpl InformAboutUserLoggedIn(): _strUrlhttps://192.168.0.193:6530/soap/StationsService
+08/12/2017 18:23:16  AuthServiceMembershipImpl GetServerConfigIpAddress(): Start
+08/12/2017 19:29:42  AuthServiceMembershipImpl InformAboutUserLoggedIn(): Start
+08/12/2017 19:29:42  AuthServiceMembershipImpl InformAboutUserLoggedIn(): _strUrlhttps://192.168.0.193:6530/soap/StationsService
+08/12/2017 19:31:04  AuthServiceMembershipImpl InformAboutUserLoggedIn(): Start
+08/12/2017 19:31:04  AuthServiceMembershipImpl InformAboutUserLoggedIn(): _strUrlhttps://192.168.0.193:6530/soap/StationsService
+08/12/2017 19:31:04  AuthServiceMembershipImpl GetServerConfigIpAddress(): Start
+08/12/2017 20:42:08  AuthServiceMembershipImpl InformAboutUserLoggedIn(): Start
+08/12/2017 20:42:08  AuthServiceMembershipImpl InformAboutUserLoggedIn(): _strUrlhttps://192.168.0.193:6530/soap/StationsService
+08/12/2017 20:42:08  AuthServiceMembershipImpl GetServerConfigIpAddress(): Start
+08/12/2017 20:47:04  AuthServiceMembershipImpl InformAboutUserLoggedIn(): Start
+08/12/2017 20:47:04  AuthServiceMembershipImpl InformAboutUserLoggedIn(): _strUrlhttps://192.168.0.193:6530/soap/StationsService
+08/12/2017 20:47:04  AuthServiceMembershipImpl GetServerConfigIpAddress(): Start
+08/12/2017 20:49:03  AuthServiceMembershipImpl InformAboutUserLoggedIn(): Start
+08/12/2017 20:49:03  AuthServiceMembershipImpl InformAboutUserLoggedIn(): _strUrlhttps://192.168.0.193:6530/soap/StationsService
+08/12/2017 20:49:04  AuthServiceMembershipImpl GetServerConfigIpAddress(): Start

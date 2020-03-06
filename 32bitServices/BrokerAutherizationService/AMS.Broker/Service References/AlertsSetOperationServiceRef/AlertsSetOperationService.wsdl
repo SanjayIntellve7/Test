@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="AlertsSetOperationService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsp:Policy wsu:Id="WSHttpBinding_IAlertsSetOperationService_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:TransportBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy>
+            <sp:TransportToken>
+              <wsp:Policy>
+                <sp:HttpsToken RequireClientCertificate="false" />
+              </wsp:Policy>
+            </sp:TransportToken>
+            <sp:AlgorithmSuite>
+              <wsp:Policy>
+                <sp:Basic256 />
+              </wsp:Policy>
+            </sp:AlgorithmSuite>
+            <sp:Layout>
+              <wsp:Policy>
+                <sp:Strict />
+              </wsp:Policy>
+            </sp:Layout>
+          </wsp:Policy>
+        </sp:TransportBinding>
+        <wsaw:UsingAddressing />
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="https://localhost:6530/SOAP/AlertsSetOperationService?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="https://localhost:6530/SOAP/AlertsSetOperationService?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="https://localhost:6530/SOAP/AlertsSetOperationService?xsd=xsd2" namespace="http://schemas.microsoft.com/Message" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IAlertsSetOperationService_UpdateAlertInformations_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateAlertInformations" />
+  </wsdl:message>
+  <wsdl:message name="IAlertsSetOperationService_UpdateAlertInformations_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateAlertInformationsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAlertsSetOperationService_UpdateAlertsCollection_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateAlertsCollection" />
+  </wsdl:message>
+  <wsdl:message name="IAlertsSetOperationService_UpdateAlertsCollection_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateAlertsCollectionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAlertsSetOperationService_CreateMobileAlert_InputMessage">
+    <wsdl:part name="parameters" element="tns:CreateMobileAlert" />
+  </wsdl:message>
+  <wsdl:message name="IAlertsSetOperationService_CreateMobileAlert_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CreateMobileAlertResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAlertsSetOperationService_CreateDummySimulatorAlerts_InputMessage">
+    <wsdl:part name="parameters" element="tns:CreateDummySimulatorAlerts" />
+  </wsdl:message>
+  <wsdl:message name="IAlertsSetOperationService_CreateDummySimulatorAlerts_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CreateDummySimulatorAlertsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAlertsSetOperationService_UpdateMobileAlert_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateMobileAlert" />
+  </wsdl:message>
+  <wsdl:message name="IAlertsSetOperationService_UpdateMobileAlert_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateMobileAlertResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAlertsSetOperationService_fileUpload_InputMessage">
+    <wsdl:part name="parameters" element="tns:fileUpload" />
+  </wsdl:message>
+  <wsdl:message name="IAlertsSetOperationService_fileUpload_OutputMessage">
+    <wsdl:part name="parameters" element="tns:fileUploadResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAlertsSetOperationService_SetAlertOwner_InputMessage">
+    <wsdl:part name="parameters" element="tns:SetAlertOwner" />
+  </wsdl:message>
+  <wsdl:message name="IAlertsSetOperationService_SetAlertOwner_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SetAlertOwnerResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAlertsSetOperationService_AlertCollabration_InputMessage">
+    <wsdl:part name="parameters" element="tns:AlertCollabration" />
+  </wsdl:message>
+  <wsdl:message name="IAlertsSetOperationService_AlertCollabration_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AlertCollabrationResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAlertsSetOperationService_AcknowledgeAlerts_InputMessage">
+    <wsdl:part name="parameters" element="tns:AcknowledgeAlerts" />
+  </wsdl:message>
+  <wsdl:message name="IAlertsSetOperationService_AcknowledgeAlerts_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AcknowledgeAlertsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAlertsSetOperationService_AcknowledgeAlertsMobile_InputMessage">
+    <wsdl:part name="parameters" element="tns:AcknowledgeAlertsMobile" />
+  </wsdl:message>
+  <wsdl:message name="IAlertsSetOperationService_AcknowledgeAlertsMobile_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AcknowledgeAlertsMobileResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAlertsSetOperationService_CancelAlerts_InputMessage">
+    <wsdl:part name="parameters" element="tns:CancelAlerts" />
+  </wsdl:message>
+  <wsdl:message name="IAlertsSetOperationService_CancelAlerts_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CancelAlertsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAlertsSetOperationService_CancelallAlert_InputMessage">
+    <wsdl:part name="parameters" element="tns:CancelallAlert" />
+  </wsdl:message>
+  <wsdl:message name="IAlertsSetOperationService_CancelallAlert_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CancelallAlertResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAlertsSetOperationService_CancelAlertsMobile_InputMessage">
+    <wsdl:part name="parameters" element="tns:CancelAlertsMobile" />
+  </wsdl:message>
+  <wsdl:message name="IAlertsSetOperationService_CancelAlertsMobile_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CancelAlertsMobileResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAlertsSetOperationService_CapProfileUpdate_InputMessage">
+    <wsdl:part name="parameters" element="tns:CapProfileUpdate" />
+  </wsdl:message>
+  <wsdl:message name="IAlertsSetOperationService_CapProfileUpdate_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CapProfileUpdateResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IAlertsSetOperationService">
+    <wsdl:operation name="UpdateAlertInformations">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAlertsSetOperationService/UpdateAlertInformations" message="tns:IAlertsSetOperationService_UpdateAlertInformations_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAlertsSetOperationService/UpdateAlertInformationsResponse" message="tns:IAlertsSetOperationService_UpdateAlertInformations_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateAlertsCollection">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAlertsSetOperationService/UpdateAlertsCollection" message="tns:IAlertsSetOperationService_UpdateAlertsCollection_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAlertsSetOperationService/UpdateAlertsCollectionResponse" message="tns:IAlertsSetOperationService_UpdateAlertsCollection_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateMobileAlert">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAlertsSetOperationService/CreateMobileAlert" message="tns:IAlertsSetOperationService_CreateMobileAlert_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAlertsSetOperationService/CreateMobileAlertResponse" message="tns:IAlertsSetOperationService_CreateMobileAlert_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateDummySimulatorAlerts">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAlertsSetOperationService/CreateDummySimulatorAlerts" message="tns:IAlertsSetOperationService_CreateDummySimulatorAlerts_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAlertsSetOperationService/CreateDummySimulatorAlertsResponse" message="tns:IAlertsSetOperationService_CreateDummySimulatorAlerts_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateMobileAlert">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAlertsSetOperationService/UpdateMobileAlert" message="tns:IAlertsSetOperationService_UpdateMobileAlert_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAlertsSetOperationService/UpdateMobileAlertResponse" message="tns:IAlertsSetOperationService_UpdateMobileAlert_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="fileUpload">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAlertsSetOperationService/fileUpload" message="tns:IAlertsSetOperationService_fileUpload_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAlertsSetOperationService/fileUploadResponse" message="tns:IAlertsSetOperationService_fileUpload_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SetAlertOwner">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAlertsSetOperationService/SetAlertOwner" message="tns:IAlertsSetOperationService_SetAlertOwner_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAlertsSetOperationService/SetAlertOwnerResponse" message="tns:IAlertsSetOperationService_SetAlertOwner_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AlertCollabration">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAlertsSetOperationService/AlertCollabration" message="tns:IAlertsSetOperationService_AlertCollabration_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAlertsSetOperationService/AlertCollabrationResponse" message="tns:IAlertsSetOperationService_AlertCollabration_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AcknowledgeAlerts">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAlertsSetOperationService/AcknowledgeAlerts" message="tns:IAlertsSetOperationService_AcknowledgeAlerts_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAlertsSetOperationService/AcknowledgeAlertsResponse" message="tns:IAlertsSetOperationService_AcknowledgeAlerts_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AcknowledgeAlertsMobile">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAlertsSetOperationService/AcknowledgeAlertsMobile" message="tns:IAlertsSetOperationService_AcknowledgeAlertsMobile_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAlertsSetOperationService/AcknowledgeAlertsMobileResponse" message="tns:IAlertsSetOperationService_AcknowledgeAlertsMobile_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CancelAlerts">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAlertsSetOperationService/CancelAlerts" message="tns:IAlertsSetOperationService_CancelAlerts_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAlertsSetOperationService/CancelAlertsResponse" message="tns:IAlertsSetOperationService_CancelAlerts_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CancelallAlert">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAlertsSetOperationService/CancelallAlert" message="tns:IAlertsSetOperationService_CancelallAlert_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAlertsSetOperationService/CancelallAlertResponse" message="tns:IAlertsSetOperationService_CancelallAlert_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CancelAlertsMobile">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAlertsSetOperationService/CancelAlertsMobile" message="tns:IAlertsSetOperationService_CancelAlertsMobile_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAlertsSetOperationService/CancelAlertsMobileResponse" message="tns:IAlertsSetOperationService_CancelAlertsMobile_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CapProfileUpdate">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAlertsSetOperationService/CapProfileUpdate" message="tns:IAlertsSetOperationService_CapProfileUpdate_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAlertsSetOperationService/CapProfileUpdateResponse" message="tns:IAlertsSetOperationService_CapProfileUpdate_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WSHttpBinding_IAlertsSetOperationService" type="tns:IAlertsSetOperationService">
+    <wsp:PolicyReference URI="#WSHttpBinding_IAlertsSetOperationService_policy" />
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="UpdateAlertInformations">
+      <soap12:operation soapAction="http://tempuri.org/IAlertsSetOperationService/UpdateAlertInformations" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateAlertsCollection">
+      <soap12:operation soapAction="http://tempuri.org/IAlertsSetOperationService/UpdateAlertsCollection" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateMobileAlert">
+      <soap12:operation soapAction="http://tempuri.org/IAlertsSetOperationService/CreateMobileAlert" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateDummySimulatorAlerts">
+      <soap12:operation soapAction="http://tempuri.org/IAlertsSetOperationService/CreateDummySimulatorAlerts" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateMobileAlert">
+      <soap12:operation soapAction="http://tempuri.org/IAlertsSetOperationService/UpdateMobileAlert" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="fileUpload">
+      <soap12:operation soapAction="http://tempuri.org/IAlertsSetOperationService/fileUpload" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetAlertOwner">
+      <soap12:operation soapAction="http://tempuri.org/IAlertsSetOperationService/SetAlertOwner" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AlertCollabration">
+      <soap12:operation soapAction="http://tempuri.org/IAlertsSetOperationService/AlertCollabration" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AcknowledgeAlerts">
+      <soap12:operation soapAction="http://tempuri.org/IAlertsSetOperationService/AcknowledgeAlerts" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AcknowledgeAlertsMobile">
+      <soap12:operation soapAction="http://tempuri.org/IAlertsSetOperationService/AcknowledgeAlertsMobile" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CancelAlerts">
+      <soap12:operation soapAction="http://tempuri.org/IAlertsSetOperationService/CancelAlerts" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CancelallAlert">
+      <soap12:operation soapAction="http://tempuri.org/IAlertsSetOperationService/CancelallAlert" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CancelAlertsMobile">
+      <soap12:operation soapAction="http://tempuri.org/IAlertsSetOperationService/CancelAlertsMobile" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CapProfileUpdate">
+      <soap12:operation soapAction="http://tempuri.org/IAlertsSetOperationService/CapProfileUpdate" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="AlertsSetOperationService">
+    <wsdl:port name="WSHttpBinding_IAlertsSetOperationService" binding="tns:WSHttpBinding_IAlertsSetOperationService">
+      <soap12:address location="https://localhost:6530/soap/AlertsSetOperationService" />
+      <wsa10:EndpointReference>
+        <wsa10:Address>https://localhost:6530/soap/AlertsSetOperationService</wsa10:Address>
+      </wsa10:EndpointReference>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

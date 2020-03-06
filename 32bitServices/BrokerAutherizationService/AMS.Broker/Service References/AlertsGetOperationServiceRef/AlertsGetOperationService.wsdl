@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="AlertsGetOperationService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsp:Policy wsu:Id="WSHttpBinding_IAlertsGetOperationService_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:TransportBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy>
+            <sp:TransportToken>
+              <wsp:Policy>
+                <sp:HttpsToken RequireClientCertificate="true" />
+              </wsp:Policy>
+            </sp:TransportToken>
+            <sp:AlgorithmSuite>
+              <wsp:Policy>
+                <sp:Basic256 />
+              </wsp:Policy>
+            </sp:AlgorithmSuite>
+            <sp:Layout>
+              <wsp:Policy>
+                <sp:Strict />
+              </wsp:Policy>
+            </sp:Layout>
+          </wsp:Policy>
+        </sp:TransportBinding>
+        <wsaw:UsingAddressing />
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="https://localhost:6530/SOAP/AlertsGetOperationService?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="https://localhost:6530/SOAP/AlertsGetOperationService?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="https://localhost:6530/SOAP/AlertsGetOperationService?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/AMS.Broker.Contracts.DTO" />
+      <xsd:import schemaLocation="https://localhost:6530/SOAP/AlertsGetOperationService?xsd=xsd3" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IAlertsGetOperationService_GetCurrentOpenAlerts_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCurrentOpenAlerts" />
+  </wsdl:message>
+  <wsdl:message name="IAlertsGetOperationService_GetCurrentOpenAlerts_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCurrentOpenAlertsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAlertsGetOperationService_GetMobCurrentOpenAlertsCount_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetMobCurrentOpenAlertsCount" />
+  </wsdl:message>
+  <wsdl:message name="IAlertsGetOperationService_GetMobCurrentOpenAlertsCount_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetMobCurrentOpenAlertsCountResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAlertsGetOperationService_GetMobCurrentOpenAlerts_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetMobCurrentOpenAlerts" />
+  </wsdl:message>
+  <wsdl:message name="IAlertsGetOperationService_GetMobCurrentOpenAlerts_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetMobCurrentOpenAlertsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAlertsGetOperationService_GetAcknoledgeAlerts_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAcknoledgeAlerts" />
+  </wsdl:message>
+  <wsdl:message name="IAlertsGetOperationService_GetAcknoledgeAlerts_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAcknoledgeAlertsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAlertsGetOperationService_GetClosedAlerts_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetClosedAlerts" />
+  </wsdl:message>
+  <wsdl:message name="IAlertsGetOperationService_GetClosedAlerts_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetClosedAlertsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAlertsGetOperationService_StartGetCurrentOpenAlerts_InputMessage">
+    <wsdl:part name="parameters" element="tns:StartGetCurrentOpenAlerts" />
+  </wsdl:message>
+  <wsdl:message name="IAlertsGetOperationService_StartGetCurrentOpenAlerts_OutputMessage">
+    <wsdl:part name="parameters" element="tns:StartGetCurrentOpenAlertsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAlertsGetOperationService_GetAlertsKpi_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAlertsKpi" />
+  </wsdl:message>
+  <wsdl:message name="IAlertsGetOperationService_GetAlertsKpi_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAlertsKpiResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAlertsGetOperationService_GetNewOpenAlerts_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetNewOpenAlerts" />
+  </wsdl:message>
+  <wsdl:message name="IAlertsGetOperationService_GetNewOpenAlerts_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetNewOpenAlertsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAlertsGetOperationService_GetTop50Alert_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetTop50Alert" />
+  </wsdl:message>
+  <wsdl:message name="IAlertsGetOperationService_GetTop50Alert_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetTop50AlertResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAlertsGetOperationService_GetTop50AlertDummy_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetTop50AlertDummy" />
+  </wsdl:message>
+  <wsdl:message name="IAlertsGetOperationService_GetTop50AlertDummy_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetTop50AlertDummyResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAlertsGetOperationService_GetAlertsSeverity_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAlertsSeverity" />
+  </wsdl:message>
+  <wsdl:message name="IAlertsGetOperationService_GetAlertsSeverity_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAlertsSeverityResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAlertsGetOperationService_GetAlertsCertinity_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAlertsCertinity" />
+  </wsdl:message>
+  <wsdl:message name="IAlertsGetOperationService_GetAlertsCertinity_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAlertsCertinityResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAlertsGetOperationService_GetAlertsUrgency_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAlertsUrgency" />
+  </wsdl:message>
+  <wsdl:message name="IAlertsGetOperationService_GetAlertsUrgency_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAlertsUrgencyResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAlertsGetOperationService_GetSingleAlert_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetSingleAlert" />
+  </wsdl:message>
+  <wsdl:message name="IAlertsGetOperationService_GetSingleAlert_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetSingleAlertResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAlertsGetOperationService_GetOpenAlertCount_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetOpenAlertCount" />
+  </wsdl:message>
+  <wsdl:message name="IAlertsGetOperationService_GetOpenAlertCount_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetOpenAlertCountResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAlertsGetOperationService_GetMobileSingleAlert_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetMobileSingleAlert" />
+  </wsdl:message>
+  <wsdl:message name="IAlertsGetOperationService_GetMobileSingleAlert_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetMobileSingleAlertResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAlertsGetOperationService_GetAlertByDeviceId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAlertByDeviceId" />
+  </wsdl:message>
+  <wsdl:message name="IAlertsGetOperationService_GetAlertByDeviceId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAlertByDeviceIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAlertsGetOperationService_GetDeviceAlertCount_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDeviceAlertCount" />
+  </wsdl:message>
+  <wsdl:message name="IAlertsGetOperationService_GetDeviceAlertCount_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDeviceAlertCountResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAlertsGetOperationService_GetDeviceAlertByID_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDeviceAlertByID" />
+  </wsdl:message>
+  <wsdl:message name="IAlertsGetOperationService_GetDeviceAlertByID_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDeviceAlertByIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAlertsGetOperationService_GetContextAlertData_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetContextAlertData" />
+  </wsdl:message>
+  <wsdl:message name="IAlertsGetOperationService_GetContextAlertData_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetContextAlertDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAlertsGetOperationService_AnimateMapPin_InputMessage">
+    <wsdl:part name="parameters" element="tns:AnimateMapPin" />
+  </wsdl:message>
+  <wsdl:message name="IAlertsGetOperationService_AnimateMapPin_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AnimateMapPinResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAlertsGetOperationService_GetAssociatedPTZDevice_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAssociatedPTZDevice" />
+  </wsdl:message>
+  <wsdl:message name="IAlertsGetOperationService_GetAssociatedPTZDevice_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAssociatedPTZDeviceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAlertsGetOperationService_GetAssociatedPTZDeviceCollection_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAssociatedPTZDeviceCollection" />
+  </wsdl:message>
+  <wsdl:message name="IAlertsGetOperationService_GetAssociatedPTZDeviceCollection_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAssociatedPTZDeviceCollectionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAlertsGetOperationService_AllTypeAlertCounts_InputMessage">
+    <wsdl:part name="parameters" element="tns:AllTypeAlertCounts" />
+  </wsdl:message>
+  <wsdl:message name="IAlertsGetOperationService_AllTypeAlertCounts_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AllTypeAlertCountsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAlertsGetOperationService_GetAssociatedDeviceCollection_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAssociatedDeviceCollection" />
+  </wsdl:message>
+  <wsdl:message name="IAlertsGetOperationService_GetAssociatedDeviceCollection_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAssociatedDeviceCollectionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAlertsGetOperationService_GetRecentAndAllTypeAlertCount_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetRecentAndAllTypeAlertCount" />
+  </wsdl:message>
+  <wsdl:message name="IAlertsGetOperationService_GetRecentAndAllTypeAlertCount_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetRecentAndAllTypeAlertCountResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IAlertsGetOperationService">
+    <wsdl:operation name="GetCurrentOpenAlerts">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAlertsGetOperationService/GetCurrentOpenAlerts" message="tns:IAlertsGetOperationService_GetCurrentOpenAlerts_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAlertsGetOperationService/GetCurrentOpenAlertsResponse" message="tns:IAlertsGetOperationService_GetCurrentOpenAlerts_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMobCurrentOpenAlertsCount">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAlertsGetOperationService/GetMobCurrentOpenAlertsCount" message="tns:IAlertsGetOperationService_GetMobCurrentOpenAlertsCount_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAlertsGetOperationService/GetMobCurrentOpenAlertsCountResponse" message="tns:IAlertsGetOperationService_GetMobCurrentOpenAlertsCount_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMobCurrentOpenAlerts">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAlertsGetOperationService/GetMobCurrentOpenAlerts" message="tns:IAlertsGetOperationService_GetMobCurrentOpenAlerts_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAlertsGetOperationService/GetMobCurrentOpenAlertsResponse" message="tns:IAlertsGetOperationService_GetMobCurrentOpenAlerts_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAcknoledgeAlerts">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAlertsGetOperationService/GetAcknoledgeAlerts" message="tns:IAlertsGetOperationService_GetAcknoledgeAlerts_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAlertsGetOperationService/GetAcknoledgeAlertsResponse" message="tns:IAlertsGetOperationService_GetAcknoledgeAlerts_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetClosedAlerts">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAlertsGetOperationService/GetClosedAlerts" message="tns:IAlertsGetOperationService_GetClosedAlerts_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAlertsGetOperationService/GetClosedAlertsResponse" message="tns:IAlertsGetOperationService_GetClosedAlerts_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="StartGetCurrentOpenAlerts">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAlertsGetOperationService/StartGetCurrentOpenAlerts" message="tns:IAlertsGetOperationService_StartGetCurrentOpenAlerts_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAlertsGetOperationService/StartGetCurrentOpenAlertsResponse" message="tns:IAlertsGetOperationService_StartGetCurrentOpenAlerts_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAlertsKpi">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAlertsGetOperationService/GetAlertsKpi" message="tns:IAlertsGetOperationService_GetAlertsKpi_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAlertsGetOperationService/GetAlertsKpiResponse" message="tns:IAlertsGetOperationService_GetAlertsKpi_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNewOpenAlerts">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAlertsGetOperationService/GetNewOpenAlerts" message="tns:IAlertsGetOperationService_GetNewOpenAlerts_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAlertsGetOperationService/GetNewOpenAlertsResponse" message="tns:IAlertsGetOperationService_GetNewOpenAlerts_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTop50Alert">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAlertsGetOperationService/GetTop50Alert" message="tns:IAlertsGetOperationService_GetTop50Alert_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAlertsGetOperationService/GetTop50AlertResponse" message="tns:IAlertsGetOperationService_GetTop50Alert_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTop50AlertDummy">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAlertsGetOperationService/GetTop50AlertDummy" message="tns:IAlertsGetOperationService_GetTop50AlertDummy_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAlertsGetOperationService/GetTop50AlertDummyResponse" message="tns:IAlertsGetOperationService_GetTop50AlertDummy_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAlertsSeverity">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAlertsGetOperationService/GetAlertsSeverity" message="tns:IAlertsGetOperationService_GetAlertsSeverity_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAlertsGetOperationService/GetAlertsSeverityResponse" message="tns:IAlertsGetOperationService_GetAlertsSeverity_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAlertsCertinity">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAlertsGetOperationService/GetAlertsCertinity" message="tns:IAlertsGetOperationService_GetAlertsCertinity_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAlertsGetOperationService/GetAlertsCertinityResponse" message="tns:IAlertsGetOperationService_GetAlertsCertinity_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAlertsUrgency">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAlertsGetOperationService/GetAlertsUrgency" message="tns:IAlertsGetOperationService_GetAlertsUrgency_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAlertsGetOperationService/GetAlertsUrgencyResponse" message="tns:IAlertsGetOperationService_GetAlertsUrgency_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSingleAlert">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAlertsGetOperationService/GetSingleAlert" message="tns:IAlertsGetOperationService_GetSingleAlert_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAlertsGetOperationService/GetSingleAlertResponse" message="tns:IAlertsGetOperationService_GetSingleAlert_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOpenAlertCount">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAlertsGetOperationService/GetOpenAlertCount" message="tns:IAlertsGetOperationService_GetOpenAlertCount_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAlertsGetOperationService/GetOpenAlertCountResponse" message="tns:IAlertsGetOperationService_GetOpenAlertCount_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMobileSingleAlert">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAlertsGetOperationService/GetMobileSingleAlert" message="tns:IAlertsGetOperationService_GetMobileSingleAlert_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAlertsGetOperationService/GetMobileSingleAlertResponse" message="tns:IAlertsGetOperationService_GetMobileSingleAlert_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAlertByDeviceId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAlertsGetOperationService/GetAlertByDeviceId" message="tns:IAlertsGetOperationService_GetAlertByDeviceId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAlertsGetOperationService/GetAlertByDeviceIdResponse" message="tns:IAlertsGetOperationService_GetAlertByDeviceId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDeviceAlertCount">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAlertsGetOperationService/GetDeviceAlertCount" message="tns:IAlertsGetOperationService_GetDeviceAlertCount_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAlertsGetOperationService/GetDeviceAlertCountResponse" message="tns:IAlertsGetOperationService_GetDeviceAlertCount_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDeviceAlertByID">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAlertsGetOperationService/GetDeviceAlertByID" message="tns:IAlertsGetOperationService_GetDeviceAlertByID_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAlertsGetOperationService/GetDeviceAlertByIDResponse" message="tns:IAlertsGetOperationService_GetDeviceAlertByID_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetContextAlertData">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAlertsGetOperationService/GetContextAlertData" message="tns:IAlertsGetOperationService_GetContextAlertData_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAlertsGetOperationService/GetContextAlertDataResponse" message="tns:IAlertsGetOperationService_GetContextAlertData_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AnimateMapPin">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAlertsGetOperationService/AnimateMapPin" message="tns:IAlertsGetOperationService_AnimateMapPin_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAlertsGetOperationService/AnimateMapPinResponse" message="tns:IAlertsGetOperationService_AnimateMapPin_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAssociatedPTZDevice">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAlertsGetOperationService/GetAssociatedPTZDevice" message="tns:IAlertsGetOperationService_GetAssociatedPTZDevice_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAlertsGetOperationService/GetAssociatedPTZDeviceResponse" message="tns:IAlertsGetOperationService_GetAssociatedPTZDevice_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAssociatedPTZDeviceCollection">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAlertsGetOperationService/GetAssociatedPTZDeviceCollection" message="tns:IAlertsGetOperationService_GetAssociatedPTZDeviceCollection_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAlertsGetOperationService/GetAssociatedPTZDeviceCollectionResponse" message="tns:IAlertsGetOperationService_GetAssociatedPTZDeviceCollection_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AllTypeAlertCounts">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAlertsGetOperationService/AllTypeAlertCounts" message="tns:IAlertsGetOperationService_AllTypeAlertCounts_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAlertsGetOperationService/AllTypeAlertCountsResponse" message="tns:IAlertsGetOperationService_AllTypeAlertCounts_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAssociatedDeviceCollection">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAlertsGetOperationService/GetAssociatedDeviceCollection" message="tns:IAlertsGetOperationService_GetAssociatedDeviceCollection_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAlertsGetOperationService/GetAssociatedDeviceCollectionResponse" message="tns:IAlertsGetOperationService_GetAssociatedDeviceCollection_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRecentAndAllTypeAlertCount">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAlertsGetOperationService/GetRecentAndAllTypeAlertCount" message="tns:IAlertsGetOperationService_GetRecentAndAllTypeAlertCount_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAlertsGetOperationService/GetRecentAndAllTypeAlertCountResponse" message="tns:IAlertsGetOperationService_GetRecentAndAllTypeAlertCount_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WSHttpBinding_IAlertsGetOperationService" type="tns:IAlertsGetOperationService">
+    <wsp:PolicyReference URI="#WSHttpBinding_IAlertsGetOperationService_policy" />
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetCurrentOpenAlerts">
+      <soap12:operation soapAction="http://tempuri.org/IAlertsGetOperationService/GetCurrentOpenAlerts" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMobCurrentOpenAlertsCount">
+      <soap12:operation soapAction="http://tempuri.org/IAlertsGetOperationService/GetMobCurrentOpenAlertsCount" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMobCurrentOpenAlerts">
+      <soap12:operation soapAction="http://tempuri.org/IAlertsGetOperationService/GetMobCurrentOpenAlerts" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAcknoledgeAlerts">
+      <soap12:operation soapAction="http://tempuri.org/IAlertsGetOperationService/GetAcknoledgeAlerts" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetClosedAlerts">
+      <soap12:operation soapAction="http://tempuri.org/IAlertsGetOperationService/GetClosedAlerts" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="StartGetCurrentOpenAlerts">
+      <soap12:operation soapAction="http://tempuri.org/IAlertsGetOperationService/StartGetCurrentOpenAlerts" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAlertsKpi">
+      <soap12:operation soapAction="http://tempuri.org/IAlertsGetOperationService/GetAlertsKpi" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetNewOpenAlerts">
+      <soap12:operation soapAction="http://tempuri.org/IAlertsGetOperationService/GetNewOpenAlerts" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTop50Alert">
+      <soap12:operation soapAction="http://tempuri.org/IAlertsGetOperationService/GetTop50Alert" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTop50AlertDummy">
+      <soap12:operation soapAction="http://tempuri.org/IAlertsGetOperationService/GetTop50AlertDummy" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAlertsSeverity">
+      <soap12:operation soapAction="http://tempuri.org/IAlertsGetOperationService/GetAlertsSeverity" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAlertsCertinity">
+      <soap12:operation soapAction="http://tempuri.org/IAlertsGetOperationService/GetAlertsCertinity" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAlertsUrgency">
+      <soap12:operation soapAction="http://tempuri.org/IAlertsGetOperationService/GetAlertsUrgency" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSingleAlert">
+      <soap12:operation soapAction="http://tempuri.org/IAlertsGetOperationService/GetSingleAlert" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOpenAlertCount">
+      <soap12:operation soapAction="http://tempuri.org/IAlertsGetOperationService/GetOpenAlertCount" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMobileSingleAlert">
+      <soap12:operation soapAction="http://tempuri.org/IAlertsGetOperationService/GetMobileSingleAlert" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAlertByDeviceId">
+      <soap12:operation soapAction="http://tempuri.org/IAlertsGetOperationService/GetAlertByDeviceId" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDeviceAlertCount">
+      <soap12:operation soapAction="http://tempuri.org/IAlertsGetOperationService/GetDeviceAlertCount" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDeviceAlertByID">
+      <soap12:operation soapAction="http://tempuri.org/IAlertsGetOperationService/GetDeviceAlertByID" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetContextAlertData">
+      <soap12:operation soapAction="http://tempuri.org/IAlertsGetOperationService/GetContextAlertData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AnimateMapPin">
+      <soap12:operation soapAction="http://tempuri.org/IAlertsGetOperationService/AnimateMapPin" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAssociatedPTZDevice">
+      <soap12:operation soapAction="http://tempuri.org/IAlertsGetOperationService/GetAssociatedPTZDevice" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAssociatedPTZDeviceCollection">
+      <soap12:operation soapAction="http://tempuri.org/IAlertsGetOperationService/GetAssociatedPTZDeviceCollection" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AllTypeAlertCounts">
+      <soap12:operation soapAction="http://tempuri.org/IAlertsGetOperationService/AllTypeAlertCounts" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAssociatedDeviceCollection">
+      <soap12:operation soapAction="http://tempuri.org/IAlertsGetOperationService/GetAssociatedDeviceCollection" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRecentAndAllTypeAlertCount">
+      <soap12:operation soapAction="http://tempuri.org/IAlertsGetOperationService/GetRecentAndAllTypeAlertCount" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="AlertsGetOperationService">
+    <wsdl:port name="WSHttpBinding_IAlertsGetOperationService" binding="tns:WSHttpBinding_IAlertsGetOperationService">
+      <soap12:address location="https://localhost:6530/soap/AlertsGetOperationService" />
+      <wsa10:EndpointReference>
+        <wsa10:Address>https://localhost:6530/soap/AlertsGetOperationService</wsa10:Address>
+      </wsa10:EndpointReference>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

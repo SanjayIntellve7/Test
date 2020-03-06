@@ -1,0 +1,96 @@
+﻿#if __DESIGNER_DATA
+#error Do not define __DESIGNER_DATA.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<om:MetaModel MajorVersion="1" MinorVersion="3" Core="2b131234-7959-458d-834f-2dc0769ce683" ScheduleModel="66366196-361d-448d-976f-cab5e87496d2" xmlns:om="http://schemas.microsoft.com/BizTalk/2003/DesignerData">
+    <om:Element Type="Module" OID="6e4769e0-ed0d-4916-8c35-ab259bfa3c53" LowerBound="1.1" HigherBound="23.1">
+        <om:Property Name="ReportToAnalyst" Value="True" />
+        <om:Property Name="Name" Value="AMS.Orchestrations" />
+        <om:Property Name="Signal" Value="False" />
+        <om:Element Type="PortType" OID="0ecf052a-254d-45d7-8363-ca7e389cc36d" ParentLink="Module_PortType" LowerBound="4.1" HigherBound="11.1">
+            <om:Property Name="Synchronous" Value="False" />
+            <om:Property Name="TypeModifier" Value="Public" />
+            <om:Property Name="ReportToAnalyst" Value="True" />
+            <om:Property Name="Name" Value="NotifyListPortType" />
+            <om:Property Name="Signal" Value="True" />
+            <om:Element Type="OperationDeclaration" OID="3d44b177-edf0-47d1-b75c-8359261eb5d0" ParentLink="PortType_OperationDeclaration" LowerBound="6.1" HigherBound="10.1">
+                <om:Property Name="OperationType" Value="OneWay" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="NotifyUser" />
+                <om:Property Name="Signal" Value="True" />
+                <om:Element Type="MessageRef" OID="22d89336-c981-4df3-b168-882974a2dc41" ParentLink="OperationDeclaration_RequestMessageRef" LowerBound="8.13" HigherBound="8.78">
+                    <om:Property Name="Ref" Value="AMS.Orchestrations.UsersService.IUsersService_GetUsersListByAlertGroup_OutputMessage" />
+                    <om:Property Name="ReportToAnalyst" Value="True" />
+                    <om:Property Name="Name" Value="Request" />
+                    <om:Property Name="Signal" Value="True" />
+                </om:Element>
+            </om:Element>
+        </om:Element>
+        <om:Element Type="ServiceDeclaration" OID="4e2034ed-bdeb-47bf-934c-70c5942ecc86" ParentLink="Module_ServiceDeclaration" LowerBound="11.1" HigherBound="22.1">
+            <om:Property Name="InitializedTransactionType" Value="False" />
+            <om:Property Name="IsInvokable" Value="True" />
+            <om:Property Name="TypeModifier" Value="Internal" />
+            <om:Property Name="ReportToAnalyst" Value="True" />
+            <om:Property Name="Name" Value="ProcessNotifyList" />
+            <om:Property Name="Signal" Value="False" />
+            <om:Element Type="ServiceBody" OID="27731bb1-06da-4105-aec4-0032d14e5980" ParentLink="ServiceDeclaration_ServiceBody">
+                <om:Property Name="Signal" Value="False" />
+                <om:Element Type="MessageDeclaration" OID="02146615-0fa8-497a-b7c8-d8e4c83a46ed" ParentLink="ServiceBody_Declaration" LowerBound="16.15" HigherBound="16.106">
+                    <om:Property Name="Type" Value="AMS.Orchestrations.UsersService.IUsersService_GetUsersListByAlertGroup_OutputMessage" />
+                    <om:Property Name="ParamDirection" Value="In" />
+                    <om:Property Name="ReportToAnalyst" Value="True" />
+                    <om:Property Name="Name" Value="NotifyListMessage" />
+                    <om:Property Name="Signal" Value="True" />
+                </om:Element>
+                <om:Element Type="Send" OID="730f60d1-176a-4f98-9bba-ec994655cea2" ParentLink="ServiceBody_Statement" LowerBound="18.1" HigherBound="20.1">
+                    <om:Property Name="PortName" Value="Port_1" />
+                    <om:Property Name="MessageName" Value="NotifyListMessage" />
+                    <om:Property Name="OperationName" Value="NotifyUser" />
+                    <om:Property Name="OperationMessageName" Value="Request" />
+                    <om:Property Name="ReportToAnalyst" Value="True" />
+                    <om:Property Name="Name" Value="Send_1" />
+                    <om:Property Name="Signal" Value="True" />
+                </om:Element>
+            </om:Element>
+            <om:Element Type="PortDeclaration" OID="743ca572-e014-45a7-9c05-1dfdfbef2b33" ParentLink="ServiceDeclaration_PortDeclaration" LowerBound="14.1" HigherBound="16.1">
+                <om:Property Name="PortModifier" Value="Uses" />
+                <om:Property Name="Orientation" Value="Left" />
+                <om:Property Name="PortIndex" Value="-1" />
+                <om:Property Name="IsWebPort" Value="False" />
+                <om:Property Name="OrderedDelivery" Value="False" />
+                <om:Property Name="DeliveryNotification" Value="None" />
+                <om:Property Name="Type" Value="AMS.Orchestrations.NotifyListPortType" />
+                <om:Property Name="ParamDirection" Value="In" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="Port_1" />
+                <om:Property Name="Signal" Value="False" />
+                <om:Element Type="LogicalBindingAttribute" OID="ae492612-514f-4aca-82e9-16caa6f96ab3" ParentLink="PortDeclaration_CLRAttribute" LowerBound="14.1" HigherBound="15.1">
+                    <om:Property Name="Signal" Value="False" />
+                </om:Element>
+            </om:Element>
+        </om:Element>
+    </om:Element>
+</om:MetaModel>
+#endif // __DESIGNER_DATA
+[Microsoft.XLANGs.BaseTypes.BPELExportable(false)]
+module AMS.Orchestrations
+{
+    public porttype NotifyListPortType
+    {
+        oneway NotifyUser
+        {
+            UsersService.IUsersService_GetUsersListByAlertGroup_OutputMessage
+        };
+    };
+    [Microsoft.XLANGs.BaseTypes.BPELExportable(false)]
+    internal service ProcessNotifyList
+    {
+        [Microsoft.XLANGs.BaseTypes.LogicalBinding()]
+        port uses NotifyListPortType Port_1;
+        body (message UsersService.IUsersService_GetUsersListByAlertGroup_OutputMessage NotifyListMessage)
+        {
+            [Microsoft.XLANGs.BaseTypes.DesignerPosition("730f60d1-176a-4f98-9bba-ec994655cea2")]
+            send (Port_1.NotifyUser, NotifyListMessage);
+        }
+    }
+}
+

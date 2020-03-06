@@ -1,0 +1,925 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="ControllerGetOperationService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsp:Policy wsu:Id="WSHttpBinding_IControllerGetOperationService_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:TransportBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy>
+            <sp:TransportToken>
+              <wsp:Policy>
+                <sp:HttpsToken RequireClientCertificate="false" />
+              </wsp:Policy>
+            </sp:TransportToken>
+            <sp:AlgorithmSuite>
+              <wsp:Policy>
+                <sp:Basic256 />
+              </wsp:Policy>
+            </sp:AlgorithmSuite>
+            <sp:Layout>
+              <wsp:Policy>
+                <sp:Strict />
+              </wsp:Policy>
+            </sp:Layout>
+          </wsp:Policy>
+        </sp:TransportBinding>
+        <wsaw:UsingAddressing />
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="https://localhost:6530/SOAP/ControllerGetOperation?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="https://localhost:6530/SOAP/ControllerGetOperation?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="https://localhost:6530/SOAP/ControllerGetOperation?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/AMS.Broker.Contracts.DTO" />
+      <xsd:import schemaLocation="https://localhost:6530/SOAP/ControllerGetOperation?xsd=xsd3" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IControllerGetOperationService_GetDevicesCollection_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDevicesCollection" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetDevicesCollection_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDevicesCollectionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetDevicesCollectionMob_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDevicesCollectionMob" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetDevicesCollectionMob_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDevicesCollectionMobResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetDevicesCollectionWeb_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDevicesCollectionWeb" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetDevicesCollectionWeb_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDevicesCollectionWebResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetDevicesCollectionMobSiteId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDevicesCollectionMobSiteId" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetDevicesCollectionMobSiteId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDevicesCollectionMobSiteIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetAccountsCollection_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAccountsCollection" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetAccountsCollection_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAccountsCollectionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetContactsCollection_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetContactsCollection" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetContactsCollection_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetContactsCollectionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetDisasterDataCollection_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDisasterDataCollection" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetDisasterDataCollection_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDisasterDataCollectionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetElectriLightDataCollection_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetElectriLightDataCollection" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetElectriLightDataCollection_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetElectriLightDataCollectionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetElectritionDataCollection_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetElectritionDataCollection" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetElectritionDataCollection_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetElectritionDataCollectionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetAttachResourceCollection_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAttachResourceCollection" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetAttachResourceCollection_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAttachResourceCollectionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_Test_InputMessage">
+    <wsdl:part name="parameters" element="tns:Test" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_Test_OutputMessage">
+    <wsdl:part name="parameters" element="tns:TestResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetGroupsCollection_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetGroupsCollection" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetGroupsCollection_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetGroupsCollectionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetDeviceById_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDeviceById" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetDeviceById_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDeviceByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetAssociatedDeviceId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAssociatedDeviceId" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetAssociatedDeviceId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAssociatedDeviceIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetDeviceByIdSim_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDeviceByIdSim" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetDeviceByIdSim_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDeviceByIdSimResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetCameraDeviceByGuid_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCameraDeviceByGuid" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetCameraDeviceByGuid_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCameraDeviceByGuidResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetSiteAddress_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetSiteAddress" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetSiteAddress_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetSiteAddressResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetDevicesByInterfaceId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDevicesByInterfaceId" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetDevicesByInterfaceId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDevicesByInterfaceIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetUsers_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetUsers" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetUsers_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetUsersResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetDeviceTypes_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDeviceTypes" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetDeviceTypes_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDeviceTypesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetNvrs_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetNvrs" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetNvrs_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetNvrsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetNvrById_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetNvrById" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetNvrById_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetNvrByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetNvrByInterfaceId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetNvrByInterfaceId" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetNvrByInterfaceId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetNvrByInterfaceIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetGroupById_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetGroupById" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetGroupById_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetGroupByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetValuesLookUp_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetValuesLookUp" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetValuesLookUp_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetValuesLookUpResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetValuesHistory_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetValuesHistory" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetValuesHistory_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetValuesHistoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetDevicesScheduleCollection_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDevicesScheduleCollection" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetDevicesScheduleCollection_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDevicesScheduleCollectionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetNewEvents_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetNewEvents" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetNewEvents_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetNewEventsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetDeviceIdByName_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDeviceIdByName" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetDeviceIdByName_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDeviceIdByNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetNokPresetCollection_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetNokPresetCollection" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetNokPresetCollection_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetNokPresetCollectionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetNokPresetFromNok_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetNokPresetFromNok" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetNokPresetFromNok_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetNokPresetFromNokResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetSelectedDateIncidentReportsByOwner_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetSelectedDateIncidentReportsByOwner" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetSelectedDateIncidentReportsByOwner_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetSelectedDateIncidentReportsByOwnerResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_IsAlertAttached_InputMessage">
+    <wsdl:part name="parameters" element="tns:IsAlertAttached" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_IsAlertAttached_OutputMessage">
+    <wsdl:part name="parameters" element="tns:IsAlertAttachedResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetDeviceStatus_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDeviceStatus" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetDeviceStatus_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDeviceStatusResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetUsersite_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetUsersite" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetUsersite_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetUsersiteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetDeviceAnalyticsDetails_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDeviceAnalyticsDetails" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetDeviceAnalyticsDetails_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDeviceAnalyticsDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetAnalyticsDeviceCount_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAnalyticsDeviceCount" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetAnalyticsDeviceCount_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAnalyticsDeviceCountResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetContextIRData_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetContextIRData" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetContextIRData_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetContextIRDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetContextSiteData_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetContextSiteData" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetContextSiteData_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetContextSiteDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetContextDeviceData_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetContextDeviceData" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetContextDeviceData_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetContextDeviceDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetCameraBookMarkCollection_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCameraBookMarkCollection" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetCameraBookMarkCollection_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCameraBookMarkCollectionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetRepositoryConfiguration_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetRepositoryConfiguration" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetRepositoryConfiguration_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetRepositoryConfigurationResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetAlarmPanelInterface_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAlarmPanelInterface" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetAlarmPanelInterface_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAlarmPanelInterfaceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetInterfaceById_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetInterfaceById" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetInterfaceById_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetInterfaceByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetPAInterface_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPAInterface" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetPAInterface_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPAInterfaceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetCustomerinfo_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCustomerinfo" />
+  </wsdl:message>
+  <wsdl:message name="IControllerGetOperationService_GetCustomerinfo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCustomerinfoResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IControllerGetOperationService">
+    <wsdl:operation name="GetDevicesCollection">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetDevicesCollection" message="tns:IControllerGetOperationService_GetDevicesCollection_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetDevicesCollectionResponse" message="tns:IControllerGetOperationService_GetDevicesCollection_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDevicesCollectionMob">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetDevicesCollectionMob" message="tns:IControllerGetOperationService_GetDevicesCollectionMob_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetDevicesCollectionMobResponse" message="tns:IControllerGetOperationService_GetDevicesCollectionMob_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDevicesCollectionWeb">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetDevicesCollectionWeb" message="tns:IControllerGetOperationService_GetDevicesCollectionWeb_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetDevicesCollectionWebResponse" message="tns:IControllerGetOperationService_GetDevicesCollectionWeb_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDevicesCollectionMobSiteId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetDevicesCollectionMobSiteId" message="tns:IControllerGetOperationService_GetDevicesCollectionMobSiteId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetDevicesCollectionMobSiteIdResponse" message="tns:IControllerGetOperationService_GetDevicesCollectionMobSiteId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAccountsCollection">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetAccountsCollection" message="tns:IControllerGetOperationService_GetAccountsCollection_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetAccountsCollectionResponse" message="tns:IControllerGetOperationService_GetAccountsCollection_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetContactsCollection">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetContactsCollection" message="tns:IControllerGetOperationService_GetContactsCollection_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetContactsCollectionResponse" message="tns:IControllerGetOperationService_GetContactsCollection_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDisasterDataCollection">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetDisasterDataCollection" message="tns:IControllerGetOperationService_GetDisasterDataCollection_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetDisasterDataCollectionResponse" message="tns:IControllerGetOperationService_GetDisasterDataCollection_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetElectriLightDataCollection">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetElectriLightDataCollection" message="tns:IControllerGetOperationService_GetElectriLightDataCollection_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetElectriLightDataCollectionResponse" message="tns:IControllerGetOperationService_GetElectriLightDataCollection_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetElectritionDataCollection">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetElectritionDataCollection" message="tns:IControllerGetOperationService_GetElectritionDataCollection_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetElectritionDataCollectionResponse" message="tns:IControllerGetOperationService_GetElectritionDataCollection_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAttachResourceCollection">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetAttachResourceCollection" message="tns:IControllerGetOperationService_GetAttachResourceCollection_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetAttachResourceCollectionResponse" message="tns:IControllerGetOperationService_GetAttachResourceCollection_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Test">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControllerGetOperationService/Test" message="tns:IControllerGetOperationService_Test_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControllerGetOperationService/TestResponse" message="tns:IControllerGetOperationService_Test_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetGroupsCollection">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetGroupsCollection" message="tns:IControllerGetOperationService_GetGroupsCollection_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetGroupsCollectionResponse" message="tns:IControllerGetOperationService_GetGroupsCollection_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDeviceById">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetDeviceById" message="tns:IControllerGetOperationService_GetDeviceById_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetDeviceByIdResponse" message="tns:IControllerGetOperationService_GetDeviceById_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAssociatedDeviceId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetAssociatedDeviceId" message="tns:IControllerGetOperationService_GetAssociatedDeviceId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetAssociatedDeviceIdResponse" message="tns:IControllerGetOperationService_GetAssociatedDeviceId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDeviceByIdSim">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetDeviceByIdSim" message="tns:IControllerGetOperationService_GetDeviceByIdSim_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetDeviceByIdSimResponse" message="tns:IControllerGetOperationService_GetDeviceByIdSim_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCameraDeviceByGuid">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetCameraDeviceByGuid" message="tns:IControllerGetOperationService_GetCameraDeviceByGuid_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetCameraDeviceByGuidResponse" message="tns:IControllerGetOperationService_GetCameraDeviceByGuid_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSiteAddress">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetSiteAddress" message="tns:IControllerGetOperationService_GetSiteAddress_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetSiteAddressResponse" message="tns:IControllerGetOperationService_GetSiteAddress_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDevicesByInterfaceId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetDevicesByInterfaceId" message="tns:IControllerGetOperationService_GetDevicesByInterfaceId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetDevicesByInterfaceIdResponse" message="tns:IControllerGetOperationService_GetDevicesByInterfaceId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUsers">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetUsers" message="tns:IControllerGetOperationService_GetUsers_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetUsersResponse" message="tns:IControllerGetOperationService_GetUsers_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDeviceTypes">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetDeviceTypes" message="tns:IControllerGetOperationService_GetDeviceTypes_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetDeviceTypesResponse" message="tns:IControllerGetOperationService_GetDeviceTypes_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNvrs">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetNvrs" message="tns:IControllerGetOperationService_GetNvrs_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetNvrsResponse" message="tns:IControllerGetOperationService_GetNvrs_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNvrById">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetNvrById" message="tns:IControllerGetOperationService_GetNvrById_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetNvrByIdResponse" message="tns:IControllerGetOperationService_GetNvrById_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNvrByInterfaceId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetNvrByInterfaceId" message="tns:IControllerGetOperationService_GetNvrByInterfaceId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetNvrByInterfaceIdResponse" message="tns:IControllerGetOperationService_GetNvrByInterfaceId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetGroupById">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetGroupById" message="tns:IControllerGetOperationService_GetGroupById_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetGroupByIdResponse" message="tns:IControllerGetOperationService_GetGroupById_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetValuesLookUp">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetValuesLookUp" message="tns:IControllerGetOperationService_GetValuesLookUp_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetValuesLookUpResponse" message="tns:IControllerGetOperationService_GetValuesLookUp_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetValuesHistory">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetValuesHistory" message="tns:IControllerGetOperationService_GetValuesHistory_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetValuesHistoryResponse" message="tns:IControllerGetOperationService_GetValuesHistory_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDevicesScheduleCollection">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetDevicesScheduleCollection" message="tns:IControllerGetOperationService_GetDevicesScheduleCollection_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetDevicesScheduleCollectionResponse" message="tns:IControllerGetOperationService_GetDevicesScheduleCollection_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNewEvents">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetNewEvents" message="tns:IControllerGetOperationService_GetNewEvents_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetNewEventsResponse" message="tns:IControllerGetOperationService_GetNewEvents_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDeviceIdByName">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetDeviceIdByName" message="tns:IControllerGetOperationService_GetDeviceIdByName_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetDeviceIdByNameResponse" message="tns:IControllerGetOperationService_GetDeviceIdByName_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNokPresetCollection">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetNokPresetCollection" message="tns:IControllerGetOperationService_GetNokPresetCollection_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetNokPresetCollectionResponse" message="tns:IControllerGetOperationService_GetNokPresetCollection_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNokPresetFromNok">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetNokPresetFromNok" message="tns:IControllerGetOperationService_GetNokPresetFromNok_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetNokPresetFromNokResponse" message="tns:IControllerGetOperationService_GetNokPresetFromNok_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSelectedDateIncidentReportsByOwner">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetSelectedDateIncidentReportsByOwner" message="tns:IControllerGetOperationService_GetSelectedDateIncidentReportsByOwner_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetSelectedDateIncidentReportsByOwnerResponse" message="tns:IControllerGetOperationService_GetSelectedDateIncidentReportsByOwner_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="IsAlertAttached">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControllerGetOperationService/IsAlertAttached" message="tns:IControllerGetOperationService_IsAlertAttached_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControllerGetOperationService/IsAlertAttachedResponse" message="tns:IControllerGetOperationService_IsAlertAttached_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDeviceStatus">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetDeviceStatus" message="tns:IControllerGetOperationService_GetDeviceStatus_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetDeviceStatusResponse" message="tns:IControllerGetOperationService_GetDeviceStatus_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUsersite">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetUsersite" message="tns:IControllerGetOperationService_GetUsersite_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetUsersiteResponse" message="tns:IControllerGetOperationService_GetUsersite_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDeviceAnalyticsDetails">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetDeviceAnalyticsDetails" message="tns:IControllerGetOperationService_GetDeviceAnalyticsDetails_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetDeviceAnalyticsDetailsResponse" message="tns:IControllerGetOperationService_GetDeviceAnalyticsDetails_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAnalyticsDeviceCount">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetAnalyticsDeviceCount" message="tns:IControllerGetOperationService_GetAnalyticsDeviceCount_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetAnalyticsDeviceCountResponse" message="tns:IControllerGetOperationService_GetAnalyticsDeviceCount_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetContextIRData">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetContextIRData" message="tns:IControllerGetOperationService_GetContextIRData_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetContextIRDataResponse" message="tns:IControllerGetOperationService_GetContextIRData_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetContextSiteData">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetContextSiteData" message="tns:IControllerGetOperationService_GetContextSiteData_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetContextSiteDataResponse" message="tns:IControllerGetOperationService_GetContextSiteData_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetContextDeviceData">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetContextDeviceData" message="tns:IControllerGetOperationService_GetContextDeviceData_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetContextDeviceDataResponse" message="tns:IControllerGetOperationService_GetContextDeviceData_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCameraBookMarkCollection">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetCameraBookMarkCollection" message="tns:IControllerGetOperationService_GetCameraBookMarkCollection_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetCameraBookMarkCollectionResponse" message="tns:IControllerGetOperationService_GetCameraBookMarkCollection_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRepositoryConfiguration">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetRepositoryConfiguration" message="tns:IControllerGetOperationService_GetRepositoryConfiguration_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetRepositoryConfigurationResponse" message="tns:IControllerGetOperationService_GetRepositoryConfiguration_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAlarmPanelInterface">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetAlarmPanelInterface" message="tns:IControllerGetOperationService_GetAlarmPanelInterface_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetAlarmPanelInterfaceResponse" message="tns:IControllerGetOperationService_GetAlarmPanelInterface_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetInterfaceById">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetInterfaceById" message="tns:IControllerGetOperationService_GetInterfaceById_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetInterfaceByIdResponse" message="tns:IControllerGetOperationService_GetInterfaceById_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPAInterface">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetPAInterface" message="tns:IControllerGetOperationService_GetPAInterface_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetPAInterfaceResponse" message="tns:IControllerGetOperationService_GetPAInterface_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCustomerinfo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetCustomerinfo" message="tns:IControllerGetOperationService_GetCustomerinfo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControllerGetOperationService/GetCustomerinfoResponse" message="tns:IControllerGetOperationService_GetCustomerinfo_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WSHttpBinding_IControllerGetOperationService" type="tns:IControllerGetOperationService">
+    <wsp:PolicyReference URI="#WSHttpBinding_IControllerGetOperationService_policy" />
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetDevicesCollection">
+      <soap12:operation soapAction="http://tempuri.org/IControllerGetOperationService/GetDevicesCollection" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDevicesCollectionMob">
+      <soap12:operation soapAction="http://tempuri.org/IControllerGetOperationService/GetDevicesCollectionMob" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDevicesCollectionWeb">
+      <soap12:operation soapAction="http://tempuri.org/IControllerGetOperationService/GetDevicesCollectionWeb" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDevicesCollectionMobSiteId">
+      <soap12:operation soapAction="http://tempuri.org/IControllerGetOperationService/GetDevicesCollectionMobSiteId" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAccountsCollection">
+      <soap12:operation soapAction="http://tempuri.org/IControllerGetOperationService/GetAccountsCollection" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetContactsCollection">
+      <soap12:operation soapAction="http://tempuri.org/IControllerGetOperationService/GetContactsCollection" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDisasterDataCollection">
+      <soap12:operation soapAction="http://tempuri.org/IControllerGetOperationService/GetDisasterDataCollection" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetElectriLightDataCollection">
+      <soap12:operation soapAction="http://tempuri.org/IControllerGetOperationService/GetElectriLightDataCollection" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetElectritionDataCollection">
+      <soap12:operation soapAction="http://tempuri.org/IControllerGetOperationService/GetElectritionDataCollection" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAttachResourceCollection">
+      <soap12:operation soapAction="http://tempuri.org/IControllerGetOperationService/GetAttachResourceCollection" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Test">
+      <soap12:operation soapAction="http://tempuri.org/IControllerGetOperationService/Test" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetGroupsCollection">
+      <soap12:operation soapAction="http://tempuri.org/IControllerGetOperationService/GetGroupsCollection" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDeviceById">
+      <soap12:operation soapAction="http://tempuri.org/IControllerGetOperationService/GetDeviceById" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAssociatedDeviceId">
+      <soap12:operation soapAction="http://tempuri.org/IControllerGetOperationService/GetAssociatedDeviceId" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDeviceByIdSim">
+      <soap12:operation soapAction="http://tempuri.org/IControllerGetOperationService/GetDeviceByIdSim" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCameraDeviceByGuid">
+      <soap12:operation soapAction="http://tempuri.org/IControllerGetOperationService/GetCameraDeviceByGuid" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSiteAddress">
+      <soap12:operation soapAction="http://tempuri.org/IControllerGetOperationService/GetSiteAddress" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDevicesByInterfaceId">
+      <soap12:operation soapAction="http://tempuri.org/IControllerGetOperationService/GetDevicesByInterfaceId" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUsers">
+      <soap12:operation soapAction="http://tempuri.org/IControllerGetOperationService/GetUsers" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDeviceTypes">
+      <soap12:operation soapAction="http://tempuri.org/IControllerGetOperationService/GetDeviceTypes" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetNvrs">
+      <soap12:operation soapAction="http://tempuri.org/IControllerGetOperationService/GetNvrs" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetNvrById">
+      <soap12:operation soapAction="http://tempuri.org/IControllerGetOperationService/GetNvrById" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetNvrByInterfaceId">
+      <soap12:operation soapAction="http://tempuri.org/IControllerGetOperationService/GetNvrByInterfaceId" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetGroupById">
+      <soap12:operation soapAction="http://tempuri.org/IControllerGetOperationService/GetGroupById" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetValuesLookUp">
+      <soap12:operation soapAction="http://tempuri.org/IControllerGetOperationService/GetValuesLookUp" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetValuesHistory">
+      <soap12:operation soapAction="http://tempuri.org/IControllerGetOperationService/GetValuesHistory" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDevicesScheduleCollection">
+      <soap12:operation soapAction="http://tempuri.org/IControllerGetOperationService/GetDevicesScheduleCollection" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetNewEvents">
+      <soap12:operation soapAction="http://tempuri.org/IControllerGetOperationService/GetNewEvents" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDeviceIdByName">
+      <soap12:operation soapAction="http://tempuri.org/IControllerGetOperationService/GetDeviceIdByName" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetNokPresetCollection">
+      <soap12:operation soapAction="http://tempuri.org/IControllerGetOperationService/GetNokPresetCollection" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetNokPresetFromNok">
+      <soap12:operation soapAction="http://tempuri.org/IControllerGetOperationService/GetNokPresetFromNok" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSelectedDateIncidentReportsByOwner">
+      <soap12:operation soapAction="http://tempuri.org/IControllerGetOperationService/GetSelectedDateIncidentReportsByOwner" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IsAlertAttached">
+      <soap12:operation soapAction="http://tempuri.org/IControllerGetOperationService/IsAlertAttached" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDeviceStatus">
+      <soap12:operation soapAction="http://tempuri.org/IControllerGetOperationService/GetDeviceStatus" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUsersite">
+      <soap12:operation soapAction="http://tempuri.org/IControllerGetOperationService/GetUsersite" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDeviceAnalyticsDetails">
+      <soap12:operation soapAction="http://tempuri.org/IControllerGetOperationService/GetDeviceAnalyticsDetails" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAnalyticsDeviceCount">
+      <soap12:operation soapAction="http://tempuri.org/IControllerGetOperationService/GetAnalyticsDeviceCount" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetContextIRData">
+      <soap12:operation soapAction="http://tempuri.org/IControllerGetOperationService/GetContextIRData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetContextSiteData">
+      <soap12:operation soapAction="http://tempuri.org/IControllerGetOperationService/GetContextSiteData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetContextDeviceData">
+      <soap12:operation soapAction="http://tempuri.org/IControllerGetOperationService/GetContextDeviceData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCameraBookMarkCollection">
+      <soap12:operation soapAction="http://tempuri.org/IControllerGetOperationService/GetCameraBookMarkCollection" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRepositoryConfiguration">
+      <soap12:operation soapAction="http://tempuri.org/IControllerGetOperationService/GetRepositoryConfiguration" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAlarmPanelInterface">
+      <soap12:operation soapAction="http://tempuri.org/IControllerGetOperationService/GetAlarmPanelInterface" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetInterfaceById">
+      <soap12:operation soapAction="http://tempuri.org/IControllerGetOperationService/GetInterfaceById" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPAInterface">
+      <soap12:operation soapAction="http://tempuri.org/IControllerGetOperationService/GetPAInterface" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCustomerinfo">
+      <soap12:operation soapAction="http://tempuri.org/IControllerGetOperationService/GetCustomerinfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ControllerGetOperationService">
+    <wsdl:port name="WSHttpBinding_IControllerGetOperationService" binding="tns:WSHttpBinding_IControllerGetOperationService">
+      <soap12:address location="https://localhost:6530/soap/ControllerGetOperation" />
+      <wsa10:EndpointReference>
+        <wsa10:Address>https://localhost:6530/soap/ControllerGetOperation</wsa10:Address>
+      </wsa10:EndpointReference>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:tns="http://schemas.datacontract.org/2004/07/AMS.Broker.Contracts.DTO" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/AMS.Broker.Contracts.DTO" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="https://localhost:6530/SOAP/StationsService?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:import schemaLocation="https://localhost:6530/SOAP/StationsService?xsd=xsd3" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <xs:complexType name="Station">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ActivationDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Altitude" type="xs:decimal" />
+      <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Identifier" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IsActive" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Lat" type="xs:decimal" />
+      <xs:element minOccurs="0" name="LocationDescription" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Long" type="xs:decimal" />
+      <xs:element minOccurs="0" name="Metadata" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="StationId" type="xs:int" />
+      <xs:element minOccurs="0" name="Type" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Station" nillable="true" type="tns:Station" />
+  <xs:complexType name="Alert">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Addresses" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AlertAttachedDateTime" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AlertId" type="xs:long" />
+      <xs:element minOccurs="0" name="AlertOwner" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AuthToken" type="ser:guid" />
+      <xs:element minOccurs="0" name="BioAlerts" nillable="true" type="tns:ArrayOfBioAlertsDTO" />
+      <xs:element minOccurs="0" name="Certainty" type="tns:Certainty" />
+      <xs:element minOccurs="0" name="Code" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Date" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DeviceDto" nillable="true" type="tns:DeviceDto" />
+      <xs:element minOccurs="0" name="DeviceId" type="xs:long" />
+      <xs:element minOccurs="0" name="HasIncidentReport" type="xs:boolean" />
+      <xs:element minOccurs="0" name="HasIncidentReportRef" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Identifier" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Incidents" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="InfoCollection" nillable="true" type="tns:ArrayOfInfo" />
+      <xs:element minOccurs="0" name="MemLocation" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MemberName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MembershipUserId" type="ser:guid" />
+      <xs:element minOccurs="0" name="MessageTypeId" type="tns:MessageType" />
+      <xs:element minOccurs="0" name="Note" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ReceivedDateTime" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="References" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Restriction" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ScopeId" type="tns:Scope" />
+      <xs:element minOccurs="0" name="Sender" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Sent" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="SentAsString" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Severity" type="tns:Severity" />
+      <xs:element minOccurs="0" name="Source" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="StatusId" type="tns:Status" />
+      <xs:element minOccurs="0" name="Time" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="VideoAanalyticsEvent" nillable="true" type="tns:ArrayOfVideoAanalyticsEventDTO" />
+      <xs:element minOccurs="0" name="WorkflowStatus" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Alert" nillable="true" type="tns:Alert" />
+  <xs:complexType name="ArrayOfBioAlertsDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="BioAlertsDTO" nillable="true" type="tns:BioAlertsDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfBioAlertsDTO" nillable="true" type="tns:ArrayOfBioAlertsDTO" />
+  <xs:complexType name="BioAlertsDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BioAlertID" type="xs:int" />
+      <xs:element minOccurs="0" name="CameraId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FacePosition" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FaceSize" type="xs:int" />
+      <xs:element minOccurs="0" name="FrameImage" nillable="true" type="xs:base64Binary" />
+      <xs:element minOccurs="0" name="FrameIndex" type="xs:int" />
+      <xs:element minOccurs="0" name="Quality" type="xs:int" />
+      <xs:element minOccurs="0" name="Score" type="xs:int" />
+      <xs:element minOccurs="0" name="SubjectCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SubjectFaceImage" nillable="true" type="xs:base64Binary" />
+      <xs:element minOccurs="0" name="SubjectId" type="xs:int" />
+      <xs:element minOccurs="0" name="SubjectLastName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SubjectModelImage" nillable="true" type="xs:base64Binary" />
+      <xs:element minOccurs="0" name="SubjectName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TimeStamp" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Type" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="alertID" nillable="true" type="xs:long" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="BioAlertsDTO" nillable="true" type="tns:BioAlertsDTO" />
+  <xs:simpleType name="Certainty">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Likely" />
+      <xs:enumeration value="Observed" />
+      <xs:enumeration value="Possible" />
+      <xs:enumeration value="Unknown" />
+      <xs:enumeration value="Unlikely" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="Certainty" nillable="true" type="tns:Certainty" />
+  <xs:complexType name="DeviceDto">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ActiveAlert" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Altitude" type="xs:double" />
+      <xs:element minOccurs="0" name="AssociatedDeviceId" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="CameraAttachedDateTime" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CameraGUID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DeviceId" type="xs:long" />
+      <xs:element minOccurs="0" name="ExternalId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IPAddress" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="InterfaceId" type="xs:int" />
+      <xs:element minOccurs="0" name="IsMovable" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Lat" type="xs:double" />
+      <xs:element minOccurs="0" name="LocationDescription" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Long" type="xs:double" />
+      <xs:element minOccurs="0" name="Metadata" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NvrId" nillable="true" type="xs:long" />
+      <xs:element minOccurs="0" name="Port" type="xs:int" />
+      <xs:element minOccurs="0" name="SiteId" type="xs:int" />
+      <xs:element minOccurs="0" name="Submember" nillable="true" type="tns:ArrayOfSubMemberDTO" />
+      <xs:element minOccurs="0" name="Type" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="DeviceDto" nillable="true" type="tns:DeviceDto" />
+  <xs:complexType name="ArrayOfSubMemberDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="SubMemberDTO" nillable="true" type="tns:SubMemberDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfSubMemberDTO" nillable="true" type="tns:ArrayOfSubMemberDTO" />
+  <xs:complexType name="SubMemberDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AccountNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DeviceID" type="xs:long" />
+      <xs:element minOccurs="0" name="MemID" type="xs:int" />
+      <xs:element minOccurs="0" name="Mobile" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Photo" nillable="true" type="xs:base64Binary" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="SubMemberDTO" nillable="true" type="tns:SubMemberDTO" />
+  <xs:complexType name="NvrCameraDto">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:DeviceDto">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="AlarmDelay" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" name="AnalyticAlgorithmTypeId" type="xs:int" />
+          <xs:element minOccurs="0" name="AnalyticsEventTemplateId" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" name="AnalyticsServerIp" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="CamPassword" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="CamUser" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="CameraIp" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="CameraPort" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="CameraType" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" name="CameraUrl" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ChanelNo" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" name="DirectionFlag" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" name="FPS" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" name="Height" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" name="IsEdgeAnalytics" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" name="IsPtz" nillable="true" type="xs:boolean" />
+          <xs:element minOccurs="0" name="Lane1" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" name="Lane2" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" name="Lane3" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" name="LineEnd" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="LineStart" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="MaxBlobHeight" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" name="MaxBlobSize" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" name="MaxBlobWidth" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" name="MinBlobHeight" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" name="MinBlobSize" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" name="MinBlobWidth" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" name="NoOfLens" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" name="UpdateRate" nillable="true" type="xs:decimal" />
+          <xs:element minOccurs="0" name="Version" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Width" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" name="ZoneColumns" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" name="ZoneData" nillable="true" type="xs:base64Binary" />
+          <xs:element minOccurs="0" name="ZoneRows" nillable="true" type="xs:int" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="NvrCameraDto" nillable="true" type="tns:NvrCameraDto" />
+  <xs:complexType name="DeviceVAnalyticsScheduleDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DevSchEnb" type="xs:boolean" />
+      <xs:element minOccurs="0" name="DevSchID" type="xs:int" />
+      <xs:element minOccurs="0" name="DeviceID" type="xs:long" />
+      <xs:element minOccurs="0" name="nDay" type="xs:int" />
+      <xs:element minOccurs="0" name="nHrs" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="DeviceVAnalyticsScheduleDTO" nillable="true" type="tns:DeviceVAnalyticsScheduleDTO" />
+  <xs:complexType name="ArrayOfInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Info" nillable="true" type="tns:Info" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfInfo" nillable="true" type="tns:ArrayOfInfo" />
+  <xs:complexType name="Info">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AlertId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AreasCollection" nillable="true" type="tns:ArrayOfArea" />
+      <xs:element minOccurs="0" name="Audience" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CategoriesCollection" nillable="true" type="tns:ArrayOfCategory" />
+      <xs:element minOccurs="0" name="CertaintyId" type="tns:Certainty" />
+      <xs:element minOccurs="0" name="Contact" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Effective" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Event" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Expires" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Headline" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="InfoId" type="xs:long" />
+      <xs:element minOccurs="0" name="Instruction" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Language" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="OnSet" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ParametersCollection" nillable="true" type="tns:ArrayOfParameter" />
+      <xs:element minOccurs="0" name="ResourcesCollection" nillable="true" type="tns:ArrayOfResource" />
+      <xs:element minOccurs="0" name="ResponseTypesCollection" nillable="true" type="tns:ArrayOfResponseType" />
+      <xs:element minOccurs="0" name="SenderName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SeverityId" type="tns:Severity" />
+      <xs:element minOccurs="0" name="UrgencyId" type="tns:Urgency" />
+      <xs:element minOccurs="0" name="Web" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Info" nillable="true" type="tns:Info" />
+  <xs:complexType name="ArrayOfArea">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Area" nillable="true" type="tns:Area" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfArea" nillable="true" type="tns:ArrayOfArea" />
+  <xs:complexType name="Area">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Altitude" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" name="AreaId" type="xs:long" />
+      <xs:element minOccurs="0" name="Celing" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="InfoId" type="xs:long" />
+      <xs:element minOccurs="0" name="Latitude" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" name="Longitude" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" name="SiteId" type="xs:long" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Area" nillable="true" type="tns:Area" />
+  <xs:complexType name="ArrayOfCategory">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Category" type="tns:Category" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCategory" nillable="true" type="tns:ArrayOfCategory" />
+  <xs:simpleType name="Category">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="CBRNE" />
+      <xs:enumeration value="Env" />
+      <xs:enumeration value="Fire" />
+      <xs:enumeration value="Geo" />
+      <xs:enumeration value="Health" />
+      <xs:enumeration value="Infra" />
+      <xs:enumeration value="Met" />
+      <xs:enumeration value="Other" />
+      <xs:enumeration value="Rescue" />
+      <xs:enumeration value="Safety" />
+      <xs:enumeration value="Security" />
+      <xs:enumeration value="Transport" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="Category" nillable="true" type="tns:Category" />
+  <xs:complexType name="ArrayOfParameter">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Parameter" nillable="true" type="tns:Parameter" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfParameter" nillable="true" type="tns:ArrayOfParameter" />
+  <xs:complexType name="Parameter">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Key" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Value" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Parameter" nillable="true" type="tns:Parameter" />
+  <xs:complexType name="ArrayOfResource">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Resource" nillable="true" type="tns:Resource" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfResource" nillable="true" type="tns:ArrayOfResource" />
+  <xs:complexType name="Resource">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DerefUri" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Digest" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="InfoId" type="xs:int" />
+      <xs:element minOccurs="0" name="MimeType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ResourceId" type="xs:int" />
+      <xs:element minOccurs="0" name="Size" type="xs:int" />
+      <xs:element minOccurs="0" name="Uri" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Resource" nillable="true" type="tns:Resource" />
+  <xs:complexType name="ArrayOfResponseType">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ResponseType" type="tns:ResponseType" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfResponseType" nillable="true" type="tns:ArrayOfResponseType" />
+  <xs:simpleType name="ResponseType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Assess" />
+      <xs:enumeration value="Evacuate" />
+      <xs:enumeration value="Execute" />
+      <xs:enumeration value="Monitor" />
+      <xs:enumeration value="None" />
+      <xs:enumeration value="Prepare" />
+      <xs:enumeration value="Shelter" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="ResponseType" nillable="true" type="tns:ResponseType" />
+  <xs:simpleType name="Severity">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Extreme" />
+      <xs:enumeration value="Minor" />
+      <xs:enumeration value="Moderate" />
+      <xs:enumeration value="Severe" />
+      <xs:enumeration value="Unknown" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="Severity" nillable="true" type="tns:Severity" />
+  <xs:simpleType name="Urgency">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Expected" />
+      <xs:enumeration value="Future" />
+      <xs:enumeration value="Immediate" />
+      <xs:enumeration value="Past" />
+      <xs:enumeration value="Unknown" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="Urgency" nillable="true" type="tns:Urgency" />
+  <xs:simpleType name="MessageType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Ack" />
+      <xs:enumeration value="Alert" />
+      <xs:enumeration value="Cancel" />
+      <xs:enumeration value="Error" />
+      <xs:enumeration value="Update" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="MessageType" nillable="true" type="tns:MessageType" />
+  <xs:simpleType name="Scope">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Private" />
+      <xs:enumeration value="Public" />
+      <xs:enumeration value="Restricted" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="Scope" nillable="true" type="tns:Scope" />
+  <xs:simpleType name="Status">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Actual" />
+      <xs:enumeration value="Exercise" />
+      <xs:enumeration value="System" />
+      <xs:enumeration value="Test" />
+      <xs:enumeration value="Draft" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="Status" nillable="true" type="tns:Status" />
+  <xs:complexType name="ArrayOfVideoAanalyticsEventDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="VideoAanalyticsEventDTO" nillable="true" type="tns:VideoAanalyticsEventDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfVideoAanalyticsEventDTO" nillable="true" type="tns:ArrayOfVideoAanalyticsEventDTO" />
+  <xs:complexType name="VideoAanalyticsEventDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AlarmLevel" type="xs:int" />
+      <xs:element minOccurs="0" name="AlertId" type="xs:long" />
+      <xs:element minOccurs="0" name="AlgorithmName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CameraGuid" type="ser:guid" />
+      <xs:element minOccurs="0" name="CenterX" type="xs:int" />
+      <xs:element minOccurs="0" name="CenterY" type="xs:int" />
+      <xs:element minOccurs="0" name="DirectionFlg" type="xs:int" />
+      <xs:element minOccurs="0" name="Height" type="xs:int" />
+      <xs:element minOccurs="0" name="IsInZone" type="xs:boolean" />
+      <xs:element minOccurs="0" name="LaneNumber" type="xs:int" />
+      <xs:element minOccurs="0" name="ObjectId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SentTime" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="VehicleCount" type="xs:int" />
+      <xs:element minOccurs="0" name="VehicleType" type="xs:int" />
+      <xs:element minOccurs="0" name="VideoAanalyticsEventId" type="xs:int" />
+      <xs:element minOccurs="0" name="Width" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="VideoAanalyticsEventDTO" nillable="true" type="tns:VideoAanalyticsEventDTO" />
+  <xs:complexType name="MobileNotificationData">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DateTime" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DestStID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ImageData" nillable="true" type="xs:base64Binary" />
+      <xs:element minOccurs="0" name="Mobnumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Remarks" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ResourceFlag" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MobileNotificationData" nillable="true" type="tns:MobileNotificationData" />
+  <xs:complexType name="ArrayOfStation">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Station" nillable="true" type="tns:Station" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfStation" nillable="true" type="tns:ArrayOfStation" />
+  <xs:complexType name="User">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ActiveFrom" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="ActiveTill" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="AuthToken" type="ser:guid" />
+      <xs:element minOccurs="0" name="Identifier" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Machines" nillable="true" type="tns:ArrayOfStation" />
+      <xs:element minOccurs="0" name="SecurityUserId" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="User" nillable="true" type="tns:User" />
+  <xs:complexType name="ArrayOfAlert">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Alert" nillable="true" type="tns:Alert" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfAlert" nillable="true" type="tns:ArrayOfAlert" />
+  <xs:complexType name="IncidentReportWrapper">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AlertExistsInAnotherReport" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Report" nillable="true" type="tns:IncidentReport" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="IncidentReportWrapper" nillable="true" type="tns:IncidentReportWrapper" />
+  <xs:complexType name="IncidentReport">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Alerts" nillable="true" type="tns:ArrayOfAlert" />
+      <xs:element minOccurs="0" name="AttachedIncidentRpt" nillable="true" type="tns:ArrayOfAttachedIncidentReport" />
+      <xs:element minOccurs="0" name="Cameras" nillable="true" type="tns:ArrayOfDeviceDto" />
+      <xs:element minOccurs="0" name="Comments" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CreationDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="CreationDateAsString" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="xs:long" />
+      <xs:element xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="IncidentReports" nillable="true" type="q1:ArrayOflong" />
+      <xs:element minOccurs="0" name="Owner" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Resources" nillable="true" type="tns:ArrayOfIncidentReportResource" />
+      <xs:element minOccurs="0" name="Status" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="IncidentReport" nillable="true" type="tns:IncidentReport" />
+  <xs:complexType name="ArrayOfAttachedIncidentReport">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="AttachedIncidentReport" nillable="true" type="tns:AttachedIncidentReport" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfAttachedIncidentReport" nillable="true" type="tns:ArrayOfAttachedIncidentReport" />
+  <xs:complexType name="AttachedIncidentReport">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AttachedDatetime" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ReportID" type="xs:long" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="AttachedIncidentReport" nillable="true" type="tns:AttachedIncidentReport" />
+  <xs:complexType name="ArrayOfDeviceDto">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="DeviceDto" nillable="true" type="tns:DeviceDto" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfDeviceDto" nillable="true" type="tns:ArrayOfDeviceDto" />
+  <xs:complexType name="ArrayOfIncidentReportResource">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="IncidentReportResource" nillable="true" type="tns:IncidentReportResource" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfIncidentReportResource" nillable="true" type="tns:ArrayOfIncidentReportResource" />
+  <xs:complexType name="IncidentReportResource">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Appended" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="ResourceId" type="ser:guid" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="IncidentReportResource" nillable="true" type="tns:IncidentReportResource" />
+  <xs:complexType name="tblweatherchcurrentDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AlertID" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="CityName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Country" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CountryName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CurrentDate" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="CurrentDateTime" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="ID" type="xs:int" />
+      <xs:element minOccurs="0" name="Icon" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Icon_URL" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LocalTime" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="Local_Time" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ObservationTime" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="Observation_Time" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Precipitation" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" name="UV" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" name="Weather" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="WeatherType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Winddirection" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="currenthumidity" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="currenttemp" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" name="dewpoint" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" name="feelslike" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" name="heatindex" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" name="lat" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" name="lon" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" name="pressure" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" name="visibility" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" name="wind_string" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="windblow" nillable="true" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="tblweatherchcurrentDTO" nillable="true" type="tns:tblweatherchcurrentDTO" />
+  <xs:complexType name="ArrayOftblWeatherhourlyforecastDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="tblWeatherhourlyforecastDTO" nillable="true" type="tns:tblWeatherhourlyforecastDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOftblWeatherhourlyforecastDTO" nillable="true" type="tns:ArrayOftblWeatherhourlyforecastDTO" />
+  <xs:complexType name="tblWeatherhourlyforecastDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AlertID" type="xs:int" />
+      <xs:element minOccurs="0" name="CityID" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="CityName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Condition" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Dewpoint" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" name="Epoc" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="Fctcode" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="Feelslike" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" name="ForecastDate" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="ForecastDateTime" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="HeatIndex" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" name="ID" type="xs:int" />
+      <xs:element minOccurs="0" name="Icon" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Icon_URL" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MSLP" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" name="POP" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="Pretty" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="QPF" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" name="Sky" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Snow" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" name="Temp" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" name="UV" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="WindDirection" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" name="WindName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="WindSpeed" nillable="true" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="tblWeatherhourlyforecastDTO" nillable="true" type="tns:tblWeatherhourlyforecastDTO" />
+  <xs:complexType name="AccountLightDto">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AccountId" type="xs:int" />
+      <xs:element minOccurs="0" name="AccountNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PrimaryAccountAdministrator" nillable="true" type="tns:PersonDto" />
+      <xs:element minOccurs="0" name="PrimaryContactId" nillable="true" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="AccountLightDto" nillable="true" type="tns:AccountLightDto" />
+  <xs:complexType name="PersonDto">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AccountId" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="Address" nillable="true" type="tns:ArrayOfAddressDto" />
+      <xs:element minOccurs="0" name="AgeRange" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="BirthDate" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Contacts" nillable="true" type="tns:ArrayOfContactDto" />
+      <xs:element minOccurs="0" name="CreatedBy" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="CreatedOn" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EducationCode" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="Ethnicity" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="ExternalIdentifier" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FirstName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FullName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="GenderCode" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="JobTitle" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LastName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MiddleName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ModifiedBy" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="ModifiedOn" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="NickName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Password" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PersonId" type="xs:int" />
+      <xs:element minOccurs="0" name="Portrait" nillable="true" type="xs:base64Binary" />
+      <xs:element minOccurs="0" name="PreferedContactTypes" nillable="true" type="tns:ArrayOfPersonContactTypeDto" />
+      <xs:element minOccurs="0" name="PrimaryAccountAdministratorPassword" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PrimaryContact" nillable="true" type="tns:ContactDto" />
+      <xs:element minOccurs="0" name="Suffix" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Title" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PersonDto" nillable="true" type="tns:PersonDto" />
+  <xs:complexType name="ArrayOfAddressDto">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="AddressDto" nillable="true" type="tns:AddressDto" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfAddressDto" nillable="true" type="tns:ArrayOfAddressDto" />
+  <xs:complexType name="AddressDto">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AccountId" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="AddressId" type="xs:int" />
+      <xs:element minOccurs="0" name="AddressNumber" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="AddressTypeCode" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="City" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Country" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="County" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CreatedBy" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="CreatedOn" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="DeletionStateCode" type="xs:int" />
+      <xs:element minOccurs="0" name="Fax" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Latitude" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" name="Line1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Line2" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Line3" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Longitude" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" name="ModifiedBy" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="ModifiedOn" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PersonId" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="PostOfficeBox" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PostalCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ShippingMethodCode" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="SiteId" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="StateOrProvince" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Telephone1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Telephone2" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Telephone3" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UPSZone" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UTCOffset" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="VersionNumber" nillable="true" type="xs:base64Binary" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="AddressDto" nillable="true" type="tns:AddressDto" />
+  <xs:complexType name="ContactDto">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ContactId" type="xs:int" />
+      <xs:element minOccurs="0" name="CreatedBy" nillable="true" type="ser:guid" />
+      <xs:element minOccurs="0" name="CreatedOn" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="EmailAddress" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FaxNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LyncName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MobileNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ModifiedBy" nillable="true" type="ser:guid" />
+      <xs:element minOccurs="0" name="ModifiedOn" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="PersonId" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="PreferedContatMethods" nillable="true" type="tns:ArrayOfPreferedContatMethodDto" />
+      <xs:element minOccurs="0" name="TelephoneNumber" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ContactDto" nillable="true" type="tns:ContactDto" />
+  <xs:complexType name="ArrayOfPreferedContatMethodDto">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="PreferedContatMethodDto" nillable="true" type="tns:PreferedContatMethodDto" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfPreferedContatMethodDto" nillable="true" type="tns:ArrayOfPreferedContatMethodDto" />
+  <xs:complexType name="PreferedContatMethodDto">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ContactId" type="xs:int" />
+      <xs:element minOccurs="0" name="ContactMethodId" type="xs:int" />
+      <xs:element minOccurs="0" name="PreferedContacMethodtId" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PreferedContatMethodDto" nillable="true" type="tns:PreferedContatMethodDto" />
+  <xs:complexType name="PersonContactTypeDto">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ContactTypeId" type="xs:int" />
+      <xs:element minOccurs="0" name="PersonContactTypeId" type="xs:int" />
+      <xs:element minOccurs="0" name="PersonId" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PersonContactTypeDto" nillable="true" type="tns:PersonContactTypeDto" />
+  <xs:complexType name="ArrayOfContactDto">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ContactDto" nillable="true" type="tns:ContactDto" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfContactDto" nillable="true" type="tns:ArrayOfContactDto" />
+  <xs:complexType name="ArrayOfPersonContactTypeDto">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="PersonContactTypeDto" nillable="true" type="tns:PersonContactTypeDto" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfPersonContactTypeDto" nillable="true" type="tns:ArrayOfPersonContactTypeDto" />
+  <xs:complexType name="SiteDto">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AccountId" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="Address" nillable="true" type="tns:AddressDto" />
+      <xs:element minOccurs="0" name="Alt" type="xs:double" />
+      <xs:element minOccurs="0" name="BBoxPointCollection" nillable="true" type="tns:ArrayOfBBoxPointDto" />
+      <xs:element xmlns:q2="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="ChildSites" nillable="true" type="q2:ArrayOfint" />
+      <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DevicesCollection" nillable="true" type="tns:ArrayOfDeviceDto" />
+      <xs:element minOccurs="0" name="HasChildren" type="xs:boolean" />
+      <xs:element minOccurs="0" name="IsBingMap" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Lat" type="xs:double" />
+      <xs:element minOccurs="0" name="Long" type="xs:double" />
+      <xs:element minOccurs="0" name="Map" nillable="true" type="xs:base64Binary" />
+      <xs:element minOccurs="0" name="MapUrl" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ParentId" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="Pin" nillable="true" type="xs:base64Binary" />
+      <xs:element minOccurs="0" name="PinUrl" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SiteId" type="xs:int" />
+      <xs:element minOccurs="0" name="SiteName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SiteType" nillable="true" type="tns:SiteTypeDto" />
+      <xs:element minOccurs="0" name="ZoomLevel" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="SiteDto" nillable="true" type="tns:SiteDto" />
+  <xs:complexType name="ArrayOfBBoxPointDto">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="BBoxPointDto" nillable="true" type="tns:BBoxPointDto" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfBBoxPointDto" nillable="true" type="tns:ArrayOfBBoxPointDto" />
+  <xs:complexType name="BBoxPointDto">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Alt" type="xs:double" />
+      <xs:element minOccurs="0" name="BBoxPointId" type="xs:int" />
+      <xs:element minOccurs="0" name="Lat" type="xs:double" />
+      <xs:element minOccurs="0" name="Long" type="xs:double" />
+      <xs:element minOccurs="0" name="Site" nillable="true" type="tns:SiteDto" />
+      <xs:element minOccurs="0" name="SiteId" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="BBoxPointDto" nillable="true" type="tns:BBoxPointDto" />
+  <xs:complexType name="SiteTypeDto">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="HierarchyLevel" type="xs:int" />
+      <xs:element minOccurs="0" name="Icon" nillable="true" type="xs:base64Binary" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SiteTypeId" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="SiteTypeDto" nillable="true" type="tns:SiteTypeDto" />
+  <xs:complexType name="Event">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Adapter" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ItemId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TimeStamp" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Value" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Event" nillable="true" type="tns:Event" />
+</xs:schema>

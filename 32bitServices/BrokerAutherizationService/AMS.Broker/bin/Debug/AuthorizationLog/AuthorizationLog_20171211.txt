@@ -1,0 +1,9 @@
+11/12/2017 13:04:10  In Broker inside BrokerAutherizationService
+11/12/2017 13:04:11  ------------------------------------
+11/12/2017 13:04:11  starting Authentication service
+11/12/2017 13:04:18  ------------------------------------
+11/12/2017 13:04:18  starting Directory service
+11/12/2017 13:04:18  listening at https://localhost:6530/Directory
+11/12/2017 13:04:18  ------------------------------------
+11/12/2017 13:04:18  ------------------------------------
+11/12/2017 13:04:18  starting MobileAppCommunication Service.

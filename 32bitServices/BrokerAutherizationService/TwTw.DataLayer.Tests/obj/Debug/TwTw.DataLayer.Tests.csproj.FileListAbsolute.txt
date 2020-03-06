@@ -1,0 +1,84 @@
+D:\Yogesh\2020Imaging\code\trunk\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.dll.config
+D:\Yogesh\2020Imaging\code\trunk\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.dll
+D:\Yogesh\2020Imaging\code\trunk\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.pdb
+D:\Yogesh\2020Imaging\code\trunk\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.dll
+D:\Yogesh\2020Imaging\code\trunk\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.Domain.dll
+D:\Yogesh\2020Imaging\code\trunk\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\EntityFramework.dll
+D:\Yogesh\2020Imaging\code\trunk\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.pdb
+D:\Yogesh\2020Imaging\code\trunk\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.Domain.pdb
+D:\Yogesh\2020Imaging\code\trunk\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\EntityFramework.xml
+D:\Yogesh\2020Imaging\code\trunk\AMS\Broker\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.csprojResolveAssemblyReference.cache
+D:\Yogesh\2020Imaging\code\trunk\AMS\Broker\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.dll
+D:\Yogesh\2020Imaging\code\trunk\AMS\Broker\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.pdb
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.dll.config
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.dll
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.pdb
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.dll
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.Domain.dll
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\EntityFramework.dll
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.pdb
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.Domain.pdb
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\EntityFramework.xml
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.csprojResolveAssemblyReference.cache
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.dll
+G:\SVN Project Repository\Source Code\trunk\AMS\Broker\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.pdb
+D:\2020Imaging\code\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.dll.config
+D:\2020Imaging\code\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.dll
+D:\2020Imaging\code\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.pdb
+D:\2020Imaging\code\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.dll
+D:\2020Imaging\code\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.Domain.dll
+D:\2020Imaging\code\Broker\TwTw.DataLayer.Tests\bin\Debug\EntityFramework.dll
+D:\2020Imaging\code\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.pdb
+D:\2020Imaging\code\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.Domain.pdb
+D:\2020Imaging\code\Broker\TwTw.DataLayer.Tests\bin\Debug\EntityFramework.xml
+D:\2020Imaging\code\Broker\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.csprojResolveAssemblyReference.cache
+D:\2020Imaging\code\Broker\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.dll
+D:\2020Imaging\code\Broker\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.pdb
+G:\SVN Code Repository\trunk\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.dll.config
+G:\SVN Code Repository\trunk\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.dll
+G:\SVN Code Repository\trunk\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.pdb
+G:\SVN Code Repository\trunk\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.dll
+G:\SVN Code Repository\trunk\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.Domain.dll
+G:\SVN Code Repository\trunk\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\EntityFramework.dll
+G:\SVN Code Repository\trunk\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.pdb
+G:\SVN Code Repository\trunk\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.Domain.pdb
+G:\SVN Code Repository\trunk\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\EntityFramework.xml
+G:\SVN Code Repository\trunk\AMS\Broker\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.csprojResolveAssemblyReference.cache
+G:\SVN Code Repository\trunk\AMS\Broker\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.dll
+G:\SVN Code Repository\trunk\AMS\Broker\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.pdb
+D:\Svn code Repository 21 Nov 14 latest\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.dll.config
+D:\Svn code Repository 21 Nov 14 latest\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.dll
+D:\Svn code Repository 21 Nov 14 latest\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.pdb
+D:\Svn code Repository 21 Nov 14 latest\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.dll
+D:\Svn code Repository 21 Nov 14 latest\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.Domain.dll
+D:\Svn code Repository 21 Nov 14 latest\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\EntityFramework.dll
+D:\Svn code Repository 21 Nov 14 latest\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.pdb
+D:\Svn code Repository 21 Nov 14 latest\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.Domain.pdb
+D:\Svn code Repository 21 Nov 14 latest\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\EntityFramework.xml
+D:\Svn code Repository 21 Nov 14 latest\AMS\Broker\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.csprojResolveAssemblyReference.cache
+D:\Svn code Repository 21 Nov 14 latest\AMS\Broker\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.dll
+D:\Svn code Repository 21 Nov 14 latest\AMS\Broker\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.pdb
+G:\SVNCodeRepository\trunk\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.dll.config
+G:\SVNCodeRepository\trunk\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.dll
+G:\SVNCodeRepository\trunk\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.pdb
+G:\SVNCodeRepository\trunk\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.dll
+G:\SVNCodeRepository\trunk\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.Domain.dll
+G:\SVNCodeRepository\trunk\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\EntityFramework.dll
+G:\SVNCodeRepository\trunk\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.pdb
+G:\SVNCodeRepository\trunk\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.Domain.pdb
+G:\SVNCodeRepository\trunk\AMS\Broker\TwTw.DataLayer.Tests\bin\Debug\EntityFramework.xml
+G:\SVNCodeRepository\trunk\AMS\Broker\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.csprojResolveAssemblyReference.cache
+G:\SVNCodeRepository\trunk\AMS\Broker\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.dll
+G:\SVNCodeRepository\trunk\AMS\Broker\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.pdb
+G:\TouchControl version 1.2\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.dll.config
+G:\TouchControl version 1.2\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.dll
+G:\TouchControl version 1.2\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.Tests.pdb
+G:\TouchControl version 1.2\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.dll
+G:\TouchControl version 1.2\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.Domain.dll
+G:\TouchControl version 1.2\Broker\TwTw.DataLayer.Tests\bin\Debug\EntityFramework.dll
+G:\TouchControl version 1.2\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.DataLayer.pdb
+G:\TouchControl version 1.2\Broker\TwTw.DataLayer.Tests\bin\Debug\TwTw.Domain.pdb
+G:\TouchControl version 1.2\Broker\TwTw.DataLayer.Tests\bin\Debug\EntityFramework.xml
+G:\TouchControl version 1.2\Broker\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.csprojResolveAssemblyReference.cache
+G:\TouchControl version 1.2\Broker\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.dll
+G:\TouchControl version 1.2\Broker\TwTw.DataLayer.Tests\obj\Debug\TwTw.DataLayer.Tests.pdb

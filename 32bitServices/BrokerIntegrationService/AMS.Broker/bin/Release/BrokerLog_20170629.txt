@@ -1,0 +1,20 @@
+29/06/2017 21:22:39  VideoAnalyticsManagerIntegrationService-GetStatus -- cameraId:2--!--version:Abandoned Baggage Version 3.0--!--authToken:b1dc8b38-1e76-45de-986c-192168000193
+29/06/2017 21:22:39  VideoAnalyticsManagerIntegrationService-GetDeviceById -- deviceId  = 2
+29/06/2017 21:22:43  VideoAnalyticsManagerIntegrationService-GetStatus -- cameraId:3--!--version:Trip Wire Version 1.0--!--authToken:b1dc8b38-1e76-45de-986c-192168000193
+29/06/2017 21:22:43  VideoAnalyticsManagerIntegrationService-GetDeviceById -- deviceId  = 3
+29/06/2017 21:22:47  VideoAnalyticsManagerIntegrationService-GetCapabilities -- cameraId = 3--!--version:Trip Wire Version 1.0--!--authToken:b1dc8b38-1e76-45de-986c-192168000193
+29/06/2017 21:22:47  VideoAnalyticsManagerIntegrationService-GetDeviceById -- deviceId  = 3
+29/06/2017 21:25:25  VideoAnalyticsManagerIntegrationService-StopAnalytics -- cameraId:3--!--version:Trip Wire Version 1.0--!--authToken:b1dc8b38-1e76-45de-986c-192168000193
+29/06/2017 21:25:25  VideoAnalyticsManagerIntegrationService-GetDeviceById -- deviceId  = 3
+29/06/2017 21:31:27  VideoAnalyticsManagerIntegrationService-GetCapabilities -- cameraId = 3--!--version:Trip Wire Version 1.0--!--authToken:b1dc8b38-1e76-45de-986c-192168000193
+29/06/2017 21:31:27  VideoAnalyticsManagerIntegrationService-GetDeviceById -- deviceId  = 3
+29/06/2017 21:32:43  VideoAnalyticsManagerIntegrationService-GetCapabilities -- cameraId = 2--!--version:Abandoned Baggage Version 3.0--!--authToken:b1dc8b38-1e76-45de-986c-192168000193
+29/06/2017 21:32:43  VideoAnalyticsManagerIntegrationService-GetDeviceById -- deviceId  = 2
+29/06/2017 21:34:35  VideoAnalyticsManagerIntegrationService-StopAnalytics -- cameraId:2--!--version:Abandoned Baggage Version 3.0--!--authToken:b1dc8b38-1e76-45de-986c-192168000193
+29/06/2017 21:34:35  VideoAnalyticsManagerIntegrationService-GetDeviceById -- deviceId  = 2
+29/06/2017 21:39:58  VideoAnalyticsManagerIntegrationService-GetStatus -- cameraId:2--!--version:Abandoned Baggage Version 3.0--!--authToken:b1dc8b38-1e76-45de-986c-192168000193
+29/06/2017 21:39:58  VideoAnalyticsManagerIntegrationService-GetDeviceById -- deviceId  = 2
+29/06/2017 21:39:59  VideoAnalyticsManagerIntegrationService-GetStatus -- cameraId:3--!--version:Trip Wire Version 1.0--!--authToken:b1dc8b38-1e76-45de-986c-192168000193
+29/06/2017 21:39:59  VideoAnalyticsManagerIntegrationService-GetDeviceById -- deviceId  = 3
+29/06/2017 21:40:17  VideoAnalyticsManagerIntegrationService-GetStatus -- cameraId:3--!--version:Trip Wire Version 1.0--!--authToken:b1dc8b38-1e76-45de-986c-192168000193
+29/06/2017 21:40:17  VideoAnalyticsManagerIntegrationService-GetDeviceById -- deviceId  = 3
