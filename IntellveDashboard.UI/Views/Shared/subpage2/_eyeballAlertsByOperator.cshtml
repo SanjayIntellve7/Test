@@ -1,0 +1,77 @@
+﻿<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+<script src="~/js/renderCanvasChart.js"></script>
+<link href="~/css/site.css" rel="stylesheet" />
+ 
+<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 three-items"> 
+    <div class="col-md-2 col-lg-2 col-sm-2 icons-list chart-items">
+        <div class="active dropdown">
+            <select id="EyeballOperatorChartOptions" class="select-css">
+                <option class="dropdown-item" value="Today">Today</option>
+                <option class="dropdown-item" value="Last Two Days">Last Two Days</option>
+                <option class="dropdown-item" value="Last Two Week">Last Two Week</option>
+                <option class="dropdown-item" value="Last Two Month">Last Two Month</option>
+                <option class="dropdown-item" value="Last Two Quarter">Last Two Quarter</option>
+            </select>
+        </div>
+    </div>
+    <div class="col-md-5 col-lg-5 col-sm-6 icons-list chart-items image-list">
+        <ul class="RightChartTopList" id="EyeballOperatorChartType">
+            <li class="nav-item"><a href="#" data-value="pie"><i class="fas fa-chart-pie"></i>Pie</a>  </li>
+            <li class="nav-item select"> <a href="#" data-value="column"><i class="far fa-chart-bar"></i>Column</a></li>
+            <li class="nav-item"><a href="#" data-value="line"><i class="fas fa-chart-line"></i>Line</a>  </li>
+            <li class="nav-item"><a href="#" data-value="bar"><img class="image" src="../assets/img/icon/Barchart.svg" alt="Image" />Bar</a>  </li>
+            <li class="nav-item"><a href="#" data-value="splineArea"><i class="fas fa-chart-area"></i>Spline Area</a></li>
+            <li class="nav-item"><a href="#" data-value="doughnut"><img class="image" src="../assets/img/icon/Donut.svg" alt="Image" />Doughnut</a></li>
+            <li class="nav-item"><a href="#" data-value="pyramid"><img class="image" src="../assets/img/icon/Pyramidchart.svg" alt="Image" />Pyramid</a></li>
+            @*<li class="nav-item"><a href="#" data-value="funnel">Funnel</a></li>*@
+        </ul>
+    </div> 
+    <div>
+        <img id="EyeballOperatorChart-loading-image" src="~/Images/ajax-loader.gif" style="display:none;height: 30px; width:30px;" />
+    </div>
+    <div class="chart-div">
+        <p id="EyeballOperatorChartLabel"></p>
+        <div id="EyeballOperatorChartContainer" style="height: 400px; padding-top:40px;"></div>
+    </div>
+</div>  
+
+<script> 
+    $("#EyeballOperatorChartOptions").on('change', function () {
+
+        var Options = document.getElementById('EyeballOperatorChartOptions');
+        let OptionsSelected = Options.options[Options.selectedIndex].value;
+
+        var Type = $('ul#EyeballOperatorChartType').find('li.select');
+        let ChartType = $(Type).find('a').data('value'); 
+
+        drawEyeballOperatorChart(OptionsSelected, ChartType);
+        $("#EyeballOperatorChartLabel").html("Chart Info : " + OptionsSelected );
+    });
+
+    $('#EyeballOperatorChartType a').on('click', function (e) {
+        e.preventDefault();
+        $("#EyeballOperatorChartType li").removeClass("select");
+        $(this).closest('li').addClass('select');
+        let ChartType = $(this).data('value');
+
+        var Options = document.getElementById('EyeballOperatorChartOptions');
+        let OptionsSelected = Options.options[Options.selectedIndex].value; 
+
+        drawEyeballOperatorChart(OptionsSelected, ChartType);
+        $("#EyeballOperatorChartLabel").html("Chart Info : " + OptionsSelected );
+    });
+
+
+    $(function () { 
+        var Options = document.getElementById('EyeballOperatorChartOptions');
+        let Selected = Options.options[Options.selectedIndex].value;
+
+        var Type = $('ul#EyeballOperatorChartType').find('li.select');
+        let ChartType = $(Type).find('a').data('value'); 
+
+        $("#EyeballOperatorChartLabel").html("Chart Info : " + Selected );
+        drawEyeballOperatorChart(Selected, ChartType);
+    });
+
+</script>

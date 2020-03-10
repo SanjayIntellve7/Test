@@ -1,0 +1,136 @@
+body, html {height: 100%;}
+
+.login-bg {
+	background-image: url("../images/login-bg.png"); height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.loginLogoImage{
+	margin: 20px 0px 0px 25px
+}
+
+.loginContainer{
+	margin-top: -111px !important;
+}
+
+.user_card {
+	height: 594px;
+	width: 517px;
+	margin-top: auto;
+	margin-bottom: auto;
+	background: #ffffff;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0 0 0 0.2), 0 6px 20px 0 rgba(0 0 0 0.19)
+	
+}
+
+.brand_logo_container {
+	position: absolute;
+	height: 121px;
+	width: 121px;
+	top: -60px;
+	text-align: center;
+}
+.brand_logo {
+	height: 121px;
+	width: 121px;
+}
+
+.signInText{
+	color: #159bdd !important;
+	font-weight: normal !important;
+	margin-bottom: 80px !important;
+	margin: 50px 0px 0px 0px; 
+}
+.form-group{margin-top:5px !important}
+.width400
+{
+   width:400px;
+	align-items: center;
+	padding: 10px 0 0 0;
+}
+.input-group-addon{margin-top:10px !important}
+
+.checkbox
+{
+  display: block;
+  padding-left: 35px;
+  margin-bottom: 20px;
+  background: #809FE5;
+  cursor: pointer;
+  border: 2px solid #008CBA;
+  margin: 0px 0px 0px 30px;
+}
+.checkmark
+{
+  top: 0;
+  left: 100px;
+  border-style:solid;
+  border: 5px solid thick;
+}
+/*--------------------------------------------------
+[password]*/
+.changepassword
+{
+  margin-left: 200px;
+	color: #4A71CC;
+}
+.changepassword:hover{
+	text-decoration: underline;
+	color: #4A71CC;
+	
+}
+/*------------------------------------------------------------------
+[ Button ]*/
+.container-login100-form-btn {
+ 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 13px;
+  width: 70%;
+  margin-left:70px;
+}
+.wrap-login100-form-btn {
+  display: block;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  margin-left: 20px 0 0 0;
+}
+
+.login100-form-btn {
+ background-color:#448ccb;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width:300px 
+}
+
+.wrap-login100-form-btn:hover .login100-form-bgbtn {
+  left: 0;
+}
+
+.aiirights
+{
+	color: #7E7979;
+	margin: 50px 0px 0px 130px;
+}
+.allrightstextline
+{
+	text-decoration-line: underline;
+	line-height:25px;
+}
+
+
+
+

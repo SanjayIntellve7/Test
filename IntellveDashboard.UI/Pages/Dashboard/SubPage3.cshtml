@@ -1,0 +1,40 @@
+﻿@page
+@model IntellveDashboard.UI.Pages.Dashboard.SubPage3Model
+@{
+    ViewData["Title"] = "Dashboard Second Third";
+}
+@{ Layout = "_Layout";}
+<style>
+    .canvasjs-chart-credit {
+        display: none;
+    }
+</style>
+
+<div class="row">
+    <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 heading-name"><h1 class="dashboard-h1"> Screen 3 </h1></div>
+</div>
+
+<div class="row">
+    <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+        <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6">
+            <h4>Dashboard for alerts from shutter and PIR sensor during silent hours(11-6)</h4>
+            @await Html.PartialAsync("subpage3/_chartBifurcationBySource")
+        </div>
+        <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6">
+            <h4>time difference sent and acknowledge</h4>
+            @await Html.PartialAsync("subpage3/_chartAcknowledgeSent")
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+        <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6">
+            <h4>time difference between acknowledge and closing </h4>
+            @await Html.PartialAsync("subpage3/_chartAcknowledgeClosing")
+        </div>
+        <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6">
+            <h4>time difference between closing and sent</h4>
+            @await Html.PartialAsync("subpage3/_chartClosingSent")
+        </div>
+    </div>
+</div> 

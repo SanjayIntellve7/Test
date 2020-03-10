@@ -1,0 +1,190 @@
+﻿@page
+@model IntellveDashboard.UI.Pages.Dashboard.MainModel
+@{
+    ViewData["Title"] = "Dashboard Main";
+}
+@{ Layout = "_Layout";}
+
+
+<div class="row">
+    <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+        <h1 class="dashboard-h1">
+            Main Dashboard
+        </h1>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12 col-lg-12 col-sm-12 second-row">
+        <div class="five-box text-center">
+            <span>
+                <a style="color:#595dcb;" id="anchorTotalBranchCount" href="javascript:void(0)" onclick="GetSummaryDetails('TotalBranch')"></a>
+            </span><p style="color:#5d5c5c;">Total Branch</p>
+        </div>
+        <div class="five-box text-center three">
+            <span>
+                <a style="color:#4bcb8f;" id="anchorAlertMonitoringConsole" href="#" onclick="GetSummaryDetails('AlertMonitoringConsole')"></a>
+            </span><p style="color:#5d5c5c;">Alert Monitoring Console</p>
+        </div>
+        <div class="five-box text-center">
+            <span>
+                <a style="color:#ffb22b;" id="anchorEyeBallMonitoringConsole" href="#" onclick="GetSummaryDetails('EyeBallMonitoringConsole')"></a>
+            </span><p style="color:#5d5c5c;">Eye Ball Monitoring Console</p>
+        </div>
+        <div class="five-box text-center three">
+            <span>
+                <a style="color:#fc4b6c;" id="anchorLast24HrsNonComminucatingBranch" href="#" onclick="GetSummaryDetails('Last24HrsNonComminucatingBranch')"></a>
+            </span><p style="color:#5d5c5c;">Last 24Hrs<br /> Non-Communicating Branch</p>
+        </div>
+        <div class="five-box text-center">
+            <span>
+                <a style="color:#43bfc4;" id="anchorAlertsCountToday" href="#" onclick="GetSummaryDetails('AlertsCountToday')"></a>
+            </span><p style="color:#5d5c5c;">Alert Count Today</p>
+        </div>
+        <div class="five-box text-center last three">
+            <span>
+                <a style="color:#2e86bc;" id="anchorEventsCountToday" href="#" onclick="GetSummaryDetails('EventsCountToday')"></a>
+            </span><p style="color:#5d5c5c;">Events Counts For Today</p>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 third-row">
+        <div class="col-md-6 col-lg-6 col-sm-6 two-box first">
+            <h4>Alert Bifurcation By Source</h4>
+            @await Html.PartialAsync("Main/_alertCountBifurcation")
+        </div>
+        <div class="col-md-6 col-lg-6 col-sm-6 two-box two">
+            <h4>Alert Bifurcation By Reason Code</h4>
+            @await Html.PartialAsync("Main/_alertCountReasonCode")
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 fourth-row">
+        <div class="col-md-4 col-lg-4 col-sm-6 one">
+            <h4>Alert Status</h4>
+            @await Html.PartialAsync("Main/_alertStatusPartial")
+        </div>
+        <div class="col-md-8 col-lg-8 col-sm-6 two">
+            <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12	flat-box first">
+                <h4>Operator Vs Alert Count</h4>
+                @await Html.PartialAsync("Main/_operatorVsAlertCount")
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 fifth-row">
+        <div class="col-md-6 col-lg-6 col-sm-6 two-box first">
+            <h4>Alert Frequency Trend</h4>
+            @await Html.PartialAsync("Main/_trendAll")
+        </div>
+        <div class="col-md-6 col-lg-6 col-sm-6 two-box two">
+            <h4>Alert Closer Delay (>10 min) Time Series</h4>
+            @await Html.PartialAsync("Main/_trendDelayClosing")
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 sixth-row">
+        <div class="col-md-6 col-lg-6 col-sm-6 two-box first">
+            <h4>Alert Response Time Range</h4>
+            @await Html.PartialAsync("Main/_responseTimeRange")
+        </div>
+        <div class="col-md-6 col-lg-6 col-sm-6 two-box two">
+            <h4>Alert Closer Time Range</h4>
+            @await Html.PartialAsync("Main/_closerTimeRange")
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 sixth-row">
+        <div class="col-md-6 col-lg-6 col-sm-6 two-box first">
+
+            @await Html.PartialAsync("Main/_frequentMostAlertGeneratingBranches")
+        </div>
+        <div class="col-md-6 col-lg-6 col-sm-6 two-box two">
+            <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12	flat-box">
+                <h4>Alert Response Delay (>2 mins) Time Series</h4>
+                @await Html.PartialAsync("Main/_trendDelayAcknowledge")
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="RecordsModal">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Title</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <table id="example" class="table table-striped table-bordered" style="width:100%"></table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+<script src="~/js/renderCanvasChart.js"></script>
+
+<script>
+    $(function () {
+
+        $.ajax({
+            type: "GET",
+            url: "https://localhost:44393/api/Dashboard/GetSummaryCounts",
+            contentType: "application/json",
+            error: function (jqXHR, textStatus, errorThrown) {
+                console.log(jqXHR + "-" + textStatus + "-" + errorThrown);
+                alert("Something went wrong!");
+            },
+            success: function (result) {
+                var data = $.parseJSON(result);
+                console.log(data);
+                $("#anchorTotalBranchCount").html(data.TotalBranch);
+                $("#anchorAlertMonitoringConsole").html(data.AlertMonitoringConsole);
+                $("#anchorEyeBallMonitoringConsole").html(data.EyeBallMonitoringConsole);
+                $("#anchorLast24HrsNonComminucatingBranch").html(data.Last24HrsNonComminucatingBranch);
+                $("#anchorEventsCountToday").html(data.EventsCountToday);
+                $("#anchorAlertsCountToday").html(data.AlertsCountToday);
+            }
+        });
+    });
+
+    function GetSummaryDetails(filter) {
+        $.ajax({
+            type: "GET",
+            url: "https://localhost:44393/api/Dashboard/GetSummaryCountDetails?DetailsForFlag=" + filter,
+            contentType: "application/json",
+            error: function (jqXHR, textStatus, errorThrown) {
+                console.log(jqXHR + "-" + textStatus + "-" + errorThrown);
+                alert("Something went wrong!");
+            },
+            success: function (response) {
+                let data = $.parseJSON(response);
+                $("#RecordsModal").modal("show");
+                $.noConflict();
+
+                $("#example").DataTable({
+                    "data": data.result[0],
+                    "columns": [
+                        { "data": data.result[0].LoginDate },
+                        { "data": data.result[0].IdentifierIP },
+                        { "data": data.result[0].Component },
+                    ]
+                });
+            }
+        });
+    }
+</script>
+
+<link href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css" /> 

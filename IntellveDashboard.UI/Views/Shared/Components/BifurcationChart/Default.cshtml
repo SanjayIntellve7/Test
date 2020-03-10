@@ -1,0 +1,84 @@
+﻿
+<script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+
+<script src="~/js/canvasJsTwoDatapoints.js"></script>
+
+
+<script type="text/javascript">
+
+        window.onload = function () {
+            @*console.log('BifurcationDatapointsArray'+'-'+@Html.Raw(ViewBag.BifurcationDatapointsArray));*@
+            let chartType = $("#Bifurcation-chartTypes option:selected").text();
+            let Type = '"' + chartType.toLowerCase() + '"';
+            loadTwoColumnChart(@Html.Raw(ViewBag.BifurcationDatapointsArray), "Alert Count Bifurcation", "chartContainerBifurcation", Type);
+        }
+</script>
+
+
+<div class="col-md-6">
+
+    <img id="Bifurcation-loading-image" src="~/Images/ajax-loader.gif" style="display:none;" />
+
+    <select id="Bifurcation-chartTypes" onchange="drawBifurcationChart()">
+        <option value="line">Line</option>
+        <option value="column" selected="selected">Column</option>
+        <option value="bar">Bar</option>
+    </select>
+
+    <div id="chartContainerBifurcation">
+    </div>
+
+    <p id="Bifurcation-loadMsg" class="alert-danger">
+    </p>
+
+</div>
+@*
+    <script type="text/javascript">
+
+        window.onload = function () {
+            drawBifurcationChart();
+        }
+        function drawBifurcationChart() {
+            let chartType = $("#Bifurcation-chartTypes option:selected").text();
+            let Type = '"' + chartType.toLowerCase() + '"';
+            //let url = "https://localhost:44393/api/Dashboard/GetAlertCountBifurcation/12-01-2018/01-01-2019/today";
+            let url = "https://localhost:44393/api/Dashboard/GetAlertCountBifurcation?FirstDate=12-01-2018&SecondDate=01-01-2019&Datafilter=today";
+
+            $.ajax({
+                type: "GET",
+                url: url,
+                contentType: "application/json",
+                error: function (jqXHR, textStatus, errorThrown) {
+                    $("#Bifurcation-loading-image").hide();
+                    $("#Bifurcation-loadMsg").html("Something went wrong!");
+                },
+                success: function (result) {
+                    $("#Bifurcation-loading-image").hide();
+                    let datapointArray = $.parseJSON(result);
+                    loadTwoColumnChart(datapointArray, "Alert Count Bifurcation", "chartContainerBifurcation", Type);
+                }, beforeSend: function () {
+                    $("#Bifurcation-loading-image").show();
+                }
+            });
+        }
+    </script>
+
+
+    <div class="col-md-4">
+
+        <img id="Bifurcation-loading-image" src="~/Images/ajax-loader.gif" style="display:none;" />
+
+        <select id="Bifurcation-chartTypes" onchange="drawBifurcationChart()">
+            <option value="Line">Line</option>
+            <option value="Column" selected="selected">Column</option>
+            <option value="Bar">Bar</option>
+        </select>
+
+
+        <div id="chartContainerBifurcation" style="height: 300px; width: 100%;">
+        </div>
+
+        <p id="Bifurcation-loadMsg" class="alert-danger">
+        </p>
+
+    </div>*@

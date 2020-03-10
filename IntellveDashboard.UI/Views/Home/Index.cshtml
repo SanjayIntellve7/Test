@@ -1,0 +1,165 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+@*<script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+
+<div class="row">
+    @await Component.InvokeAsync("CloseReasonChart")
+</div>
+*@
+
+@*<div class="text-center">
+        <h1 class="display-4">Welcome</h1>
+        <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    </div>*@
+
+@*<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/alasql/0.4.11/alasql.min.js"
+            integrity="sha256-cBaIynvJ6UHhaeb8IcYuYtd2hei4XYrPyUhm9DKrRBQ="
+            crossorigin="anonymous"></script>*@
+
+@*<script type="text/javascript">
+        window.onload = function () {
+            function addData(data) {
+                var resp = $.parseJSON(data);
+                console.log(resp.chartData);
+
+                alasql.fn.datetime = function (dateStr) {
+                    let monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+                    let date = new Date(dateStr);
+                    let monthIndex = date.getMonth();
+                    let year = date.getFullYear();
+                    return monthNames[monthIndex] + ' ' + year;
+                };
+
+                let resBifurcation = alasql('SELECT datetime(Sent)as months, Type, count(Type) AS cnt FROM ? GROUP BY datetime(Sent),Type', [resp.chartData]);
+                //console.log(resBifurcation);
+
+                let Bifurcationpoints1 = [], Bifurcationpoints2 = [];
+                $.each(resBifurcation, function (index) {
+                    var data = { y: resBifurcation[index].cnt, label: '' + resBifurcation[index].Type + '' };
+                    let month1 = resBifurcation[0].months;
+                    if (resBifurcation[index].months == month1)
+                        Bifurcationpoints1.push(data);
+                    else
+                        Bifurcationpoints2.push(data);
+                });
+
+                let chartDataBifurcation = [{ type: "column", dataPoints: Bifurcationpoints1 }, { type: "column", dataPoints: Bifurcationpoints2 }];
+                let Bifurcationchart = new CanvasJS.Chart("chartContainerBifurcation",
+                    {
+                        title: {
+                            text: "Alert Count Bifurcation"
+                        },
+                        data: chartDataBifurcation
+                    });
+                Bifurcationchart.render();
+
+                let resCloseReason = alasql('SELECT datetime(Sent)as months, ReasonCode, count(Type) AS cnt FROM ? GROUP BY datetime(Sent),ReasonCode', [resp.chartData]);
+                //console.log(resCloseReason);
+
+                let CloseReasonpoints1 = [], CloseReasonpoints2 = [];
+                let month1 = '';
+                $.each(resCloseReason, function (index) {
+                    var data = { y: resCloseReason[index].cnt, label: '' + resCloseReason[index].ReasonCode + '' };
+                    month1 = resCloseReason[0].months;
+                    if (resCloseReason[index].months == month1)
+                        CloseReasonpoints1.push(data);
+                    else
+                        //month2=resCloseReason[index].months;
+                        CloseReasonpoints2.push(data);
+                });
+
+                let chartDataCloseReason = [{
+                    type: "column",
+                    color: "gold",
+                    dataPoints: CloseReasonpoints1
+                },
+                {
+                    type: "column",
+                    color: "silver",
+                    dataPoints: CloseReasonpoints2
+                }];
+
+                let CloseReasonchart = new CanvasJS.Chart("chartContainerCloseReason",
+                    {
+                        title: {
+                            text: "Alert Count Based On Close Reason"
+                        },
+                        data: chartDataCloseReason
+                    });
+                CloseReasonchart.render();
+
+
+                /*
+                 var resp = $.parseJSON(data);
+                 var res = alasql('SELECT Sent,Type , count(Type) AS cnt \
+                                   FROM ? \
+                                   GROUP BY Sent,Type \
+                                   ORDER BY Type \
+                                   ', [resp.chartData]);
+                console.log(res);
+
+                let points = [];
+                $.each(res, function (index) {
+                    var data = { y: res[index].cnt, label: '' + res[index].Type + '' };
+                    points.push(data);
+                });
+
+                let chartData = [{ type: "column", dataPoints: points }];
+                let chart = new CanvasJS.Chart("chartContainer",
+                        {
+                            title: {
+                                text: "Alert Count Bifurcation"
+                            },
+                            data: chartData
+                        });
+                    chart.render();
+                */
+            }
+
+            $.getJSON("https://localhost:44393/api/Dashboard/GetAlertsBifurcation", addData);
+        }
+
+             /* window.onload = function () {
+            $.ajax({
+                type: "GET",
+                url: "https://localhost:44393/api/Dashboard/GetAlertsBifurcation",
+                contentType: "application/json",
+                error: function (jqXHR, textStatus, errorThrown) {
+                    //console.log(jqXHR);
+                    //console.log(textStatus);
+                    //console.log(errorThrown);
+                    alert("Something went wrong!");
+                },
+                success: function (result) {
+                    var resp = $.parseJSON(result);
+                    var res = alasql('SELECT Type , count(Type) AS cnt \
+                                   FROM ? \
+                                   GROUP BY Type \
+                                   ', [resp.chartData]);
+                    var points = [];
+                    $.each(res, function (index) {
+                        var data = { y: res[index].cnt, label: '' + res[index].Type + '' };
+                        points.push(data);
+                    });
+
+                    var chartData = [{ type: "column", dataPoints: points }];
+                    var chart = new CanvasJS.Chart("chartContainer",
+                        {
+                            title: {
+                                text: "Alert Count Bifurcation"
+                            },
+                            data: chartData
+                        });
+                    chart.render();
+                }
+            });}
+            */
+    </script>*@
+

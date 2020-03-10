@@ -1,0 +1,27 @@
+C:\Users\admin\source\repos\IntellveDashboard.API\CustomLogContracts\bin\Debug\netcoreapp2.2\CustomLogContracts.deps.json
+C:\Users\admin\source\repos\IntellveDashboard.API\CustomLogContracts\bin\Debug\netcoreapp2.2\CustomLogContracts.dll
+C:\Users\admin\source\repos\IntellveDashboard.API\CustomLogContracts\bin\Debug\netcoreapp2.2\CustomLogContracts.pdb
+C:\Users\admin\source\repos\IntellveDashboard.API\CustomLogContracts\obj\Debug\netcoreapp2.2\CustomLogContracts.csprojAssemblyReference.cache
+C:\Users\admin\source\repos\IntellveDashboard.API\CustomLogContracts\obj\Debug\netcoreapp2.2\CustomLogContracts.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\IntellveDashboard.API\CustomLogContracts\obj\Debug\netcoreapp2.2\CustomLogContracts.AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\IntellveDashboard.API\CustomLogContracts\obj\Debug\netcoreapp2.2\CustomLogContracts.AssemblyInfo.cs
+C:\Users\admin\source\repos\IntellveDashboard.API\CustomLogContracts\obj\Debug\netcoreapp2.2\CustomLogContracts.dll
+C:\Users\admin\source\repos\IntellveDashboard.API\CustomLogContracts\obj\Debug\netcoreapp2.2\CustomLogContracts.pdb
+C:\Users\admin\Desktop\IntellveDashboard\IntellveDashboard.UI\CustomLogContracts\bin\Debug\netcoreapp2.2\CustomLogContracts.deps.json
+C:\Users\admin\Desktop\IntellveDashboard\IntellveDashboard.UI\CustomLogContracts\bin\Debug\netcoreapp2.2\CustomLogContracts.dll
+C:\Users\admin\Desktop\IntellveDashboard\IntellveDashboard.UI\CustomLogContracts\bin\Debug\netcoreapp2.2\CustomLogContracts.pdb
+C:\Users\admin\Desktop\IntellveDashboard\IntellveDashboard.UI\CustomLogContracts\obj\Debug\netcoreapp2.2\CustomLogContracts.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\IntellveDashboard\IntellveDashboard.UI\CustomLogContracts\obj\Debug\netcoreapp2.2\CustomLogContracts.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\IntellveDashboard\IntellveDashboard.UI\CustomLogContracts\obj\Debug\netcoreapp2.2\CustomLogContracts.AssemblyInfo.cs
+C:\Users\admin\Desktop\IntellveDashboard\IntellveDashboard.UI\CustomLogContracts\obj\Debug\netcoreapp2.2\CustomLogContracts.dll
+C:\Users\admin\Desktop\IntellveDashboard\IntellveDashboard.UI\CustomLogContracts\obj\Debug\netcoreapp2.2\CustomLogContracts.pdb
+C:\Users\admin\Desktop\IntellveDashboard\IntellveDashboard.UI\CustomLogContracts\obj\Debug\netcoreapp2.2\CustomLogContracts.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\copy to New UI\IntellveDashboard\IntellveDashboard.UI\CustomLogContracts\bin\Debug\netcoreapp2.2\CustomLogContracts.deps.json
+C:\Users\admin\Desktop\copy to New UI\IntellveDashboard\IntellveDashboard.UI\CustomLogContracts\bin\Debug\netcoreapp2.2\CustomLogContracts.dll
+C:\Users\admin\Desktop\copy to New UI\IntellveDashboard\IntellveDashboard.UI\CustomLogContracts\bin\Debug\netcoreapp2.2\CustomLogContracts.pdb
+C:\Users\admin\Desktop\copy to New UI\IntellveDashboard\IntellveDashboard.UI\CustomLogContracts\obj\Debug\netcoreapp2.2\CustomLogContracts.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\copy to New UI\IntellveDashboard\IntellveDashboard.UI\CustomLogContracts\obj\Debug\netcoreapp2.2\CustomLogContracts.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\copy to New UI\IntellveDashboard\IntellveDashboard.UI\CustomLogContracts\obj\Debug\netcoreapp2.2\CustomLogContracts.AssemblyInfo.cs
+C:\Users\admin\Desktop\copy to New UI\IntellveDashboard\IntellveDashboard.UI\CustomLogContracts\obj\Debug\netcoreapp2.2\CustomLogContracts.dll
+C:\Users\admin\Desktop\copy to New UI\IntellveDashboard\IntellveDashboard.UI\CustomLogContracts\obj\Debug\netcoreapp2.2\CustomLogContracts.pdb
+C:\Users\admin\Desktop\copy to New UI\IntellveDashboard\IntellveDashboard.UI\CustomLogContracts\obj\Debug\netcoreapp2.2\CustomLogContracts.csprojAssemblyReference.cache

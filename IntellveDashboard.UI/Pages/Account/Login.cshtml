@@ -1,0 +1,76 @@
+@page
+@model LoginModel
+@{
+    ViewData["Title"] = "Log in";
+}
+@{ Layout = null;}
+
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous">
+<link rel="stylesheet" href="~/main/css/default-custom.css" />
+<link rel="stylesheet" href="~/main/css/material-bootstrap-wizard.css">
+<link rel="icon" href="~/main/icons/favicon.png" sizes="32x32" type="image/png">
+
+<div class="login-bg">
+    <header>
+        <img src="~/main/images/intellve-logo-login.png" width="243" height="86" class="loginLogoImage" alt="Intellve">
+    </header>
+    <div class="container h-100 loginContainer">
+        <div class="d-flex justify-content-center h-100">
+            <div class="user_card">
+                <div class="d-flex justify-content-center">
+                    <div class="brand_logo_container">
+                        <img src="~/main/images/login-round-logo.png" class="brand_logo" alt="Logo">
+                    </div>
+                </div>
+                <h2 class="card-title text-center signInText">Sign In</h2>
+                <form class="form-signin" method="post">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="input-group width450">
+                                <span class="input-group-addon">
+                                    <i class="material-icons">mail</i>
+                                </span>
+                                <div class="form-group label-floating width400">
+                                    <input asp-for="Input.Email" type="text" class="form-control" placeholder="Email Or Name" autocomplete="on">
+                                    <span asp-validation-for="Input.Email" class="text-danger"></span>
+                                </div>
+                            </div>
+                            <div class="input-group width450">
+                                <span class="input-group-addon">
+                                    <i class="material-icons">lock_outline</i>
+                                </span>
+                                <div class="form-group label-floating width400">
+                                    <input asp-for="Input.Password" type="password" class="form-control" placeholder="Password" autocomplete="off">
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <input class="checkbox" type="checkbox" />Remember me
+                                </div>
+                                <div>
+                                    <a class="changepassword" asp-page="/Account/ChangePassword">Change password?</a>
+                                </div>
+                            </div>
+                            <div class="container-login100-form-btn">
+                                <button type="submit" class="login100-form-btn">Login</button>
+                                <hr />
+                                <div asp-validation-summary="All" class="text-danger"></div>
+                            </div>
+                            <div class="aiirights">
+                                <label class="allrightstextline">Intellve India Ltd.All Rights reserved.</label>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}

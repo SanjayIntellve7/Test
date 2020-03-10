@@ -1,0 +1,83 @@
+﻿
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+<script src="~/js/renderCanvasChart.js"></script>
+<link href="~/css/site.css" rel="stylesheet" />
+
+
+<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 three-items">
+    <div class="col-md-3 col-lg-3 col-sm-6 chart-items">
+        <div class="active dropdown">
+            <select id="ReasonCodeChartOptions" class="select-css">
+                <option class="dropdown-item" value="Today">Today</option>
+                <option class="dropdown-item" value="Last Two Days">Last Two Days</option>
+                <option class="dropdown-item" value="Last Two Week">Last Two Week</option>
+                <option class="dropdown-item" value="Last Two Month">Last Two Month</option>
+                <option class="dropdown-item" value="Last Two Quarter">Last Two Quarter</option>
+            </select>
+        </div>
+    </div>
+    <div class="active dropdown col-md-3 col-lg-3 col-sm-6 chart-items list">
+        <ul class="RightChartTopList" id="ReasonCodeChartType">
+            <li class="nav-item"><a href="#" data-value="pie"><i class="fas fa-chart-pie"></i></a>  </li>
+            <li class="nav-item select"> <a href="#" data-value="column"><i class="far fa-chart-bar"></i></a></li>
+            <li class="nav-item"><a href="#" data-value="line"><i class="fas fa-chart-line"></i></a>  </li>
+            <li class="nav-item"><a href="#" data-value="bar"><img class="image" src="../assets/img/icon/Barchart.svg" alt="Image" /></a>  </li>
+            <li class="nav-item"><a href="#" data-value="splineArea"><i class="fas fa-chart-area"></i></a></li>
+            <li class="nav-item"><a href="#" data-value="doughnut"><img class="image" src="../assets/img/icon/Donut.svg" alt="Image" /></a></li>
+            <li class="nav-item"><a href="#" data-value="pyramid"><img class="image" src="../assets/img/icon/Pyramidchart.svg" alt="Image" /></a></li>
+            @*<li class="nav-item"><a href="#" data-value="funnel">Funnel</a></li>*@
+        </ul>
+    </div>
+
+</div>  
+
+
+ <div><img id="ReasonCode-loading-image" src="~/Images/ajax-loader.gif" style="display:none;height: 30px; width:30px;" /></div>
+    
+          <div class="chart-div">
+              <p id="AlertCountReasonCodeChartLabel"></p>
+              <div id="AlertCountReasonCodeChartContainer" style="height: 400px; padding-top:40px;"></div>
+          </div>
+
+<script>
+
+    $(document).ready(function () {
+        $("#ReasonCodeChartOptions").on('change', function () {
+
+            var Options = document.getElementById('ReasonCodeChartOptions');
+            let OptionsSelected = Options.options[Options.selectedIndex].value;
+
+            var Type = $('ul#ReasonCodeChartType').find('li.select');
+            let ChartType = $(Type).find('a').data('value');
+
+            drawAlertCountReasonCodeChart(OptionsSelected, ChartType);
+            $("#AlertCountReasonCodeChartLabel").html("Chart Info : " + OptionsSelected );
+        });
+
+        $('#ReasonCodeChartType a').on('click', function (e) {
+            e.preventDefault();
+            $("#ReasonCodeChartType li").removeClass("select");
+            $(this).closest('li').addClass('select');
+            let ChartType = $(this).data('value');
+
+            var Options = document.getElementById('ReasonCodeChartOptions');
+            let OptionsSelected = Options.options[Options.selectedIndex].value;
+
+            drawAlertCountReasonCodeChart(OptionsSelected, ChartType);
+            $("#AlertCountReasonCodeChartLabel").html("Chart Info : " + OptionsSelected );
+        });
+
+    });
+
+    $(function () { 
+        var Options = document.getElementById('ReasonCodeChartOptions');
+        let OptionsSelected = Options.options[Options.selectedIndex].value;
+
+        var Type = $('ul#ReasonCodeChartType').find('li.select');
+        let ChartType = $(Type).find('a').data('value');
+         
+        $("#AlertCountReasonCodeChartLabel").html("Chart Info : " + OptionsSelected );
+        drawAlertCountReasonCodeChart(OptionsSelected, ChartType);
+    });
+</script>

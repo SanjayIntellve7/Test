@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html>
+<head> 
+    <title>@ViewData["Title"] - IntellveDashboard.UI</title>
+
+    @await Html.PartialAsync("_Favicons") 
+    
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="~/assets/css/material-kit.css?v=2.0.5" rel="stylesheet" />
+    <link href="~/assets/demo/demo.css" rel="stylesheet" />
+    <link href="~/assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="~/assets/css/subMenuStyle.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-primary">
+        <div class="container-fluid">
+            <div class="navbar-translate">
+                <img src="~/assets/img/Intellve-Logo.png" alt="logo" width="150">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse">
+                @await Html.PartialAsync("_LoginPartial")
+            </div>
+        </div>
+    </nav>
+
+    @await Html.PartialAsync("_LeftMenuPartial")
+
+    <div class="main-div">
+        <div class="container-fluid">
+            <partial name="_CookieConsentPartial" />
+            @*<main role="main" class="pb-3">
+            @RenderBody()
+        </main>*@
+            @RenderBody()
+        </div>
+    </div>
+        @*<footer class="border-top footer text-muted">
+                <div class="container">
+                    &copy; 2019 - IntellveDashboard.UI - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                </div>
+            </footer>*@
+
+        <script src="~/assets/js/core/jquery.min.js" type="text/javascript"></script>
+        <script src="~/assets/js/core/popper.min.js" type="text/javascript"></script>
+        <script src="~/assets/js/core/bootstrap-material-design.min.js" type="text/javascript"></script>
+        <script src="~/assets/js/plugins/moment.min.js"></script>
+        <script src="~/assets/js/plugins/bootstrap-datetimepicker.js" type="text/javascript"></script>
+        <script src="~/assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
+        @*<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>*@
+        <script src="~/assets/js/material-kit.js?v=2.0.5" type="text/javascript"></script>
+        <script src="~/assets/js/sb-admin-2.min.js"></script>
+
+        <script>
+            $(document).ready(function () {
+                //init DateTimePickers
+                materialKit.initFormExtendedDatetimepickers();
+
+                // Sliders Init
+                materialKit.initSliders();
+            });
+
+            function scrollToDownload() {
+                if ($('.section-download').length != 0) {
+                    $("html, body").animate({
+                        scrollTop: $('.section-download').offset().top
+                    }, 1000);
+                }
+            }
+            var interval = setInterval(timestamphome, 1000);
+            function timestamphome() {
+                var date; date = new Date();
+                var time = document.getElementById('datetime');
+                time.value = date.toLocaleString("en-GB");
+            }
+        </script>
+        <script src="~/js/site.js" asp-append-version="true"></script>
+
+        @RenderSection("Scripts", required: false)
+</body>
+</html>

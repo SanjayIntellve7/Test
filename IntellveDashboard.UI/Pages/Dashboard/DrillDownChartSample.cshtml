@@ -1,0 +1,129 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE HTML>
+<html>
+<head>
+    <script>
+        window.onload = function () {
+
+            var totalVisitors = 1000;
+            var chartData = {
+                "YearlyAlerts": [{
+                    click: YearlyChartDrilldownHandler,
+                    cursor: "pointer",
+                    explodeOnClick: false,
+                    innerRadius: "75%",
+                    legendMarkerType: "square",
+                    name: "YearlyAlerts",
+                    radius: "100%",
+                    showInLegend: true,
+                    startAngle: 90,
+                    type: "doughnut",
+                    dataPoints: @Html.Raw(ViewBag.AlertsSummary), 
+                }],
+                "2019": [{ 
+                    name: "2019",
+                    type: "column",
+                    xValueType: "number", 
+                    dataPoints:  @Html.Raw(ViewBag.Alerts2019Summary),
+                }],
+                "2018": [{ 
+                    name: "2018",
+                    type: "column",
+                    xValueType: "number", 
+                    dataPoints:  @Html.Raw(ViewBag.Alerts2018Summary),
+                }],
+            };
+
+            var Options = {
+                animationEnabled: true,
+                theme: "light2",
+                title: {
+                    text: "Last Two Years Alerts Summary"
+                },
+                subtitles: [{
+                    text: "Click to Drilldown",
+                    backgroundColor: "#2eacd1",
+                    fontSize: 16,
+                    fontColor: "white",
+                    padding: 5
+                }],
+                legend: {
+                    fontFamily: "calibri",
+                    fontSize: 14,
+                    itemTextFormatter: function (e) {
+                        return e.dataPoint.name + ": " + Math.round(e.dataPoint.y / totalVisitors * 100) + "%";
+                    }
+                },
+                data: []
+            };
+
+            var DrilldownedChartOptions = {
+                animationEnabled: true,
+                theme: "light2",
+                axisX: {
+                    labelFontColor: "#717171",
+                    lineColor: "#a2a2a2",
+                    tickColor: "#a2a2a2"
+                },
+                axisY: {
+                    gridThickness: 0,
+                    includeZero: false,
+                    labelFontColor: "#717171",
+                    lineColor: "#a2a2a2",
+                    tickColor: "#a2a2a2",
+                    lineThickness: 1
+                },
+                data: []
+            };
+
+            var chart = new CanvasJS.Chart("chartContainer", Options);
+            chart.options.data = chartData["YearlyAlerts"];
+            chart.render();
+
+            function YearlyChartDrilldownHandler(e) {
+                chart = new CanvasJS.Chart("chartContainer", DrilldownedChartOptions);
+                chart.options.axisX = { interval: 1, intervalType: "month" };
+                chart.options.data = chartData[e.dataPoint.label];
+                chart.options.title = { text: e.dataPoint.label }
+                chart.render();
+                $("#backButton").toggleClass("invisible");
+            } 
+
+            $("#backButton").click(function () {
+                $(this).toggleClass("invisible");
+                chart = new CanvasJS.Chart("chartContainer", Options);
+                chart.options.data = chartData["YearlyAlerts"];
+                chart.render();
+            });
+        } 
+    </script>
+    <style>
+        #backButton {
+            border-radius: 4px;
+            padding: 8px;
+            border: none;
+            font-size: 16px;
+            background-color: #2eacd1;
+            color: white;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            cursor: pointer;
+        }
+
+        .invisible {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="chartContainer" style="height: 370px; width: 100%;"></div>
+    <button class="btn invisible" id="backButton">&lt; Back</button>
+    <script src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+</body>
+</html>                              

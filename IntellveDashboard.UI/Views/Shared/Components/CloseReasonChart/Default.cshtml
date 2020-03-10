@@ -1,0 +1,79 @@
+﻿
+<script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+<script src="~/js/canvasJsTwoDatapoints.js"></script>
+
+
+<script type="text/javascript">
+
+            window.onload = function () {
+                @*console.log('CloseReasonDatapointsArray'+'-'+@Html.Raw(ViewBag.CloseReasonDatapointsArray));*@
+                let chartType = $("#CloseReason-chartTypes option:selected").text();
+                let Type = '"' + chartType.toLowerCase() + '"';
+                loadTwoColumnChart(@Html.Raw(ViewBag.CloseReasonDatapointsArray), "Alert Count Based On Close Reason", "chartContainerCloseReason", Type);
+            }
+</script>
+
+<div class="col-md-6">
+    <img id="CloseReason-loading-image" src="~/Images/ajax-loader.gif" style="display:none;" />
+
+    <select id="CloseReason-chartTypes" onchange="drawCloseReasonChart()">
+        <option value="Line">Line</option>
+        <option value="Column" selected="selected">Column</option>
+        <option value="Bar">Bar</option>
+    </select>
+
+    <div id="chartContainerCloseReason">
+    </div>
+
+    <p id="CloseReason-loadMsg" class="alert-danger">
+    </p>
+
+</div>
+
+@*
+    <script type="text/javascript">
+
+        window.onload = function () {
+            drawCloseReasonChart();
+        }
+        function drawCloseReasonChart() {
+            var chartType = $("#CloseReason-chartTypes option:selected").text();
+            let Type = '"' + chartType.toLowerCase() + '"';
+            //let url = "https://localhost:44393/api/Dashboard/GetAlertCountBasedOnCloseReason/12-01-2018/01-01-2019/today";
+            let url = "https://localhost:44393/api/Dashboard/GetAlertCountBasedOnCloseReason?FirstDate=12-01-2018&SecondDate=01-01-2019&Datafilter=today";
+
+            $.ajax({
+                type: "GET",
+                url: url,
+                contentType: "application/json",
+                error: function (jqXHR, textStatus, errorThrown) {
+                    $("#CloseReason-loading-image").hide();
+                    $("#CloseReason-loadMsg").html("Something went wrong!");
+                },
+                success: function (result) {
+                    $("#CloseReason-loading-image").hide();
+                    let datapointArray = $.parseJSON(result);
+                    loadTwoColumnChart(datapointArray, "Alert Count Based On Close Reason", "chartContainerCloseReason", Type);
+                }, beforeSend: function () {
+                    $("#CloseReason-loading-image").show();
+                }
+            });
+        }
+    </script>
+
+    <div class="col-md-4">
+        <img id="CloseReason-loading-image" src="~/Images/ajax-loader.gif" style="display:none;" />
+
+        <select id="CloseReason-chartTypes" onchange="drawCloseReasonChart()">
+            <option value="Line">Line</option>
+            <option value="Column" selected="selected">Column</option>
+            <option value="Bar">Bar</option>
+        </select>
+
+        <div id="chartContainerCloseReason" style="height: 300px; width: 100%;">
+        </div>
+
+        <p id="CloseReason-loadMsg" class="alert-danger">
+        </p>
+
+    </div>*@

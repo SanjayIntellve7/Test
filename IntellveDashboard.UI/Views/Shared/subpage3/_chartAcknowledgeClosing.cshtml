@@ -1,0 +1,123 @@
+﻿
+
+<link href="~/css/site.css" rel="stylesheet" />
+<link href="~/assets/css/subMenuStyle.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/css/bootstrap-multiselect.css" />
+<link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/wenzhixin/multiple-select/e14b36de/multiple-select.css" />
+
+<script src="//code.jquery.com/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="//canvasjs.com/assets/script/canvasjs.min.js"></script>
+<script src="~/js/renderCanvasChart.js"></script>
+
+
+<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 three-items">
+    <div class="col-md-2 col-lg-2 col-sm-2 icons-list chart-items">
+        <div class="active dropdown">
+            <select id="AcknowledgeClosingChartOptions" class="select-css">
+                <option class="dropdown-item" value="Today">Today</option>
+                <option class="dropdown-item" value="Last Two Days">Last Two Days</option>
+                <option class="dropdown-item" value="Last Two Week">Last Two Week</option>
+                <option class="dropdown-item" value="Last Two Month">Last Two Month</option>
+                <option class="dropdown-item" value="Last Two Quarter">Last Two Quarter</option>
+            </select>
+        </div>
+
+        @Html.ListBox("AcknowledgeClosingChartDeviceTypeOptions", new MultiSelectList(Model.deviceTypeFilter, "Text", "Value"), new { @class = "listbox" })
+
+    </div>
+    <div class="col-md-5 col-lg-5 col-sm-6 icons-list chart-items image-list">
+        <ul class="RightChartTopList" id="AcknowledgeClosingChartType">
+            <li class="nav-item"><a href="#" data-value="pie"><i class="fas fa-chart-pie"></i>Pie</a>  </li>
+            <li class="nav-item select"> <a href="#" data-value="column"><i class="far fa-chart-bar"></i>Column</a></li>
+            <li class="nav-item"><a href="#" data-value="line"><i class="fas fa-chart-line"></i>Line</a>  </li>
+            <li class="nav-item"><a href="#" data-value="bar"><img class="image" src="../assets/img/icon/Barchart.svg" alt="Image" />Bar</a>  </li>
+            <li class="nav-item"><a href="#" data-value="splineArea"><i class="fas fa-chart-area"></i>Spline Area</a></li>
+            <li class="nav-item"><a href="#" data-value="doughnut"><img class="image" src="../assets/img/icon/Donut.svg" alt="Image" />Doughnut</a></li>
+            <li class="nav-item"><a href="#" data-value="pyramid"><img class="image" src="../assets/img/icon/Pyramidchart.svg" alt="Image" />Pyramid</a></li>
+            <li class="nav-item"><a href="#" data-value="funnel">Funnel</a></li>
+        </ul>
+    </div>
+    <div>
+        <img id="AcknowledgeClosingChart-loading-image" src="~/Images/ajax-loader.gif" style="display:none;height: 30px; width:30px;" />
+    </div>
+    <div class="chart-div">
+        <p id="AcknowledgeClosingChartLabel"></p>
+        <div id="AcknowledgeClosingChartContainer" style="height: 400px; padding-top:40px;"></div>
+    </div>
+</div>
+
+<script>
+
+    $("#AcknowledgeClosingChartOptions").on('change', function () {
+        var Options = document.getElementById('AcknowledgeClosingChartOptions');
+        let OptionsSelected = Options.options[Options.selectedIndex].value;
+
+        let TypeSelected = $('#AcknowledgeClosingChartDeviceTypeOptions').val();
+        console.log(TypeSelected);
+
+        var Type = $('ul#AcknowledgeClosingChartType').find('li.select');
+        let ChartType = $(Type).find('a').data('value');
+
+        draWAcknowledgeClosingWithFilter(OptionsSelected, ChartType, TypeSelected);
+        $("#AcknowledgeClosingChartLabel").html("Chart Info : " + OptionsSelected);
+    });
+
+    $("#AcknowledgeClosingChartDeviceTypeOptions").on('change', function () {
+
+        let TypeSelected = $(this).val();
+
+        var Options = document.getElementById('AcknowledgeClosingChartOptions');
+        let OptionsSelected = Options.options[Options.selectedIndex].value;
+
+        var Type = $('ul#AcknowledgeClosingChartType').find('li.select');
+        let ChartType = $(Type).find('a').data('value');
+
+        draWAcknowledgeClosingWithFilter(OptionsSelected, ChartType, TypeSelected);
+        $("#AcknowledgeClosingChartLabel").html("Chart Info : " + OptionsSelected);
+    });
+
+    $('#AcknowledgeClosingChartType a').on('click', function (e) {
+        e.preventDefault();
+        $("#AcknowledgeClosingChartType li").removeClass("select");
+        $(this).closest('li').addClass('select');
+        let ChartType = $(this).data('value');
+
+        var Options = document.getElementById('AcknowledgeClosingChartOptions');
+        let OptionsSelected = Options.options[Options.selectedIndex].value;
+
+        let TypeSelected = $('#AcknowledgeClosingChartDeviceTypeOptions').val();
+
+        draWAcknowledgeClosingWithFilter(OptionsSelected, ChartType, TypeSelected);
+        $("#AcknowledgeClosingChartLabel").html("Chart Info : " + OptionsSelected);
+    });
+
+    $(function () {
+        var Options = document.getElementById('AcknowledgeClosingChartOptions');
+        let Selected = Options.options[Options.selectedIndex].value;
+
+        var Type = $('ul#AcknowledgeClosingChartType').find('li.select');
+        let ChartType = $(Type).find('a').data('value');
+
+        let TypeSelected = $('#AcknowledgeClosingChartDeviceTypeOptions').val();
+
+        draWAcknowledgeClosingWithFilter(Selected, ChartType, TypeSelected);
+        $("#AcknowledgeClosingChartLabel").html("Chart Info : " + Selected);
+    });
+
+</script>
+
+<script src="https://cdn.rawgit.com/wenzhixin/multiple-select/e14b36de/multiple-select.js"></script>
+<script>
+
+    $("#AcknowledgeClosingChartDeviceTypeOptions").multipleSelect({
+        filter: true
+    });
+
+    //$('#AcknowledgeClosingChartDeviceTypeOptions').multiselect({
+    //    includeSelectAllOption: true
+    //});
+
+    //$("#AcknowledgeClosingChartDeviceTypeOptions").multiselect('selectAll', false);
+    //$("#AcknowledgeClosingChartDeviceTypeOptions").multiselect('updateButtonText');
+
+</script>

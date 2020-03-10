@@ -1,0 +1,364 @@
+﻿
+
+<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12" style="position:relative;height: 590px;width:100%; padding: 0px; padding-top: 20px;">
+    <div id="ack_chart" style="position:absolute;height:100%;width:100%">
+        <div class="">
+            <h4>Alert Response Delay (>2 mins) Time Series</h4>
+            <button class="option-menu" style="float:right;" type="button" onclick="Show_ack_chart()"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></button>
+        </div>
+        <div><img id="ack_chart-loading-image" src="~/Images/ajax-loader.gif" style="display:none;height:30px;width:30px" /></div>
+        <div class="ack_chart-div">
+            <p id="ack_chartLabel" style="padding-top: 25px;"></p>
+            <div id="ack_chartContainer" style="height: 400px; padding-top:40px; "></div>
+        </div>
+    </div>
+    <div id="ack_chartFilters" class="toggle-box" style="visibility:collapse;position:relative;background-color:lightblue;height:100%;width:100%">
+
+        <div class="two first">
+            <input type="hidden" id="hdnack_chartType" />
+
+            <label class="sr-only" for="ack_chartstartDate">Select DeviceType:</label>
+            @Html.ListBox("ack_ChartDeviceTypes", new MultiSelectList(Model.deviceTypeFilter, "Text", "Value"), new { @class = "listbox " })
+
+            <label class="sr-only" for="ack_chartstartDate">Select BranchId:</label>
+            @Html.ListBox("ack_ChartBranchIds", new MultiSelectList(Model.branchFilter, "Text", "Value"), new { @class = "listbox" })
+
+            <label class="sr-only" for="ack_chartstartDate">Select Operator:</label>
+            @Html.ListBox("ack_ChartOperators", new MultiSelectList(Model.OperatorFilter, "Text", "Value"), new { @class = "listbox" })
+        </div>
+        <div class="two second">
+
+            <div class="form-inline">
+                <label class="sr-only" for="ChartstartDate">From:</label>
+                <input id="ack_ChartstartDate" name="ChartstartDate" type="text" class="form-control datetimepicker" placeholder="Select From Date" /><br /><img src="~/assets/img/icon/Calander_icon.svg" width="35px" style="margin-top: 9px; margin-left: 10px;" />
+                <label class="sr-only" for="ChartendDate">To:</label>
+                <input id="ack_ChartendDate" name="ChartendDate" type="text" class="form-control datetimepicker" placeholder="Select To Date" /><img src="~/assets/img/icon/Calander_icon.svg" width="35px" style="margin-top: 9px; margin-left: 10px;" />
+            </div>
+
+
+            <ul class="RightChartTopList" id="ack_chartType">
+                <li class="nav-item" data-value="pie"><i class="fas fa-chart-pie"></i></li>
+                <li class="nav-item select" data-value="column"><i class="far fa-chart-bar"></i></li>
+                <li class="nav-item" data-value="line"><i class="fas fa-chart-line"></i>  </li>
+                <li class="nav-item" data-value="bar"><img class="image" src="~/assets/img/icon/Barchart.svg" alt="Image" /> </li>
+                <li class="nav-item" data-value="splineArea"><i class="fas fa-chart-area"></i></li>
+                <li class="nav-item" data-value="doughnut"><img class="image" src="~/assets/img/icon/Donut.svg" alt="Image" /></li>
+                <li class="nav-item" data-value="pyramid"><img class="image" src="~/assets/img/icon/Pyramidchart.svg" alt="Image" /></li>
+            </ul>
+        </div>
+
+        <div class="toggle-div-one">
+            <div style="margin: 0 auto; width: 210px;">
+                <button type="button" class="btn btn-default" onclick="draw_ack_chart()">Apply</button>
+                <button type="button" class="btn btn-default" onclick="Hide_ack_chart()">Cancel</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/css/bootstrap-multiselect.css" />
+<link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/wenzhixin/multiple-select/e14b36de/multiple-select.css" />
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+<script src="https://cdn.rawgit.com/wenzhixin/multiple-select/e14b36de/multiple-select.js"></script>
+
+
+<script>
+    function Show_ack_chart() {
+        document.getElementById('ack_chartFilters').style.visibility = "visible";
+    }
+    function Hide_ack_chart() {
+        document.getElementById('ack_chartFilters').style.visibility = "collapse";
+    }
+
+    $("#ack_chartType li").click(function () {
+        $("#hdnack_chartType").val($(this).data('value'));
+    });
+
+    function draw_ack_chart() {
+
+        let From = $('#ack_ChartstartDate').val();
+        let To = $('#ack_ChartendDate').val();
+
+        let ack_chartType = $("#hdnack_chartType").val();
+        console.log(ack_chartType);
+
+        let DeviceTypesSelected = $('#ack_ChartDeviceTypes').val().toString();
+
+        let BranchIdsSelected = $('#ack_ChartBranchIds').val().toString();
+
+        let OperatorsSelected = $('#ack_ChartOperators').val().toString();
+
+        if (From == "" || To == "") {
+            alert("Select Date In Filter"); return;
+        } else if (ack_chartType == "") {
+            alert("Select Chart Type"); return;
+        } else if (DeviceTypesSelected == "") {
+            alert('Select Device Type'); return;
+        } else if (BranchIdsSelected == "") {
+            alert('Select Branch'); return;
+        } else if (OperatorsSelected == "") {
+            alert('Select Operators'); return;
+        }
+
+        drawAlertCountTrendAcknowledgeChartWithFilter(From, To, ack_chartType, DeviceTypesSelected, BranchIdsSelected, OperatorsSelected);
+
+        $("#ack_ChartLabel").html("From:" + From + " To:" + To);
+        document.getElementById('ack_chartFilters').style.visibility = "collapse";
+    }
+
+    $("#ack_ChartDeviceTypes").multipleSelect({ filter: true });
+    $("#ack_ChartBranchIds").multipleSelect({ filter: true });
+    $("#ack_ChartOperators").multipleSelect({ filter: true });
+
+</script>
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.37/css/bootstrap-datetimepicker.min.css" />
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.37/js/bootstrap-datetimepicker.min.js"></script>
+
+<script>
+    $.noConflict();
+    $(function () {
+        $('#ChartstartDate').datepicker();
+        $('#ChartendDate').datepicker();
+    });
+</script>
+<style>
+
+    .listbox {
+        width: 150px;
+    }
+
+    .canvasjs-chart-credit {
+        display: none !important;
+    }
+
+    .two-box .ms-parent {
+        width: 32% !important
+    }
+
+    #daterangePickerContainer {
+        padding: 10px 0px 10px 20px;
+        width: auto;
+    }
+
+    .float {
+        float: left;
+    }
+
+    .calContainer {
+        margin-right: 3px;
+    }
+
+        .calContainer input {
+            width: 100%;
+            text-align: center;
+        }
+
+    .list-group {
+        margin-bottom: none;
+    }
+
+    .list-group {
+        padding: 0px;
+    }
+
+        .list-group a {
+            line-height: 4px;
+            font-size: 12px;
+            border: 1px solid;
+            width: 84%;
+            text-align: center;
+            color: #808080;
+        }
+
+    #timeContainer {
+        background: #e4e4e4;
+    }
+
+    .third-row .toggle-div {
+        width: 100% !important;
+        height: 400px;
+    }
+
+    .toggle-div .two {
+        width: 49% !important;
+        display: inline-block;
+    }
+
+        .toggle-div .two.one {
+            margin-right: 5px;
+            float: left;
+            width: 40% !important;
+        }
+
+        .toggle-div .two.twice {
+            width: 45% !important;
+            float: right;
+        }
+
+    .toggle-box .two.second .form-inline .form-control {
+        display: block;
+        width: 225px;
+    }
+
+        .toggle-box .two.second .form-inline .form-control bootstrap-datetimepicker-widget.dropdown-menu.top.open {
+            width: 300px !important;
+        }
+
+    .toggle-div-one {
+        width: 100% !important;
+        height: 50px;
+    }
+
+    .toggle-box {
+        background-color: rgba(255, 255, 255, 0.75) !important;
+        max-width: 100% !important;
+        width: 100%;
+    }
+
+        .toggle-box .two {
+            display: inline-block;
+            height: 470px;
+        }
+
+            .toggle-box .two.first {
+                float: left;
+                width: 60%;
+            }
+
+            .toggle-box .two.second .form-inline {
+                margin-left: 15px;
+            }
+
+            .toggle-box .two.second {
+                float: right;
+                width: 40%;
+            }
+
+        .toggle-box .bmd-form-group {
+            position: relative;
+            padding-top: 10px;
+        }
+
+        .toggle-box .two.first .ms-parent.listbox li.selected {
+            background: #5AC4D5;
+        }
+
+            .toggle-box .two.first .ms-parent.listbox li.selected span, .toggle-box .two.first .ms-parent.listbox li.selected label {
+                color: #fff;
+            }
+
+        .toggle-box .two.first .ms-parent.listbox .ms-select-allselected {
+            background: #5AC4D5;
+            color: #fff;
+        }
+
+        .toggle-box .two.first .ms-parent.listbox li span {
+            font-size: 15px !important;
+            line-height: 30px;
+            padding-left: 6px;
+        }
+
+        .toggle-box .two.first .ms-parent.listbox ul {
+            padding: 0px;
+        }
+
+        .toggle-box .two.first .ms-parent ul {
+            max-height: 340px !important;
+        }
+
+        .toggle-box .ms-choice > div.open {
+            background: url(dropdown.png) right top no-repeat !important;
+        }
+
+        .toggle-box .ms-choice > div {
+            background: url(dropdown.png) right top no-repeat !important;
+        }
+
+        .toggle-box .ms-choice {
+            border: 1px solid cadetblue;
+            background-color: cadetblue;
+            color: #fff;
+        }
+
+    .bootstrap-select .btn {
+        background: #39b5b5 !important;
+        width: 66% !important;
+        height: 36px;
+    }
+
+    .filter-option-inner-inner {
+        color: #fff;
+    }
+
+    .show > .btn.btn-default.dropdown-toggle:hover, .show > .btn.btn-default.dropdown-toggle:focus, .show > .btn.btn-default.dropdown-toggle.focus {
+        border-color: #39b5b5;
+    }
+
+    .show > .btn.btn-default.dropdown-toggle:hover, .show > .btn.btn-default.dropdown-toggle:focus {
+        background: #39b5b5 !important;
+    }
+
+    .btn.btn-default:hover {
+        color: #fff;
+        background-color: #39b5b5;
+        border-color: #39b5b5 !important;
+    }
+
+    .bootstrap-select > .dropdown-toggle.bs-placeholder {
+        color: #fff !important;
+    }
+
+    default.dropdown-toggle {
+        color: #fff;
+        background-color: #39b5b5;
+        border-color: #39b5b5 !important;
+    }
+
+    .twice .dropdown .dropdown-toggle {
+        background: #39b5b5 !important;
+        border: #39b5b5 !important;
+    }
+
+    .bootstrap-select .dropdown-menu {
+        min-width: 142px !important;
+        width: 142px !important;
+    }
+
+    .toggle-div-one .btn, .btn.btn-default {
+        color: #fff;
+        background-color: #39b5b5 !important;
+        border-color: #39b5b5 !important;
+    }
+
+    .option-menu {
+        float: right;
+        height: 25px;
+        background: transparent;
+        border: cadetblue;
+        color: cadetblue;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+</style> 
+<script>
+
+    //$(function () {
+    //    var Options = document.getElementById('AlertCountTrendAcknowledgeChartOptions');
+    //    let OptionsSelected = Options.options[Options.selectedIndex].value;
+
+    //    var Type = $('ul#AlertCountTrendAcknowledgeChartType').find('li.select');
+    //    let ChartType = $(Type).find('a').data('value');
+
+    //    $("#AlertCountTrendAcknowledgeChartLabel").html("Chart Info : " + OptionsSelected );
+    //    drawAlertCountTrendAcknowledgeChart(OptionsSelected, ChartType);
+    //});
+
+</script>
