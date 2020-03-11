@@ -1,0 +1,39 @@
+Date = 2018-05-10 10:39:53 | Message =  In Broker inside BrokerTwTwFFTAdapterService
+Date = 2018-05-10 10:39:54 | Message = ------------------------------------
+Date = 2018-05-10 10:39:54 | Message = starting FFTAdapterService Service
+Date = 2018-05-10 10:52:58 | Message =  In Broker inside BrokerTwTwFFTAdapterService
+Date = 2018-05-10 10:52:58 | Message = ------------------------------------
+Date = 2018-05-10 10:52:58 | Message = starting FFTAdapterService Service
+Date = 2018-05-10 10:56:20 | Message =  In Broker inside BrokerTwTwFFTAdapterService
+Date = 2018-05-10 10:56:20 | Message = ------------------------------------
+Date = 2018-05-10 10:56:20 | Message = starting FFTAdapterService Service
+Date = 2018-05-10 10:59:34 | Message =  In Broker inside BrokerTwTwFFTAdapterService
+Date = 2018-05-10 10:59:34 | Message = ------------------------------------
+Date = 2018-05-10 10:59:34 | Message = starting FFTAdapterService Service
+Date = 2018-05-10 11:04:29 | Message =  In Broker inside BrokerTwTwFFTAdapterService
+Date = 2018-05-10 11:04:29 | Message = ------------------------------------
+Date = 2018-05-10 11:04:29 | Message = starting FFTAdapterService Service
+Date = 2018-05-10 11:04:43 | Message =  In Broker inside BrokerTwTwFFTAdapterService
+Date = 2018-05-10 11:04:43 | Message = ------------------------------------
+Date = 2018-05-10 11:04:43 | Message = starting FFTAdapterService Service
+Date = 2018-05-10 11:12:42 | Message =  In Broker inside BrokerTwTwFFTAdapterService
+Date = 2018-05-10 11:12:42 | Message = ------------------------------------
+Date = 2018-05-10 11:12:42 | Message = starting FFTAdapterService Service
+Date = 2018-05-10 12:34:09 | Message =  In Broker inside BrokerTwTwFFTAdapterService
+Date = 2018-05-10 12:34:10 | Message = ------------------------------------
+Date = 2018-05-10 12:34:10 | Message = starting FFTAdapterService Service
+Date = 2018-05-10 12:38:52 | Message =  In Broker inside BrokerTwTwFFTAdapterService
+Date = 2018-05-10 12:38:52 | Message = ------------------------------------
+Date = 2018-05-10 12:38:52 | Message = starting FFTAdapterService Service
+Date = 2018-05-10 12:40:48 | Message =  In Broker inside BrokerTwTwFFTAdapterService
+Date = 2018-05-10 12:40:48 | Message = ------------------------------------
+Date = 2018-05-10 12:40:48 | Message = starting FFTAdapterService Service
+Date = 2018-05-10 12:42:03 | Message =  In Broker inside BrokerTwTwFFTAdapterService
+Date = 2018-05-10 12:42:03 | Message = ------------------------------------
+Date = 2018-05-10 12:42:03 | Message = starting FFTAdapterService Service
+Date = 2018-05-10 12:52:02 | Message =  In Broker inside BrokerTwTwFFTAdapterService
+Date = 2018-05-10 12:52:02 | Message = ------------------------------------
+Date = 2018-05-10 12:52:02 | Message = starting FFTAdapterService Service
+Date = 2018-05-10 12:54:49 | Message =  In Broker inside BrokerTwTwFFTAdapterService
+Date = 2018-05-10 12:54:49 | Message = ------------------------------------
+Date = 2018-05-10 12:54:49 | Message = starting FFTAdapterService Service

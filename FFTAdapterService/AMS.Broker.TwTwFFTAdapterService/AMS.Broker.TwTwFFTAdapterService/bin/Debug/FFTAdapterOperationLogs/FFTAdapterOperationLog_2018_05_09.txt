@@ -1,0 +1,86 @@
+Date = 2018-05-09 15:02:40 | Message =  In Broker inside BrokerTwTwFFTAdapterService
+Date = 2018-05-09 15:02:56 | Message =  In Broker inside BrokerTwTwFFTAdapterService
+Date = 2018-05-09 15:03:22 | Message =  In Broker inside BrokerTwTwFFTAdapterService
+Date = 2018-05-09 15:06:13 | Message =  In Broker inside BrokerTwTwFFTAdapterService
+Date = 2018-05-09 15:06:18 | Message = ------------------------------------
+Date = 2018-05-09 15:06:18 | Message = starting FFTAdapterService Service
+Date = 2018-05-09 15:06:53 | Message = ------------------------------------
+Date = 2018-05-09 15:06:53 | Message = starting FFTAdapterService Service
+Date = 2018-05-09 15:06:53 | Message = FFTAdapterService Initialise() ExceptionThe ChannelDispatcher at 'https://localhost:6530/FFTAdapterService' with contract(s) '"IFFTAdapterService"' is unable to open its IChannelListener.
+Date = 2018-05-09 15:22:46 | Message =  In Broker inside BrokerTwTwFFTAdapterService
+Date = 2018-05-09 15:22:46 | Message = ------------------------------------
+Date = 2018-05-09 15:22:46 | Message = starting FFTAdapterService Service
+Date = 2018-05-09 15:22:47 | Message = ------------------------------------
+Date = 2018-05-09 15:22:47 | Message = starting FFTAdapterService Service
+Date = 2018-05-09 15:22:47 | Message = FFTAdapterService Initialise() ExceptionThe ChannelDispatcher at 'https://localhost:6530/FFTAdapterService' with contract(s) '"IFFTAdapterService"' is unable to open its IChannelListener.
+Date = 2018-05-09 15:23:06 | Message =  In Broker inside BrokerTwTwFFTAdapterService
+Date = 2018-05-09 15:23:25 | Message = ------------------------------------
+Date = 2018-05-09 15:23:25 | Message = starting FFTAdapterService Service
+Date = 2018-05-09 15:23:28 | Message = ------------------------------------
+Date = 2018-05-09 15:23:28 | Message = starting FFTAdapterService Service
+Date = 2018-05-09 15:23:28 | Message = FFTAdapterService Initialise() ExceptionThe ChannelDispatcher at 'https://localhost:6530/FFTAdapterService' with contract(s) '"IFFTAdapterService"' is unable to open its IChannelListener.
+Date = 2018-05-09 15:41:33 | Message =  In Broker inside BrokerTwTwFFTAdapterService
+Date = 2018-05-09 15:41:38 | Message = ------------------------------------
+Date = 2018-05-09 15:41:38 | Message = starting FFTAdapterService Service
+Date = 2018-05-09 15:41:39 | Message = ------------------------------------
+Date = 2018-05-09 15:41:39 | Message = starting FFTAdapterService Service
+Date = 2018-05-09 15:41:39 | Message = FFTAdapterService Initialise() ExceptionThe ChannelDispatcher at 'https://localhost:6530/FFTAdapterService' with contract(s) '"IFFTAdapterService"' is unable to open its IChannelListener.
+Date = 2018-05-09 15:51:52 | Message =  In Broker inside BrokerTwTwFFTAdapterService
+Date = 2018-05-09 15:51:52 | Message = ------------------------------------
+Date = 2018-05-09 15:51:52 | Message = starting FFTAdapterService Service
+Date = 2018-05-09 15:51:53 | Message = ------------------------------------
+Date = 2018-05-09 15:51:53 | Message = starting FFTAdapterService Service
+Date = 2018-05-09 15:51:53 | Message = FFTAdapterService Initialise() ExceptionThe ChannelDispatcher at 'https://localhost:6530/FFTAdapterService' with contract(s) '"IFFTAdapterService"' is unable to open its IChannelListener.
+Date = 2018-05-09 16:00:15 | Message =  In Broker inside BrokerTwTwFFTAdapterService
+Date = 2018-05-09 16:00:15 | Message = ------------------------------------
+Date = 2018-05-09 16:00:15 | Message = starting FFTAdapterService Service
+Date = 2018-05-09 16:00:16 | Message = ------------------------------------
+Date = 2018-05-09 16:00:16 | Message = starting FFTAdapterService Service
+Date = 2018-05-09 16:00:16 | Message = FFTAdapterService Initialise() ExceptionThe ChannelDispatcher at 'https://localhost:6530/FFTAdapterService' with contract(s) '"IFFTAdapterService"' is unable to open its IChannelListener.
+Date = 2018-05-09 16:05:30 | Message =  In Broker inside BrokerTwTwFFTAdapterService
+Date = 2018-05-09 16:05:30 | Message = ------------------------------------
+Date = 2018-05-09 16:05:30 | Message = starting FFTAdapterService Service
+Date = 2018-05-09 16:05:31 | Message = ------------------------------------
+Date = 2018-05-09 16:05:31 | Message = starting FFTAdapterService Service
+Date = 2018-05-09 16:05:31 | Message = FFTAdapterService Initialise() ExceptionThe ChannelDispatcher at 'https://localhost:6530/FFTAdapterService' with contract(s) '"IFFTAdapterService"' is unable to open its IChannelListener.
+Date = 2018-05-09 17:36:09 | Message =  In Broker inside BrokerTwTwFFTAdapterService
+Date = 2018-05-09 17:36:09 | Message = ------------------------------------
+Date = 2018-05-09 17:36:09 | Message = starting FFTAdapterService Service
+Date = 2018-05-09 17:47:01 | Message =  In Broker inside BrokerTwTwFFTAdapterService
+Date = 2018-05-09 17:47:01 | Message = ------------------------------------
+Date = 2018-05-09 17:47:01 | Message = starting FFTAdapterService Service
+Date = 2018-05-09 17:47:25 | Message =  In Broker inside BrokerTwTwFFTAdapterService
+Date = 2018-05-09 17:47:25 | Message = ------------------------------------
+Date = 2018-05-09 17:47:25 | Message = starting FFTAdapterService Service
+Date = 2018-05-09 18:45:22 | Message =  In Broker inside BrokerTwTwFFTAdapterService
+Date = 2018-05-09 18:45:22 | Message = ------------------------------------
+Date = 2018-05-09 18:45:22 | Message = starting FFTAdapterService Service
+Date = 2018-05-09 18:45:51 | Message =  In Broker inside BrokerTwTwFFTAdapterService
+Date = 2018-05-09 18:45:52 | Message = ------------------------------------
+Date = 2018-05-09 18:45:52 | Message = starting FFTAdapterService Service
+Date = 2018-05-09 18:46:29 | Message =  In Broker inside BrokerTwTwFFTAdapterService
+Date = 2018-05-09 18:46:29 | Message = ------------------------------------
+Date = 2018-05-09 18:46:29 | Message = starting FFTAdapterService Service
+Date = 2018-05-09 18:46:47 | Message =  In Broker inside BrokerTwTwFFTAdapterService
+Date = 2018-05-09 18:47:38 | Message =  In Broker inside BrokerTwTwFFTAdapterService
+Date = 2018-05-09 18:48:36 | Message =  In Broker inside BrokerTwTwFFTAdapterService
+Date = 2018-05-09 18:48:40 | Message = ------------------------------------
+Date = 2018-05-09 18:48:40 | Message = starting FFTAdapterService Service
+Date = 2018-05-09 18:51:07 | Message =  In Broker inside BrokerTwTwFFTAdapterService
+Date = 2018-05-09 18:51:07 | Message = ------------------------------------
+Date = 2018-05-09 18:51:07 | Message = starting FFTAdapterService Service
+Date = 2018-05-09 18:55:24 | Message =  In Broker inside BrokerTwTwFFTAdapterService
+Date = 2018-05-09 18:55:24 | Message = ------------------------------------
+Date = 2018-05-09 18:55:24 | Message = starting FFTAdapterService Service
+Date = 2018-05-09 18:56:43 | Message =  In Broker inside BrokerTwTwFFTAdapterService
+Date = 2018-05-09 18:56:43 | Message = ------------------------------------
+Date = 2018-05-09 18:56:43 | Message = starting FFTAdapterService Service
+Date = 2018-05-09 19:01:06 | Message =  In Broker inside BrokerTwTwFFTAdapterService
+Date = 2018-05-09 19:01:07 | Message = ------------------------------------
+Date = 2018-05-09 19:01:07 | Message = starting FFTAdapterService Service
+Date = 2018-05-09 19:02:49 | Message =  In Broker inside BrokerTwTwFFTAdapterService
+Date = 2018-05-09 19:02:50 | Message = ------------------------------------
+Date = 2018-05-09 19:02:50 | Message = starting FFTAdapterService Service
+Date = 2018-05-09 21:43:06 | Message =  In Broker inside BrokerTwTwFFTAdapterService
+Date = 2018-05-09 21:43:07 | Message = ------------------------------------
+Date = 2018-05-09 21:43:07 | Message = starting FFTAdapterService Service

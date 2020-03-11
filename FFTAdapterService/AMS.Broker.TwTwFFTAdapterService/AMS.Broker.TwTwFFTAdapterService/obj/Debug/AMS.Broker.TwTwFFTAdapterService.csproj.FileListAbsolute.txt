@@ -1,0 +1,37 @@
+D:\Jatin_Work\AmitSir\FFTAdapterService\AMS.Broker.TwTwFFTAdapterService\AMS.Broker.TwTwFFTAdapterService\bin\Debug\AMS.Broker.TwTwFFTAdapterService.exe.config
+D:\Jatin_Work\AmitSir\FFTAdapterService\AMS.Broker.TwTwFFTAdapterService\AMS.Broker.TwTwFFTAdapterService\bin\Debug\AMS.Broker.TwTwFFTAdapterService.exe
+D:\Jatin_Work\AmitSir\FFTAdapterService\AMS.Broker.TwTwFFTAdapterService\AMS.Broker.TwTwFFTAdapterService\bin\Debug\AMS.Broker.TwTwFFTAdapterService.pdb
+D:\Jatin_Work\AmitSir\FFTAdapterService\AMS.Broker.TwTwFFTAdapterService\AMS.Broker.TwTwFFTAdapterService\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\Jatin_Work\AmitSir\FFTAdapterService\AMS.Broker.TwTwFFTAdapterService\AMS.Broker.TwTwFFTAdapterService\bin\Debug\Microsoft.Practices.Unity.dll
+D:\Jatin_Work\AmitSir\FFTAdapterService\AMS.Broker.TwTwFFTAdapterService\AMS.Broker.TwTwFFTAdapterService\bin\Debug\NLog.dll
+D:\Jatin_Work\AmitSir\FFTAdapterService\AMS.Broker.TwTwFFTAdapterService\AMS.Broker.TwTwFFTAdapterService\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Jatin_Work\AmitSir\FFTAdapterService\AMS.Broker.TwTwFFTAdapterService\AMS.Broker.TwTwFFTAdapterService\bin\Debug\Microsoft.Practices.Unity.xml
+D:\Jatin_Work\AmitSir\FFTAdapterService\AMS.Broker.TwTwFFTAdapterService\AMS.Broker.TwTwFFTAdapterService\bin\Debug\NLog.xml
+D:\Jatin_Work\AmitSir\FFTAdapterService\AMS.Broker.TwTwFFTAdapterService\AMS.Broker.TwTwFFTAdapterService\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\Jatin_Work\AmitSir\FFTAdapterService\AMS.Broker.TwTwFFTAdapterService\AMS.Broker.TwTwFFTAdapterService\obj\Debug\AMS.Broker.TwTwFFTAdapterService.csprojResolveAssemblyReference.cache
+D:\Jatin_Work\AmitSir\FFTAdapterService\AMS.Broker.TwTwFFTAdapterService\AMS.Broker.TwTwFFTAdapterService\obj\Debug\AMS.Broker.TwTwFFTAdapterService.exe
+D:\Jatin_Work\AmitSir\FFTAdapterService\AMS.Broker.TwTwFFTAdapterService\AMS.Broker.TwTwFFTAdapterService\obj\Debug\AMS.Broker.TwTwFFTAdapterService.pdb
+D:\Jatin_Work\AmitSir\FFTAdapterService\AMS.Broker.TwTwFFTAdapterService\AMS.Broker.TwTwFFTAdapterService\bin\Debug\DirectShowLib-2005.dll
+D:\Jatin_Work\AmitSir\FFTAdapterService\AMS.Broker.TwTwFFTAdapterService\AMS.Broker.TwTwFFTAdapterService\bin\Debug\Microsoft.Practices.Unity.Interception.Configuration.dll
+D:\Jatin_Work\AmitSir\FFTAdapterService\AMS.Broker.TwTwFFTAdapterService\AMS.Broker.TwTwFFTAdapterService\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\Jatin_Work\AmitSir\FFTAdapterService\AMS.Broker.TwTwFFTAdapterService\AMS.Broker.TwTwFFTAdapterService\bin\Debug\Microsoft.Practices.Unity.StaticFactory.dll
+D:\Jatin_Work\AmitSir\FFTAdapterService\AMS.Broker.TwTwFFTAdapterService\AMS.Broker.TwTwFFTAdapterService\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\FFTAdapterService\AMS.Broker.TwTwFFTAdapterService\AMS.Broker.TwTwFFTAdapterService\bin\Debug\AMS.Broker.TwTwFFTAdapterService.exe.config
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\FFTAdapterService\AMS.Broker.TwTwFFTAdapterService\AMS.Broker.TwTwFFTAdapterService\bin\Debug\AMS.Broker.TwTwFFTAdapterService.exe
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\FFTAdapterService\AMS.Broker.TwTwFFTAdapterService\AMS.Broker.TwTwFFTAdapterService\bin\Debug\AMS.Broker.TwTwFFTAdapterService.pdb
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\FFTAdapterService\AMS.Broker.TwTwFFTAdapterService\AMS.Broker.TwTwFFTAdapterService\bin\Debug\AMS.Broker.Contracts.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\FFTAdapterService\AMS.Broker.TwTwFFTAdapterService\AMS.Broker.TwTwFFTAdapterService\bin\Debug\DirectShowLib-2005.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\FFTAdapterService\AMS.Broker.TwTwFFTAdapterService\AMS.Broker.TwTwFFTAdapterService\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\FFTAdapterService\AMS.Broker.TwTwFFTAdapterService\AMS.Broker.TwTwFFTAdapterService\bin\Debug\Microsoft.Practices.Unity.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\FFTAdapterService\AMS.Broker.TwTwFFTAdapterService\AMS.Broker.TwTwFFTAdapterService\bin\Debug\Microsoft.Practices.Unity.Interception.Configuration.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\FFTAdapterService\AMS.Broker.TwTwFFTAdapterService\AMS.Broker.TwTwFFTAdapterService\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\FFTAdapterService\AMS.Broker.TwTwFFTAdapterService\AMS.Broker.TwTwFFTAdapterService\bin\Debug\Microsoft.Practices.Unity.StaticFactory.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\FFTAdapterService\AMS.Broker.TwTwFFTAdapterService\AMS.Broker.TwTwFFTAdapterService\bin\Debug\NLog.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\FFTAdapterService\AMS.Broker.TwTwFFTAdapterService\AMS.Broker.TwTwFFTAdapterService\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\FFTAdapterService\AMS.Broker.TwTwFFTAdapterService\AMS.Broker.TwTwFFTAdapterService\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\FFTAdapterService\AMS.Broker.TwTwFFTAdapterService\AMS.Broker.TwTwFFTAdapterService\bin\Debug\AMS.Broker.Contracts.pdb
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\FFTAdapterService\AMS.Broker.TwTwFFTAdapterService\AMS.Broker.TwTwFFTAdapterService\bin\Debug\Microsoft.Practices.Unity.xml
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\FFTAdapterService\AMS.Broker.TwTwFFTAdapterService\AMS.Broker.TwTwFFTAdapterService\bin\Debug\NLog.xml
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\FFTAdapterService\AMS.Broker.TwTwFFTAdapterService\AMS.Broker.TwTwFFTAdapterService\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\FFTAdapterService\AMS.Broker.TwTwFFTAdapterService\AMS.Broker.TwTwFFTAdapterService\obj\Debug\AMS.Broker.TwTwFFTAdapterService.exe
+E:\SVN Repository\SvnVersion1.5\trunk\AMS\Broker\FFTAdapterService\AMS.Broker.TwTwFFTAdapterService\AMS.Broker.TwTwFFTAdapterService\obj\Debug\AMS.Broker.TwTwFFTAdapterService.pdb
