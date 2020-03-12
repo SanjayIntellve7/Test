@@ -1,0 +1,1345 @@
+Date = 2020-03-04 13:46:02 | Message = MirasyInterfaceService Initialise()
+Date = 2020-03-04 13:46:07 | Message = MirasyInterfaceService Started Successfully
+Date = 2020-03-04 13:46:08 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 13:46:21 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 13:46:21 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 13:46:24 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 13:46:34 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 13:46:43 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 13:46:45 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 13:46:54 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 13:46:54 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 13:46:54 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 13:46:54 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 13:47:17 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 13:47:20 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 13:47:22 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 13:47:22 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 13:47:22 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 13:49:06 | Message = MirasyInterfaceService Initialise()
+Date = 2020-03-04 13:49:07 | Message = MirasyInterfaceService Started Successfully
+Date = 2020-03-04 13:49:07 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 13:49:17 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 16:32:33 | Message = MirasyInterfaceService Initialise()
+Date = 2020-03-04 16:32:37 | Message = MirasyInterfaceService Started Successfully
+Date = 2020-03-04 16:32:37 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 16:32:39 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 16:32:39 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 16:32:39 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 16:32:39 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 16:32:44 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 16:32:44 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 16:32:47 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 16:32:47 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 16:32:47 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 16:32:47 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 16:32:52 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 16:32:52 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 16:32:54 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 16:32:54 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 16:32:54 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 16:32:54 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 16:33:14 | Message = MirasyInterfaceService Initialise()
+Date = 2020-03-04 16:33:15 | Message = MirasyInterfaceService Started Successfully
+Date = 2020-03-04 16:33:15 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 16:33:22 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 16:33:22 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 16:33:22 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 16:33:24 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 16:33:35 | Message = MirasysVCAInterfaceService OnValidateCertificate() new certificate.Subject :CN=WIN-B24PUTOHKN4
+Date = 2020-03-04 16:33:53 | Message = MirasysInterface CreateVaAlert() DeviceName:cam2--!--strEventCode:linecross--!--strAlarmDateTime:
+Date = 2020-03-04 17:20:42 | Message = MirasyInterfaceService Initialise()
+Date = 2020-03-04 17:20:49 | Message = MirasyInterfaceService Started Successfully
+Date = 2020-03-04 17:20:49 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:20:52 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:20:52 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:20:52 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:21:01 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:21:31 | Message = MirasysVCAInterfaceService OnValidateCertificate() new certificate.Subject :CN=WIN-B24PUTOHKN4
+Date = 2020-03-04 17:21:56 | Message = MirasyInterfaceService Initialise()
+Date = 2020-03-04 17:21:57 | Message = MirasyInterfaceService Started Successfully
+Date = 2020-03-04 17:21:57 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:21:59 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:21:59 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:21:59 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:22:03 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:22:10 | Message = MirasysVCAInterfaceService OnValidateCertificate() new certificate.Subject :CN=WIN-B24PUTOHKN4
+Date = 2020-03-04 17:22:12 | Message = MirasysInterface CreateVaAlert() DeviceName:cam2--!--strEventCode:linecross--!--strAlarmDateTime:
+Date = 2020-03-04 17:25:08 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:25:09 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:25:35 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:25:35 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:25:35 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:25:59 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:26:05 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:26:05 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:26:07 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:26:07 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:26:07 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:26:14 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:26:19 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:26:19 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:26:22 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:26:22 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:26:22 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:26:22 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:26:27 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:26:27 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:26:29 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:26:29 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:26:29 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:26:29 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:26:34 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:26:34 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:26:36 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:26:36 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:26:36 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:26:36 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:26:41 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:26:41 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:26:43 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:26:43 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:26:43 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:26:43 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:26:48 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:26:48 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:26:50 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:26:50 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:26:50 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:26:50 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:26:55 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:26:55 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:26:57 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:26:57 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:26:57 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:26:57 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:27:02 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:27:02 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:27:04 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:27:04 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:27:04 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:27:04 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:27:09 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:27:09 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:27:11 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:27:11 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:27:11 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:27:11 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:27:16 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:27:16 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:27:18 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:27:18 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:27:18 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:27:18 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:27:23 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:27:23 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:27:25 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:27:25 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:27:25 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:27:25 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:27:30 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:27:30 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:27:32 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:27:32 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:27:32 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:27:32 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:27:37 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:27:37 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:27:39 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:27:39 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:27:39 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:27:39 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:27:44 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:27:44 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:27:46 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:27:46 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:27:46 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:27:46 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:27:51 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:27:51 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:27:53 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:27:53 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:27:53 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:27:53 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:27:58 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:27:58 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:28:00 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:28:00 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:28:00 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:28:00 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:28:05 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:28:05 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:28:07 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:28:07 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:28:07 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:28:07 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:28:12 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:28:12 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:28:15 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:28:15 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:28:15 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:28:15 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:28:20 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:28:20 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:28:22 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:28:22 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:28:22 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:28:22 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:28:27 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:28:27 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:28:29 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:28:29 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:28:29 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:28:29 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:28:34 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:28:34 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:28:36 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:28:36 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:28:36 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:28:36 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:28:41 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:28:41 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:28:43 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:28:43 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:28:43 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:28:43 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:28:48 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:28:48 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:28:50 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:28:50 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:28:50 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:28:50 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:28:55 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:28:55 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:28:57 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:28:57 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:28:57 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:28:57 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:29:02 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:29:02 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:29:04 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:29:04 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:29:04 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:29:04 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:29:09 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:29:09 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:29:11 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:29:11 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:29:11 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:29:11 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:29:16 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:29:16 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:29:18 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:29:18 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:29:18 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:29:18 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:29:23 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:29:23 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:29:25 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:29:25 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:29:25 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:29:25 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:29:30 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:29:30 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:29:32 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:29:32 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:29:32 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:29:32 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:29:37 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:29:37 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:29:39 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:29:39 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:29:39 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:29:39 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:29:44 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:29:44 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:29:47 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:29:47 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:29:47 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:29:47 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:29:52 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:29:52 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:29:54 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:29:54 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:29:54 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:29:54 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:29:59 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:29:59 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:30:01 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:30:01 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:30:01 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:30:01 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:30:06 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:30:06 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:30:08 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:30:08 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:30:08 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:30:08 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:30:13 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:30:13 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:30:15 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:30:15 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:30:15 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:30:15 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:30:20 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:30:20 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:30:22 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:30:22 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:30:22 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:30:22 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:30:27 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:30:27 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:30:29 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:30:29 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:30:29 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:30:29 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:30:34 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:30:34 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:30:36 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:30:36 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:30:36 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:30:36 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:30:41 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:30:41 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:30:43 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:30:43 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:30:43 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:30:43 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:30:48 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:30:48 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:30:50 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:30:50 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:30:50 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:30:50 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:30:55 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:30:55 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:30:57 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:30:57 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:30:57 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:30:57 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:31:02 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:31:02 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:31:04 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:31:04 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:31:04 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:31:04 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:31:09 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:31:09 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:31:11 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:31:11 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:31:11 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:31:11 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:31:16 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:31:16 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:31:18 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:31:18 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:31:18 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:31:18 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:31:23 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:31:23 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:31:25 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:31:25 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:31:25 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:31:25 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:31:30 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:31:30 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:31:32 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:31:32 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:31:32 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:31:32 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:31:37 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:31:37 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:31:40 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:31:40 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:31:40 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:31:40 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:31:45 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:31:45 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:31:47 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:31:47 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:31:47 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:31:47 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:31:52 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:31:52 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:31:54 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:31:54 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:31:54 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:31:54 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:31:59 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:31:59 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:32:01 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:32:01 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:32:01 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:32:01 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:32:06 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:32:06 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:32:08 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:32:08 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:32:08 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:32:08 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:32:13 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:32:13 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:32:15 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:32:15 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:32:15 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:32:15 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:32:20 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:32:20 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:32:22 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:32:22 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:32:22 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:32:22 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:32:27 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:32:27 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:32:29 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:32:29 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:32:29 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:32:29 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:32:34 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:32:34 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:32:36 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:32:36 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:32:36 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:32:36 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:32:41 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:32:41 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:32:43 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:32:43 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:32:43 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:32:43 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:32:48 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:32:48 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:32:50 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:32:50 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:32:50 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:32:50 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:32:55 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:32:55 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:32:57 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:32:57 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:32:57 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:32:57 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:33:02 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:33:02 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:33:04 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:33:04 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:33:04 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:33:04 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:33:09 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:33:09 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:33:11 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:33:11 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:33:11 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:33:11 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:33:16 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:33:16 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:33:19 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:33:19 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:33:19 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:33:19 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:33:24 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:33:24 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:33:26 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:33:26 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:33:26 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:33:26 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:33:31 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:33:31 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:33:33 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:33:33 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:33:33 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:33:33 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:33:38 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:33:38 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:33:40 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:33:40 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:33:40 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:33:40 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:33:45 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:33:45 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:33:47 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:33:47 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:33:47 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:33:47 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:33:52 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:33:52 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:33:54 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:33:54 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:33:54 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:33:54 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:33:59 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:33:59 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:34:01 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:34:01 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:34:01 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:34:01 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:34:06 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:34:06 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:34:08 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:34:08 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:34:08 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:34:08 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:34:13 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:34:13 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:34:15 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:34:15 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:34:15 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:34:15 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:34:20 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:34:20 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:34:22 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:34:22 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:34:22 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:34:22 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:34:27 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:34:27 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:34:29 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:34:29 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:34:29 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:34:29 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:34:34 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:34:34 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:34:36 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:34:36 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:34:36 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:34:36 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:34:41 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:34:41 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:34:43 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:34:43 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:34:43 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:34:43 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:34:48 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:34:48 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:34:50 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:34:50 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:34:50 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:34:50 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:34:55 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:34:55 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:34:57 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:34:57 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:34:57 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:34:57 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:35:02 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:35:02 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:35:05 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:35:05 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:35:05 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:35:05 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:35:10 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:35:10 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:35:12 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:35:12 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:35:12 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:35:12 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:48:50 | Message = MirasyInterfaceService Initialise()
+Date = 2020-03-04 17:48:54 | Message = MirasyInterfaceService Started Successfully
+Date = 2020-03-04 17:48:54 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:48:56 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:48:56 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:48:56 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:48:56 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:49:06 | Message = MirasysVCAInterfaceService OnValidateCertificate() new certificate.Subject :CN=WIN-B24PUTOHKN4
+Date = 2020-03-04 17:49:08 | Message = MirasysInterface CreateVaAlert() DeviceName:Reception_222--!--strEventCode:linecross--!--strAlarmDateTime:
+Date = 2020-03-04 17:49:25 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:49:25 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:49:27 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:49:27 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:49:27 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:49:27 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:49:32 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:49:32 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:49:34 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:49:34 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:49:34 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:49:34 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:49:39 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:49:39 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:49:41 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:49:41 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:49:41 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:49:41 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:49:46 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:49:46 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:49:48 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:49:48 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:49:48 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:49:48 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:49:53 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:49:53 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:49:55 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:49:55 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:49:55 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:49:55 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:50:00 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:50:00 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:50:02 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:50:02 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:50:02 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:50:02 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:50:07 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:50:07 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:50:09 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:50:09 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:50:09 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:50:09 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:50:14 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:50:14 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:50:16 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:50:16 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:50:16 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:50:16 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:50:21 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:50:21 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:50:24 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:50:24 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:50:24 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:50:24 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:50:29 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:50:29 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:50:31 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:50:31 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:50:31 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:50:31 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:50:36 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:50:36 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:50:38 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:50:38 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:50:38 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:50:38 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:50:43 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:50:43 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:50:45 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:50:45 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:50:45 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:50:45 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:50:50 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:50:50 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:50:52 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:50:52 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:50:52 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:50:52 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:50:57 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:50:57 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:50:59 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:50:59 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:50:59 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:50:59 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:51:04 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:51:04 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:51:06 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:51:06 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:51:06 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:51:06 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:51:11 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:51:11 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:51:13 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:51:13 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:51:13 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:51:13 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:51:18 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:51:18 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:51:20 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:51:20 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:51:20 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:51:20 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:51:25 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:51:25 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:51:27 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:51:27 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:51:27 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:51:27 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:51:32 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:51:32 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:51:34 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:51:34 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:51:34 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:51:34 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:51:39 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:51:39 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:51:41 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:51:41 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:51:41 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:51:41 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:51:46 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:51:46 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:51:48 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:51:48 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:51:48 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:51:48 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:51:53 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:51:53 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:51:55 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:51:55 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:51:55 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:51:55 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:52:00 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:52:00 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:52:03 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:52:03 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:52:03 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:52:03 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:52:08 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:52:08 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:52:10 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:52:10 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:52:10 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:52:10 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:52:15 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:52:15 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:52:17 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:52:17 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:52:17 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:52:17 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:52:22 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:52:22 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:52:24 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:52:24 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:52:24 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:52:24 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:52:29 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:52:29 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:52:31 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:52:31 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:52:31 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:52:31 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:52:36 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:52:36 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:52:38 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:52:38 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:52:38 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:52:38 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:52:43 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:52:43 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:52:45 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:52:45 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:52:45 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:52:45 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:52:50 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:52:50 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:52:52 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:52:52 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:52:52 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:52:52 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:52:57 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:52:57 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:52:59 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:52:59 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:52:59 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:52:59 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:53:04 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:53:04 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:53:06 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:53:06 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:53:06 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:53:06 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:53:16 | Message = MirasyInterfaceService Initialise()
+Date = 2020-03-04 17:53:17 | Message = MirasyInterfaceService Started Successfully
+Date = 2020-03-04 17:53:17 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:53:19 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:53:19 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:53:19 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:53:19 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:53:23 | Message = MirasysVCAInterfaceService OnValidateCertificate() new certificate.Subject :CN=WIN-B24PUTOHKN4
+Date = 2020-03-04 17:53:23 | Message = MirasysInterface CreateVaAlert() DeviceName:Reception_222--!--strEventCode:linecross--!--strAlarmDateTime:
+Date = 2020-03-04 17:53:28 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:53:28 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:53:30 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:53:30 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:53:30 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:53:30 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:53:35 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:53:35 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:53:37 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:53:37 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:53:37 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:53:37 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:53:42 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:53:42 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:53:44 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:53:44 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:53:44 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:53:44 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:53:49 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:53:49 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:53:51 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:53:51 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:53:51 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:53:51 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:53:56 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:53:56 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:53:58 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:53:58 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:53:58 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:53:58 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:54:03 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:54:03 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:54:05 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:54:05 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:54:05 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:54:05 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:54:10 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:54:10 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:54:12 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:54:12 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:54:12 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:54:12 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:54:17 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:54:17 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:54:19 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:54:19 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:54:19 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:54:19 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:54:26 | Message = MirasyInterfaceService Initialise()
+Date = 2020-03-04 17:54:26 | Message = MirasyInterfaceService Started Successfully
+Date = 2020-03-04 17:54:26 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:54:29 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:54:29 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:54:29 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:54:29 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:54:33 | Message = MirasysVCAInterfaceService OnValidateCertificate() new certificate.Subject :CN=WIN-B24PUTOHKN4
+Date = 2020-03-04 17:54:36 | Message = MirasysInterface CreateVaAlert() DeviceName:Reception_222--!--strEventCode:linecross--!--strAlarmDateTime:
+Date = 2020-03-04 17:54:41 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:54:41 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:54:43 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:54:43 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:54:43 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:54:43 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:54:48 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:54:48 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:54:50 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:54:50 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:54:50 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:54:50 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:54:55 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:54:55 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:54:57 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:54:57 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:54:57 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:54:57 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:55:02 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:55:02 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:55:04 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:55:04 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:55:04 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:55:04 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:55:09 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:55:09 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:55:11 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:55:11 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:55:11 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:55:11 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:55:16 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:55:16 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:55:18 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:55:18 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:55:18 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:55:18 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:55:23 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:55:23 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:55:25 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:55:25 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:55:25 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:55:25 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:55:30 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:55:30 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:55:32 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:55:32 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:55:32 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:55:32 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:55:37 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:55:37 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:55:39 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:55:39 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:55:39 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:55:39 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:55:44 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:55:44 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:55:46 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:55:46 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:55:46 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:55:46 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:55:51 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:55:51 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:55:53 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:55:53 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:55:53 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:55:53 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:55:58 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:55:58 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:56:00 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:56:00 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:56:00 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:56:00 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:56:05 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:56:05 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:56:07 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:56:07 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:56:07 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:56:07 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:56:12 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:56:12 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:56:14 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:56:14 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:56:14 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:56:14 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:56:20 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:56:20 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:56:22 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:56:22 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:56:22 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:56:22 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:56:27 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:56:27 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:56:29 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:56:29 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:56:29 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:56:29 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:56:34 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:56:34 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:56:36 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:56:36 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:56:36 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:56:36 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:56:41 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:56:41 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:56:43 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:56:43 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:56:43 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:56:43 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:56:48 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:56:48 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:56:50 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:56:50 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:56:50 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:56:50 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:56:55 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:56:55 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:56:57 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:56:57 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:56:57 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:56:57 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:57:02 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:57:02 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:57:04 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:57:04 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:57:04 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:57:04 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:57:09 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:57:09 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:57:11 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:57:11 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:57:11 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:57:11 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:57:16 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:57:16 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:57:18 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:57:18 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:57:18 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:57:18 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:57:23 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:57:23 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:57:25 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:57:25 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:57:25 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:57:25 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:57:36 | Message = MirasyInterfaceService Initialise()
+Date = 2020-03-04 17:57:37 | Message = MirasyInterfaceService Started Successfully
+Date = 2020-03-04 17:57:37 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:57:39 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:57:39 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:57:39 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:57:39 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:57:39 | Message = MirasysVCAInterfaceService OnValidateCertificate() new certificate.Subject :CN=WIN-B24PUTOHKN4
+Date = 2020-03-04 17:58:24 | Message = MirasysInterface CreateVaAlert() DeviceName:Reception_222--!--strEventCode:linecross--!--strAlarmDateTime:
+Date = 2020-03-04 17:58:29 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:58:29 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:58:31 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:58:31 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:58:31 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:58:31 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:58:36 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:58:36 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:58:39 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:58:39 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:58:39 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:58:39 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:58:44 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:58:44 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:58:46 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:58:46 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:58:46 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:58:46 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:58:51 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:58:51 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:58:53 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:58:53 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:58:53 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:58:53 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:58:58 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:58:58 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:59:00 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:59:00 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:59:00 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:59:00 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:59:05 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:59:05 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:59:07 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:59:07 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:59:07 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:59:07 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:59:12 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:59:12 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:59:14 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:59:14 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:59:14 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:59:14 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:59:19 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:59:19 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:59:21 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:59:21 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:59:21 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:59:21 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:59:26 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:59:26 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:59:28 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:59:28 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:59:28 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:59:28 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:59:33 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:59:33 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:59:35 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:59:35 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:59:35 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:59:35 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:59:40 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:59:40 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:59:42 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:59:42 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:59:42 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:59:42 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:59:47 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:59:47 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:59:49 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:59:49 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:59:49 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:59:49 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 17:59:54 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 17:59:54 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 17:59:56 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 17:59:56 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 17:59:56 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 17:59:56 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 18:00:01 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 18:00:01 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 18:00:03 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 18:00:03 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 18:00:03 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 18:00:03 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 18:00:08 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 18:00:08 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 18:00:10 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 18:00:10 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 18:00:10 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 18:00:10 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 18:00:15 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 18:00:15 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 18:00:18 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 18:00:18 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 18:00:18 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 18:00:18 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 18:00:23 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 18:00:23 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 18:00:25 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 18:00:25 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 18:00:25 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 18:00:25 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 18:00:30 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 18:00:30 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 18:00:32 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 18:00:32 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 18:00:32 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 18:00:32 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 18:00:37 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 18:00:37 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 18:00:39 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 18:00:39 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 18:00:39 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 18:00:39 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 18:00:44 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 18:00:44 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 18:00:46 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 18:00:46 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 18:00:46 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 18:00:46 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 18:00:51 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 18:00:51 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 18:00:53 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 18:00:53 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 18:00:53 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 18:00:53 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 18:00:58 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 18:00:58 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 18:01:00 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 18:01:00 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 18:01:00 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 18:01:00 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 18:01:05 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 18:01:05 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 18:01:07 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 18:01:07 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 18:01:07 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 18:01:07 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 18:01:12 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 18:01:12 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 18:01:14 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 18:01:14 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 18:01:14 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 18:01:14 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 18:01:19 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 18:01:19 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 18:01:21 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 18:01:21 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 18:01:21 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 18:01:21 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 18:01:26 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 18:01:26 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 18:01:28 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 18:01:28 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 18:01:28 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 18:01:28 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 18:01:33 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 18:01:33 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 18:01:35 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 18:01:35 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 18:01:35 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 18:01:35 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 18:01:40 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 18:01:40 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 18:01:42 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 18:01:42 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 18:01:42 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 18:01:42 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 18:01:47 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 18:01:47 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 18:01:49 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 18:01:49 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 18:01:49 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 18:01:49 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 18:01:54 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 18:01:54 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 18:01:56 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 18:01:56 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 18:01:56 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 18:01:56 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 18:02:01 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 18:02:01 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 18:02:04 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 18:02:04 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 18:02:04 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 18:02:04 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 18:02:09 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 18:02:09 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 18:02:11 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 18:02:11 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 18:02:11 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 18:02:11 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 18:02:16 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 18:02:16 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 18:02:18 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 18:02:18 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 18:02:18 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 18:02:18 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 18:02:23 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 18:02:23 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 18:02:25 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 18:02:25 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 18:02:25 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 18:02:25 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 18:02:30 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 18:02:30 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 18:02:32 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 18:02:32 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 18:02:32 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 18:02:32 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 18:02:37 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 18:02:37 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 18:02:39 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 18:02:39 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 18:02:39 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 18:02:39 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 18:02:44 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 18:02:44 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 18:02:46 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 18:02:46 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 18:02:46 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 18:02:46 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 18:02:51 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 18:02:51 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 18:02:53 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 18:02:53 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 18:02:53 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 18:02:53 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 18:02:58 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 18:02:58 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 18:03:00 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 18:03:00 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 18:03:00 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 18:03:00 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 18:03:05 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 18:03:05 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 18:03:07 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 18:03:07 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 18:03:07 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 18:03:07 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 18:03:12 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 18:03:12 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 18:03:14 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 18:03:14 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 18:03:14 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 18:03:14 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 18:03:19 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 18:03:19 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 18:03:21 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 18:03:21 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 18:03:21 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 18:03:21 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 18:03:26 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 18:03:26 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 18:03:28 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 18:03:28 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 18:03:28 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 18:03:28 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 18:03:33 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 18:03:33 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 18:03:36 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 18:03:36 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 18:03:36 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 18:03:36 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 18:03:41 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 18:03:41 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 18:03:43 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 18:03:43 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 18:03:43 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 18:03:43 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 18:03:48 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 18:03:48 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 18:03:50 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 18:03:50 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 18:03:50 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 18:03:50 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 18:03:55 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 18:03:55 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 18:03:57 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 18:03:57 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 18:03:57 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 18:03:57 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 18:04:02 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 18:04:02 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 18:04:04 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 18:04:04 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 18:04:04 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 18:04:04 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 18:04:09 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 18:04:09 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 18:04:11 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 18:04:11 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 18:04:11 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 18:04:11 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 18:04:16 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 18:04:16 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 18:04:18 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 18:04:18 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 18:04:18 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 18:04:18 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 18:04:23 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 18:04:23 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 18:04:25 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 18:04:25 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 18:04:25 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 18:04:25 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 18:04:30 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 18:04:30 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 18:04:32 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 18:04:32 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 18:04:32 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 18:04:32 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 18:04:37 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 18:04:37 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 18:04:39 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 18:04:39 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 18:04:39 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 18:04:39 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 18:04:44 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 18:04:44 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 18:04:46 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 18:04:46 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 18:04:46 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 18:04:46 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 18:04:51 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 18:04:51 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 18:04:53 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 18:04:53 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 18:04:53 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 18:04:53 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 18:04:58 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 18:04:58 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 18:05:00 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 18:05:00 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 18:05:00 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 18:05:00 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 18:05:05 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 18:05:05 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 18:05:07 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 18:05:07 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 18:05:07 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 18:05:07 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 18:05:12 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 18:05:12 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 18:05:14 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 18:05:14 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 18:05:14 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 18:05:14 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 18:05:19 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 18:05:19 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 18:05:22 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 18:05:22 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 18:05:22 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 18:05:22 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 18:05:27 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 18:05:27 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 18:05:29 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 18:05:29 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 18:05:29 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 18:05:29 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 18:05:34 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 18:05:34 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 18:05:36 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 18:05:36 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 18:05:36 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 18:05:36 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 18:05:41 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 18:05:41 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 18:05:43 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 18:05:43 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 18:05:43 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 18:05:43 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 18:05:48 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 18:05:48 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 18:05:50 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 18:05:50 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 18:05:50 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 18:05:50 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 18:05:55 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 18:05:55 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 18:05:57 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 18:05:57 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 18:05:57 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 18:05:57 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 
+Date = 2020-03-04 18:06:02 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2020-03-04 18:06:02 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2020-03-04 18:06:04 | Message = MirasysVCAInterfaceService OnUserStatusChanged(): logged out : ConnectionError
+Date = 2020-03-04 18:06:04 | Message = MirasysVCAInterfaceService OnUserStatusChanged():After Connect
+Date = 2020-03-04 18:06:04 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2020-03-04 18:06:04 | Message = MirasysVCAInterfaceService OnConnectionEvent(): ConnectionFailed 

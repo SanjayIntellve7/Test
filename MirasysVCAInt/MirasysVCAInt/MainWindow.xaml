@@ -1,0 +1,11 @@
+﻿<Window x:Class="MirasysVCAInt.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Mirasys Analytics Adaptor" Height="500" Width="500">
+    <Grid x:Name="RootElement">       
+        <Grid>
+          
+        <TextBox x:Name="txtResult" TextWrapping="Wrap" Text="" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,41,-0.4,0.4" />
+        </Grid>
+    </Grid>
+</Window>

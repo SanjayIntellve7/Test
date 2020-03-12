@@ -1,0 +1,104 @@
+E:\AGARTALA\Mirasys VCA Interface Sample\MirasysVCAInt\MirasysVCAInt\bin\Release\MirasysVCAInt.exe.config
+E:\AGARTALA\Mirasys VCA Interface Sample\MirasysVCAInt\MirasysVCAInt\bin\Release\MirasysVCAInt.exe
+E:\AGARTALA\Mirasys VCA Interface Sample\MirasysVCAInt\MirasysVCAInt\bin\Release\MirasysVCAInt.pdb
+E:\AGARTALA\Mirasys VCA Interface Sample\MirasysVCAInt\MirasysVCAInt\bin\Release\ClientUtils.dll
+E:\AGARTALA\Mirasys VCA Interface Sample\MirasysVCAInt\MirasysVCAInt\bin\Release\GatewaySDK.dll
+E:\AGARTALA\Mirasys VCA Interface Sample\MirasysVCAInt\MirasysVCAInt\bin\Release\Metadata.dll
+E:\AGARTALA\Mirasys VCA Interface Sample\MirasysVCAInt\MirasysVCAInt\obj\Release\MirasysVCAInt.csprojResolveAssemblyReference.cache
+E:\AGARTALA\Mirasys VCA Interface Sample\MirasysVCAInt\MirasysVCAInt\obj\Release\MainWindow.baml
+E:\AGARTALA\Mirasys VCA Interface Sample\MirasysVCAInt\MirasysVCAInt\obj\Release\MainWindow.g.cs
+E:\AGARTALA\Mirasys VCA Interface Sample\MirasysVCAInt\MirasysVCAInt\obj\Release\App.g.cs
+E:\AGARTALA\Mirasys VCA Interface Sample\MirasysVCAInt\MirasysVCAInt\obj\Release\MirasysVCAInt_MarkupCompile.cache
+E:\AGARTALA\Mirasys VCA Interface Sample\MirasysVCAInt\MirasysVCAInt\obj\Release\MirasysVCAInt.g.resources
+E:\AGARTALA\Mirasys VCA Interface Sample\MirasysVCAInt\MirasysVCAInt\obj\Release\MirasysVCAInt.Properties.Resources.resources
+E:\AGARTALA\Mirasys VCA Interface Sample\MirasysVCAInt\MirasysVCAInt\obj\Release\MirasysVCAInt.csproj.GenerateResource.Cache
+E:\AGARTALA\Mirasys VCA Interface Sample\MirasysVCAInt\MirasysVCAInt\obj\Release\MirasysVCAInt.exe
+E:\AGARTALA\Mirasys VCA Interface Sample\MirasysVCAInt\MirasysVCAInt\obj\Release\MirasysVCAInt.pdb
+D:\Yogesh 2020\2020Imaging\Clients\Agartala POC\SDK\Mirasys\MirasysVCAInt\MirasysVCAInt\bin\Release\MirasysVCAInt.exe.config
+D:\Yogesh 2020\2020Imaging\Clients\Agartala POC\SDK\Mirasys\MirasysVCAInt\MirasysVCAInt\obj\Release\MirasysVCAInt.exe
+D:\Yogesh 2020\2020Imaging\Clients\Agartala POC\SDK\Mirasys\MirasysVCAInt\MirasysVCAInt\obj\Release\MirasysVCAInt.pdb
+D:\Yogesh 2020\2020Imaging\Clients\Agartala POC\SDK\Mirasys\MirasysVCAInt\MirasysVCAInt\bin\Release\MirasysVCAInt.exe
+D:\Yogesh 2020\2020Imaging\Clients\Agartala POC\SDK\Mirasys\MirasysVCAInt\MirasysVCAInt\bin\Release\MirasysVCAInt.pdb
+D:\Yogesh 2020\2020Imaging\Clients\Agartala POC\SDK\Mirasys\MirasysVCAInt\MirasysVCAInt\bin\Release\ClientUtils.dll
+D:\Yogesh 2020\2020Imaging\Clients\Agartala POC\SDK\Mirasys\MirasysVCAInt\MirasysVCAInt\bin\Release\GatewaySDK.dll
+D:\Yogesh 2020\2020Imaging\Clients\Agartala POC\SDK\Mirasys\MirasysVCAInt\MirasysVCAInt\bin\Release\Metadata.dll
+D:\Yogesh 2020\2020Imaging\Clients\Agartala POC\SDK\Mirasys\MirasysVCAInt\MirasysVCAInt\obj\Release\MainWindow.baml
+D:\Yogesh 2020\2020Imaging\Clients\Agartala POC\SDK\Mirasys\MirasysVCAInt\MirasysVCAInt\obj\Release\MainWindow.g.cs
+D:\Yogesh 2020\2020Imaging\Clients\Agartala POC\SDK\Mirasys\MirasysVCAInt\MirasysVCAInt\obj\Release\App.g.cs
+D:\Yogesh 2020\2020Imaging\Clients\Agartala POC\SDK\Mirasys\MirasysVCAInt\MirasysVCAInt\obj\Release\MirasysVCAInt_MarkupCompile.cache
+D:\Yogesh 2020\2020Imaging\Clients\Agartala POC\SDK\Mirasys\MirasysVCAInt\MirasysVCAInt\obj\Release\MirasysVCAInt.g.resources
+D:\Yogesh 2020\2020Imaging\Clients\Agartala POC\SDK\Mirasys\MirasysVCAInt\MirasysVCAInt\obj\Release\MirasysVCAInt.Properties.Resources.resources
+D:\Yogesh 2020\2020Imaging\Clients\Agartala POC\SDK\Mirasys\MirasysVCAInt\MirasysVCAInt\obj\Release\MirasysVCAInt.csproj.GenerateResource.Cache
+D:\Yogesh 2020\2020Imaging\Clients\Varanasi Smart City\Mirasys\MirasysVCAInt\MirasysVCAInt\bin\Release\MirasysVCAInt.exe.config
+D:\Yogesh 2020\2020Imaging\Clients\Varanasi Smart City\Mirasys\MirasysVCAInt\MirasysVCAInt\obj\Release\MirasysVCAInt.exe
+D:\Yogesh 2020\2020Imaging\Clients\Varanasi Smart City\Mirasys\MirasysVCAInt\MirasysVCAInt\obj\Release\MirasysVCAInt.pdb
+D:\Yogesh 2020\2020Imaging\Clients\Varanasi Smart City\Mirasys\MirasysVCAInt\MirasysVCAInt\bin\Release\MirasysVCAInt.exe
+D:\Yogesh 2020\2020Imaging\Clients\Varanasi Smart City\Mirasys\MirasysVCAInt\MirasysVCAInt\bin\Release\MirasysVCAInt.pdb
+D:\Yogesh 2020\2020Imaging\Clients\Varanasi Smart City\Mirasys\MirasysVCAInt\MirasysVCAInt\bin\Release\ClientUtils.dll
+D:\Yogesh 2020\2020Imaging\Clients\Varanasi Smart City\Mirasys\MirasysVCAInt\MirasysVCAInt\bin\Release\GatewaySDK.dll
+D:\Yogesh 2020\2020Imaging\Clients\Varanasi Smart City\Mirasys\MirasysVCAInt\MirasysVCAInt\bin\Release\Metadata.dll
+D:\Yogesh 2020\2020Imaging\Clients\Varanasi Smart City\Mirasys\MirasysVCAInt\MirasysVCAInt\obj\Release\MainWindow.baml
+D:\Yogesh 2020\2020Imaging\Clients\Varanasi Smart City\Mirasys\MirasysVCAInt\MirasysVCAInt\obj\Release\MainWindow.g.cs
+D:\Yogesh 2020\2020Imaging\Clients\Varanasi Smart City\Mirasys\MirasysVCAInt\MirasysVCAInt\obj\Release\App.g.cs
+D:\Yogesh 2020\2020Imaging\Clients\Varanasi Smart City\Mirasys\MirasysVCAInt\MirasysVCAInt\obj\Release\MirasysVCAInt_MarkupCompile.cache
+D:\Yogesh 2020\2020Imaging\Clients\Varanasi Smart City\Mirasys\MirasysVCAInt\MirasysVCAInt\obj\Release\MirasysVCAInt.g.resources
+D:\Yogesh 2020\2020Imaging\Clients\Varanasi Smart City\Mirasys\MirasysVCAInt\MirasysVCAInt\obj\Release\MirasysVCAInt.Properties.Resources.resources
+D:\Yogesh 2020\2020Imaging\Clients\Varanasi Smart City\Mirasys\MirasysVCAInt\MirasysVCAInt\obj\Release\MirasysVCAInt.csproj.GenerateResource.Cache
+E:\Intellve Solutions\New folder\MirasysVCAInt\MirasysVCAInt\MirasysVCAInt\bin\Release\MirasysVCAInt.exe.config
+E:\Intellve Solutions\New folder\MirasysVCAInt\MirasysVCAInt\MirasysVCAInt\obj\Release\MirasysVCAInt.exe
+E:\Intellve Solutions\New folder\MirasysVCAInt\MirasysVCAInt\MirasysVCAInt\obj\Release\MirasysVCAInt.pdb
+E:\Intellve Solutions\New folder\MirasysVCAInt\MirasysVCAInt\MirasysVCAInt\bin\Release\MirasysVCAInt.exe
+E:\Intellve Solutions\New folder\MirasysVCAInt\MirasysVCAInt\MirasysVCAInt\bin\Release\MirasysVCAInt.pdb
+E:\Intellve Solutions\New folder\MirasysVCAInt\MirasysVCAInt\MirasysVCAInt\bin\Release\AMS.Broker.Contracts.dll
+E:\Intellve Solutions\New folder\MirasysVCAInt\MirasysVCAInt\MirasysVCAInt\bin\Release\ClientUtils.dll
+E:\Intellve Solutions\New folder\MirasysVCAInt\MirasysVCAInt\MirasysVCAInt\bin\Release\GatewaySDK.dll
+E:\Intellve Solutions\New folder\MirasysVCAInt\MirasysVCAInt\MirasysVCAInt\bin\Release\Metadata.dll
+E:\Intellve Solutions\New folder\MirasysVCAInt\MirasysVCAInt\MirasysVCAInt\obj\Release\MainWindow.baml
+E:\Intellve Solutions\New folder\MirasysVCAInt\MirasysVCAInt\MirasysVCAInt\obj\Release\MirasysVaInterface.baml
+E:\Intellve Solutions\New folder\MirasysVCAInt\MirasysVCAInt\MirasysVCAInt\obj\Release\MainWindow.g.cs
+E:\Intellve Solutions\New folder\MirasysVCAInt\MirasysVCAInt\MirasysVCAInt\obj\Release\MirasysVaInterface.g.cs
+E:\Intellve Solutions\New folder\MirasysVCAInt\MirasysVCAInt\MirasysVCAInt\obj\Release\App.g.cs
+E:\Intellve Solutions\New folder\MirasysVCAInt\MirasysVCAInt\MirasysVCAInt\obj\Release\MirasysVCAInt_MarkupCompile.cache
+E:\Intellve Solutions\New folder\MirasysVCAInt\MirasysVCAInt\MirasysVCAInt\obj\Release\MirasysVCAInt.g.resources
+E:\Intellve Solutions\New folder\MirasysVCAInt\MirasysVCAInt\MirasysVCAInt\obj\Release\MirasysVCAInt.Properties.Resources.resources
+E:\Intellve Solutions\New folder\MirasysVCAInt\MirasysVCAInt\MirasysVCAInt\obj\Release\MirasysVCAInt.csproj.GenerateResource.Cache
+E:\RepositoryV 1.6\INTV16\AMS\MirasysVCAInt\MirasysVCAInt\bin\Release\MirasysVCAInt.exe.config
+E:\RepositoryV 1.6\INTV16\AMS\MirasysVCAInt\MirasysVCAInt\bin\Release\MirasysVCAInt.exe
+E:\RepositoryV 1.6\INTV16\AMS\MirasysVCAInt\MirasysVCAInt\bin\Release\MirasysVCAInt.pdb
+E:\RepositoryV 1.6\INTV16\AMS\MirasysVCAInt\MirasysVCAInt\bin\Release\AMS.Broker.Contracts.dll
+E:\RepositoryV 1.6\INTV16\AMS\MirasysVCAInt\MirasysVCAInt\bin\Release\ClientUtils.dll
+E:\RepositoryV 1.6\INTV16\AMS\MirasysVCAInt\MirasysVCAInt\bin\Release\GatewaySDK.dll
+E:\RepositoryV 1.6\INTV16\AMS\MirasysVCAInt\MirasysVCAInt\bin\Release\Metadata.dll
+E:\RepositoryV 1.6\INTV16\AMS\MirasysVCAInt\MirasysVCAInt\obj\Release\MainWindow.baml
+E:\RepositoryV 1.6\INTV16\AMS\MirasysVCAInt\MirasysVCAInt\obj\Release\MirasysVaInterface.baml
+E:\RepositoryV 1.6\INTV16\AMS\MirasysVCAInt\MirasysVCAInt\obj\Release\MainWindow.g.cs
+E:\RepositoryV 1.6\INTV16\AMS\MirasysVCAInt\MirasysVCAInt\obj\Release\MirasysVaInterface.g.cs
+E:\RepositoryV 1.6\INTV16\AMS\MirasysVCAInt\MirasysVCAInt\obj\Release\App.g.cs
+E:\RepositoryV 1.6\INTV16\AMS\MirasysVCAInt\MirasysVCAInt\obj\Release\MirasysVCAInt_MarkupCompile.cache
+E:\RepositoryV 1.6\INTV16\AMS\MirasysVCAInt\MirasysVCAInt\obj\Release\MirasysVCAInt.g.resources
+E:\RepositoryV 1.6\INTV16\AMS\MirasysVCAInt\MirasysVCAInt\obj\Release\MirasysVCAInt.Properties.Resources.resources
+E:\RepositoryV 1.6\INTV16\AMS\MirasysVCAInt\MirasysVCAInt\obj\Release\MirasysVCAInt.csproj.GenerateResource.Cache
+E:\RepositoryV 1.6\INTV16\AMS\MirasysVCAInt\MirasysVCAInt\obj\Release\MirasysVCAInt.exe
+E:\RepositoryV 1.6\INTV16\AMS\MirasysVCAInt\MirasysVCAInt\obj\Release\MirasysVCAInt.pdb
+D:\Projects\Test\MirasysVCAInt\MirasysVCAInt\bin\Release\MirasysVCAInt.exe.config
+D:\Projects\Test\MirasysVCAInt\MirasysVCAInt\bin\Release\MirasysVCAInt.exe
+D:\Projects\Test\MirasysVCAInt\MirasysVCAInt\bin\Release\MirasysVCAInt.pdb
+D:\Projects\Test\MirasysVCAInt\MirasysVCAInt\bin\Release\AMS.Broker.Contracts.dll
+D:\Projects\Test\MirasysVCAInt\MirasysVCAInt\bin\Release\ClientUtils.dll
+D:\Projects\Test\MirasysVCAInt\MirasysVCAInt\bin\Release\GatewaySDK.dll
+D:\Projects\Test\MirasysVCAInt\MirasysVCAInt\bin\Release\Metadata.dll
+D:\Projects\Test\MirasysVCAInt\MirasysVCAInt\bin\Release\Newtonsoft.Json.dll
+D:\Projects\Test\MirasysVCAInt\MirasysVCAInt\obj\Release\MirasysVCAInt.csprojAssemblyReference.cache
+D:\Projects\Test\MirasysVCAInt\MirasysVCAInt\obj\Release\MainWindow.baml
+D:\Projects\Test\MirasysVCAInt\MirasysVCAInt\obj\Release\MirasysVaInterface.baml
+D:\Projects\Test\MirasysVCAInt\MirasysVCAInt\obj\Release\MainWindow.g.cs
+D:\Projects\Test\MirasysVCAInt\MirasysVCAInt\obj\Release\MirasysVaInterface.g.cs
+D:\Projects\Test\MirasysVCAInt\MirasysVCAInt\obj\Release\App.g.cs
+D:\Projects\Test\MirasysVCAInt\MirasysVCAInt\obj\Release\MirasysVCAInt_MarkupCompile.cache
+D:\Projects\Test\MirasysVCAInt\MirasysVCAInt\obj\Release\MirasysVCAInt.g.resources
+D:\Projects\Test\MirasysVCAInt\MirasysVCAInt\obj\Release\MirasysVCAInt.Properties.Resources.resources
+D:\Projects\Test\MirasysVCAInt\MirasysVCAInt\obj\Release\MirasysVCAInt.csproj.GenerateResource.cache
+D:\Projects\Test\MirasysVCAInt\MirasysVCAInt\obj\Release\MirasysVCAInt.csproj.CoreCompileInputs.cache
+D:\Projects\Test\MirasysVCAInt\MirasysVCAInt\obj\Release\MirasysVCAInt.csproj.CopyComplete
+D:\Projects\Test\MirasysVCAInt\MirasysVCAInt\obj\Release\MirasysVCAInt.exe
+D:\Projects\Test\MirasysVCAInt\MirasysVCAInt\obj\Release\MirasysVCAInt.pdb

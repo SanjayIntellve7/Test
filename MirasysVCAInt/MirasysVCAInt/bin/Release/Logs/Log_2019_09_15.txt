@@ -1,0 +1,384 @@
+Date = 2019-09-15 11:34:09 | Message = MirasysVCAInterfaceService Dispose()
+Date = 2019-09-15 11:34:09 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2019-09-15 11:34:09 | Message = MirasysVCAInterfaceService Dispose()
+Date = 2019-09-15 11:34:21 | Message = MirasyInterfaceService Initialise()
+Date = 2019-09-15 11:34:23 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2019-09-15 11:34:23 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2019-09-15 11:34:23 | Message = MirasysVCAInterfaceService OnConnectionEvent(): Connected 
+Date = 2019-09-15 11:34:23 | Message = MirasysVCAInterfaceService OnConnectionEvent(): Connected 1 Mirasys.Clients.Gateway.SDK.Core.SessionContext
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Start:
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  SINGH MEDICAL
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  SINGH_MEDICAL PTZ
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  SINGH_MEDICAL 
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  MAHAVIR MANDIR TIRAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  MAHAVIR_MANDIR PTZ
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  MAHAVIR_MANDIR
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  GAS GODAM
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  GAS_GODAM PTZ
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  GAS_GODAM
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  KALI MATA MANDIR 
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  KALIMATA_MANDIR TOWARDS BHAKTINAGAR
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  KALIMATA_MANDIR TOWARDS PAHARIYA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  KALIMATA_MANDIR TOWARDS PANDEYPUR
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  RTO TIRAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  RTO_TIRAHA PTZ
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  RTO_TIRAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  NEEMA MAI TIRAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  NEEMAMAI_TIRAHA TOWARDS RAVINDRAPURI
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  NEEMAMAI_TIRAHA TOWARDS  GADOLIYA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  NEEMAMAI_TIRAHA TOWARDS RAVINDRAPURI1
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  NEEMAMAI_TIRAHA TOWARDS RATHYATRA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  MAHMOORGANJ POLICE CHOWKI
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  MAHMOORGANJ_TIRAHA TOWARDS DLW 
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  MAHMOORGANJ_TIRAHA 
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  MAHMOORGANJ_TIRAHA TOWARDS AKSHVANI
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  ARDALI BAZAR 
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  ARDALI_BAZAR PTZ
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  ARDALI_BAZAR 
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  CHANDPUR CHAURAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  CHANDPUR_CHAURAHA TOWARDS MOHANSARAI
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  CHANDPUR_CHAURAHA TOWARDS LOHTA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  CHANDPUR_CHAURAHA TOWARDS LAHARTARA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  CHANDPUR_CHAURAHA TOWARDS MANDUADIH
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  LANGDA HAFIZ TIRAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  LANGDA_HAFIZ PTZ
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  LANGDA_HAFIZ TIRAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  PARAO CHAURAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  PARAO_CHAURAHA  
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  PARAO_CHAURAHA TOWARDS RAMNAGAR
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  PARAO_CHAURAHA TOWARDS RAJGHAT
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  PARAO_CHAURAHA TOWARDS MUGALSARAI
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  SUJABAD CHOWKI
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  SUJABAD_CHOWKI PTZ
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  SUJABAD_CHOWKI 
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  SAHITYA NAKA TIRAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  SAHITYA_NAKA TIRAHA PTZ
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  SAHITYA_NAKA TIRAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  SHASTRI CHOWK KILA TIRAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  SHASTRI_CHOWK_KILA PTZ
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  SHASTRI_CHOW_KILA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  GARWA GHAT TIRAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  GARWA_GHAT TOWARDS SAMNE GHAT
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  GARWA_GHAT TOWARDS HARSEVANAND SCHOOL
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  GARWA_GHAT
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  LBS TIRAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  LBS_TIRAHA PTZ
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  LBS_TIRAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  SARANG CHAURAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  SARANG_TIRAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  SARANG_TIRAHA PTZ
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  AKHTA TIRAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  AKHTA_TIRAHA PTZ
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  AKHTA_TIRAHA TOWARDS
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  BENIYABAGH TIRAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  BENIYABAGH_TIRAHA2
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  BENIYABAGH_TIRAHA1
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  BENIYABAGH_TIRAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  DAINIK JAGRAN TIRAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  DAINIK_JAGRAN TIRAHA PTZ
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  DAINIK_JAGRAN TIRAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  DHAUSABAD TIRAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  DHAUSABAAD_TIRAHA PTZ
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  DHAUSABAAD_TIRAHA 
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  HARSEVANAND TIRAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  HARSEVANAND_SCHOOL PTZ
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  HARSEVANAND_SCHOOL
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  SAMNE GHAT TIRAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  SAMNE_GHAT PTZ
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  SAMNE_GHAT
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  NARIYA TIRAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  NARIYA_TIRAHA PTZ
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  NARIYA_TIRAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  KHAJURI TIRAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  KHAJURI_TIRAHA PTZ
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  KHAJURI_TIRAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  VISWANATH MISTHAN BHANDAR 
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  VISWANATH_MISTHAN BHANDAR
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  VISWANATH_MISTHAN BHANDAR PTZ
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  CHOWK CHAURAHA 
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  CHOWK CHAURAHA PTZ
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  CHOWK CHAURAHA TOWRADS LBS
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  MALDHAIYA CHAURAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  MALDHAIYA_CHAURAHA TOWARDS ANDHRAPUL
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  MALDHAIYA_CHAURAHA TOWARDS LOHAMANDI
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  MALDHAIYA_CHAURAHA TOWARDS ENGLISIYA LINE
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  MALDHAIYA_CHAURAHA TOWARDS SAJAN
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  SIGRA CHAURAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  SIGRA_CHAURAHA TOWARDS LUXA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  SIGRA_CHAURAHA TOWARDS SAJAN
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  SIGRA_CHAURAHA TOWARDS AKSHVANI
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  SIGRA_CHAURAHA TOWARDS RATHYATRA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  RATHYATRA CHAURAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  RATHYATRA_CHAURAHA TOWARDS GADOLIYA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  RATHYATRA_CHAURAHA TOWARDS AKSHVANI
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  RATHYATRA_CHAURAHA TOWARDS SIGRA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  RATHYATRA_CHAURAHA TOWARDS NEEMA MAI
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  MANDUADIH CHAURAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  MANDUADIH_CHAURAHA TOWRADS LAHARTARA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  MANDUADIH_CHAURAHA TOWRADS MAHMOORGANJ
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  MANDUADIH_CHAURAHA TOWRADS DLW
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  MANDUADIH_CHAURAHA TOWRADS CHANDPUR
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  LAHARTARA CHAURAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  LAHARTARA_CHAURAHA TOWRADS PHULWARIA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  LAHARTARA_CHAURAHA TOWRADS MANDUADIH
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  LAHARTARA_CHAURAHA TOWARDS CHANDPUR
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  BHU CHAURAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  BHU_CHAURAHA TOWARDS DLW
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  BHU_CHAURAHA TOWARDS SAMNE GHAT
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  BHU_CHAURAHA TOWARDS BHU GATE
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  AKSHVANI TIRAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  AKSHVANI_TIRAHA TOWARDS SIGRA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  AKSHVANI_TIRAHA TOWARDS RATHYATRA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  AKSHVANI_TIRAHA TOWARDS MANDAUDIH
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  SAJAN TIRAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  SAJAN_TIRAHA TOWRADS ENGLISIYA LINE
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  SAJAN_TIRAHA TOWARDS SIGRAA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  SAJAN_TIRAHA TOWARDS SIGRA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  ASIYANA TIRAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  AASIYANA TIRAHA TOWARDS JHV MALL
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  AASIYANA TIRAHA TOWARDS NADESAR
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  AASIYANA TIRAHA TOWARDS KACHHARI
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  SUNDERPUR CHAURAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  SUNDERPUR CHAURAHA PTZ
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  SUNDERPUR CHAURAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  LOHAMANDI CHAURAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  LOHAMANDI CHAURAHA TOWARDS SINGH MEDICAL
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  LOHAMANDI CHAURAHA TOWARDS AURANGABAD
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  LOHAMANDI CHAURAHA TOWARDS TELIYABAGH
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  LOHAMANDI CHAURAHA TOWARDS MALDHAIYA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  BHOJUVIR TIRAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  BHOJUVIR TIRAHA TOWARDS ARDALI BAZAR
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  BHOJUVIR TIRAHA TOWARDS AIRPORT
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  BHOJUVIR TIRAHA TOWARDS CIRCUIT HOUSE
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  BHIKARIPUR TIRAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  BHIKARIPUR TIRAHA TOWARDS SUNDRPUR
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  BHIKARIPUR TIRAHA TOWARDS CHITAIPUR
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  BHIKARIPUR TIRAHA TOWARDS DLW KAKARMATTA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  BAULIYA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  BAULIYA TIRAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  BAULIYA TIRAHA PTZ
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  MANDUADIH TIRAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  MANDUADIH TIRAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  MANDUADIH TIRAHA PTZ
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  JP MEHTA 
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  JP MEHTA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  JP MEHTA PTZ
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  DASHASHWAMEDH GHAT
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  DASHASHWAMEDH GHAT PTZ
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  DASHASHWAMEDH GHAT 
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  SANKUL BHAWAN
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  SANKUL BHAWAN
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  SANKUL BHAWAN PTZ
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  PIPLANI KATRA 
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  PIPLANI KATRA PTZ
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  PIPLANI KATRA TOWARDS LAHURAVEER
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  MACHODARI 
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  MACHODARI TIRAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  MACHODARI TIRAHA 1 TOWARDS GAI GHAT
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  RAVINDRAPURI CHAURAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  RAVINDRAPURI CHAURAHA TOWARDS GHAT
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  RAVINDRAPURI CHAURAHA TOWARDS BHU
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  RAVINDRAPURI CHAURAHA TOWARDS GHAT
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  RAVINDRAPURI CHAURAHA TOWARDS NEEMA MAI
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  GILAT BAZAR CHOWKI 
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  GILAT BAZAR CHOWKI TOWARDS AIRPORT
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  GILAT BAZAR CHOWKI TOWARDS UP COLLEGE
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  GILAT BAZAR CHOWKI TOWARDS SHIVPUR CHUNGI 
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  GILAT BAZAR CHOWKI TOWARDS BHOJUVIR
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  CENTRAL JAIL 
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  CENTRAL JAIL TOWARDS SHIVPUR CHUNGI
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  CENTRAL JAIL PTZ
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  PADAMSHREE CHAURAHA 
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  PADAMSHREE CHAURAHA TOWARDS SIGRA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  PADAMSHREE CHAURAHA TOWARDS ASSI GHAT
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  PADAMSHREE CHAURAHA TOWARDS BHU
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  PADAMSHREE CHAURAHA TOWARDS DURGA KUND
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  AURANGABAD TIRAHA 
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  AURANGABAD TIRAHA TOWRADS LAXSA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  AURANGABAD TIRAHA PTZ
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  TARNAPUL 
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  TARNAPUL TOWARDS SHIVPUR
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  TARNAPUL TOWARDS GILAT BAZAR
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  NADESAR MASJID
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  NADESAR MASJID TOWARDS AASIYANA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  NADESAR MASJID TOWARDS DHAUSABAD
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  NADESAR MASJID TOWARDS DAINIK JAGRAN
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  CIRCUIT HOUSE TIRAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  CIRCUIT HOUSE TIRAHA POLICE LINE
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  CIRCUIT HOUSE PTZ
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  JANGAM BADI
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  JANGAM BARI TOWARDS GADOLIYA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  JANGAM BARI PTZ
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  KHARI KUAN TIRAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  KHARI KUAN PTZ
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  KHARI KUAN TOWRADS REWARI TALAB
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  GILAT BAZAR CHUNGI
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  GILAT_BAZAR_CHUNGI_PTZ
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  GILAT_BAZAR_CHUNGI
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  LAHURAVEER CHAURAHA 
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  LAHURAVEER CHAURAHA TOWARDS TELIYABAGH
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  LAHURAVEER CHAURAHA TOWARDS LOHAMANDI
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  LAHURAVIR CHAURAHA TOWARDS BENIYABAGH
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  LAHURAVIR CHUARAHA TOWRADS MAIDAGIN
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  SANTAN DHARAM
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  SANATAN DHARAM PTZ
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  SANATAN DHARAM TOWARDS GODAULIYA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  SRI KASI VISWANATH TEMPLE
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  SRI KASI VISWANATH MANDIR PTZ
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  SRI KASI VISWANATH MANDIR
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  KARMEDESAR MANDIR
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  KARMDESHWAR MANDIR PTZ
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  KARMDESHWAR MANDIR TOWARDS DLW
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  LARA HOTEL
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  LARA HOTEL  PTZ
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  LARA HOTEL TOWARDS GODULIYA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  CHITRANJAN PARK
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  CHITRANJAN PARK 
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  CHITRANJAN PARK PTZ
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  KASHIPURA CHAURAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  KASHIPURA CHAURAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  KASHIPURA CHAURAHA PTZ
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  PIYERI CHAUKI
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  PIYARI CHAUKI 
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  PIYARI CHAUKI PTZ
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  HARTIRTH TIRAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  HARTIRATH TIRAHA 
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  HARTIRATH TIRAHA PTZ
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  DERASI PUL 
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  DERASI PUL TIRAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  DERASI PUL PTZ
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  MONGA KATRA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  MONGA KATRA PTZ
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  MONGA KATRA TOWARDS LARA HOTEL
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  KAAL BHAIRAV CHAURAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  KAAL BHAIRAVA CHAURAHA TOWARDS MANDIR
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  KAAL BHAIRAVA CHAURAHA TOWARDS MAIDAGIN
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  KAAL BHAIRAVA CHAURAHA TOWARDS MANDI
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  KAAL BHAIRAVA CHAURAHA TOWARDS BISESARGANJ
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  CHANDRA CHAURAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  CHANDRA CHAURAHA TOWARDS JALUPUR
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  CHANDRA CHAURAHA TOWARDS ASHAPUR
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  CHANDRA CHAURAHA TOWARDS RTO
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  KABIR CHAURAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  KABIR CHAURAHA TOWARDS PIYARI CHAUKI
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  KABIR CHAURAHA TOWARDS MAIDAGIN
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  KABIR CHAURAHA TOWARDS KASIKA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  KABIR CHAURAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  KABIR CHAURAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  MULTISENSOR
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  SAJAN MULTISENSOR
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  SIGRA MULTISENSOR
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  AKSHVANI MULTISENSOR
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  BHU MULTISENSOR
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  MALDHAIYA MULTISENSOR
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  RAVINDRAPURI MULTISENSOR
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  PANDEYPUR MULTISENSOR
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  LAHERTARA  MULTISENSOR
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  MANDUADIH MULTISENSOR
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  RATHYATRA MULTISENSOR
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  MARIMAI MULTISENSOR
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  GAI GHAT TIRAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  GAI GHAT PTZ
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  GAI GHAT TIRAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  CHETGANJ CHAURAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  CHETGANJ CHAURAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  CHETGANJ CHAURAHA PTZ
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  TELIYABAGH TIRAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  TELIYABAGH CHAURAHA TOWARDS LAHURAVIR
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  TELIYABAGH CHAURAHA TOWARDS CHAUKAGHAT
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  TELIYABAGH CHAURAHA TOWARDS MARI MAI
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  TELIYABAGH CHURAHA TOWARDS LOHAMANDI
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  SONARPURA CHAURAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  SONARPURA CHAURAHA 
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  SONARPURA CHAURAHA PTZ
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  BENGALI TOLA CHAURAHA 
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  BANGALITOLA CHAURAHA TOWARDS
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  ANDHRAPUL CHAURAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  ANDHRAPUL CHAURAHA TOWARDS NADESAR 
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  ANDHRAPUL CHAURAHA TOWARDS CANNT
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  ANDHRAPUL CHAURAHA TOWARDS CHAUKAGHAT
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  LAHURAVIR CHAURAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  LAHURAVIR CHUARAHA TOWRADS MAIDAGIN
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  LAHURAVIR CHAURAHA TOWARDS BENIYABAGH
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  MACCHODARI TIRAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  MACCHODARI TIRAHA TOWARDS POLICE CHAUKI
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  LAHARTARA CHAURAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  LAHARTARA CHAURAHA TOWADS CANTT
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  KUDAGHAR
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  PITAR KUNDA KUDAGHAR
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  MACCHODARI KUDAGHAR
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  CIRCUIT HOUSE KUDAGHAR
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  PT. DEENDAYAL KUDAGHAR1
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  ARDALI_BAZAR KUDAGHAR
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  BENIYABAGH_KUDAGHAR
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  REWARI TALAB KUDAGAHR
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  TEHSILSADAR KUDAGHAR
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  AURAUNGABAD KUDAGHAR
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  FATMAN KUDAGHAR
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  SHIVALA KUDAGHAR
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  DLW KAKARMATTA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  DLW KAKARMATTA PUL PTZ
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  DLW KAKARMATTA PUL
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  PRAHLAD GHAT TIRAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  PRAHLAD GHAT TIRAHA 
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  PRAHLAD GHAT PTZ
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  PANCHKOSI CHAURAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  PANCHKOSI CHAURAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  PANCHKOSI CHAURAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  BISWESWARGANJ TIRAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  BISWESWARGANJ TIRAHA TOWARD MAIDAGIN
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  BISWESWARGANJ TIRAHA TOWARDS GAI GAHT
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  BISWESWARGANJ TIRAHA TOWARDS GOLGADDA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  REWARI TALAB TIRAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  REWARI TALAB TIRAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  REWARI TALAB TIRAHA1
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  MUKTI MODE BHAWAN
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  MUKTI MODE BHAWAN
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  MUKTI MODE BHAWAN PTZ
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  KASIKA TIRAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  KASIKA TIRAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  KASIKA PTZ
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  SONARPURA CHAURAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  SONARPURA CHAURAHA PTZ
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  SONARPURA CHAURAHA 
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  KAJAKPURA RAILWAY CROSSING
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  KAJAKPURA RAILWAY CROSSING TOWARDS LATBHAIRAV 
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  KAJAKPURA RAILWAY CROSSING TOWARDS RAJGHAT
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  KAJAKPURA RAILWAY CROSSING KAPILDHARA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  KAJAKPURA RAILWAY CROSSING TOWARDS GOLGADDA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  BULLA NALA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  BULA NALA TIRAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  BULA NALA PTZ
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  MARI MAI TIRAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  MARI MAI TOWARDS TELIYABAGH
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  MARI MAI TOWARDS ANDHRAPUL1
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  MARI MAI TOWARDS ANDHRAPUL_2
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  PANDEYPUR CAHURAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  PANDEY PUR CHAURAHA TOWARDS LALPUR
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  PANDEY PUR CHAURAHA TOWARDS POLICE LINE
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  PANDEY PUR CHAURAHA TOWARDS CHAUKAGHAT
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  PANDEY PUR CHAURAHA TOWARDS KALIMATA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  MINT HOUSE TIRAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  MINT HOUSE TIRAHA TOWARDS ASIYANA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  MINT HOUSE TIRAHA TOWARDS DAINIK JAGRAN
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  MINT HOUSE TIRAHA TOWARDS CANTT
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  BADAU CHUNGI CHAURAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  BADAU CHUNGI TOWARDS 
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  BADAU CHUNGI TOWARDS1
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  BADAU CHUNGI TOWARDS2
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  BHESASUR GHAT
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  BHESASUR GHAT TOWARDS
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  BHESASUR GHAT PTZ
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  TARIKHANA CHAURAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  TARIKHANA TOWARDS 
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  TARIKHANA TOWARDS 1
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  TARIKHANA TOWARDS 2
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  AMBEDKAR CHURAHA
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  AMBEDKAR TOWARDS 2
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  AMBEDKAR TOWARDS 1
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Camera name:  AMBEDKAR TOWARDS 
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Location name:  Camera 77
+Date = 2019-09-15 11:34:27 | Message = MirasysInterface getCamDeviceList() Exception Final:System.InvalidCastException: Unable to cast object of type 'Mirasys.Clients.Gateway.SDK.Recorder.Profile.CameraNode' to type 'Mirasys.Clients.Gateway.SDK.Recorder.Profile.SiteNode'.    at MirasysVCAInt.MirasysVaInterface.getCamDeviceList() in e:\Intellve Solutions\New folder\MirasysVCAInt\MirasysVCAInt\MirasysVCAInt\MirasysVaInterface.xaml.cs:line 310
+Date = 2019-09-15 11:34:37 | Message = MirasysVCAInterfaceService Dispose()
+Date = 2019-09-15 11:34:37 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2019-09-15 11:34:37 | Message = MirasysVCAInterfaceService Dispose()

@@ -1,0 +1,74 @@
+Date = 2019-09-24 10:48:52 | Message = MirasyInterfaceService Initialise()
+Date = 2019-09-24 10:49:03 | Message = MirasyInterfaceService Started Successfully
+Date = 2019-09-24 10:49:03 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2019-09-24 10:49:03 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2019-09-24 10:49:03 | Message = MirasysVCAInterfaceService OnConnectionEvent(): Connected 
+Date = 2019-09-24 10:49:03 | Message = MirasysVCAInterfaceService OnConnectionEvent(): Connected 1 Mirasys.Clients.Gateway.SDK.Core.SessionContext
+Date = 2019-09-24 10:49:17 | Message = MirasysInterface getCamDeviceList() Location name:  Camera 1
+Date = 2019-09-24 10:49:23 | Message = MirasysVCAInterfaceService Connect() before CreateVaAlert: strDevName Camera 1--!--strEventCode:Dwell-Camera-1--!--strAlarmDateTime:24/09/2019 10:51:05
+Date = 2019-09-24 10:49:25 | Message = MirasysVCAInterfaceService Connect() before CreateVaAlert: strDevName Camera 1--!--strEventCode:Dwell-Camera-1--!--strAlarmDateTime:24/09/2019 10:51:05
+Date = 2019-09-24 10:49:51 | Message = MirasyInterfaceService Initialise()
+Date = 2019-09-24 10:49:52 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2019-09-24 10:49:52 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2019-09-24 10:49:52 | Message = MirasysVCAInterfaceService OnConnectionEvent(): Connected 
+Date = 2019-09-24 10:49:52 | Message = MirasysVCAInterfaceService OnConnectionEvent(): Connected 1 Mirasys.Clients.Gateway.SDK.Core.SessionContext
+Date = 2019-09-24 10:49:54 | Message = MirasysInterface getCamDeviceList() Location name:  Camera 1
+Date = 2019-09-24 10:50:02 | Message = MirasysVCAInterfaceService Dispose()
+Date = 2019-09-24 10:50:02 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2019-09-24 10:50:03 | Message = MirasysVCAInterfaceService Dispose()
+Date = 2019-09-24 10:50:15 | Message = MirasyInterfaceService Initialise()
+Date = 2019-09-24 10:50:16 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2019-09-24 10:50:16 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2019-09-24 10:50:16 | Message = MirasysVCAInterfaceService OnConnectionEvent(): Connected 
+Date = 2019-09-24 10:50:16 | Message = MirasysVCAInterfaceService OnConnectionEvent(): Connected 1 Mirasys.Clients.Gateway.SDK.Core.SessionContext
+Date = 2019-09-24 10:50:30 | Message = MirasysVCAInterfaceService Connect() before CreateVaAlert: strDevName Camera 1--!--strEventCode:Dwell-Camera-1--!--strAlarmDateTime:24/09/2019 10:52:20
+Date = 2019-09-24 10:50:30 | Message = MirasysVCAInterfaceService Connect() before CreateVaAlert: strDevName Camera 1--!--strEventCode:Dwell-Camera-1--!--strAlarmDateTime:24/09/2019 10:52:20
+Date = 2019-09-24 10:51:15 | Message = MirasyInterfaceService Initialise()
+Date = 2019-09-24 10:51:16 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2019-09-24 10:51:16 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2019-09-24 10:51:16 | Message = MirasysVCAInterfaceService OnConnectionEvent(): Connected 
+Date = 2019-09-24 10:51:16 | Message = MirasysVCAInterfaceService OnConnectionEvent(): Connected 1 Mirasys.Clients.Gateway.SDK.Core.SessionContext
+Date = 2019-09-24 10:51:17 | Message = MirasysInterface getCamDeviceList() Location name:  Camera 1
+Date = 2019-09-24 10:51:41 | Message = MirasysVCAInterfaceService Dispose()
+Date = 2019-09-24 10:51:41 | Message = MirasysVCAInterfaceService Disconnect(): start 
+Date = 2019-09-24 10:51:41 | Message = MirasysVCAInterfaceService Dispose()
+Date = 2019-09-24 10:51:43 | Message = MirasyInterfaceService Initialise()
+Date = 2019-09-24 10:51:44 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2019-09-24 10:51:44 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2019-09-24 10:51:44 | Message = MirasysVCAInterfaceService OnConnectionEvent(): Connected 
+Date = 2019-09-24 10:51:44 | Message = MirasysVCAInterfaceService OnConnectionEvent(): Connected 1 Mirasys.Clients.Gateway.SDK.Core.SessionContext
+Date = 2019-09-24 10:51:53 | Message = MirasysInterface getCamDeviceList() Location name:  Camera 1
+Date = 2019-09-24 10:52:59 | Message = MirasyInterfaceService Initialise()
+Date = 2019-09-24 10:53:00 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2019-09-24 10:53:00 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2019-09-24 10:53:00 | Message = MirasysVCAInterfaceService OnConnectionEvent(): Connected 
+Date = 2019-09-24 10:53:00 | Message = MirasysVCAInterfaceService OnConnectionEvent(): Connected 1 Mirasys.Clients.Gateway.SDK.Core.SessionContext
+Date = 2019-09-24 10:53:10 | Message = MirasysVCAInterfaceService Connect() before CreateVaAlert: strDevName Camera 1--!--strEventCode:Dwell-Camera-1--!--strAlarmDateTime:24/09/2019 10:54:57
+Date = 2019-09-24 10:53:12 | Message = MirasysVCAInterfaceService Connect() before CreateVaAlert: strDevName Camera 1--!--strEventCode:Dwell-Camera-1--!--strAlarmDateTime:24/09/2019 10:54:57
+Date = 2019-09-24 10:53:14 | Message = MirasysVCAInterfaceService Connect() before CreateVaAlert: strDevName Camera 1--!--strEventCode:Dwell-Camera-1--!--strAlarmDateTime:24/09/2019 10:55:03
+Date = 2019-09-24 10:53:16 | Message = MirasysVCAInterfaceService Connect() before CreateVaAlert: strDevName Camera 1--!--strEventCode:Dwell-Camera-1--!--strAlarmDateTime:24/09/2019 10:55:03
+Date = 2019-09-24 10:53:19 | Message = MirasysVCAInterfaceService Connect() before CreateVaAlert: strDevName Camera 1--!--strEventCode:Dwell-Camera-1--!--strAlarmDateTime:24/09/2019 10:55:08
+Date = 2019-09-24 10:53:21 | Message = MirasysVCAInterfaceService Connect() before CreateVaAlert: strDevName Camera 1--!--strEventCode:Dwell-Camera-1--!--strAlarmDateTime:24/09/2019 10:55:08
+Date = 2019-09-24 10:53:27 | Message = MirasysVCAInterfaceService Connect() before CreateVaAlert: strDevName Camera 1--!--strEventCode:Dwell-Camera-1--!--strAlarmDateTime:24/09/2019 10:55:17
+Date = 2019-09-24 10:53:29 | Message = MirasysVCAInterfaceService Connect() before CreateVaAlert: strDevName Camera 1--!--strEventCode:Dwell-Camera-1--!--strAlarmDateTime:24/09/2019 10:55:17
+Date = 2019-09-24 10:54:17 | Message = MirasysVCAInterfaceService Connect() before CreateVaAlert: strDevName Camera 1--!--strEventCode:Dwell-Camera-1--!--strAlarmDateTime:24/09/2019 10:56:07
+Date = 2019-09-24 10:54:19 | Message = MirasysVCAInterfaceService Connect() before CreateVaAlert: strDevName Camera 1--!--strEventCode:Dwell-Camera-1--!--strAlarmDateTime:24/09/2019 10:56:07
+Date = 2019-09-24 10:54:24 | Message = MirasysVCAInterfaceService Connect() before CreateVaAlert: strDevName Camera 1--!--strEventCode:Dwell-Camera-1--!--strAlarmDateTime:24/09/2019 10:56:15
+Date = 2019-09-24 10:54:27 | Message = MirasysVCAInterfaceService Connect() before CreateVaAlert: strDevName Camera 1--!--strEventCode:Dwell-Camera-1--!--strAlarmDateTime:24/09/2019 10:56:15
+Date = 2019-09-24 10:56:30 | Message = MirasysVCAInterfaceService Connect() before CreateVaAlert: strDevName Camera 1--!--strEventCode:Dwell-Camera-1--!--strAlarmDateTime:24/09/2019 10:57:35
+Date = 2019-09-24 10:56:32 | Message = MirasysVCAInterfaceService Connect() before CreateVaAlert: strDevName Camera 1--!--strEventCode:Dwell-Camera-1--!--strAlarmDateTime:24/09/2019 10:57:35
+Date = 2019-09-24 10:56:34 | Message = MirasysVCAInterfaceService Connect() before CreateVaAlert: strDevName Camera 1--!--strEventCode:Dwell-Camera-1--!--strAlarmDateTime:24/09/2019 10:57:47
+Date = 2019-09-24 10:56:37 | Message = MirasysVCAInterfaceService Connect() before CreateVaAlert: strDevName Camera 1--!--strEventCode:Dwell-Camera-1--!--strAlarmDateTime:24/09/2019 10:57:47
+Date = 2019-09-24 10:56:39 | Message = MirasysVCAInterfaceService Connect() before CreateVaAlert: strDevName Camera 1--!--strEventCode:Dwell-Camera-1--!--strAlarmDateTime:24/09/2019 10:58:12
+Date = 2019-09-24 10:56:41 | Message = MirasysVCAInterfaceService Connect() before CreateVaAlert: strDevName Camera 1--!--strEventCode:Dwell-Camera-1--!--strAlarmDateTime:24/09/2019 10:58:12
+Date = 2019-09-24 10:56:43 | Message = MirasysVCAInterfaceService Connect() before CreateVaAlert: strDevName Camera 1--!--strEventCode:Dwell-Camera-1--!--strAlarmDateTime:24/09/2019 10:58:16
+Date = 2019-09-24 10:56:45 | Message = MirasysVCAInterfaceService Connect() before CreateVaAlert: strDevName Camera 1--!--strEventCode:Dwell-Camera-1--!--strAlarmDateTime:24/09/2019 10:58:16
+Date = 2019-09-24 10:56:58 | Message = MirasysVCAInterfaceService Connect() before CreateVaAlert: strDevName Camera 1--!--strEventCode:Dwell-Camera-1--!--strAlarmDateTime:24/09/2019 10:58:48
+Date = 2019-09-24 10:57:00 | Message = MirasysVCAInterfaceService Connect() before CreateVaAlert: strDevName Camera 1--!--strEventCode:Dwell-Camera-1--!--strAlarmDateTime:24/09/2019 10:58:48
+Date = 2019-09-24 10:57:04 | Message = MirasysVCAInterfaceService Connect() before CreateVaAlert: strDevName Camera 1--!--strEventCode:Dwell-Camera-1--!--strAlarmDateTime:24/09/2019 10:58:54
+Date = 2019-09-24 10:57:06 | Message = MirasysVCAInterfaceService Connect() before CreateVaAlert: strDevName Camera 1--!--strEventCode:Dwell-Camera-1--!--strAlarmDateTime:24/09/2019 10:58:54
+Date = 2019-09-24 11:45:04 | Message = MirasyInterfaceService Initialise()
+Date = 2019-09-24 11:45:06 | Message = MirasysVCAInterfaceService Connect(): Start
+Date = 2019-09-24 11:45:06 | Message = MirasysVCAInterfaceService OnConnectionEvent(): start
+Date = 2019-09-24 11:45:06 | Message = MirasysVCAInterfaceService OnConnectionEvent(): Connected 
+Date = 2019-09-24 11:45:06 | Message = MirasysVCAInterfaceService OnConnectionEvent(): Connected 1 Mirasys.Clients.Gateway.SDK.Core.SessionContext
