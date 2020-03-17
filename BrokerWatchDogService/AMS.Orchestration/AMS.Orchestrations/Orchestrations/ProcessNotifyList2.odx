@@ -1,0 +1,123 @@
+﻿#if __DESIGNER_DATA
+#error Do not define __DESIGNER_DATA.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<om:MetaModel MajorVersion="1" MinorVersion="3" Core="2b131234-7959-458d-834f-2dc0769ce683" ScheduleModel="66366196-361d-448d-976f-cab5e87496d2" xmlns:om="http://schemas.microsoft.com/BizTalk/2003/DesignerData">
+    <om:Element Type="Module" OID="5c16b70f-6df4-4948-8ac8-7cf1ddad7cd4" LowerBound="1.1" HigherBound="24.1">
+        <om:Property Name="ReportToAnalyst" Value="True" />
+        <om:Property Name="Name" Value="AMS.Orchestrations" />
+        <om:Property Name="Signal" Value="False" />
+        <om:Element Type="ServiceDeclaration" OID="d75630a8-a19d-4027-a164-c6a260089921" ParentLink="Module_ServiceDeclaration" LowerBound="4.1" HigherBound="23.1">
+            <om:Property Name="InitializedTransactionType" Value="False" />
+            <om:Property Name="IsInvokable" Value="True" />
+            <om:Property Name="TypeModifier" Value="Internal" />
+            <om:Property Name="ReportToAnalyst" Value="True" />
+            <om:Property Name="Name" Value="ProcessNotifyList2" />
+            <om:Property Name="Signal" Value="False" />
+            <om:Element Type="VariableDeclaration" OID="6e076c98-7492-441a-b136-5ff1f6ac6596" ParentLink="ServiceDeclaration_VariableDeclaration" LowerBound="8.1" HigherBound="9.1">
+                <om:Property Name="UseDefaultConstructor" Value="False" />
+                <om:Property Name="Type" Value="System.Int32" />
+                <om:Property Name="ParamDirection" Value="In" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="RecordsCount" />
+                <om:Property Name="Signal" Value="True" />
+            </om:Element>
+            <om:Element Type="VariableDeclaration" OID="f6d6c5a4-189a-431e-8c27-34a22869fb1a" ParentLink="ServiceDeclaration_VariableDeclaration" LowerBound="9.1" HigherBound="10.1">
+                <om:Property Name="UseDefaultConstructor" Value="False" />
+                <om:Property Name="Type" Value="System.String" />
+                <om:Property Name="ParamDirection" Value="In" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="strPath" />
+                <om:Property Name="Signal" Value="True" />
+            </om:Element>
+            <om:Element Type="MessageDeclaration" OID="62c447e1-3504-471a-88db-7b1f174bc0d4" ParentLink="ServiceDeclaration_MessageDeclaration" LowerBound="7.1" HigherBound="8.1">
+                <om:Property Name="Type" Value="System.Xml.XmlDocument" />
+                <om:Property Name="ParamDirection" Value="In" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="Record" />
+                <om:Property Name="Signal" Value="True" />
+            </om:Element>
+            <om:Element Type="ServiceBody" OID="1a39cb93-993f-4025-9a9f-7ce4118208c1" ParentLink="ServiceDeclaration_ServiceBody">
+                <om:Property Name="Signal" Value="False" />
+                <om:Element Type="MessageDeclaration" OID="f9ea5d10-8949-4f76-ab9a-d086f843b9b7" ParentLink="ServiceBody_Declaration" LowerBound="10.15" HigherBound="10.107">
+                    <om:Property Name="Type" Value="AMS.Orchestrations.UsersService.IUsersService_GetUsersListByAlertGroup_OutputMessage" />
+                    <om:Property Name="ParamDirection" Value="In" />
+                    <om:Property Name="ReportToAnalyst" Value="True" />
+                    <om:Property Name="Name" Value="NotifyListMessage1" />
+                    <om:Property Name="Signal" Value="True" />
+                </om:Element>
+                <om:Element Type="VariableAssignment" OID="a9e7032e-0b16-4b73-a973-393a94a7a2de" ParentLink="ServiceBody_Statement" LowerBound="13.1" HigherBound="15.1">
+                    <om:Property Name="Expression" Value="RecordsCount = (System.Int32)(xpath(&quot;count(/*[local-name()='GetUsersListByAlertGroupResponse' and namespace-uri()='http://2020.AMS']/*[local-name()='GetUsersListByAlertGroupResult' and namespace-uri()='http://2020.AMS'])&quot;));&#xD;&#xA;" />
+                    <om:Property Name="ReportToAnalyst" Value="True" />
+                    <om:Property Name="Name" Value="Expression_1" />
+                    <om:Property Name="Signal" Value="True" />
+                </om:Element>
+                <om:Element Type="While" OID="ba4aff11-0157-4ab9-b87f-9549d9d6d35b" ParentLink="ServiceBody_Statement" LowerBound="15.1" HigherBound="17.1">
+                    <om:Property Name="Expression" Value="RecordsCount &gt; 0" />
+                    <om:Property Name="ReportToAnalyst" Value="True" />
+                    <om:Property Name="Name" Value="Loop_1" />
+                    <om:Property Name="Signal" Value="True" />
+                    <om:Element Type="Scope" OID="c4befa2b-ca63-496c-856b-af1db5f9d0c6" ParentLink="ComplexStatement_Statement">
+                        <om:Property Name="InitializedTransactionType" Value="True" />
+                        <om:Property Name="IsSynchronized" Value="False" />
+                        <om:Property Name="ReportToAnalyst" Value="True" />
+                        <om:Property Name="Name" Value="Scope_1" />
+                        <om:Property Name="Signal" Value="True" />
+                        <om:Element Type="Construct" OID="ca71ad95-a438-40bb-88a6-449b8392f4a5" ParentLink="ComplexStatement_Statement">
+                            <om:Property Name="ReportToAnalyst" Value="True" />
+                            <om:Property Name="Name" Value="ConstructMessage_1" />
+                            <om:Property Name="Signal" Value="True" />
+                            <om:Element Type="MessageAssignment" OID="001c133c-675a-458c-8b74-120c51a358f0" ParentLink="ComplexStatement_Statement">
+                                <om:Property Name="Expression" Value="strPath = System.String.Format(&quot;/*[local-name()='TypedPolling' and namespace-uri()='http://schemas.microsoft.com/Sql/2008/05/TypedPolling/ID1']/*[local-name()='TypedPollingResultSet0' and namespace-uri()='http://schemas.microsoft.com/Sql/2008/05/TypedPolling/ID1']/*[local-name()='TypedPollingResultSet0' and namespace-uri()='http://schemas.microsoft.com/Sql/2008/05/TypedPolling/ID1'][{0}]&quot;, RecordsCount );&#xD;&#xA;Record = xpath(Message_1.parameters, strPath);" />
+                                <om:Property Name="ReportToAnalyst" Value="False" />
+                                <om:Property Name="Name" Value="MessageAssignment_1" />
+                                <om:Property Name="Signal" Value="True" />
+                            </om:Element>
+                            <om:Element Type="MessageRef" OID="0bb5c0a2-2147-4179-9fe3-c741c7761bff" ParentLink="Construct_MessageRef">
+                                <om:Property Name="Ref" Value="Record" />
+                                <om:Property Name="ReportToAnalyst" Value="True" />
+                                <om:Property Name="Signal" Value="False" />
+                            </om:Element>
+                        </om:Element>
+                    </om:Element>
+                </om:Element>
+                <om:Element Type="Send" OID="ddfb5d96-f65c-4c51-aab9-c03e521d5a76" ParentLink="ServiceBody_Statement" LowerBound="17.1" HigherBound="19.1">
+                    <om:Property Name="MessageName" Value="Record" />
+                    <om:Property Name="ReportToAnalyst" Value="True" />
+                    <om:Property Name="Name" Value="Send_1" />
+                    <om:Property Name="Signal" Value="True" />
+                </om:Element>
+                <om:Element Type="VariableAssignment" OID="0d735a91-4c4e-40ea-ade0-9a0a35ce4e08" ParentLink="ServiceBody_Statement" LowerBound="19.1" HigherBound="21.1">
+                    <om:Property Name="Expression" Value="RecordsCount = RecordsCount -1;" />
+                    <om:Property Name="ReportToAnalyst" Value="True" />
+                    <om:Property Name="Name" Value="Expression_2" />
+                    <om:Property Name="Signal" Value="True" />
+                </om:Element>
+            </om:Element>
+        </om:Element>
+    </om:Element>
+</om:MetaModel>
+#endif // __DESIGNER_DATA
+[Microsoft.XLANGs.BaseTypes.BPELExportable(false)]
+module AMS.Orchestrations
+{
+    [Microsoft.XLANGs.BaseTypes.BPELExportable(false)]
+    internal service ProcessNotifyList2
+    {
+        message System.Xml.XmlDocument Record;
+        System.Int32 RecordsCount;
+        System.String strPath;
+        body (message UsersService.IUsersService_GetUsersListByAlertGroup_OutputMessage NotifyListMessage1)
+        {
+            strPath = "";
+            [Microsoft.XLANGs.BaseTypes.DesignerPosition("a9e7032e-0b16-4b73-a973-393a94a7a2de")]
+            RecordsCount = (System.Int32)(xpath("count(/*[local-name()='GetUsersListByAlertGroupResponse' and namespace-uri()='http://2020.AMS']/*[local-name()='GetUsersListByAlertGroupResult' and namespace-uri()='http://2020.AMS'])"));
+
+#error "Errors exist for one or more children."
+
+#error "No Operation."
+            [Microsoft.XLANGs.BaseTypes.DesignerPosition("0d735a91-4c4e-40ea-ade0-9a0a35ce4e08")]
+            RecordsCount = RecordsCount -1;
+        }
+    }
+}
+

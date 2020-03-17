@@ -1,0 +1,2 @@
+Date = 2019-11-05 19:26:00 | Message = GatewayService Initialise() Exception:HTTP could not register URL https://+:6530/GatewayService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-11-05 19:26:00 | Message = IServerClientCommunicationService Initialise() ExceptionHTTP could not register URL https://+:6530/ServerClientCommunicationService/. Another application has already registered this URL with HTTP.SYS.

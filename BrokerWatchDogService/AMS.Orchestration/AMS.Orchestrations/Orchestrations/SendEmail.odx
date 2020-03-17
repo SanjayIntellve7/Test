@@ -1,0 +1,324 @@
+﻿#if __DESIGNER_DATA
+#error Do not define __DESIGNER_DATA.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<om:MetaModel MajorVersion="1" MinorVersion="3" Core="2b131234-7959-458d-834f-2dc0769ce683" ScheduleModel="66366196-361d-448d-976f-cab5e87496d2" xmlns:om="http://schemas.microsoft.com/BizTalk/2003/DesignerData">
+    <om:Element Type="Module" OID="beee4801-f52c-4ab9-8d5f-d718d18c1db1" LowerBound="1.1" HigherBound="114.1">
+        <om:Property Name="ReportToAnalyst" Value="True" />
+        <om:Property Name="Name" Value="AMS.Orchestrations" />
+        <om:Property Name="Signal" Value="False" />
+        <om:Element Type="PortType" OID="10857040-0712-4764-a32f-317a67380928" ParentLink="Module_PortType" LowerBound="8.1" HigherBound="15.1">
+            <om:Property Name="Synchronous" Value="False" />
+            <om:Property Name="TypeModifier" Value="Internal" />
+            <om:Property Name="ReportToAnalyst" Value="True" />
+            <om:Property Name="Name" Value="PortType_GetUserContactInformation" />
+            <om:Property Name="Signal" Value="False" />
+            <om:Element Type="OperationDeclaration" OID="c1405035-2c97-4864-bad4-6ce8886b332f" ParentLink="PortType_OperationDeclaration" LowerBound="10.1" HigherBound="14.1">
+                <om:Property Name="OperationType" Value="OneWay" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="Operation_1" />
+                <om:Property Name="Signal" Value="False" />
+                <om:Element Type="MessageRef" OID="fe088253-6735-45cc-a44a-23030f6ecbd1" ParentLink="OperationDeclaration_RequestMessageRef" LowerBound="12.13" HigherBound="12.106">
+                    <om:Property Name="Ref" Value="AMS.Orchestrations.UsersService_schemas_datacontract_org_2004_07_AMS_Broker_Contracts_DTO.UserContactInformation" />
+                    <om:Property Name="ReportToAnalyst" Value="True" />
+                    <om:Property Name="Name" Value="Request" />
+                    <om:Property Name="Signal" Value="False" />
+                </om:Element>
+            </om:Element>
+        </om:Element>
+        <om:Element Type="PortType" OID="df026d2f-1921-4544-81f6-eb0cddbdb36a" ParentLink="Module_PortType" LowerBound="15.1" HigherBound="22.1">
+            <om:Property Name="Synchronous" Value="False" />
+            <om:Property Name="TypeModifier" Value="Internal" />
+            <om:Property Name="ReportToAnalyst" Value="True" />
+            <om:Property Name="Name" Value="PortType_SMTP" />
+            <om:Property Name="Signal" Value="False" />
+            <om:Element Type="OperationDeclaration" OID="9e47c2dc-cc4b-495c-9385-3dfb90a81ade" ParentLink="PortType_OperationDeclaration" LowerBound="17.1" HigherBound="21.1">
+                <om:Property Name="OperationType" Value="OneWay" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="Operation_SendEmail" />
+                <om:Property Name="Signal" Value="True" />
+                <om:Element Type="MessageRef" OID="1493f13f-97be-438b-a966-c59bbd189a7e" ParentLink="OperationDeclaration_RequestMessageRef" LowerBound="19.13" HigherBound="19.18">
+                    <om:Property Name="Ref" Value="AMS.Orchestrations.Email" />
+                    <om:Property Name="ReportToAnalyst" Value="True" />
+                    <om:Property Name="Name" Value="Request" />
+                    <om:Property Name="Signal" Value="False" />
+                </om:Element>
+            </om:Element>
+        </om:Element>
+        <om:Element Type="ServiceDeclaration" OID="71f5f2c6-a1ee-453e-a0d9-0d01e7092d54" ParentLink="Module_ServiceDeclaration" LowerBound="22.1" HigherBound="113.1">
+            <om:Property Name="InitializedTransactionType" Value="False" />
+            <om:Property Name="IsInvokable" Value="False" />
+            <om:Property Name="TypeModifier" Value="Public" />
+            <om:Property Name="ReportToAnalyst" Value="True" />
+            <om:Property Name="Name" Value="SendEmail" />
+            <om:Property Name="Signal" Value="True" />
+            <om:Element Type="VariableDeclaration" OID="81ef217b-d153-4923-8c44-91ec7841d88c" ParentLink="ServiceDeclaration_VariableDeclaration" LowerBound="32.1" HigherBound="33.1">
+                <om:Property Name="UseDefaultConstructor" Value="False" />
+                <om:Property Name="Type" Value="System.String" />
+                <om:Property Name="ParamDirection" Value="In" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="Metadata" />
+                <om:Property Name="Signal" Value="True" />
+            </om:Element>
+            <om:Element Type="VariableDeclaration" OID="8ea68d69-1cdf-49a3-9727-e74566ca330f" ParentLink="ServiceDeclaration_VariableDeclaration" LowerBound="33.1" HigherBound="34.1">
+                <om:Property Name="UseDefaultConstructor" Value="False" />
+                <om:Property Name="Type" Value="System.String" />
+                <om:Property Name="ParamDirection" Value="In" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="SeverityId" />
+                <om:Property Name="Signal" Value="True" />
+            </om:Element>
+            <om:Element Type="VariableDeclaration" OID="f03b3fe1-d656-4800-85fd-62730de5ccb3" ParentLink="ServiceDeclaration_VariableDeclaration" LowerBound="34.1" HigherBound="35.1">
+                <om:Property Name="UseDefaultConstructor" Value="False" />
+                <om:Property Name="Type" Value="System.String" />
+                <om:Property Name="ParamDirection" Value="In" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="UrgencyId" />
+                <om:Property Name="Signal" Value="True" />
+            </om:Element>
+            <om:Element Type="VariableDeclaration" OID="feea4128-8a91-4b53-8e74-76860e3da4ab" ParentLink="ServiceDeclaration_VariableDeclaration" LowerBound="35.1" HigherBound="36.1">
+                <om:Property Name="UseDefaultConstructor" Value="False" />
+                <om:Property Name="Type" Value="System.String" />
+                <om:Property Name="ParamDirection" Value="In" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="CertaintyId" />
+                <om:Property Name="Signal" Value="True" />
+            </om:Element>
+            <om:Element Type="MessageDeclaration" OID="8663eea1-3082-4d88-965c-05c83d56c100" ParentLink="ServiceDeclaration_MessageDeclaration" LowerBound="29.1" HigherBound="30.1">
+                <om:Property Name="Type" Value="AMS.Orchestrations.UsersService_schemas_datacontract_org_2004_07_AMS_Broker_Contracts_DTO.UserContactInformation" />
+                <om:Property Name="ParamDirection" Value="In" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="UserContactInformation" />
+                <om:Property Name="Signal" Value="True" />
+            </om:Element>
+            <om:Element Type="MessageDeclaration" OID="0d6c6349-5093-4b01-b80c-59586986fd2a" ParentLink="ServiceDeclaration_MessageDeclaration" LowerBound="30.1" HigherBound="31.1">
+                <om:Property Name="Type" Value="AMS.Orchestrations.UsersService_schemas_datacontract_org_2004_07_AMS_Broker_Contracts_DTO.UserContactInformation" />
+                <om:Property Name="ParamDirection" Value="In" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="UserContactInformationOut" />
+                <om:Property Name="Signal" Value="True" />
+            </om:Element>
+            <om:Element Type="MessageDeclaration" OID="fd521f77-31cf-46fd-b3f8-f15b8b2d65f7" ParentLink="ServiceDeclaration_MessageDeclaration" LowerBound="31.1" HigherBound="32.1">
+                <om:Property Name="Type" Value="AMS.Orchestrations.Email" />
+                <om:Property Name="ParamDirection" Value="In" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="EmailMessage" />
+                <om:Property Name="Signal" Value="True" />
+            </om:Element>
+            <om:Element Type="ServiceBody" OID="61308316-c2c9-4989-aff8-2fd654ad46fe" ParentLink="ServiceDeclaration_ServiceBody">
+                <om:Property Name="Signal" Value="False" />
+                <om:Element Type="Receive" OID="5411352e-c482-4f6d-bf85-07f210ab4553" ParentLink="ServiceBody_Statement" LowerBound="38.1" HigherBound="44.1">
+                    <om:Property Name="Activate" Value="True" />
+                    <om:Property Name="PortName" Value="Port_GetUserContactInformation" />
+                    <om:Property Name="MessageName" Value="UserContactInformation" />
+                    <om:Property Name="OperationName" Value="Operation_1" />
+                    <om:Property Name="OperationMessageName" Value="Request" />
+                    <om:Property Name="ReportToAnalyst" Value="True" />
+                    <om:Property Name="Name" Value="Receive_UserContactInformation" />
+                    <om:Property Name="Signal" Value="True" />
+                </om:Element>
+                <om:Element Type="VariableAssignment" OID="d476132b-73b3-4751-9193-20b11a6de024" ParentLink="ServiceBody_Statement" LowerBound="44.1" HigherBound="48.1">
+                    <om:Property Name="Expression" Value="&#xD;&#xA;&#xD;&#xA;Port_SMTP(Microsoft.XLANGs.BaseTypes.Address)=&quot;mailto:&quot;+  System.Convert.ToString(xpath(UserContactInformation, &quot;string(/*[local-name()='UserContactInformation' and namespace-uri()='http://schemas.datacontract.org/2004/07/AMS.Broker.Contracts.DTO']/*[local-name()='ContactMethodsCollection' and namespace-uri()='http://schemas.datacontract.org/2004/07/AMS.Broker.Contracts.DTO']/*[local-name()='ContactMethod' and namespace-uri()='http://schemas.datacontract.org/2004/07/AMS.Broker.Contracts.DTO'][2]/*[local-name()='Value' and namespace-uri()='http://schemas.datacontract.org/2004/07/AMS.Broker.Contracts.DTO'])&quot;));&#xD;&#xA;" />
+                    <om:Property Name="ReportToAnalyst" Value="True" />
+                    <om:Property Name="Name" Value="Expression_1" />
+                    <om:Property Name="Signal" Value="False" />
+                </om:Element>
+                <om:Element Type="VariableAssignment" OID="6af50005-df4d-4729-84a4-516dccc4c6df" ParentLink="ServiceBody_Statement" LowerBound="48.1" HigherBound="93.1">
+                    <om:Property Name="Expression" Value="if(UserContactInformation.Alert.Device.Metadata!=null)&#xD;&#xA;{&#xD;&#xA;    Metadata = UserContactInformation.Alert.Device.Metadata;&#xD;&#xA;}&#xD;&#xA;else&#xD;&#xA;{&#xD;&#xA;    Metadata = &quot;&quot;;&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;if(UserContactInformation.Alert.InfoCollection.Info.SeverityId!=null)&#xD;&#xA;{&#xD;&#xA;    SeverityId = UserContactInformation.Alert.InfoCollection.Info.SeverityId;&#xD;&#xA;}&#xD;&#xA;else&#xD;&#xA;{&#xD;&#xA;   SeverityId = &quot;&quot;;&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;if(UserContactInformation.Alert.InfoCollection.Info.SeverityId!=null)&#xD;&#xA;{&#xD;&#xA;    SeverityId = UserContactInformation.Alert.InfoCollection.Info.SeverityId;&#xD;&#xA;}&#xD;&#xA;else&#xD;&#xA;{&#xD;&#xA;   SeverityId = &quot;&quot;;&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;if(UserContactInformation.Alert.InfoCollection.Info.UrgencyId!=null)&#xD;&#xA;{&#xD;&#xA;    UrgencyId = UserContactInformation.Alert.InfoCollection.Info.UrgencyId;&#xD;&#xA;}&#xD;&#xA;else&#xD;&#xA;{&#xD;&#xA;   UrgencyId = &quot;&quot;;&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;if(UserContactInformation.Alert.InfoCollection.Info.CertaintyId!=null)&#xD;&#xA;{&#xD;&#xA;    CertaintyId = UserContactInformation.Alert.InfoCollection.Info.CertaintyId;&#xD;&#xA;}&#xD;&#xA;else&#xD;&#xA;{&#xD;&#xA;   CertaintyId = &quot;&quot;;&#xD;&#xA;}" />
+                    <om:Property Name="ReportToAnalyst" Value="True" />
+                    <om:Property Name="Name" Value="Expression_2" />
+                    <om:Property Name="Signal" Value="True" />
+                </om:Element>
+                <om:Element Type="Construct" OID="64c6e281-7b31-432b-9ce4-76fbd7bc75c9" ParentLink="ServiceBody_Statement" LowerBound="93.1" HigherBound="109.1">
+                    <om:Property Name="ReportToAnalyst" Value="True" />
+                    <om:Property Name="Name" Value="ConstructMessage_EmailMessage" />
+                    <om:Property Name="Signal" Value="True" />
+                    <om:Element Type="MessageAssignment" OID="6fda5374-c5b9-4033-9f7e-de45a6b3bc53" ParentLink="ComplexStatement_Statement" LowerBound="96.1" HigherBound="108.1">
+                        <om:Property Name="Expression" Value="&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;EmailMessage.EmailMessageBody = &#xD;&#xA;  new Microsoft.Samples.BizTalk.XlangCustomFormatters.RawString(System.String.Format(&quot;&lt;H4&gt;Device: {0} &lt;/H4&gt;&lt;H4&gt;Latitude: {1} &lt;/H4&gt;&lt;H4&gt;Longitude: {2} &lt;/H4&gt;&lt;H4&gt;Altitude: {3} &lt;/H4&gt;&lt;H4&gt;Severity: {4} &lt;/H4&gt;&lt;H4&gt;Certainty: {5} &lt;/H4&gt;&lt;H4&gt;Urgency: {6} &lt;/H4&gt;&quot;,UserContactInformation.Alert.Sender, UserContactInformation.Alert.InfoCollection.Info.AreasCollection.Area.Latitude,&#xD;&#xA;UserContactInformation.Alert.InfoCollection.Info.AreasCollection.Area.Longitude, UserContactInformation.Alert.InfoCollection.Info.AreasCollection.Area.Altitude, UserContactInformation.Alert.InfoCollection.Info.SeverityId, UserContactInformation.Alert.InfoCollection.Info.CertaintyId, UserContactInformation.Alert.InfoCollection.Info.UrgencyId));&#xD;&#xA;EmailMessage(SMTP.Subject) =&quot;Alert from 2020 Touch Control System!&quot;;&#xD;&#xA;EmailMessage(SMTP.From) =&quot;noreply@2020.com&quot;;&#xD;&#xA;EmailMessage(SMTP.SMTPHost) =&quot;HOTH.uicentric.local&quot;;&#xD;&#xA;SMTPUtils.Part.SetContentType(EmailMessage.EmailMessageBody,&quot;text/html&quot;);&#xD;&#xA; &#xD;&#xA;" />
+                        <om:Property Name="ReportToAnalyst" Value="False" />
+                        <om:Property Name="Name" Value="MessageAssignment_1" />
+                        <om:Property Name="Signal" Value="True" />
+                    </om:Element>
+                    <om:Element Type="MessageRef" OID="377d7a2b-6cc6-451c-9438-092ff2e79cf5" ParentLink="Construct_MessageRef" LowerBound="94.23" HigherBound="94.35">
+                        <om:Property Name="Ref" Value="EmailMessage" />
+                        <om:Property Name="ReportToAnalyst" Value="True" />
+                        <om:Property Name="Signal" Value="False" />
+                    </om:Element>
+                </om:Element>
+                <om:Element Type="Send" OID="267dd065-75a0-47a2-843a-4f88ecba7dbb" ParentLink="ServiceBody_Statement" LowerBound="109.1" HigherBound="111.1">
+                    <om:Property Name="PortName" Value="Port_SMTP" />
+                    <om:Property Name="MessageName" Value="EmailMessage" />
+                    <om:Property Name="OperationName" Value="Operation_SendEmail" />
+                    <om:Property Name="OperationMessageName" Value="Request" />
+                    <om:Property Name="ReportToAnalyst" Value="True" />
+                    <om:Property Name="Name" Value="Send_EmailMessage" />
+                    <om:Property Name="Signal" Value="True" />
+                </om:Element>
+            </om:Element>
+            <om:Element Type="PortDeclaration" OID="77b1aad7-c647-45f9-b874-168772a2b89d" ParentLink="ServiceDeclaration_PortDeclaration" LowerBound="25.1" HigherBound="27.1">
+                <om:Property Name="PortModifier" Value="Implements" />
+                <om:Property Name="Orientation" Value="Left" />
+                <om:Property Name="PortIndex" Value="5" />
+                <om:Property Name="IsWebPort" Value="False" />
+                <om:Property Name="OrderedDelivery" Value="False" />
+                <om:Property Name="DeliveryNotification" Value="None" />
+                <om:Property Name="Type" Value="AMS.Orchestrations.PortType_GetUserContactInformation" />
+                <om:Property Name="ParamDirection" Value="In" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="Port_GetUserContactInformation" />
+                <om:Property Name="Signal" Value="False" />
+                <om:Element Type="LogicalBindingAttribute" OID="cae04568-6883-4881-a3a4-c77c3a410d78" ParentLink="PortDeclaration_CLRAttribute" LowerBound="25.1" HigherBound="26.1">
+                    <om:Property Name="Signal" Value="False" />
+                </om:Element>
+            </om:Element>
+            <om:Element Type="PortDeclaration" OID="b6198a69-158a-4c57-8f65-079c8bddec30" ParentLink="ServiceDeclaration_PortDeclaration" LowerBound="27.1" HigherBound="29.1">
+                <om:Property Name="PortModifier" Value="Uses" />
+                <om:Property Name="Orientation" Value="Left" />
+                <om:Property Name="PortIndex" Value="18" />
+                <om:Property Name="IsWebPort" Value="False" />
+                <om:Property Name="OrderedDelivery" Value="False" />
+                <om:Property Name="DeliveryNotification" Value="None" />
+                <om:Property Name="Type" Value="AMS.Orchestrations.PortType_SMTP" />
+                <om:Property Name="ParamDirection" Value="In" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="Port_SMTP" />
+                <om:Property Name="Signal" Value="False" />
+                <om:Element Type="PhysicalBindingAttribute" OID="f2ef2a01-572a-419d-9de1-1065b8b0f619" ParentLink="PortDeclaration_CLRAttribute" LowerBound="27.1" HigherBound="28.1">
+                    <om:Property Name="InPipeline" Value="Microsoft.BizTalk.DefaultPipelines.XMLReceive" />
+                    <om:Property Name="OutPipeline" Value="AMS.Orchestrations.Pipelines.SendMIMEPipeline" />
+                    <om:Property Name="TransportType" Value="HTTP" />
+                    <om:Property Name="URI" Value="http://tempURI" />
+                    <om:Property Name="IsDynamic" Value="True" />
+                    <om:Property Name="Signal" Value="False" />
+                </om:Element>
+            </om:Element>
+        </om:Element>
+        <om:Element Type="MultipartMessageType" OID="a2c21e1a-8194-4218-84eb-8e850ff07298" ParentLink="Module_MessageType" LowerBound="4.1" HigherBound="8.1">
+            <om:Property Name="TypeModifier" Value="Internal" />
+            <om:Property Name="ReportToAnalyst" Value="True" />
+            <om:Property Name="Name" Value="Email" />
+            <om:Property Name="Signal" Value="True" />
+            <om:Element Type="PartDeclaration" OID="9cf09e0a-0973-4716-ba3b-19b0ccd940cd" ParentLink="MultipartMessageType_PartDeclaration" LowerBound="6.1" HigherBound="7.1">
+                <om:Property Name="ClassName" Value="Microsoft.Samples.BizTalk.XlangCustomFormatters.RawString" />
+                <om:Property Name="IsBodyPart" Value="True" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="EmailMessageBody" />
+                <om:Property Name="Signal" Value="True" />
+            </om:Element>
+        </om:Element>
+    </om:Element>
+</om:MetaModel>
+#endif // __DESIGNER_DATA
+[Microsoft.XLANGs.BaseTypes.BPELExportable(false)]
+module AMS.Orchestrations
+{
+    internal messagetype Email
+    {
+        body Microsoft.Samples.BizTalk.XlangCustomFormatters.RawString EmailMessageBody;
+    };
+    internal porttype PortType_GetUserContactInformation
+    {
+        oneway Operation_1
+        {
+            UsersService_schemas_datacontract_org_2004_07_AMS_Broker_Contracts_DTO.UserContactInformation
+        };
+    };
+    internal porttype PortType_SMTP
+    {
+        oneway Operation_SendEmail
+        {
+            Email
+        };
+    };
+    [Microsoft.XLANGs.BaseTypes.BPELExportable(false)]
+    public service SendEmail
+    {
+        [Microsoft.XLANGs.BaseTypes.LogicalBinding()]
+        port implements PortType_GetUserContactInformation Port_GetUserContactInformation;
+        [Microsoft.XLANGs.BaseTypes.PhysicalBinding(typeof(AMS.Orchestrations.Pipelines.SendMIMEPipeline))]
+        port uses dynamic PortType_SMTP Port_SMTP;
+        message UsersService_schemas_datacontract_org_2004_07_AMS_Broker_Contracts_DTO.UserContactInformation UserContactInformation;
+        message UsersService_schemas_datacontract_org_2004_07_AMS_Broker_Contracts_DTO.UserContactInformation UserContactInformationOut;
+        message Email EmailMessage;
+        System.String Metadata;
+        System.String SeverityId;
+        System.String UrgencyId;
+        System.String CertaintyId;
+        body ()
+        {
+            [Microsoft.XLANGs.BaseTypes.DesignerPosition("5411352e-c482-4f6d-bf85-07f210ab4553")]
+            activate receive (Port_GetUserContactInformation.Operation_1, UserContactInformation);
+            Metadata = "";
+            SeverityId = "";
+            UrgencyId = "";
+            CertaintyId = "";
+            [Microsoft.XLANGs.BaseTypes.DesignerPosition("d476132b-73b3-4751-9193-20b11a6de024")]
+            
+            
+            Port_SMTP(Microsoft.XLANGs.BaseTypes.Address)="mailto:"+  System.Convert.ToString(xpath(UserContactInformation, "string(/*[local-name()='UserContactInformation' and namespace-uri()='http://schemas.datacontract.org/2004/07/AMS.Broker.Contracts.DTO']/*[local-name()='ContactMethodsCollection' and namespace-uri()='http://schemas.datacontract.org/2004/07/AMS.Broker.Contracts.DTO']/*[local-name()='ContactMethod' and namespace-uri()='http://schemas.datacontract.org/2004/07/AMS.Broker.Contracts.DTO'][2]/*[local-name()='Value' and namespace-uri()='http://schemas.datacontract.org/2004/07/AMS.Broker.Contracts.DTO'])"));
+            [Microsoft.XLANGs.BaseTypes.DesignerPosition("6af50005-df4d-4729-84a4-516dccc4c6df")]
+            if(UserContactInformation.Alert.Device.Metadata!=null)
+            {
+                Metadata = UserContactInformation.Alert.Device.Metadata;
+            }
+            else
+            {
+                Metadata = "";
+            }
+            
+            if(UserContactInformation.Alert.InfoCollection.Info.SeverityId!=null)
+            {
+                SeverityId = UserContactInformation.Alert.InfoCollection.Info.SeverityId;
+            }
+            else
+            {
+               SeverityId = "";
+            }
+            
+            if(UserContactInformation.Alert.InfoCollection.Info.SeverityId!=null)
+            {
+                SeverityId = UserContactInformation.Alert.InfoCollection.Info.SeverityId;
+            }
+            else
+            {
+               SeverityId = "";
+            }
+            
+            if(UserContactInformation.Alert.InfoCollection.Info.UrgencyId!=null)
+            {
+                UrgencyId = UserContactInformation.Alert.InfoCollection.Info.UrgencyId;
+            }
+            else
+            {
+               UrgencyId = "";
+            }
+            
+            if(UserContactInformation.Alert.InfoCollection.Info.CertaintyId!=null)
+            {
+                CertaintyId = UserContactInformation.Alert.InfoCollection.Info.CertaintyId;
+            }
+            else
+            {
+               CertaintyId = "";
+            }
+            [Microsoft.XLANGs.BaseTypes.DesignerPosition("64c6e281-7b31-432b-9ce4-76fbd7bc75c9")]
+            construct EmailMessage
+            {
+                [Microsoft.XLANGs.BaseTypes.DesignerPosition("6fda5374-c5b9-4033-9f7e-de45a6b3bc53")]
+                
+                
+                
+                EmailMessage.EmailMessageBody = 
+                  new Microsoft.Samples.BizTalk.XlangCustomFormatters.RawString(System.String.Format("<H4>Device: {0} </H4><H4>Latitude: {1} </H4><H4>Longitude: {2} </H4><H4>Altitude: {3} </H4><H4>Severity: {4} </H4><H4>Certainty: {5} </H4><H4>Urgency: {6} </H4>",UserContactInformation.Alert.Sender, UserContactInformation.Alert.InfoCollection.Info.AreasCollection.Area.Latitude,
+                UserContactInformation.Alert.InfoCollection.Info.AreasCollection.Area.Longitude, UserContactInformation.Alert.InfoCollection.Info.AreasCollection.Area.Altitude, UserContactInformation.Alert.InfoCollection.Info.SeverityId, UserContactInformation.Alert.InfoCollection.Info.CertaintyId, UserContactInformation.Alert.InfoCollection.Info.UrgencyId));
+                EmailMessage(SMTP.Subject) ="Alert from 2020 Touch Control System!";
+                EmailMessage(SMTP.From) ="noreply@2020.com";
+                EmailMessage(SMTP.SMTPHost) ="HOTH.uicentric.local";
+                SMTPUtils.Part.SetContentType(EmailMessage.EmailMessageBody,"text/html");
+                 
+            }
+            [Microsoft.XLANGs.BaseTypes.DesignerPosition("267dd065-75a0-47a2-843a-4f88ecba7dbb")]
+            send (Port_SMTP.Operation_SendEmail, EmailMessage);
+        }
+    }
+}
+

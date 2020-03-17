@@ -1,0 +1,676 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="ControllerCallBackCommService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsp:Policy wsu:Id="WSHttpBinding_IControllerCallBackCommService_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:TransportBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy>
+            <sp:TransportToken>
+              <wsp:Policy>
+                <sp:HttpsToken RequireClientCertificate="false" />
+              </wsp:Policy>
+            </sp:TransportToken>
+            <sp:AlgorithmSuite>
+              <wsp:Policy>
+                <sp:Basic256 />
+              </wsp:Policy>
+            </sp:AlgorithmSuite>
+            <sp:Layout>
+              <wsp:Policy>
+                <sp:Strict />
+              </wsp:Policy>
+            </sp:Layout>
+          </wsp:Policy>
+        </sp:TransportBinding>
+        <wsaw:UsingAddressing />
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import namespace="http://tempuri.org/" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IControllerCallBackCommService_RefreshStation_InputMessage">
+    <wsdl:part name="parameters" element="tns:RefreshStation" />
+  </wsdl:message>
+  <wsdl:message name="IControllerCallBackCommService_RefreshStation_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RefreshStationResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControllerCallBackCommService_DeactivatedStation_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeactivatedStation" />
+  </wsdl:message>
+  <wsdl:message name="IControllerCallBackCommService_DeactivatedStation_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeactivatedStationResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControllerCallBackCommService_ActivatedStation_InputMessage">
+    <wsdl:part name="parameters" element="tns:ActivatedStation" />
+  </wsdl:message>
+  <wsdl:message name="IControllerCallBackCommService_ActivatedStation_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ActivatedStationResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControllerCallBackCommService_DeviceStartRequest_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeviceStartRequest" />
+  </wsdl:message>
+  <wsdl:message name="IControllerCallBackCommService_DeviceStartRequest_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeviceStartRequestResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControllerCallBackCommService_UserLoggedIn_InputMessage">
+    <wsdl:part name="parameters" element="tns:UserLoggedIn" />
+  </wsdl:message>
+  <wsdl:message name="IControllerCallBackCommService_UserLoggedIn_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UserLoggedInResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControllerCallBackCommService_UserLoggedOut_InputMessage">
+    <wsdl:part name="parameters" element="tns:UserLoggedOut" />
+  </wsdl:message>
+  <wsdl:message name="IControllerCallBackCommService_UserLoggedOut_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UserLoggedOutResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControllerCallBackCommService_RaiseAlert_InputMessage">
+    <wsdl:part name="parameters" element="tns:RaiseAlert" />
+  </wsdl:message>
+  <wsdl:message name="IControllerCallBackCommService_RaiseAlert_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RaiseAlertResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControllerCallBackCommService_RaiseAlertAssigned_InputMessage">
+    <wsdl:part name="parameters" element="tns:RaiseAlertAssigned" />
+  </wsdl:message>
+  <wsdl:message name="IControllerCallBackCommService_RaiseAlertAssigned_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RaiseAlertAssignedResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControllerCallBackCommService_OnSOPExecute_InputMessage">
+    <wsdl:part name="parameters" element="tns:OnSOPExecute" />
+  </wsdl:message>
+  <wsdl:message name="IControllerCallBackCommService_OnSOPExecute_OutputMessage">
+    <wsdl:part name="parameters" element="tns:OnSOPExecuteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControllerCallBackCommService_OnOpenNearByCamera_InputMessage">
+    <wsdl:part name="parameters" element="tns:OnOpenNearByCamera" />
+  </wsdl:message>
+  <wsdl:message name="IControllerCallBackCommService_OnOpenNearByCamera_OutputMessage">
+    <wsdl:part name="parameters" element="tns:OnOpenNearByCameraResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControllerCallBackCommService_RaiseAlertCollabrate_InputMessage">
+    <wsdl:part name="parameters" element="tns:RaiseAlertCollabrate" />
+  </wsdl:message>
+  <wsdl:message name="IControllerCallBackCommService_RaiseAlertCollabrate_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RaiseAlertCollabrateResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControllerCallBackCommService_RaiseCapProfileUpdate_InputMessage">
+    <wsdl:part name="parameters" element="tns:RaiseCapProfileUpdate" />
+  </wsdl:message>
+  <wsdl:message name="IControllerCallBackCommService_RaiseCapProfileUpdate_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RaiseCapProfileUpdateResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControllerCallBackCommService_HaveUpdatedAlerts_InputMessage">
+    <wsdl:part name="parameters" element="tns:HaveUpdatedAlerts" />
+  </wsdl:message>
+  <wsdl:message name="IControllerCallBackCommService_HaveUpdatedAlerts_OutputMessage">
+    <wsdl:part name="parameters" element="tns:HaveUpdatedAlertsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControllerCallBackCommService_IncidentReportRaised_InputMessage">
+    <wsdl:part name="parameters" element="tns:IncidentReportRaised" />
+  </wsdl:message>
+  <wsdl:message name="IControllerCallBackCommService_IncidentReportRaised_OutputMessage">
+    <wsdl:part name="parameters" element="tns:IncidentReportRaisedResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControllerCallBackCommService_SendOpenAlerts_InputMessage">
+    <wsdl:part name="parameters" element="tns:SendOpenAlerts" />
+  </wsdl:message>
+  <wsdl:message name="IControllerCallBackCommService_SendOpenAlerts_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SendOpenAlertsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControllerCallBackCommService_InformAboutEvent_InputMessage">
+    <wsdl:part name="parameters" element="tns:InformAboutEvent" />
+  </wsdl:message>
+  <wsdl:message name="IControllerCallBackCommService_InformAboutEvent_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InformAboutEventResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControllerCallBackCommService_RaiseSiteAdded_InputMessage">
+    <wsdl:part name="parameters" element="tns:RaiseSiteAdded" />
+  </wsdl:message>
+  <wsdl:message name="IControllerCallBackCommService_RaiseSiteAdded_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RaiseSiteAddedResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControllerCallBackCommService_RaiseSiteChanged_InputMessage">
+    <wsdl:part name="parameters" element="tns:RaiseSiteChanged" />
+  </wsdl:message>
+  <wsdl:message name="IControllerCallBackCommService_RaiseSiteChanged_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RaiseSiteChangedResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControllerCallBackCommService_RaiseSiteDeleted_InputMessage">
+    <wsdl:part name="parameters" element="tns:RaiseSiteDeleted" />
+  </wsdl:message>
+  <wsdl:message name="IControllerCallBackCommService_RaiseSiteDeleted_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RaiseSiteDeletedResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControllerCallBackCommService_RaiseDeviceAdded_InputMessage">
+    <wsdl:part name="parameters" element="tns:RaiseDeviceAdded" />
+  </wsdl:message>
+  <wsdl:message name="IControllerCallBackCommService_RaiseDeviceAdded_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RaiseDeviceAddedResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControllerCallBackCommService_RaiseDeviceChanged_InputMessage">
+    <wsdl:part name="parameters" element="tns:RaiseDeviceChanged" />
+  </wsdl:message>
+  <wsdl:message name="IControllerCallBackCommService_RaiseDeviceChanged_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RaiseDeviceChangedResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControllerCallBackCommService_RaiseDeviceDeleted_InputMessage">
+    <wsdl:part name="parameters" element="tns:RaiseDeviceDeleted" />
+  </wsdl:message>
+  <wsdl:message name="IControllerCallBackCommService_RaiseDeviceDeleted_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RaiseDeviceDeletedResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControllerCallBackCommService_RaiseVideoAnalyticsStarted_InputMessage">
+    <wsdl:part name="parameters" element="tns:RaiseVideoAnalyticsStarted" />
+  </wsdl:message>
+  <wsdl:message name="IControllerCallBackCommService_RaiseVideoAnalyticsStarted_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RaiseVideoAnalyticsStartedResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControllerCallBackCommService_RaiseCamBookMarkadded_InputMessage">
+    <wsdl:part name="parameters" element="tns:RaiseCamBookMarkadded" />
+  </wsdl:message>
+  <wsdl:message name="IControllerCallBackCommService_RaiseCamBookMarkadded_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RaiseCamBookMarkaddedResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControllerCallBackCommService_RaiseVideoAnalyticsStopped_InputMessage">
+    <wsdl:part name="parameters" element="tns:RaiseVideoAnalyticsStopped" />
+  </wsdl:message>
+  <wsdl:message name="IControllerCallBackCommService_RaiseVideoAnalyticsStopped_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RaiseVideoAnalyticsStoppedResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControllerCallBackCommService_RaiseAlertAcknowledged_InputMessage">
+    <wsdl:part name="parameters" element="tns:RaiseAlertAcknowledged" />
+  </wsdl:message>
+  <wsdl:message name="IControllerCallBackCommService_RaiseAlertAcknowledged_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RaiseAlertAcknowledgedResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControllerCallBackCommService_RaiseAlertCanceled_InputMessage">
+    <wsdl:part name="parameters" element="tns:RaiseAlertCanceled" />
+  </wsdl:message>
+  <wsdl:message name="IControllerCallBackCommService_RaiseAlertCanceled_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RaiseAlertCanceledResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControllerCallBackCommService_RaiseAccountSaved_InputMessage">
+    <wsdl:part name="parameters" element="tns:RaiseAccountSaved" />
+  </wsdl:message>
+  <wsdl:message name="IControllerCallBackCommService_RaiseAccountSaved_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RaiseAccountSavedResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControllerCallBackCommService_CheckStatus_InputMessage">
+    <wsdl:part name="parameters" element="tns:CheckStatus" />
+  </wsdl:message>
+  <wsdl:message name="IControllerCallBackCommService_CheckStatus_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CheckStatusResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControllerCallBackCommService_RefreshAlert_InputMessage">
+    <wsdl:part name="parameters" element="tns:RefreshAlert" />
+  </wsdl:message>
+  <wsdl:message name="IControllerCallBackCommService_RefreshAlert_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RefreshAlertResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControllerCallBackCommService_RaiseCloseAllAlert_InputMessage">
+    <wsdl:part name="parameters" element="tns:RaiseCloseAllAlert" />
+  </wsdl:message>
+  <wsdl:message name="IControllerCallBackCommService_RaiseCloseAllAlert_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RaiseCloseAllAlertResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControllerCallBackCommService_RaiseLineCountEvent_InputMessage">
+    <wsdl:part name="parameters" element="tns:RaiseLineCountEvent" />
+  </wsdl:message>
+  <wsdl:message name="IControllerCallBackCommService_RaiseLineCountEvent_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RaiseLineCountEventResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControllerCallBackCommService_RaiseAlertEscallation_InputMessage">
+    <wsdl:part name="parameters" element="tns:RaiseAlertEscallation" />
+  </wsdl:message>
+  <wsdl:message name="IControllerCallBackCommService_RaiseAlertEscallation_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RaiseAlertEscallationResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IControllerCallBackCommService">
+    <wsdl:operation name="RefreshStation">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControllerCallBackCommService/RefreshStation" message="tns:IControllerCallBackCommService_RefreshStation_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControllerCallBackCommService/RefreshStationResponse" message="tns:IControllerCallBackCommService_RefreshStation_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeactivatedStation">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControllerCallBackCommService/DeactivatedStation" message="tns:IControllerCallBackCommService_DeactivatedStation_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControllerCallBackCommService/DeactivatedStationResponse" message="tns:IControllerCallBackCommService_DeactivatedStation_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ActivatedStation">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControllerCallBackCommService/ActivatedStation" message="tns:IControllerCallBackCommService_ActivatedStation_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControllerCallBackCommService/ActivatedStationResponse" message="tns:IControllerCallBackCommService_ActivatedStation_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeviceStartRequest">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControllerCallBackCommService/DeviceStartRequest" message="tns:IControllerCallBackCommService_DeviceStartRequest_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControllerCallBackCommService/DeviceStartRequestResponse" message="tns:IControllerCallBackCommService_DeviceStartRequest_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UserLoggedIn">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControllerCallBackCommService/UserLoggedIn" message="tns:IControllerCallBackCommService_UserLoggedIn_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControllerCallBackCommService/UserLoggedInResponse" message="tns:IControllerCallBackCommService_UserLoggedIn_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UserLoggedOut">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControllerCallBackCommService/UserLoggedOut" message="tns:IControllerCallBackCommService_UserLoggedOut_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControllerCallBackCommService/UserLoggedOutResponse" message="tns:IControllerCallBackCommService_UserLoggedOut_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RaiseAlert">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControllerCallBackCommService/RaiseAlert" message="tns:IControllerCallBackCommService_RaiseAlert_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControllerCallBackCommService/RaiseAlertResponse" message="tns:IControllerCallBackCommService_RaiseAlert_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RaiseAlertAssigned">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControllerCallBackCommService/RaiseAlertAssigned" message="tns:IControllerCallBackCommService_RaiseAlertAssigned_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControllerCallBackCommService/RaiseAlertAssignedResponse" message="tns:IControllerCallBackCommService_RaiseAlertAssigned_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="OnSOPExecute">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControllerCallBackCommService/OnSOPExecute" message="tns:IControllerCallBackCommService_OnSOPExecute_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControllerCallBackCommService/OnSOPExecuteResponse" message="tns:IControllerCallBackCommService_OnSOPExecute_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="OnOpenNearByCamera">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControllerCallBackCommService/OnOpenNearByCamera" message="tns:IControllerCallBackCommService_OnOpenNearByCamera_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControllerCallBackCommService/OnOpenNearByCameraResponse" message="tns:IControllerCallBackCommService_OnOpenNearByCamera_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RaiseAlertCollabrate">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControllerCallBackCommService/RaiseAlertCollabrate" message="tns:IControllerCallBackCommService_RaiseAlertCollabrate_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControllerCallBackCommService/RaiseAlertCollabrateResponse" message="tns:IControllerCallBackCommService_RaiseAlertCollabrate_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RaiseCapProfileUpdate">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControllerCallBackCommService/RaiseCapProfileUpdate" message="tns:IControllerCallBackCommService_RaiseCapProfileUpdate_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControllerCallBackCommService/RaiseCapProfileUpdateResponse" message="tns:IControllerCallBackCommService_RaiseCapProfileUpdate_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="HaveUpdatedAlerts">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControllerCallBackCommService/HaveUpdatedAlerts" message="tns:IControllerCallBackCommService_HaveUpdatedAlerts_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControllerCallBackCommService/HaveUpdatedAlertsResponse" message="tns:IControllerCallBackCommService_HaveUpdatedAlerts_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="IncidentReportRaised">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControllerCallBackCommService/IncidentReportRaised" message="tns:IControllerCallBackCommService_IncidentReportRaised_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControllerCallBackCommService/IncidentReportRaisedResponse" message="tns:IControllerCallBackCommService_IncidentReportRaised_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SendOpenAlerts">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControllerCallBackCommService/SendOpenAlerts" message="tns:IControllerCallBackCommService_SendOpenAlerts_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControllerCallBackCommService/SendOpenAlertsResponse" message="tns:IControllerCallBackCommService_SendOpenAlerts_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InformAboutEvent">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControllerCallBackCommService/InformAboutEvent" message="tns:IControllerCallBackCommService_InformAboutEvent_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControllerCallBackCommService/InformAboutEventResponse" message="tns:IControllerCallBackCommService_InformAboutEvent_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RaiseSiteAdded">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControllerCallBackCommService/RaiseSiteAdded" message="tns:IControllerCallBackCommService_RaiseSiteAdded_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControllerCallBackCommService/RaiseSiteAddedResponse" message="tns:IControllerCallBackCommService_RaiseSiteAdded_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RaiseSiteChanged">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControllerCallBackCommService/RaiseSiteChanged" message="tns:IControllerCallBackCommService_RaiseSiteChanged_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControllerCallBackCommService/RaiseSiteChangedResponse" message="tns:IControllerCallBackCommService_RaiseSiteChanged_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RaiseSiteDeleted">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControllerCallBackCommService/RaiseSiteDeleted" message="tns:IControllerCallBackCommService_RaiseSiteDeleted_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControllerCallBackCommService/RaiseSiteDeletedResponse" message="tns:IControllerCallBackCommService_RaiseSiteDeleted_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RaiseDeviceAdded">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControllerCallBackCommService/RaiseDeviceAdded" message="tns:IControllerCallBackCommService_RaiseDeviceAdded_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControllerCallBackCommService/RaiseDeviceAddedResponse" message="tns:IControllerCallBackCommService_RaiseDeviceAdded_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RaiseDeviceChanged">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControllerCallBackCommService/RaiseDeviceChanged" message="tns:IControllerCallBackCommService_RaiseDeviceChanged_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControllerCallBackCommService/RaiseDeviceChangedResponse" message="tns:IControllerCallBackCommService_RaiseDeviceChanged_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RaiseDeviceDeleted">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControllerCallBackCommService/RaiseDeviceDeleted" message="tns:IControllerCallBackCommService_RaiseDeviceDeleted_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControllerCallBackCommService/RaiseDeviceDeletedResponse" message="tns:IControllerCallBackCommService_RaiseDeviceDeleted_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RaiseVideoAnalyticsStarted">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControllerCallBackCommService/RaiseVideoAnalyticsStarted" message="tns:IControllerCallBackCommService_RaiseVideoAnalyticsStarted_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControllerCallBackCommService/RaiseVideoAnalyticsStartedResponse" message="tns:IControllerCallBackCommService_RaiseVideoAnalyticsStarted_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RaiseCamBookMarkadded">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControllerCallBackCommService/RaiseCamBookMarkadded" message="tns:IControllerCallBackCommService_RaiseCamBookMarkadded_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControllerCallBackCommService/RaiseCamBookMarkaddedResponse" message="tns:IControllerCallBackCommService_RaiseCamBookMarkadded_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RaiseVideoAnalyticsStopped">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControllerCallBackCommService/RaiseVideoAnalyticsStopped" message="tns:IControllerCallBackCommService_RaiseVideoAnalyticsStopped_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControllerCallBackCommService/RaiseVideoAnalyticsStoppedResponse" message="tns:IControllerCallBackCommService_RaiseVideoAnalyticsStopped_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RaiseAlertAcknowledged">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControllerCallBackCommService/RaiseAlertAcknowledged" message="tns:IControllerCallBackCommService_RaiseAlertAcknowledged_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControllerCallBackCommService/RaiseAlertAcknowledgedResponse" message="tns:IControllerCallBackCommService_RaiseAlertAcknowledged_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RaiseAlertCanceled">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControllerCallBackCommService/RaiseAlertCanceled" message="tns:IControllerCallBackCommService_RaiseAlertCanceled_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControllerCallBackCommService/RaiseAlertCanceledResponse" message="tns:IControllerCallBackCommService_RaiseAlertCanceled_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RaiseAccountSaved">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControllerCallBackCommService/RaiseAccountSaved" message="tns:IControllerCallBackCommService_RaiseAccountSaved_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControllerCallBackCommService/RaiseAccountSavedResponse" message="tns:IControllerCallBackCommService_RaiseAccountSaved_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckStatus">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControllerCallBackCommService/CheckStatus" message="tns:IControllerCallBackCommService_CheckStatus_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControllerCallBackCommService/CheckStatusResponse" message="tns:IControllerCallBackCommService_CheckStatus_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RefreshAlert">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControllerCallBackCommService/RefreshAlert" message="tns:IControllerCallBackCommService_RefreshAlert_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControllerCallBackCommService/RefreshAlertResponse" message="tns:IControllerCallBackCommService_RefreshAlert_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RaiseCloseAllAlert">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControllerCallBackCommService/RaiseCloseAllAlert" message="tns:IControllerCallBackCommService_RaiseCloseAllAlert_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControllerCallBackCommService/RaiseCloseAllAlertResponse" message="tns:IControllerCallBackCommService_RaiseCloseAllAlert_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RaiseLineCountEvent">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControllerCallBackCommService/RaiseLineCountEvent" message="tns:IControllerCallBackCommService_RaiseLineCountEvent_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControllerCallBackCommService/RaiseLineCountEventResponse" message="tns:IControllerCallBackCommService_RaiseLineCountEvent_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RaiseAlertEscallation">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControllerCallBackCommService/RaiseAlertEscallation" message="tns:IControllerCallBackCommService_RaiseAlertEscallation_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControllerCallBackCommService/RaiseAlertEscallationResponse" message="tns:IControllerCallBackCommService_RaiseAlertEscallation_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WSHttpBinding_IControllerCallBackCommService" type="tns:IControllerCallBackCommService">
+    <wsp:PolicyReference URI="#WSHttpBinding_IControllerCallBackCommService_policy" />
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="RefreshStation">
+      <soap12:operation soapAction="http://tempuri.org/IControllerCallBackCommService/RefreshStation" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeactivatedStation">
+      <soap12:operation soapAction="http://tempuri.org/IControllerCallBackCommService/DeactivatedStation" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ActivatedStation">
+      <soap12:operation soapAction="http://tempuri.org/IControllerCallBackCommService/ActivatedStation" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeviceStartRequest">
+      <soap12:operation soapAction="http://tempuri.org/IControllerCallBackCommService/DeviceStartRequest" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UserLoggedIn">
+      <soap12:operation soapAction="http://tempuri.org/IControllerCallBackCommService/UserLoggedIn" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UserLoggedOut">
+      <soap12:operation soapAction="http://tempuri.org/IControllerCallBackCommService/UserLoggedOut" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RaiseAlert">
+      <soap12:operation soapAction="http://tempuri.org/IControllerCallBackCommService/RaiseAlert" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RaiseAlertAssigned">
+      <soap12:operation soapAction="http://tempuri.org/IControllerCallBackCommService/RaiseAlertAssigned" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="OnSOPExecute">
+      <soap12:operation soapAction="http://tempuri.org/IControllerCallBackCommService/OnSOPExecute" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="OnOpenNearByCamera">
+      <soap12:operation soapAction="http://tempuri.org/IControllerCallBackCommService/OnOpenNearByCamera" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RaiseAlertCollabrate">
+      <soap12:operation soapAction="http://tempuri.org/IControllerCallBackCommService/RaiseAlertCollabrate" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RaiseCapProfileUpdate">
+      <soap12:operation soapAction="http://tempuri.org/IControllerCallBackCommService/RaiseCapProfileUpdate" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="HaveUpdatedAlerts">
+      <soap12:operation soapAction="http://tempuri.org/IControllerCallBackCommService/HaveUpdatedAlerts" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IncidentReportRaised">
+      <soap12:operation soapAction="http://tempuri.org/IControllerCallBackCommService/IncidentReportRaised" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendOpenAlerts">
+      <soap12:operation soapAction="http://tempuri.org/IControllerCallBackCommService/SendOpenAlerts" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InformAboutEvent">
+      <soap12:operation soapAction="http://tempuri.org/IControllerCallBackCommService/InformAboutEvent" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RaiseSiteAdded">
+      <soap12:operation soapAction="http://tempuri.org/IControllerCallBackCommService/RaiseSiteAdded" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RaiseSiteChanged">
+      <soap12:operation soapAction="http://tempuri.org/IControllerCallBackCommService/RaiseSiteChanged" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RaiseSiteDeleted">
+      <soap12:operation soapAction="http://tempuri.org/IControllerCallBackCommService/RaiseSiteDeleted" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RaiseDeviceAdded">
+      <soap12:operation soapAction="http://tempuri.org/IControllerCallBackCommService/RaiseDeviceAdded" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RaiseDeviceChanged">
+      <soap12:operation soapAction="http://tempuri.org/IControllerCallBackCommService/RaiseDeviceChanged" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RaiseDeviceDeleted">
+      <soap12:operation soapAction="http://tempuri.org/IControllerCallBackCommService/RaiseDeviceDeleted" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RaiseVideoAnalyticsStarted">
+      <soap12:operation soapAction="http://tempuri.org/IControllerCallBackCommService/RaiseVideoAnalyticsStarted" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RaiseCamBookMarkadded">
+      <soap12:operation soapAction="http://tempuri.org/IControllerCallBackCommService/RaiseCamBookMarkadded" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RaiseVideoAnalyticsStopped">
+      <soap12:operation soapAction="http://tempuri.org/IControllerCallBackCommService/RaiseVideoAnalyticsStopped" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RaiseAlertAcknowledged">
+      <soap12:operation soapAction="http://tempuri.org/IControllerCallBackCommService/RaiseAlertAcknowledged" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RaiseAlertCanceled">
+      <soap12:operation soapAction="http://tempuri.org/IControllerCallBackCommService/RaiseAlertCanceled" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RaiseAccountSaved">
+      <soap12:operation soapAction="http://tempuri.org/IControllerCallBackCommService/RaiseAccountSaved" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckStatus">
+      <soap12:operation soapAction="http://tempuri.org/IControllerCallBackCommService/CheckStatus" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RefreshAlert">
+      <soap12:operation soapAction="http://tempuri.org/IControllerCallBackCommService/RefreshAlert" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RaiseCloseAllAlert">
+      <soap12:operation soapAction="http://tempuri.org/IControllerCallBackCommService/RaiseCloseAllAlert" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RaiseLineCountEvent">
+      <soap12:operation soapAction="http://tempuri.org/IControllerCallBackCommService/RaiseLineCountEvent" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RaiseAlertEscallation">
+      <soap12:operation soapAction="http://tempuri.org/IControllerCallBackCommService/RaiseAlertEscallation" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ControllerCallBackCommService">
+    <wsdl:port name="WSHttpBinding_IControllerCallBackCommService" binding="tns:WSHttpBinding_IControllerCallBackCommService">
+      <soap12:address location="https://localhost:6532/soap/ControllerCallBackCommService" />
+      <wsa10:EndpointReference>
+        <wsa10:Address>https://localhost:6532/soap/ControllerCallBackCommService</wsa10:Address>
+      </wsa10:EndpointReference>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,308 @@
+Date = 2019-06-26 09:16:14 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:16:14 | Message = Restarting application
+Date = 2019-06-26 09:26:24 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:26:24 | Message = Restarting application
+Date = 2019-06-26 09:26:34 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:26:34 | Message = Restarting application
+Date = 2019-06-26 09:27:04 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:27:04 | Message = Restarting application
+Date = 2019-06-26 09:27:05 | Message = GatewayService Initialise() Exception:HTTP could not register URL https://+:6530/GatewayService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:05 | Message = IServerClientCommunicationService Initialise() ExceptionHTTP could not register URL https://+:6530/ServerClientCommunicationService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:05 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:27:05 | Message = DeviceTimeSync Service Initialise() ExceptionHTTP could not register URL https://+:6530/DeviceTimeSyncService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:05 | Message = Restarting application
+Date = 2019-06-26 09:27:05 | Message = GatewayService Initialise() Exception:HTTP could not register URL https://+:6530/GatewayService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:05 | Message = IServerClientCommunicationService Initialise() ExceptionHTTP could not register URL https://+:6530/ServerClientCommunicationService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:06 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:27:06 | Message = DeviceTimeSync Service Initialise() ExceptionHTTP could not register URL https://+:6530/DeviceTimeSyncService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:06 | Message = Restarting application
+Date = 2019-06-26 09:27:06 | Message = GatewayService Initialise() Exception:HTTP could not register URL https://+:6530/GatewayService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:06 | Message = IServerClientCommunicationService Initialise() ExceptionHTTP could not register URL https://+:6530/ServerClientCommunicationService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:06 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:27:06 | Message = DeviceTimeSync Service Initialise() ExceptionHTTP could not register URL https://+:6530/DeviceTimeSyncService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:06 | Message = Restarting application
+Date = 2019-06-26 09:27:06 | Message = GatewayService Initialise() Exception:HTTP could not register URL https://+:6530/GatewayService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:06 | Message = IServerClientCommunicationService Initialise() ExceptionHTTP could not register URL https://+:6530/ServerClientCommunicationService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:06 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:27:06 | Message = DeviceTimeSync Service Initialise() ExceptionHTTP could not register URL https://+:6530/DeviceTimeSyncService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:06 | Message = Restarting application
+Date = 2019-06-26 09:27:07 | Message = GatewayService Initialise() Exception:HTTP could not register URL https://+:6530/GatewayService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:07 | Message = IServerClientCommunicationService Initialise() ExceptionHTTP could not register URL https://+:6530/ServerClientCommunicationService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:07 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:27:07 | Message = DeviceTimeSync Service Initialise() ExceptionHTTP could not register URL https://+:6530/DeviceTimeSyncService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:07 | Message = Restarting application
+Date = 2019-06-26 09:27:07 | Message = GatewayService Initialise() Exception:HTTP could not register URL https://+:6530/GatewayService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:07 | Message = IServerClientCommunicationService Initialise() ExceptionHTTP could not register URL https://+:6530/ServerClientCommunicationService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:07 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:27:07 | Message = DeviceTimeSync Service Initialise() ExceptionHTTP could not register URL https://+:6530/DeviceTimeSyncService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:07 | Message = Restarting application
+Date = 2019-06-26 09:27:08 | Message = GatewayService Initialise() Exception:HTTP could not register URL https://+:6530/GatewayService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:08 | Message = IServerClientCommunicationService Initialise() ExceptionHTTP could not register URL https://+:6530/ServerClientCommunicationService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:08 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:27:08 | Message = DeviceTimeSync Service Initialise() ExceptionHTTP could not register URL https://+:6530/DeviceTimeSyncService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:08 | Message = Restarting application
+Date = 2019-06-26 09:27:08 | Message = GatewayService Initialise() Exception:HTTP could not register URL https://+:6530/GatewayService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:08 | Message = IServerClientCommunicationService Initialise() ExceptionHTTP could not register URL https://+:6530/ServerClientCommunicationService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:08 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:27:08 | Message = DeviceTimeSync Service Initialise() ExceptionHTTP could not register URL https://+:6530/DeviceTimeSyncService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:08 | Message = Restarting application
+Date = 2019-06-26 09:27:09 | Message = GatewayService Initialise() Exception:HTTP could not register URL https://+:6530/GatewayService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:09 | Message = IServerClientCommunicationService Initialise() ExceptionHTTP could not register URL https://+:6530/ServerClientCommunicationService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:09 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:27:09 | Message = DeviceTimeSync Service Initialise() ExceptionHTTP could not register URL https://+:6530/DeviceTimeSyncService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:09 | Message = Restarting application
+Date = 2019-06-26 09:27:09 | Message = GatewayService Initialise() Exception:HTTP could not register URL https://+:6530/GatewayService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:09 | Message = IServerClientCommunicationService Initialise() ExceptionHTTP could not register URL https://+:6530/ServerClientCommunicationService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:09 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:27:09 | Message = DeviceTimeSync Service Initialise() ExceptionHTTP could not register URL https://+:6530/DeviceTimeSyncService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:09 | Message = Restarting application
+Date = 2019-06-26 09:27:10 | Message = GatewayService Initialise() Exception:HTTP could not register URL https://+:6530/GatewayService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:10 | Message = IServerClientCommunicationService Initialise() ExceptionHTTP could not register URL https://+:6530/ServerClientCommunicationService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:10 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:27:10 | Message = DeviceTimeSync Service Initialise() ExceptionHTTP could not register URL https://+:6530/DeviceTimeSyncService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:10 | Message = Restarting application
+Date = 2019-06-26 09:27:10 | Message = GatewayService Initialise() Exception:HTTP could not register URL https://+:6530/GatewayService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:10 | Message = IServerClientCommunicationService Initialise() ExceptionHTTP could not register URL https://+:6530/ServerClientCommunicationService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:10 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:27:10 | Message = DeviceTimeSync Service Initialise() ExceptionHTTP could not register URL https://+:6530/DeviceTimeSyncService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:10 | Message = Restarting application
+Date = 2019-06-26 09:27:11 | Message = GatewayService Initialise() Exception:HTTP could not register URL https://+:6530/GatewayService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:11 | Message = IServerClientCommunicationService Initialise() ExceptionHTTP could not register URL https://+:6530/ServerClientCommunicationService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:11 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:27:11 | Message = DeviceTimeSync Service Initialise() ExceptionHTTP could not register URL https://+:6530/DeviceTimeSyncService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:11 | Message = Restarting application
+Date = 2019-06-26 09:27:11 | Message = GatewayService Initialise() Exception:HTTP could not register URL https://+:6530/GatewayService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:11 | Message = IServerClientCommunicationService Initialise() ExceptionHTTP could not register URL https://+:6530/ServerClientCommunicationService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:11 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:27:11 | Message = DeviceTimeSync Service Initialise() ExceptionHTTP could not register URL https://+:6530/DeviceTimeSyncService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:11 | Message = Restarting application
+Date = 2019-06-26 09:27:12 | Message = GatewayService Initialise() Exception:HTTP could not register URL https://+:6530/GatewayService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:12 | Message = IServerClientCommunicationService Initialise() ExceptionHTTP could not register URL https://+:6530/ServerClientCommunicationService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:12 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:27:12 | Message = DeviceTimeSync Service Initialise() ExceptionHTTP could not register URL https://+:6530/DeviceTimeSyncService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:12 | Message = Restarting application
+Date = 2019-06-26 09:27:12 | Message = GatewayService Initialise() Exception:HTTP could not register URL https://+:6530/GatewayService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:12 | Message = IServerClientCommunicationService Initialise() ExceptionHTTP could not register URL https://+:6530/ServerClientCommunicationService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:12 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:27:12 | Message = DeviceTimeSync Service Initialise() ExceptionHTTP could not register URL https://+:6530/DeviceTimeSyncService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:12 | Message = Restarting application
+Date = 2019-06-26 09:27:13 | Message = GatewayService Initialise() Exception:HTTP could not register URL https://+:6530/GatewayService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:13 | Message = IServerClientCommunicationService Initialise() ExceptionHTTP could not register URL https://+:6530/ServerClientCommunicationService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:13 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:27:13 | Message = DeviceTimeSync Service Initialise() ExceptionHTTP could not register URL https://+:6530/DeviceTimeSyncService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:13 | Message = Restarting application
+Date = 2019-06-26 09:27:13 | Message = GatewayService Initialise() Exception:HTTP could not register URL https://+:6530/GatewayService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:13 | Message = IServerClientCommunicationService Initialise() ExceptionHTTP could not register URL https://+:6530/ServerClientCommunicationService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:13 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:27:13 | Message = DeviceTimeSync Service Initialise() ExceptionHTTP could not register URL https://+:6530/DeviceTimeSyncService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:13 | Message = Restarting application
+Date = 2019-06-26 09:27:14 | Message = GatewayService Initialise() Exception:HTTP could not register URL https://+:6530/GatewayService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:14 | Message = IServerClientCommunicationService Initialise() ExceptionHTTP could not register URL https://+:6530/ServerClientCommunicationService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:14 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:27:14 | Message = DeviceTimeSync Service Initialise() ExceptionHTTP could not register URL https://+:6530/DeviceTimeSyncService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:14 | Message = Restarting application
+Date = 2019-06-26 09:27:14 | Message = GatewayService Initialise() Exception:HTTP could not register URL https://+:6530/GatewayService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:14 | Message = IServerClientCommunicationService Initialise() ExceptionHTTP could not register URL https://+:6530/ServerClientCommunicationService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:14 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:27:14 | Message = DeviceTimeSync Service Initialise() ExceptionHTTP could not register URL https://+:6530/DeviceTimeSyncService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:14 | Message = Restarting application
+Date = 2019-06-26 09:27:14 | Message = GatewayService Initialise() Exception:HTTP could not register URL https://+:6530/GatewayService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:14 | Message = IServerClientCommunicationService Initialise() ExceptionHTTP could not register URL https://+:6530/ServerClientCommunicationService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:14 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:27:14 | Message = DeviceTimeSync Service Initialise() ExceptionHTTP could not register URL https://+:6530/DeviceTimeSyncService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:15 | Message = Restarting application
+Date = 2019-06-26 09:27:15 | Message = GatewayService Initialise() Exception:HTTP could not register URL https://+:6530/GatewayService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:15 | Message = IServerClientCommunicationService Initialise() ExceptionHTTP could not register URL https://+:6530/ServerClientCommunicationService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:15 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:27:15 | Message = DeviceTimeSync Service Initialise() ExceptionHTTP could not register URL https://+:6530/DeviceTimeSyncService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:15 | Message = Restarting application
+Date = 2019-06-26 09:27:15 | Message = GatewayService Initialise() Exception:HTTP could not register URL https://+:6530/GatewayService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:15 | Message = IServerClientCommunicationService Initialise() ExceptionHTTP could not register URL https://+:6530/ServerClientCommunicationService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:15 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:27:15 | Message = DeviceTimeSync Service Initialise() ExceptionHTTP could not register URL https://+:6530/DeviceTimeSyncService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:15 | Message = Restarting application
+Date = 2019-06-26 09:27:16 | Message = GatewayService Initialise() Exception:HTTP could not register URL https://+:6530/GatewayService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:16 | Message = IServerClientCommunicationService Initialise() ExceptionHTTP could not register URL https://+:6530/ServerClientCommunicationService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:16 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:27:16 | Message = DeviceTimeSync Service Initialise() ExceptionHTTP could not register URL https://+:6530/DeviceTimeSyncService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:16 | Message = Restarting application
+Date = 2019-06-26 09:27:16 | Message = GatewayService Initialise() Exception:HTTP could not register URL https://+:6530/GatewayService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:16 | Message = IServerClientCommunicationService Initialise() ExceptionHTTP could not register URL https://+:6530/ServerClientCommunicationService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:16 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:27:16 | Message = DeviceTimeSync Service Initialise() ExceptionHTTP could not register URL https://+:6530/DeviceTimeSyncService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:16 | Message = Restarting application
+Date = 2019-06-26 09:27:17 | Message = GatewayService Initialise() Exception:HTTP could not register URL https://+:6530/GatewayService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:17 | Message = IServerClientCommunicationService Initialise() ExceptionHTTP could not register URL https://+:6530/ServerClientCommunicationService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:17 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:27:17 | Message = DeviceTimeSync Service Initialise() ExceptionHTTP could not register URL https://+:6530/DeviceTimeSyncService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:17 | Message = Restarting application
+Date = 2019-06-26 09:27:17 | Message = GatewayService Initialise() Exception:HTTP could not register URL https://+:6530/GatewayService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:17 | Message = IServerClientCommunicationService Initialise() ExceptionHTTP could not register URL https://+:6530/ServerClientCommunicationService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:17 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:27:17 | Message = DeviceTimeSync Service Initialise() ExceptionHTTP could not register URL https://+:6530/DeviceTimeSyncService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:17 | Message = Restarting application
+Date = 2019-06-26 09:27:18 | Message = GatewayService Initialise() Exception:HTTP could not register URL https://+:6530/GatewayService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:18 | Message = IServerClientCommunicationService Initialise() ExceptionHTTP could not register URL https://+:6530/ServerClientCommunicationService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:18 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:27:18 | Message = DeviceTimeSync Service Initialise() ExceptionHTTP could not register URL https://+:6530/DeviceTimeSyncService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:18 | Message = Restarting application
+Date = 2019-06-26 09:27:18 | Message = GatewayService Initialise() Exception:HTTP could not register URL https://+:6530/GatewayService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:18 | Message = IServerClientCommunicationService Initialise() ExceptionHTTP could not register URL https://+:6530/ServerClientCommunicationService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:18 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:27:18 | Message = DeviceTimeSync Service Initialise() ExceptionHTTP could not register URL https://+:6530/DeviceTimeSyncService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:18 | Message = Restarting application
+Date = 2019-06-26 09:27:19 | Message = GatewayService Initialise() Exception:HTTP could not register URL https://+:6530/GatewayService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:19 | Message = IServerClientCommunicationService Initialise() ExceptionHTTP could not register URL https://+:6530/ServerClientCommunicationService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:19 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:27:19 | Message = DeviceTimeSync Service Initialise() ExceptionHTTP could not register URL https://+:6530/DeviceTimeSyncService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:19 | Message = Restarting application
+Date = 2019-06-26 09:27:19 | Message = GatewayService Initialise() Exception:HTTP could not register URL https://+:6530/GatewayService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:19 | Message = IServerClientCommunicationService Initialise() ExceptionHTTP could not register URL https://+:6530/ServerClientCommunicationService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:19 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:27:19 | Message = DeviceTimeSync Service Initialise() ExceptionHTTP could not register URL https://+:6530/DeviceTimeSyncService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:19 | Message = Restarting application
+Date = 2019-06-26 09:27:20 | Message = GatewayService Initialise() Exception:HTTP could not register URL https://+:6530/GatewayService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:20 | Message = IServerClientCommunicationService Initialise() ExceptionHTTP could not register URL https://+:6530/ServerClientCommunicationService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:20 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:27:20 | Message = DeviceTimeSync Service Initialise() ExceptionHTTP could not register URL https://+:6530/DeviceTimeSyncService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:20 | Message = Restarting application
+Date = 2019-06-26 09:27:20 | Message = GatewayService Initialise() Exception:HTTP could not register URL https://+:6530/GatewayService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:20 | Message = IServerClientCommunicationService Initialise() ExceptionHTTP could not register URL https://+:6530/ServerClientCommunicationService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:20 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:27:20 | Message = DeviceTimeSync Service Initialise() ExceptionHTTP could not register URL https://+:6530/DeviceTimeSyncService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:20 | Message = Restarting application
+Date = 2019-06-26 09:27:21 | Message = GatewayService Initialise() Exception:HTTP could not register URL https://+:6530/GatewayService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:21 | Message = IServerClientCommunicationService Initialise() ExceptionHTTP could not register URL https://+:6530/ServerClientCommunicationService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:21 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:27:21 | Message = DeviceTimeSync Service Initialise() ExceptionHTTP could not register URL https://+:6530/DeviceTimeSyncService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:21 | Message = Restarting application
+Date = 2019-06-26 09:27:21 | Message = GatewayService Initialise() Exception:HTTP could not register URL https://+:6530/GatewayService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:21 | Message = IServerClientCommunicationService Initialise() ExceptionHTTP could not register URL https://+:6530/ServerClientCommunicationService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:21 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:27:21 | Message = DeviceTimeSync Service Initialise() ExceptionHTTP could not register URL https://+:6530/DeviceTimeSyncService/. Another application has already registered this URL with HTTP.SYS.
+Date = 2019-06-26 09:27:21 | Message = Restarting application
+Date = 2019-06-26 09:28:18 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:28:24 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:04 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:05 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:05 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:06 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:06 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:07 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:07 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:08 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:08 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:09 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:09 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:10 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:10 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:10 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:11 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:11 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:12 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:12 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:13 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:13 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:14 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:14 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:15 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:15 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:16 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:16 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:16 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:17 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:17 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:18 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:18 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:19 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:19 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:20 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:20 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:21 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:21 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:22 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:22 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:23 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:23 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:24 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:24 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:25 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:25 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:25 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:26 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:26 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:27 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:27 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:28 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:28 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:29 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:29 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:30 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:30 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:31 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:31 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:32 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:32 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:33 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:33 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:34 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:34 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:35 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:35 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:36 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:36 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:36 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:37 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:37 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:38 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:38 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:39 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:39 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:40 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:40 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:41 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:41 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:42 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:42 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:43 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:43 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:44 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:44 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:44 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:45 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:45 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:46 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:46 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:47 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:47 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:48 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:48 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:49 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:49 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:50 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:50 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:51 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:51 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:51 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:52 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:52 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:53 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:53 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:54 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:54 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:55 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:55 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:56 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:56 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:57 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:57 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:58 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:58 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:59 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:33:59 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:34:00 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:34:57 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:34:57 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:34:58 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:34:58 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+Date = 2019-06-26 09:34:59 | Message = DeviceTimeSyncService DeviceTimeSyncService() ExceptionUnable to load DLL 'HCNetSDK.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)

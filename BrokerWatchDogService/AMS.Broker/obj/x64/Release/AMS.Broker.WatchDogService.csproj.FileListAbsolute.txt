@@ -1,0 +1,410 @@
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\AMS.Broker.WatchDogService.exe.config
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\obj\x64\Release\Interop.QLAuthenticatorLib.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\obj\x64\Release\AMS.Broker.WatchDogService.csproj.ResolveComReference.cache
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\AMS.Broker.WatchDogService.exe
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\AMS.Broker.Contracts.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\AutoMapper.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\BplusDotNet.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\CacheAspect.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Castle.Core.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Castle.Facilities.NHibernateIntegration.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Castle.Windsor.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\CloudinaryDotNet.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\DirectShowLib-2005.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\EntityFramework.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Iesi.Collections.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\log4net.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Logica.RealTimeDataMgmt.WcfContracts.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Microsoft.ApplicationServer.Caching.Client.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Microsoft.Practices.Prism.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Microsoft.Practices.Prism.Interactivity.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Microsoft.Practices.Prism.UnityExtensions.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Microsoft.Practices.ServiceLocation.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Microsoft.Practices.Unity.Configuration.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Microsoft.Practices.Unity.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Microsoft.Practices.Unity.Interception.Configuration.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Microsoft.Practices.Unity.Interception.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Microsoft.Reactive.Testing.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Microsoft.SqlServer.Types.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Modbus.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Newtonsoft.Json.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\NHibernate.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\NLog.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\PostSharp.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\PresentationCore.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\PresentationFramework.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\QL.ComInterop.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\QL.Communication.Authentication.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\QL.Communication.DataPresentation.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\QL.Communication.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\QL.Communication.Messaging.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\QL.Communication.Multiserver.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\QL.Communication.Network.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\QL.Communication.Server.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\QL.ComponentsModel.ComponentsManagement.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\QL.ComponentsModel.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\QL.Configuration.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\QL.Configuration.Service.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\QL.Configuration.Settings.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\QL.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\QL.PresentationCore.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\QL.PresentationCore.Localization.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\QL.ServiceModel.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\QL.VideoBrowser.Controllers.CamerasManagement.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\QL.VideoBrowser.Controllers.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\QL.VideoBrowser.Controllers.VideoServersManagement.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\QL.VideoBrowser.Controls.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\QL.VideoBrowser.Controls.Media.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\QL.VideoBrowser.Themes.Black.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\QL.VideoBrowser.Utils.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Rhino.Security.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\SnmpSharpNet.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.ComponentModel.Composition.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.ComponentModel.DataAnnotations.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.Configuration.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.Configuration.Install.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.Data.DataSetExtensions.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.Data.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.Data.Entity.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.Device.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.DirectoryServices.AccountManagement.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.DirectoryServices.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.Drawing.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.IdentityModel.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.Net.Http.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.Reactive.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.Runtime.Caching.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.Runtime.Serialization.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.Security.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.ServiceModel.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.ServiceModel.PollingDuplex.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.ServiceModel.Web.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.ServiceProcess.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.Web.ApplicationServices.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.Web.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.Web.Extensions.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.Web.Services.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.Windows.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.Windows.Interactivity.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.Windows.Presentation.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.Xaml.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.Xml.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.Xml.Linq.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\TwTw.DataLayer.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\TwTw.Domain.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Unme.Common.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\WindowsBase.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\QL.LogicCore.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.Reactive.Windows.Threading.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\CacheAspect.pdb
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\TwTw.DataLayer.pdb
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\TwTw.Domain.pdb
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\AMS.Broker.Contracts.pdb
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\AutoMapper.xml
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Castle.Core.xml
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Castle.Windsor.xml
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\EntityFramework.xml
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Iesi.Collections.xml
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\log4net.xml
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Microsoft.Practices.EnterpriseLibrary.Common.pdb
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Microsoft.Practices.EnterpriseLibrary.Common.xml
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Microsoft.Practices.EnterpriseLibrary.Logging.pdb
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Microsoft.Practices.Prism.pdb
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Microsoft.Practices.Prism.xml
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Microsoft.Practices.Prism.Interactivity.pdb
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Microsoft.Practices.Prism.Interactivity.xml
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Microsoft.Practices.Prism.UnityExtensions.pdb
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Microsoft.Practices.Prism.UnityExtensions.xml
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Microsoft.Practices.ServiceLocation.xml
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Microsoft.Practices.Unity.xml
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Microsoft.Reactive.Testing.xml
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Newtonsoft.Json.xml
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\NHibernate.xml
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\NLog.xml
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\PostSharp.xml
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.Reactive.xml
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.Windows.Interactivity.xml
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.Reactive.Windows.Threading.xml
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\AMS.Broker.WatchDogService.pssym
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\obj\x64\Release\AMS.Broker.WatchDogService.csprojResolveAssemblyReference.cache
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\obj\x64\Release\AMS.Broker.WatchDogService.exe
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\obj\x64\Release\AMS.Broker.WatchDogService.exe.postsharp
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\SharpPcap.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\PacketDotNet.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\AMS.Broker.WatchDogService.exe.config
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\AMS.Broker.WatchDogService.exe
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\AMS.Broker.Contracts.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\AutoMapper.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\BplusDotNet.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\CacheAspect.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Castle.Core.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Castle.Facilities.NHibernateIntegration.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Castle.Windsor.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\CloudinaryDotNet.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\DirectShowLib-2005.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\EntityFramework.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Iesi.Collections.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\log4net.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Logica.RealTimeDataMgmt.WcfContracts.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Microsoft.ApplicationServer.Caching.Client.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Microsoft.Practices.Prism.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Microsoft.Practices.Prism.Interactivity.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Microsoft.Practices.Prism.UnityExtensions.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Microsoft.Practices.ServiceLocation.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Microsoft.Practices.Unity.Configuration.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Microsoft.Practices.Unity.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Microsoft.Practices.Unity.Interception.Configuration.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Microsoft.Practices.Unity.Interception.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Microsoft.Reactive.Testing.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Microsoft.SqlServer.Types.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Modbus.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Newtonsoft.Json.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\NHibernate.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\NLog.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\PostSharp.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\PresentationCore.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\PresentationFramework.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\QL.ComInterop.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\QL.Communication.Authentication.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\QL.Communication.DataPresentation.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\QL.Communication.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\QL.Communication.Messaging.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\QL.Communication.Multiserver.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\QL.Communication.Network.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\QL.Communication.Server.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\QL.ComponentsModel.ComponentsManagement.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\QL.ComponentsModel.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\QL.Configuration.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\QL.Configuration.Service.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\QL.Configuration.Settings.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\QL.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\QL.PresentationCore.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\QL.PresentationCore.Localization.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\QL.ServiceModel.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\QL.VideoBrowser.Controllers.CamerasManagement.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\QL.VideoBrowser.Controllers.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\QL.VideoBrowser.Controllers.VideoServersManagement.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\QL.VideoBrowser.Controls.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\QL.VideoBrowser.Controls.Media.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\QL.VideoBrowser.Themes.Black.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\QL.VideoBrowser.Utils.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Rhino.Security.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\SnmpSharpNet.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.ComponentModel.Composition.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.ComponentModel.DataAnnotations.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.Configuration.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.Configuration.Install.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.Data.DataSetExtensions.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.Data.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.Data.Entity.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.Device.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.DirectoryServices.AccountManagement.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.DirectoryServices.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.Drawing.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.IdentityModel.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.Net.Http.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.Reactive.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.Runtime.Caching.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.Runtime.Serialization.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.Security.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.ServiceModel.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.ServiceModel.PollingDuplex.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.ServiceModel.Web.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.ServiceProcess.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.Web.ApplicationServices.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.Web.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.Web.Extensions.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.Web.Services.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.Windows.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.Windows.Interactivity.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.Windows.Presentation.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.Xaml.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.Xml.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.Xml.Linq.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\TwTw.DataLayer.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\TwTw.Domain.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Unme.Common.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\WindowsBase.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\SharpPcap.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\PacketDotNet.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\QL.LogicCore.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.Reactive.Windows.Threading.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\CacheAspect.pdb
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\TwTw.DataLayer.pdb
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\TwTw.Domain.pdb
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\AMS.Broker.Contracts.pdb
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\AutoMapper.xml
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Castle.Core.xml
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Castle.Windsor.xml
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\EntityFramework.xml
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Iesi.Collections.xml
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\log4net.xml
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Microsoft.Practices.EnterpriseLibrary.Common.pdb
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Microsoft.Practices.EnterpriseLibrary.Common.xml
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Microsoft.Practices.EnterpriseLibrary.Logging.pdb
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Microsoft.Practices.Prism.pdb
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Microsoft.Practices.Prism.xml
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Microsoft.Practices.Prism.Interactivity.pdb
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Microsoft.Practices.Prism.Interactivity.xml
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Microsoft.Practices.Prism.UnityExtensions.pdb
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Microsoft.Practices.Prism.UnityExtensions.xml
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Microsoft.Practices.ServiceLocation.xml
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Microsoft.Practices.Unity.xml
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Microsoft.Reactive.Testing.xml
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Newtonsoft.Json.xml
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\NHibernate.xml
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\NLog.xml
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\PostSharp.xml
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.Reactive.xml
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.Windows.Interactivity.xml
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.Reactive.Windows.Threading.xml
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\bin\x64\Release\AMS.Broker.WatchDogService.pssym
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\obj\x64\Release\AMS.Broker.WatchDogService.csprojResolveAssemblyReference.cache
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\obj\x64\Release\Interop.QLAuthenticatorLib.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\obj\x64\Release\AMS.Broker.WatchDogService.csproj.ResolveComReference.cache
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\obj\x64\Release\AMS.Broker.WatchDogService.exe
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker\obj\x64\Release\AMS.Broker.WatchDogService.exe.postsharp
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\AMS.Broker.WatchDogService.exe.config
+D:\PS\BrokerWatchDogService\AMS.Broker\obj\x64\Release\AMS.Broker.WatchDogService.csproj.ResolveComReference.cache
+D:\PS\BrokerWatchDogService\AMS.Broker\obj\x64\Release\AMS.Broker.WatchDogService.exe
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\AMS.Broker.WatchDogService.exe
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\AMS.Broker.Contracts.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\AutoMapper.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\BplusDotNet.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\CacheAspect.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Castle.Core.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Castle.Facilities.NHibernateIntegration.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Castle.Windsor.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\CloudinaryDotNet.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\DirectShowLib-2005.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\EntityFramework.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Iesi.Collections.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\log4net.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Logica.RealTimeDataMgmt.WcfContracts.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Microsoft.ApplicationServer.Caching.Client.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Microsoft.Practices.Prism.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Microsoft.Practices.Prism.Interactivity.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Microsoft.Practices.Prism.UnityExtensions.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Microsoft.Practices.ServiceLocation.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Microsoft.Practices.Unity.Configuration.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Microsoft.Practices.Unity.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Microsoft.Practices.Unity.Interception.Configuration.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Microsoft.Practices.Unity.Interception.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Microsoft.Reactive.Testing.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Microsoft.SqlServer.Types.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Modbus.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Newtonsoft.Json.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\NHibernate.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\NLog.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\PostSharp.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\PresentationCore.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\PresentationFramework.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\QL.ComInterop.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\QL.Communication.Authentication.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\QL.Communication.DataPresentation.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\QL.Communication.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\QL.Communication.Messaging.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\QL.Communication.Multiserver.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\QL.Communication.Network.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\QL.Communication.Server.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\QL.ComponentsModel.ComponentsManagement.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\QL.ComponentsModel.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\QL.Configuration.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\QL.Configuration.Service.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\QL.Configuration.Settings.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\QL.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\QL.PresentationCore.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\QL.PresentationCore.Localization.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\QL.ServiceModel.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\QL.VideoBrowser.Controllers.CamerasManagement.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\QL.VideoBrowser.Controllers.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\QL.VideoBrowser.Controllers.VideoServersManagement.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\QL.VideoBrowser.Controls.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\QL.VideoBrowser.Controls.Media.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\QL.VideoBrowser.Themes.Black.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\QL.VideoBrowser.Utils.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Rhino.Security.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\SnmpSharpNet.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.ComponentModel.Composition.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.ComponentModel.DataAnnotations.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.Configuration.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.Configuration.Install.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.Data.DataSetExtensions.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.Data.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.Data.Entity.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.Device.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.DirectoryServices.AccountManagement.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.DirectoryServices.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.Drawing.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.IdentityModel.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.Net.Http.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.Reactive.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.Runtime.Caching.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.Runtime.Serialization.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.Security.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.ServiceModel.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.ServiceModel.PollingDuplex.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.ServiceModel.Web.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.ServiceProcess.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.Web.ApplicationServices.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.Web.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.Web.Extensions.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.Web.Services.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.Windows.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.Windows.Interactivity.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.Windows.Presentation.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.Xaml.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.Xml.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.Xml.Linq.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\TwTw.DataLayer.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\TwTw.Domain.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Unme.Common.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\WindowsBase.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\SharpPcap.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\PacketDotNet.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\QL.LogicCore.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.Reactive.Windows.Threading.dll
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\CacheAspect.pdb
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\TwTw.DataLayer.pdb
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\TwTw.Domain.pdb
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\AMS.Broker.Contracts.pdb
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\AutoMapper.xml
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Castle.Core.xml
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Castle.Windsor.xml
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\EntityFramework.xml
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Iesi.Collections.xml
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\log4net.xml
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Microsoft.Practices.EnterpriseLibrary.Common.pdb
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Microsoft.Practices.EnterpriseLibrary.Logging.pdb
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Microsoft.Practices.Prism.pdb
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Microsoft.Practices.Prism.xml
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Microsoft.Practices.Prism.Interactivity.pdb
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Microsoft.Practices.Prism.Interactivity.xml
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Microsoft.Practices.Prism.UnityExtensions.pdb
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Microsoft.Practices.Prism.UnityExtensions.xml
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Microsoft.Practices.ServiceLocation.xml
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Microsoft.Practices.Unity.xml
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Microsoft.Reactive.Testing.xml
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\Newtonsoft.Json.xml
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\NHibernate.xml
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\NLog.xml
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\PostSharp.xml
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.Reactive.xml
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.Windows.Interactivity.xml
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\System.Reactive.Windows.Threading.xml
+D:\PS\BrokerWatchDogService\AMS.Broker\bin\x64\Release\AMS.Broker.WatchDogService.pssym
+D:\PS\BrokerWatchDogService\AMS.Broker\obj\x64\Release\AMS.Broker.WatchDogService.csprojResolveAssemblyReference.cache
+D:\PS\BrokerWatchDogService\AMS.Broker\obj\x64\Release\AMS.Broker.WatchDogService.exe.postsharp

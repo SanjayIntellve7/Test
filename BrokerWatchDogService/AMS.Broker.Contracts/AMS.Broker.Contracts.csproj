@@ -1,0 +1,880 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C56A9565-449B-4789-B2A9-E596BDFC20B1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AMS.Broker.Contracts</RootNamespace>
+    <AssemblyName>AMS.Broker.Contracts</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>UICentric.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release64|AnyCPU'">
+    <OutputPath>bin\Release64\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Release\AMS.Broker.Contracts.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release64|x86'">
+    <OutputPath>bin\x86\Release64\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release64|x64'">
+    <OutputPath>bin\x64\Release64\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AMS.Broker.Contracts, Version=1.5.0.0, Culture=neutral, PublicKeyToken=596e73a5d5aa7426, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\x64\Debug\AMS.Broker.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="CalendarView">
+      <HintPath>..\Dependencies\EmbeddedDll\CalendarView.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=4.4.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net40\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity, Version=2.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Unity.2.1.505.2\lib\NET35\Microsoft.Practices.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.Configuration, Version=2.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Unity.2.1.505.2\lib\NET35\Microsoft.Practices.Unity.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Dependencies\Microsoft.SqlServer.Types.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PacketDotNet">
+      <HintPath>..\Dependencies\EmbeddedDll\PacketDotNet.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Rhino.Security">
+      <HintPath>..\Dependencies\RihnoSecurity\Rhino.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpPcap">
+      <HintPath>..\Dependencies\EmbeddedDll\SharpPcap.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="ZedGraph">
+      <HintPath>..\Dependencies\EmbeddedDll\ZedGraph.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bacnet\BACnetBase.cs" />
+    <Compile Include="Bacnet\BACnetClient.cs" />
+    <Compile Include="Bacnet\BACnetTransport.cs" />
+    <Compile Include="Bacnet\BacnetTransportEthernet.cs" />
+    <Compile Include="Bacnet\BACnetTransportIPv6.cs" />
+    <Compile Include="Bacnet\DeviceStorage.cs" />
+    <Compile Include="DTO\AcsAlarmPanelDTO.cs" />
+    <Compile Include="DTO\AlertDetTest.cs" />
+    <Compile Include="DTO\AlertInfo.cs" />
+    <Compile Include="DTO\AccountAlarmPanelDto.cs" />
+    <Compile Include="DTO\AccountAnalyticsAlgorithmTypeDto.cs" />
+    <Compile Include="DTO\AccountBillingDto.cs" />
+    <Compile Include="DTO\AccountLightDto.cs" />
+    <Compile Include="DTO\AccountNvrAlertTypeDto.cs" />
+    <Compile Include="DTO\AddCustomerTagData.cs" />
+    <Compile Include="DTO\AlarmPanelDto.cs" />
+    <Compile Include="DTO\AlarmPanelTypeMasterDto.cs" />
+    <Compile Include="DTO\Alert.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DTO\AlertByDeviceDto.cs" />
+    <Compile Include="DTO\AlertKpi.cs" />
+    <Compile Include="DTO\AlertLocationDetails.cs" />
+    <Compile Include="DTO\Alertlocations.cs" />
+    <Compile Include="DTO\AlertMobDto.cs" />
+    <Compile Include="DTO\AlertplaybackTimeDto.cs" />
+    <Compile Include="DTO\AlertsCollection.cs" />
+    <Compile Include="DTO\AlertStatusWrapper.cs" />
+    <Compile Include="DTO\AlgovisionAnprDto.cs" />
+    <Compile Include="DTO\AnalyticAlgorithmTypeDto.cs" />
+    <Compile Include="DTO\AnalyticsAIAlertDto.cs" />
+    <Compile Include="DTO\AnalyticsDetailsDto.cs" />
+    <Compile Include="DTO\AnalyticsEventTemplateDto.cs" />
+    <Compile Include="DTO\ANPRCameraDetails.cs" />
+    <Compile Include="DTO\AnprDeviceMasterObject.cs" />
+    <Compile Include="DTO\ANPRHotlistedVehicleListDto.cs" />
+    <Compile Include="DTO\ANPRLPDetails.cs" />
+    <Compile Include="DTO\AnprStatusDto.cs" />
+    <Compile Include="DTO\ANPRVehicleOperationDto.cs" />
+    <Compile Include="DTO\ApiResponse.cs" />
+    <Compile Include="DTO\AppiyoLoginData.cs" />
+    <Compile Include="DTO\Area.cs" />
+    <Compile Include="DTO\asset.cs" />
+    <Compile Include="DTO\AssetTripDto.cs" />
+    <Compile Include="DTO\AssociatedDevicesDto.cs" />
+    <Compile Include="DTO\AssociatedPtzDeviceDto.cs" />
+    <Compile Include="DTO\ATCSJunctionDetailsDto.cs" />
+    <Compile Include="DTO\AuditDelta.cs" />
+    <Compile Include="DTO\AutoOpenCloseDataDto.cs" />
+    <Compile Include="DTO\BacNetEventDetailsDto.cs" />
+    <Compile Include="DTO\BacnetRuleDto.cs" />
+    <Compile Include="DTO\BBoxPointDto.cs" />
+    <Compile Include="DTO\BinDetailsRootObject.cs" />
+    <Compile Include="DTO\BMCRemedyTxnDto.cs" />
+    <Compile Include="DTO\BMCRemedyUpdateDto.cs" />
+    <Compile Include="DTO\Category.cs" />
+    <Compile Include="DTO\Certainty.cs" />
+    <Compile Include="DTO\AccountDto.cs" />
+    <Compile Include="DTO\AccountInvoiceDto.cs" />
+    <Compile Include="DTO\AccountTypeDto.cs" />
+    <Compile Include="DTO\AddressDto.cs" />
+    <Compile Include="DTO\ChallanDetails.cs" />
+    <Compile Include="DTO\CitizenComplaints.cs" />
+    <Compile Include="DTO\CommunicationLinkDownDto.cs" />
+    <Compile Include="DTO\ContactDto.cs" />
+    <Compile Include="DTO\ContactMethod.cs" />
+    <Compile Include="DTO\ContactMethodDto.cs" />
+    <Compile Include="DTO\ContactTypeDto.cs" />
+    <Compile Include="DTO\DashboardAlertDto.cs" />
+    <Compile Include="DTO\DashBoardDto.cs" />
+    <Compile Include="DTO\DeliveryMethodDto.cs" />
+    <Compile Include="DTO\CategoryDto.cs" />
+    <Compile Include="DTO\CertaintyDto.cs" />
+    <Compile Include="DTO\DeviceDetailsWithStatusDTO.cs" />
+    <Compile Include="DTO\DeviceExternalIdDefinitionDTO.cs" />
+    <Compile Include="DTO\DeviceLocationDto.cs" />
+    <Compile Include="DTO\DeviceOperationDTO.cs" />
+    <Compile Include="DTO\DeviceStorage.cs" />
+    <Compile Include="DTO\DeviceTypeDto.cs" />
+    <Compile Include="DTO\BioAlertsDTO.cs" />
+    <Compile Include="DTO\DeviceVAnalyticsScheduleDTO.cs" />
+    <Compile Include="DTO\DomainMasterDTO.cs" />
+    <Compile Include="DTO\DvrNvrTypeMasterDTO.cs" />
+    <Compile Include="DTO\EmployeeAttendence.cs" />
+    <Compile Include="DTO\EmployeeMasterRootObject.cs" />
+    <Compile Include="DTO\EquipmentTypeDto.cs" />
+    <Compile Include="DTO\EscallationDirectory.cs" />
+    <Compile Include="DTO\ExternalContactDetailsDto.cs" />
+    <Compile Include="DTO\FFTControllerStatus.cs" />
+    <Compile Include="DTO\FFTCreateAlarmParamDto.cs" />
+    <Compile Include="DTO\GallagherAcsDoorObject.cs" />
+    <Compile Include="DTO\GeoTrackingHistoryData.cs" />
+    <Compile Include="DTO\GeotrackLiveDataDto.cs" />
+    <Compile Include="DTO\GponRootObject.cs" />
+    <Compile Include="DTO\GponStatus.cs" />
+    <Compile Include="DTO\GrievanceAlertData.cs" />
+    <Compile Include="DTO\GrievanceClosedAlertData.cs" />
+    <Compile Include="DTO\GroupResponseData.cs" />
+    <Compile Include="DTO\GTrackVehicleFenseDto.cs" />
+    <Compile Include="DTO\GTrackVehicleOverSpeedDto.cs" />
+    <Compile Include="DTO\HomeAutomationEventData.cs" />
+    <Compile Include="DTO\ImagebyteDto.cs" />
+    <Compile Include="DTO\ImportDeviceInsertStatus.cs" />
+    <Compile Include="DTO\ImportInterfaceInsertStatus.cs" />
+    <Compile Include="DTO\ImportSiteInsertStatuscs.cs" />
+    <Compile Include="DTO\IncidentEvidenceInfoDTO.cs" />
+    <Compile Include="DTO\IncidentReportAlertDTO.cs" />
+    <Compile Include="DTO\InternalContactDetailsDto.cs" />
+    <Compile Include="DTO\IODeviceXmlClasses.cs" />
+    <Compile Include="DTO\LaneStageSeqDetailsDTO.cs" />
+    <Compile Include="DTO\LineCrossImageDTO.cs" />
+    <Compile Include="DTO\LpuMasterObject.cs" />
+    <Compile Include="DTO\MachineDetailsDto.cs" />
+    <Compile Include="DTO\MirasysAlertData.cs" />
+    <Compile Include="DTO\MirasysAlertDto.cs" />
+    <Compile Include="DTO\MirasysDeviceDetails.cs" />
+    <Compile Include="DTO\MobileNotificationData.cs" />
+    <Compile Include="DTO\MotionSensorDataDto.cs" />
+    <Compile Include="DTO\ObjectAssociationDto.cs" />
+    <Compile Include="DTO\OntPortRootObject.cs" />
+    <Compile Include="DTO\OntRootObject.cs" />
+    <Compile Include="DTO\OpenCloseEventRuleDefDTO.cs" />
+    <Compile Include="DTO\PcrScrResultDTO.cs" />
+    <Compile Include="DTO\RuleDataObject.cs" />
+    <Compile Include="DTO\RuleDefinitionResultDTO.cs" />
+    <Compile Include="DTO\SafeRoomDoorEventDataDto.cs" />
+    <Compile Include="DTO\SdkCtrlDataDto.cs" />
+    <Compile Include="DTO\SdkLocationInfoDto.cs" />
+    <Compile Include="DTO\SdkSensorDataDto.cs" />
+    <Compile Include="DTO\SdkZoneDataDTO.cs" />
+    <Compile Include="DTO\SearchCustomers.cs" />
+    <Compile Include="DTO\SearchTagResponse.cs" />
+    <Compile Include="DTO\SendMessageResponseData.CS" />
+    <Compile Include="DTO\ShutterSensorDataDto.cs" />
+    <Compile Include="DTO\SmartLightWardOperationControlDto.cs" />
+    <Compile Include="DTO\SocialMediaAlertDTO.cs" />
+    <Compile Include="DTO\SPSearch_Mob_ResultDto.cs" />
+    <Compile Include="DTO\SPSearch_ResultDto.cs" />
+    <Compile Include="DTO\SPTest_ResultDto.cs" />
+    <Compile Include="DTO\SP_AIOCCTVDashboardTrend_ResultDTO.cs" />
+    <Compile Include="DTO\SP_AIODashboardKPI_ResultDTO.cs" />
+    <Compile Include="DTO\SP_AIOEnvAQITrend_ResultDTO.cs" />
+    <Compile Include="DTO\SP_AIOTotalConsumption_ResultDTO.cs" />
+    <Compile Include="DTO\SP_AllInterfaceDeviceStatus_ResultDTO.cs" />
+    <Compile Include="DTO\SP_AttendanceWeekly_ResultDTO.cs" />
+    <Compile Include="DTO\SP_CallingContacts_ResultDTO.cs" />
+    <Compile Include="DTO\SP_CitizenCompalintTrend_ResultDTO.cs" />
+    <Compile Include="DTO\SP_ComplaintHourly_ResultDTO.cs" />
+    <Compile Include="DTO\SP_ComplaintlapsedTime_ResultDTO.cs" />
+    <Compile Include="DTO\SP_ComplaintWeekly_ResultDTO.cs" />
+    <Compile Include="DTO\SP_CriticalWarddata_ResultDTO.cs" />
+    <Compile Include="DTO\SP_EchallanCollectionTrend_ResultDTO.cs" />
+    <Compile Include="DTO\SP_EnvDashaboard_ResultDTO.cs" />
+    <Compile Include="DTO\SP_EnvironmentCorrelation_ResultDTO.cs" />
+    <Compile Include="DTO\SP_EnvKPI_ResultDTO.cs" />
+    <Compile Include="DTO\SP_GetAccountsCollection_ResultDTO.cs" />
+    <Compile Include="DTO\SP_GetAlertInfo_ResultDTO.cs" />
+    <Compile Include="DTO\SP_GetANPRNonOCRDetails_ResultDTO.cs" />
+    <Compile Include="DTO\SP_GetANPRStatusDetails_ResultDTO.cs" />
+    <Compile Include="DTO\SP_GetANPRStatusLabel_ResultDTO.cs" />
+    <Compile Include="DTO\SP_GetANPRTransactionDetails_ResultDTO.cs" />
+    <Compile Include="DTO\SP_GetANPRTransactionInfo_ResultDTO.cs" />
+    <Compile Include="DTO\SP_GetAVGEnvironmentInformation_ResultDTO.cs" />
+    <Compile Include="DTO\SP_GetContactCollection_ResultDTO.cs" />
+    <Compile Include="DTO\SP_GetDVRList_ResultDTO.cs" />
+    <Compile Include="DTO\SP_GetEnvironmentInfoMAP_ResultDTO.cs" />
+    <Compile Include="DTO\SP_GetEnvironmentTop5Polluted_ResultDTO.cs" />
+    <Compile Include="DTO\SP_GetHotlistMapDto.cs" />
+    <Compile Include="DTO\SP_GetHotlistStatusCountDto.cs" />
+    <Compile Include="DTO\SP_GetHotlistTransactionbyZoneNameDto.cs" />
+    <Compile Include="DTO\SP_GetHotlistTransactionDto.cs" />
+    <Compile Include="DTO\Sp_GetIOTPanelDetailsDto.cs" />
+    <Compile Include="DTO\SP_GetITMSEChallanHomeDashboardDTO.cs" />
+    <Compile Include="DTO\SP_GetITMSHomeDashboard_ResultDTO.cs" />
+    <Compile Include="DTO\SP_GetNoEventsReceivedDto.cs" />
+    <Compile Include="DTO\SP_GetNonRegisteredVehicle_ResultDTO.cs" />
+    <Compile Include="DTO\SP_GetNoOpeningClosingEventsReceived_ResultDto.cs" />
+    <Compile Include="DTO\SP_GetNvrCollection_ResultDTO.cs" />
+    <Compile Include="DTO\SP_GetNVRDeviceCollection_ResultDTO.cs" />
+    <Compile Include="DTO\SP_GetOvernightVehicleDetails_ResultDTO.cs" />
+    <Compile Include="DTO\SP_GetPanelStatusDto.cs" />
+    <Compile Include="DTO\SP_GetPanelTrackingStatusDto.cs" />
+    <Compile Include="DTO\SP_GetRLVDEquipmentStatusCountDTO.cs" />
+    <Compile Include="DTO\SP_GetRLVDStatusCountDto.cs" />
+    <Compile Include="DTO\SP_GetRLVDStatusMapDto.cs" />
+    <Compile Include="DTO\SP_GetRLVDTransactionbyZoneNameDto.cs" />
+    <Compile Include="DTO\SP_GetRLVDVoilationTrendDto.cs" />
+    <Compile Include="DTO\SP_GetRLVDZoneIncidentCountDto.cs" />
+    <Compile Include="DTO\SP_GetSingleAlertAdminDto.cs" />
+    <Compile Include="DTO\SP_GetSiteCollection_ResultDTO.cs" />
+    <Compile Include="DTO\SP_GetTop10AlertGenerateSiteDto.cs" />
+    <Compile Include="DTO\SP_GetTop20ACKAlerts_ResultDTO.cs" />
+    <Compile Include="DTO\SP_GetTop50Alerts_ResultDTO.cs" />
+    <Compile Include="DTO\SP_GetTop50DummyAlerts_ResultDTO.cs" />
+    <Compile Include="DTO\SP_GetTop50ThinkClientAlertsDto.cs" />
+    <Compile Include="DTO\SP_GetTOPDisarmingSiteDto.cs" />
+    <Compile Include="DTO\SP_GetTrendHotlistTransactionDto.cs" />
+    <Compile Include="DTO\SP_GetVehiclePreset_ResultDTO.cs" />
+    <Compile Include="DTO\SP_GponDeviceStatus_ResultDTO.cs" />
+    <Compile Include="DTO\SP_GPONStatus_ResultDTO.cs" />
+    <Compile Include="DTO\SP_IOTDeviceStatusDto.cs" />
+    <Compile Include="DTO\SP_IOTEnergyConsumptionDto.cs" />
+    <Compile Include="DTO\SP_IOTEnergyWeeklyConsumptionDto.cs" />
+    <Compile Include="DTO\SP_IOTGasConsumptionDto.cs" />
+    <Compile Include="DTO\SP_IOTGasWeeklyConsumptionDto.cs" />
+    <Compile Include="DTO\SP_IOTMapDashboardDto.cs" />
+    <Compile Include="DTO\SP_IOTMapDashboardTrendDto.cs" />
+    <Compile Include="DTO\SP_IOTWaterConsumptionDto.cs" />
+    <Compile Include="DTO\SP_IOTWaterWeeklyConsumptionDto.cs" />
+    <Compile Include="DTO\SP_ITMSANPRCamera_ResultDTO.cs" />
+    <Compile Include="DTO\SP_ITMSANPRIncidentTrend_ResultDTO.cs" />
+    <Compile Include="DTO\SP_ITMSANPRKPI_ResultDTO.cs" />
+    <Compile Include="DTO\SP_ITMSCameraStatus_ResultDTO.cs" />
+    <Compile Include="DTO\SP_ITMSChallanKPI_ResultDTO.cs" />
+    <Compile Include="DTO\SP_ITMSEchallanCollectionTrend_ResultDTO.cs" />
+    <Compile Include="DTO\SP_ITMSEChallanKPI_ResultDTO.cs" />
+    <Compile Include="DTO\SP_ITMSRLVDCamera_ResultDTO.cs" />
+    <Compile Include="DTO\SP_ITMSRLVDSVDSKPI_ResultDTO.cs" />
+    <Compile Include="DTO\SP_ITMSSuspectedKPI_ResultDTO.cs" />
+    <Compile Include="DTO\SP_ITMSViolationIncidentTrend_ResultDTO.cs" />
+    <Compile Include="DTO\SP_ITMSViolationKPI_ResultDTO.cs" />
+    <Compile Include="DTO\SP_MapSearch_ResultDTO.cs" />
+    <Compile Include="DTO\SP_PasStatus_ResultDTO.cs" />
+    <Compile Include="DTO\SP_RDLHourlyWeatherReport_ResultDTO.cs" />
+    <Compile Include="DTO\SP_ReturnActiveStationIP_ResultDto.cs" />
+    <Compile Include="DTO\SP_ReturnAlertEscalationNotificationMemberDTO.cs" />
+    <Compile Include="DTO\SP_ReturnDeviceObjectAssociationList_ResultDTO.cs" />
+    <Compile Include="DTO\SP_ReturnMosaicStation_ResultDTO.cs" />
+    <Compile Include="DTO\SP_ReturnRuleDefinition_ResultDto.cs" />
+    <Compile Include="DTO\SP_ReturnSOPAction_ResultDto.cs" />
+    <Compile Include="DTO\SP_ReturnUserDeviceNonAssignedList_ResultDTO.cs" />
+    <Compile Include="DTO\SP_ReturnUserName_ResultDTO.cs" />
+    <Compile Include="DTO\SP_ReturnUserObjectNonAssociationList_ResultDTO.cs" />
+    <Compile Include="DTO\SP_SetfftPIDSDeviceAssociate_ResultDTO.cs" />
+    <Compile Include="DTO\SP_SmartLightFeederDetails_ResultDTO.cs" />
+    <Compile Include="DTO\SP_SmartLightStatus_ResultDTO.cs" />
+    <Compile Include="DTO\SP_SmartlightTrend_ResultDTO.cs" />
+    <Compile Include="DTO\SP_SmartLightWebDashboardStatus_ResultDTO.cs" />
+    <Compile Include="DTO\SP_SurveillanceDashboard_ResultDTO.cs" />
+    <Compile Include="DTO\SP_SurveillanceDeviceDashboard_ResultDTO.cs" />
+    <Compile Include="DTO\SP_SurveillanceWebDashboard_ResultDTO.cs" />
+    <Compile Include="DTO\SP_SwatchBharatDashboard_ResultDTO.cs" />
+    <Compile Include="DTO\SP_SWMBinAlertStatusKPI_ResultDTO.cs" />
+    <Compile Include="DTO\SP_SWMBinAlertWeekly_ResultDTO.cs" />
+    <Compile Include="DTO\SP_SWMBinCleaningStatusKPI_ResultDTO.cs" />
+    <Compile Include="DTO\SP_SWMBinCollectionPcikedStatus_ResultDTO.cs" />
+    <Compile Include="DTO\SP_SWMBinFillStatusKPI_ResultDTO.cs" />
+    <Compile Include="DTO\SP_SWMBinMaster_ResultDTO.cs" />
+    <Compile Include="DTO\SP_SWMBinStatus_ResultDTO.cs" />
+    <Compile Include="DTO\SP_SWMComplaintStatus_ResultDTO.cs" />
+    <Compile Include="DTO\SP_SWMGarbageVehiclesKPI_ResultDTO.cs" />
+    <Compile Include="DTO\SP_SWMKPIBinAlert_ResultDTO.cs" />
+    <Compile Include="DTO\SP_SWMPercentcriticalWardsbyWasteCollEffKPI_ResultDTO.cs" />
+    <Compile Include="DTO\SP_SWMRealtimebinfullalertKPI_ResultDTO.cs" />
+    <Compile Include="DTO\SP_SWMVehicleLocNStatusKPI_ResultDTO.cs" />
+    <Compile Include="DTO\SP_SWMWardAttendence_ResultDto.cs" />
+    <Compile Include="DTO\SP_SWMWardComplaintStatusDetails_ResultDTO.cs" />
+    <Compile Include="DTO\SP_SWMWardComplaintStatus_ResultDTO.cs" />
+    <Compile Include="DTO\SP_SWMWardComplaint_ResultDTO.cs" />
+    <Compile Include="DTO\SP_TotalWasteWardChard_ResultDTO.cs" />
+    <Compile Include="DTO\SP_VMDStatus_ResultDTO.cs" />
+    <Compile Include="DTO\SP_WardEnergyBurnTime_ResultDTO.cs" />
+    <Compile Include="DTO\SP_WardEnergyConsumption_ResultDTO.cs" />
+    <Compile Include="DTO\SP_WATMCollectionTrendDto.cs" />
+    <Compile Include="DTO\SP_WATMCollection_ResultDTO.cs" />
+    <Compile Include="DTO\SP_WATMDahsboardStatusDto.cs" />
+    <Compile Include="DTO\SP_WATMDashboardCollectionDto.cs" />
+    <Compile Include="DTO\SP_WATMDashboardQuantityDispensedDto.cs" />
+    <Compile Include="DTO\SP_WATMDashboardTypeCollectionDto.cs" />
+    <Compile Include="DTO\SP_WATMDispenserDahsboardStatusDto.cs" />
+    <Compile Include="DTO\SP_WATMDispenserStatusChartDto.cs" />
+    <Compile Include="DTO\SP_WATMMapDashboardDto.cs" />
+    <Compile Include="DTO\SP_WATMQuantityDispensedTrendDto.cs" />
+    <Compile Include="DTO\SP_WATMStatusChartDto.cs" />
+    <Compile Include="DTO\SP_WATMStatus_ResultDTO.cs" />
+    <Compile Include="DTO\SP_WATMTCDashboardStatusDto.cs" />
+    <Compile Include="DTO\StationTypeDTO.cs" />
+    <Compile Include="DTO\SWMBinFullDTO.cs" />
+    <Compile Include="DTO\SWMFullBinPickedUpAlertDto.cs" />
+    <Compile Include="DTO\SWMVehicleLastTxnDetailsDto.cs" />
+    <Compile Include="DTO\SystemBrowserDTO.cs" />
+    <Compile Include="DTO\tbgeolocationDTO.cs" />
+    <Compile Include="DTO\tblAdditionalViolationDetailsDTO.cs" />
+    <Compile Include="DTO\tblAlertCloseReasonCodeDto.cs" />
+    <Compile Include="DTO\tblAlertContextDTO.cs" />
+    <Compile Include="DTO\tblAlertMaskingConfigurationDTO.cs" />
+    <Compile Include="DTO\tblAllDeviceStatusDTO.cs" />
+    <Compile Include="DTO\tblAnalyticsInfoDto.cs" />
+    <Compile Include="DTO\tblAnalyticsStatusDto.cs" />
+    <Compile Include="DTO\tblANPRLPDetailsDTO.cs" />
+    <Compile Include="DTO\tblANPRMasterDto.cs" />
+    <Compile Include="DTO\tblANPRTransDetailsDto.cs" />
+    <Compile Include="DTO\tblANPRVehicleRegistrationDetailDTO.cs" />
+    <Compile Include="DTO\tblBacnetObjectDeviceDetailsDTO.cs" />
+    <Compile Include="DTO\tblBarcoDisplayDTO.cs" />
+    <Compile Include="DTO\tblBarcoPerspectiveDTO.cs" />
+    <Compile Include="DTO\tblBarcoVideoWallTxnDTO.cs" />
+    <Compile Include="DTO\tblBinThresholdDto.cs" />
+    <Compile Include="DTO\tblCameraBookMarkDto.cs" />
+    <Compile Include="DTO\tblCameraStatusDto.cs" />
+    <Compile Include="DTO\tblCityMasterDTO.cs" />
+    <Compile Include="DTO\tblCrimeHeatMapDTO.cs" />
+    <Compile Include="DTO\tblcustomeremergencycontactDTO.cs" />
+    <Compile Include="DTO\tblcustomermasterDTO.cs" />
+    <Compile Include="DTO\tblCustomMapInfoDto.cs" />
+    <Compile Include="DTO\tblDashboardGroupAssociationDTO.cs" />
+    <Compile Include="DTO\tblDashboardGroupMasterDTO.cs" />
+    <Compile Include="DTO\tblDashboardGroupUserMappingDTO.cs" />
+    <Compile Include="DTO\tblDashboardReportDTO.cs" />
+    <Compile Include="DTO\tblDashboardReportHierarchyDTO.cs" />
+    <Compile Include="DTO\tbldevicefeatureDTO.cs" />
+    <Compile Include="DTO\tblDeviceGeoTrackHistoryDTO.cs" />
+    <Compile Include="DTO\tblDisasterManagementDto.cs" />
+    <Compile Include="DTO\tblDisasterMapDTO.cs" />
+    <Compile Include="DTO\tblDvrChanelMasterDto.cs" />
+    <Compile Include="DTO\tblEchallanTxnDTO.cs" />
+    <Compile Include="DTO\tblEnvironmentSensorDataDto.cs" />
+    <Compile Include="DTO\tblEnvironmentthresholdDto.cs" />
+    <Compile Include="DTO\tblEquipmentDetailsDto.cs" />
+    <Compile Include="DTO\tblEscalationConfigDetailsDTO.cs" />
+    <Compile Include="DTO\tblEscalationConfigMasterDTO.cs" />
+    <Compile Include="DTO\tblEscalationLevelMasterDTO.cs" />
+    <Compile Include="DTO\tblEscalationMatrixContactDTO.cs" />
+    <Compile Include="DTO\tblEscalationMatrixInfoDTO.cs" />
+    <Compile Include="DTO\tblEscalationMessageConfigDTO.cs" />
+    <Compile Include="DTO\tblEventsDto.cs" />
+    <Compile Include="DTO\tblfftcontrollerdeviceassocaitionDTO.cs" />
+    <Compile Include="DTO\tblfftPIDSAlertInfoDTO.cs" />
+    <Compile Include="DTO\tblgeofencesequenceDto.cs" />
+    <Compile Include="DTO\tblGeoFencingAlertDTO.cs" />
+    <Compile Include="DTO\tblGeoFencingHistoryDTO.cs" />
+    <Compile Include="DTO\tblHolidayMasterDto.cs" />
+    <Compile Include="DTO\tblHotlistedCategoryDTO.cs" />
+    <Compile Include="DTO\tblHotlistedTypeDTO.cs" />
+    <Compile Include="DTO\tblHotlistVehicleDataDTO.cs" />
+    <Compile Include="DTO\tblHotlistVehicleOperationDTO.cs" />
+    <Compile Include="DTO\tblHpcoeParkingDTO.cs" />
+    <Compile Include="DTO\tblIDSPanelInfoDTO.cs" />
+    <Compile Include="DTO\tblIDSPanelInfoMasterDetailsDTO.cs" />
+    <Compile Include="DTO\tblIDSPanelInfoMasterDTO.cs" />
+    <Compile Include="DTO\tblIDSPanelPartitionStatus.cs" />
+    <Compile Include="DTO\tblIDSPanelSIMDetailsDTO.cs" />
+    <Compile Include="DTO\tblIDSPanelSubsystemMasterDetailsDTO.cs" />
+    <Compile Include="DTO\tblIDSPanelSubsystemMasterDTO.cs" />
+    <Compile Include="DTO\tblIDSPanelSubsystemTypeMasterDTO.cs" />
+    <Compile Include="DTO\tblIDSPanelZonePatternDetailsDTO.cs" />
+    <Compile Include="DTO\tblIDSPanelZonePatternDTO.cs" />
+    <Compile Include="DTO\tblIDSPanelZoneTypeMasterDTO.cs" />
+    <Compile Include="DTO\tblInterfaceOperationsDTO.cs" />
+    <Compile Include="DTO\tblInterfaceOperationsMasterDTO.cs" />
+    <Compile Include="DTO\tblInterfaceSubRadarMasterDTO.cs" />
+    <Compile Include="DTO\tblIOTTXDataDTO.cs" />
+    <Compile Include="DTO\tblMachineStatusDTO.cs" />
+    <Compile Include="DTO\tblMagosRadarAreaLocationDetailsDTO.cs" />
+    <Compile Include="DTO\tblMagosRadarAreaMasterDTO.cs" />
+    <Compile Include="DTO\tblMagosRadarMasterDTO.cs" />
+    <Compile Include="DTO\tblMagosTrackingDataDTO.cs" />
+    <Compile Include="DTO\tblMatrixEvtInfoDTO.cs" />
+    <Compile Include="DTO\tblMeonMemberDto.cs" />
+    <Compile Include="DTO\tblMultiviewTemplateDto.cs" />
+    <Compile Include="DTO\tblNokto.cs" />
+    <Compile Include="DTO\SubMemberDto.cs" />
+    <Compile Include="DTO\EventDTO.cs" />
+    <Compile Include="DTO\EventFieldTypeDto.cs" />
+    <Compile Include="DTO\EventFieldDefinitionDto.cs" />
+    <Compile Include="DTO\EventTypeTemplateDto.cs" />
+    <Compile Include="DTO\EventTemplateDto.cs" />
+    <Compile Include="DTO\NvrAlertTypeDto.cs" />
+    <Compile Include="DTO\NvrCameraDto.cs" />
+    <Compile Include="DTO\OperationDto.cs" />
+    <Compile Include="DTO\PaymentMethodDto.cs" />
+    <Compile Include="DTO\PermissionDto.cs" />
+    <Compile Include="DTO\PersonContactTypeDto.cs" />
+    <Compile Include="DTO\PreferedContatMethodDto.cs" />
+    <Compile Include="DTO\ScopeDto.cs" />
+    <Compile Include="DTO\tblNotificationmsgDto.cs" />
+    <Compile Include="DTO\tblOLTMasterDTO.cs" />
+    <Compile Include="DTO\tblONTMasterDTO.cs" />
+    <Compile Include="DTO\tblPanelMasterDTO.cs" />
+    <Compile Include="DTO\tblPASDeviceMasterDTO.cs" />
+    <Compile Include="DTO\tblPASPreDefinedVoiceMessageDTO.cs" />
+    <Compile Include="DTO\tblPASPrerecordedFileMasterDTO.cs" />
+    <Compile Include="DTO\tblPASSetVoiceMessageDTO.cs" />
+    <Compile Include="DTO\tblPidsAlertPresetAssocaitionDTO.cs" />
+    <Compile Include="DTO\tblPidsDevicelocationInfoDTO.cs" />
+    <Compile Include="DTO\tblPIDSSensorMasterDTO.cs" />
+    <Compile Include="DTO\tblPIDSSensorPointsDTO.cs" />
+    <Compile Include="DTO\tblPIDSZoneDTO.cs" />
+    <Compile Include="DTO\tblPIDSZoneSectionInfoDTO.cs" />
+    <Compile Include="DTO\tblPredefinedMsgMasterDTO.cs" />
+    <Compile Include="DTO\tblPrimarySecondaryCamGuidMappingDTO.cs" />
+    <Compile Include="DTO\tblPrimarySecondaryServerMappingDTO.cs" />
+    <Compile Include="DTO\tblPTZPresetAssociationDto.cs" />
+    <Compile Include="DTO\tblRssAlertMasterDto.cs" />
+    <Compile Include="DTO\tblRssFeedDto.cs" />
+    <Compile Include="DTO\tblScheduleMasterDTO.cs" />
+    <Compile Include="DTO\tblSettingTypeMasterDto.cs" />
+    <Compile Include="DTO\tblSiteHolidayListDto.cs" />
+    <Compile Include="DTO\tblSmartCityStreetElecDto.cs" />
+    <Compile Include="DTO\tblSmartCityStreetLightDto.cs" />
+    <Compile Include="DTO\tblsmarthomeeventcodeDTO.cs" />
+    <Compile Include="DTO\tblSmartlightTXNDTO.cs" />
+    <Compile Include="DTO\tblSMSConfigurationDto.cs" />
+    <Compile Include="DTO\tblSMTPConfigurationDto.cs" />
+    <Compile Include="DTO\tblSOPActionDataMasterDTO.cs" />
+    <Compile Include="DTO\tblSOPActionDTO.cs" />
+    <Compile Include="DTO\tblSOPActionMasterDTO.cs" />
+    <Compile Include="DTO\tblSOPAlertTypeDTO.cs" />
+    <Compile Include="DTO\tblSOPIconMasterDTO.cs" />
+    <Compile Include="DTO\tblSOPInputTypeDTO.cs" />
+    <Compile Include="DTO\tblSOPMasterDTO.cs" />
+    <Compile Include="DTO\tblSOPStepDataDTO.cs" />
+    <Compile Include="DTO\tblSOPTransactionDataDTO.cs" />
+    <Compile Include="DTO\tblSOPTriggerActionTypeDTO.cs" />
+    <Compile Include="DTO\tblSOPTriggerConditionDTO.cs" />
+    <Compile Include="DTO\tblSOPTypeDTO.cs" />
+    <Compile Include="DTO\tblStandardSOPMasterDTO.cs" />
+    <Compile Include="DTO\tblStateMasterDTO.cs" />
+    <Compile Include="DTO\tblStreamTypeMasterDTO.cs" />
+    <Compile Include="DTO\tblSwachchaBharatMapDTO.cs" />
+    <Compile Include="DTO\tblSWMAttendenceMasterDTO.cs" />
+    <Compile Include="DTO\tblSWMBinMasterDTO.cs" />
+    <Compile Include="DTO\tblSWMBinTXDataDTO.cs" />
+    <Compile Include="DTO\tblSWMTotalWasteDumpedDTO.cs" />
+    <Compile Include="DTO\tblSWMVehicleMasterDTO.cs" />
+    <Compile Include="DTO\tblSWMVehicleTXDataDTO.cs" />
+    <Compile Include="DTO\tblSWMWardMasterDTO.cs" />
+    <Compile Include="DTO\tblSystemMasterInfoDTO.cs" />
+    <Compile Include="DTO\tblTimeSyncinfoDto.cs" />
+    <Compile Include="DTO\tbluserdeviceinfoDTO.cs" />
+    <Compile Include="DTO\tblUserPrivilegesDto.cs" />
+    <Compile Include="DTO\tblUserSiteMasterDto.cs" />
+    <Compile Include="DTO\tblVehicleMasterDataDto.cs" />
+    <Compile Include="DTO\tblVehicleTrackingDataDto.cs" />
+    <Compile Include="DTO\tblViolationDetailsDto.cs" />
+    <Compile Include="DTO\tblViolationTypeMasterDTO.cs" />
+    <Compile Include="DTO\tblVMDPreDefinedImageDTO.cs" />
+    <Compile Include="DTO\tblVMDPreDefinedMessageDTO.cs" />
+    <Compile Include="DTO\tblVMDSetMessageQueDTO.cs" />
+    <Compile Include="DTO\tblWardGeometryDTO.cs" />
+    <Compile Include="DTO\tblWardPropertiesDTO.cs" />
+    <Compile Include="DTO\tblWasteBinSensorDataDto.cs" />
+    <Compile Include="DTO\tblWATMCollectionDTO.cs" />
+    <Compile Include="DTO\tblWATMDispenserMasterDto.cs" />
+    <Compile Include="DTO\tblWATMDispenserStatusDTO.cs" />
+    <Compile Include="DTO\tblWATMMasterDto.cs" />
+    <Compile Include="DTO\tblWATMStatusDTO.cs" />
+    <Compile Include="DTO\tblWeatherchastronomyDTO.cs" />
+    <Compile Include="DTO\tblweatherchcurrentDTO.cs" />
+    <Compile Include="DTO\tblWeatherchforecastdetailsDTO.cs" />
+    <Compile Include="DTO\tblWeatherchforecastDTO.cs" />
+    <Compile Include="DTO\tblWeatherCityNameDTO.cs" />
+    <Compile Include="DTO\tblWeatherhourlyforecastDTO.cs" />
+    <Compile Include="DTO\tblWeatherthresholdDTO.cs" />
+    <Compile Include="DTO\tblWeekNameMasterDTO.cs" />
+    <Compile Include="DTO\tblWeekTimeDetailsDTO.cs" />
+    <Compile Include="DTO\TeamDto.cs" />
+    <Compile Include="DTO\TwTwPrincipalInfo.cs" />
+    <Compile Include="DTO\UniqueFault.cs" />
+    <Compile Include="DTO\UrgencyDto.cs" />
+    <Compile Include="DTO\StatusDto.cs" />
+    <Compile Include="DTO\SeverityDto.cs" />
+    <Compile Include="DTO\ResponseTypeDto.cs" />
+    <Compile Include="DTO\MessageTypeDto.cs" />
+    <Compile Include="DTO\EventQualifierDto.cs" />
+    <Compile Include="DTO\EventGroupDto.cs" />
+    <Compile Include="DTO\EventCodeDto.cs" />
+    <Compile Include="DTO\Mask.cs" />
+    <Compile Include="DTO\InterfaceDto.cs" />
+    <Compile Include="DTO\InterfaceTypeDto.cs" />
+    <Compile Include="DTO\ServicePackageDto.cs" />
+    <Compile Include="DTO\PersonDto.cs" />
+    <Compile Include="DTO\GenderDto.cs" />
+    <Compile Include="DTO\FrequencyDto.cs" />
+    <Compile Include="DTO\Event.cs" />
+    <Compile Include="DTO\NvrDto.cs" />
+    <Compile Include="DTO\PreferredContactMethod.cs" />
+    <Compile Include="DTO\SiteDto.cs" />
+    <Compile Include="DTO\SiteTypeDto.cs" />
+    <Compile Include="DTO\TimeZoneDto.cs" />
+    <Compile Include="DTO\UserDto.cs" />
+    <Compile Include="DTO\UserGroupData.cs" />
+    <Compile Include="DTO\UserGroupDetails.cs" />
+    <Compile Include="DTO\UsersGroupDto.cs" />
+    <Compile Include="DTO\UserLocationsCollection.cs" />
+    <Compile Include="DTO\UserLocation.cs" />
+    <Compile Include="DTO\DevicesInZone.cs" />
+    <Compile Include="DTO\UserTypeDto.cs" />
+    <Compile Include="DTO\ValuesLookUp.cs" />
+    <Compile Include="DTO\VehicleDetailsRootObject.cs" />
+    <Compile Include="DTO\VideoAanalyticsEventDto.cs" />
+    <Compile Include="DTO\VideoAlarmEvent.cs" />
+    <Compile Include="DTO\VideoAnalyticsAlgorithm.cs" />
+    <Compile Include="DTO\VideoAnalyticsParameters.cs" />
+    <Compile Include="DTO\VideoAnalyticsParametersNew.cs" />
+    <Compile Include="DTO\VmdDeviceConfigDto.cs" />
+    <Compile Include="DTO\VMDSetMessageDTO.cs" />
+    <Compile Include="DTO\WATMAllDeviceCollection.cs" />
+    <Compile Include="DTO\WATMAllInfoDto.cs" />
+    <Compile Include="DTO\WATMCollectionData.cs" />
+    <Compile Include="DTO\WATMCollectionDataDto.cs" />
+    <Compile Include="DTO\WATMDeviceCollection.cs" />
+    <Compile Include="DTO\WatmDispenserStatusData.cs" />
+    <Compile Include="DTO\WATMDispenserStatusDataDto.cs" />
+    <Compile Include="DTO\WatmStatusData.cs" />
+    <Compile Include="DTO\WATMStatusDataDto.cs" />
+    <Compile Include="DTO\XMLIdNameConverter.cs" />
+    <Compile Include="DTO\Zone.cs" />
+    <Compile Include="DTO\ZoneLocations.cs" />
+    <Compile Include="HomeAutomationData.cs" />
+    <Compile Include="Logs\TwTwSystemLogs.cs" />
+    <Compile Include="Services\DeviceData.cs" />
+    <Compile Include="Services\GeoTrackingData.cs" />
+    <Compile Include="Services\I2020IODeviceService.cs" />
+    <Compile Include="Services\I2020SNMPTrapService.cs" />
+    <Compile Include="Services\IAccountsGetOperationService.cs" />
+    <Compile Include="Services\IAccountsSetOperationService.cs" />
+    <Compile Include="Services\IACSDemoService.cs" />
+    <Compile Include="Services\IAlertsCreationService.cs" />
+    <Compile Include="Services\IAlertsSetOperationService.cs" />
+    <Compile Include="Services\IAllDeviceInterfaceStatus.cs" />
+    <Compile Include="Services\IAnalyticsAIService.cs" />
+    <Compile Include="Services\IAnprDeviceStatusService.cs" />
+    <Compile Include="Services\IANPRService.cs" />
+    <Compile Include="Services\IATCSIntegrationService.cs" />
+    <Compile Include="Services\IAuthMobileOperationService.cs" />
+    <Compile Include="Services\IAuthorizationMonitorService.cs" />
+    <Compile Include="Services\IAutoOpeningClosingEventService.cs" />
+    <Compile Include="Services\IBacNetTxnService.cs" />
+    <Compile Include="Services\IBMCRemedyTransactionService.cs" />
+    <Compile Include="Services\IBrokerLicense.cs" />
+    <Compile Include="Services\IBulkMobileNotificationService.cs" />
+    <Compile Include="Services\ICameraControlService.cs" />
+    <Compile Include="Services\ICameraEventListenerService.cs" />
+    <Compile Include="Services\ICameraPingService.cs" />
+    <Compile Include="Services\ICameraStatusService.cs" />
+    <Compile Include="Services\ICamTcpListenerService.cs" />
+    <Compile Include="Services\IClientService.cs" />
+    <Compile Include="Services\IClimateControlService.cs" />
+    <Compile Include="Services\ICommunicationMonitorService.cs" />
+    <Compile Include="Services\IControllerSetOperationService.cs" />
+    <Compile Include="Services\IDashBoardService.cs" />
+    <Compile Include="Services\IDeviceTimeSyncService.cs" />
+    <Compile Include="Services\IDirectoryService.cs" />
+    <Compile Include="DTO\IncidentReport.cs" />
+    <Compile Include="DTO\IncidentReportWrapper.cs" />
+    <Compile Include="DTO\Parameter.cs" />
+    <Compile Include="DTO\Group.cs" />
+    <Compile Include="DTO\Info.cs" />
+    <Compile Include="DTO\Message.cs" />
+    <Compile Include="DTO\MessageType.cs" />
+    <Compile Include="DTO\Resource.cs" />
+    <Compile Include="DTO\ResourceData.cs" />
+    <Compile Include="DTO\ResourcesData.cs" />
+    <Compile Include="DTO\ResponseType.cs" />
+    <Compile Include="DTO\Scope.cs" />
+    <Compile Include="DTO\Severity.cs" />
+    <Compile Include="DTO\Station.cs" />
+    <Compile Include="DTO\Status.cs" />
+    <Compile Include="DTO\Urgency.cs" />
+    <Compile Include="DTO\User.cs" />
+    <Compile Include="DTO\UserContactInformation.cs" />
+    <Compile Include="DTO\NotifyList.cs" />
+    <Compile Include="Services\IDummyAlertsService.cs" />
+    <Compile Include="Services\IDuplexStationsCallback.cs" />
+    <Compile Include="Services\IEdgeBaseAnalyticsService.cs" />
+    <Compile Include="Services\IEmailNotificationService.cs" />
+    <Compile Include="Services\IEnvironmentSensorTxnService.cs" />
+    <Compile Include="Services\IEscalationGetOperationService.cs" />
+    <Compile Include="Services\IEscalationMatrixServiceConfig.cs" />
+    <Compile Include="Services\IEscalationSetOperationService.cs" />
+    <Compile Include="Services\IEscallationInformService.cs" />
+    <Compile Include="Services\IEscallationMatrixService.cs" />
+    <Compile Include="Services\IExternalNotificationMonitorService.cs" />
+    <Compile Include="Services\IFFTTransactionService.cs" />
+    <Compile Include="Services\IGeneralPurposeService.cs" />
+    <Compile Include="Services\IGeoTrackingService.cs" />
+    <Compile Include="Services\IGetMobileOperationService.cs" />
+    <Compile Include="Services\IGetOPMonitorService.cs" />
+    <Compile Include="Services\IGponTransactionService.cs" />
+    <Compile Include="Services\IHeartBitServiceTxn.cs" />
+    <Compile Include="Services\IHomeAutomationService.cs" />
+    <Compile Include="Services\IHotlistVehicleGetopService.cs" />
+    <Compile Include="Services\IHotlistVehicleTxnService.cs" />
+    <Compile Include="Services\IHPUIOTIntegrationService.cs" />
+    <Compile Include="Services\IIclockACSIntegrationService.cs" />
+    <Compile Include="Services\IIclockACSTransactionService.cs" />
+    <Compile Include="Services\IIDSPanelDVRAlertsIntegration.cs" />
+    <Compile Include="Services\IIDSPanelOperationService.cs" />
+    <Compile Include="Services\IIDSPanelStatus.cs" />
+    <Compile Include="Services\IImageProcessVideoAnalyticsService.cs" />
+    <Compile Include="Services\IIncidentReportGetOperationService.cs" />
+    <Compile Include="Services\IIncidentReportGetOperationServiceWeb.cs" />
+    <Compile Include="Services\IIncidentReportSetOperationService.cs" />
+    <Compile Include="Services\IIncidentReportSetOperationServiceWeb.cs" />
+    <Compile Include="Services\IIntegrationMonitorService.cs" />
+    <Compile Include="Services\IInterfaceStatusService.cs" />
+    <Compile Include="Services\IIOModuleTransactionService.cs" />
+    <Compile Include="Services\IITMSInterfaceDeviceStatusService.cs" />
+    <Compile Include="Services\IKronosService.cs" />
+    <Compile Include="Services\ILookupService.cs" />
+    <Compile Include="Services\IMannapuramAlertCreationService.cs" />
+    <Compile Include="Services\IMannapuramTransactionService.cs" />
+    <Compile Include="Services\IMastersGetOperationService.cs" />
+    <Compile Include="Services\IMastersSetOperationService.cs" />
+    <Compile Include="Services\IMatrixControllerService.cs" />
+    <Compile Include="Services\IMatrixControllerTransactionService.cs" />
+    <Compile Include="Services\IMeonCloudService.cs" />
+    <Compile Include="Services\IMirasysVideoAnalyticsService.cs" />
+    <Compile Include="Services\IMobileAlertCreation.cs" />
+    <Compile Include="Services\IMobileAppCommunicationService.cs" />
+    <Compile Include="Services\IMobileNotificationMonitorService.cs" />
+    <Compile Include="Services\IMobileNotificationService.cs" />
+    <Compile Include="Services\INvrAlarmConsumerService.cs" />
+    <Compile Include="Interfaces\INvrAlarmProvider.cs" />
+    <Compile Include="Interfaces\INvrCamerasProvider.cs" />
+    <Compile Include="Services\INvrCamerasService.cs" />
+    <Compile Include="Services\IGatewayService.cs" />
+    <Compile Include="Services\IOpeningClosingEventCheckService.cs" />
+    <Compile Include="Services\IParkingPollGetopService.cs" />
+    <Compile Include="Services\IParkingPollService.cs" />
+    <Compile Include="Services\IPASTransactionService.cs" />
+    <Compile Include="Services\IPIDSGetOperationService.cs" />
+    <Compile Include="Services\IPIDsSetOperationService.cs" />
+    <Compile Include="Services\IRadarTransactionService.cs" />
+    <Compile Include="Services\IRaxPanelTcpEventListenerService.cs" />
+    <Compile Include="Services\IResourceService.cs" />
+    <Compile Include="Services\IRLVDTransactionService.cs" />
+    <Compile Include="Services\IRssIntegrationService.cs" />
+    <Compile Include="Services\IScheduleGetOperationService.cs" />
+    <Compile Include="Services\IScheduleSetOperationService.cs" />
+    <Compile Include="Services\ISecurityGetOperationService.cs" />
+    <Compile Include="Services\ISecuritySetOperationService.cs" />
+    <Compile Include="Services\IServerClientCommunicationService.cs" />
+    <Compile Include="Services\ISetMobileDataService.cs" />
+    <Compile Include="Services\ISetMobileOperationService.cs" />
+    <Compile Include="Services\ISetOperationService.cs" />
+    <Compile Include="Services\ISetOPMonitorService.cs" />
+    <Compile Include="Services\ISitesGetOperationService.cs" />
+    <Compile Include="Services\ISitesSetOperationService.cs" />
+    <Compile Include="Services\ISmartCityGetOperationService.cs" />
+    <Compile Include="Services\ISmartCitySetOperationService.cs" />
+    <Compile Include="Services\ISmartLightTransactionService.cs" />
+    <Compile Include="Services\ISmartWasteManagementTransaction.cs" />
+    <Compile Include="Services\ISMSEmailNotificationService.cs" />
+    <Compile Include="Services\ISMSNotificationService.cs" />
+    <Compile Include="Services\ISocialMediaService.cs" />
+    <Compile Include="Services\ISOPGetOperationService.cs" />
+    <Compile Include="Services\ISOPSetOperationService.cs" />
+    <Compile Include="Services\ISOPTransactionService.cs" />
+    <Compile Include="Services\IStationServiceCommunication.cs" />
+    <Compile Include="Services\IStationsServiceCloud.cs" />
+    <Compile Include="Services\ISWMInterfaceDeviceStatusService.cs" />
+    <Compile Include="Services\ISystemGetOperationService.cs" />
+    <Compile Include="Services\ISystemSetOperationService.cs" />
+    <Compile Include="Services\ISystemSOPService.cs" />
+    <Compile Include="Services\ITcpListenerIOTInterfaceService.cs" />
+    <Compile Include="Services\ITrackingDevicesTxnService.cs" />
+    <Compile Include="Services\ITransactionMonitorService.cs" />
+    <Compile Include="Services\ITransMobileOperationServicecs.cs" />
+    <Compile Include="Services\IUsersGetOperationService.cs" />
+    <Compile Include="Services\IUsersSetOperationService.cs" />
+    <Compile Include="Services\IVCAIntegrationService.cs" />
+    <Compile Include="Services\IVideoAnalyticsManagerIntegrationService.cs" />
+    <Compile Include="Services\IVideoAnalyticsManagerService.cs" />
+    <Compile Include="Services\IWatchDogMonitorService.cs" />
+    <Compile Include="Services\IWATMInterfacePushTxnService.cs" />
+    <Compile Include="Services\IWATMInterfaceTxnService.cs" />
+    <Compile Include="Services\IWcfACSIntegrationService.cs" />
+    <Compile Include="Services\IWcfACSTransactionService.cs" />
+    <Compile Include="Services\IWcfIntegrationAdapterService.cs" />
+    <Compile Include="Services\IWebStationsService.cs" />
+    <Compile Include="Services\IAlertsGetOperationService.cs" />
+    <Compile Include="Services\ITestHarness.cs" />
+    <Compile Include="Services\IStationCallbackContract.cs" />
+    <Compile Include="Services\IStationsService.cs" />
+    <Compile Include="DTO\DeviceDto.cs" />
+    <Compile Include="Services\IAuthService.cs" />
+    <Compile Include="Services\IControllerGetOperationService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\IXjeraIntegrationService.cs" />
+    <Compile Include="Services\IZonesGetOperationService.cs" />
+    <Compile Include="Services\IModbusCommunicationService.cs" />
+    <Compile Include="Services\IZonesSetOperationService.cs" />
+    <Compile Include="Services\ResponseHome.cs" />
+    <Compile Include="StationTypes.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DTO\CAP.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+    <None Include="UICentric.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DTO\BizTalk\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

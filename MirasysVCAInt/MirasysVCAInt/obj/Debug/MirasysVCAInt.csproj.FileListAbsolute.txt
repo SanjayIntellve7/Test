@@ -101,7 +101,6 @@ D:\Projects\Test\MirasysVCAInt\MirasysVCAInt\bin\Debug\MirasysVCAInt.exe
 D:\Projects\Test\MirasysVCAInt\MirasysVCAInt\bin\Debug\MirasysVCAInt.pdb
 D:\Projects\Test\MirasysVCAInt\MirasysVCAInt\bin\Debug\AMS.Broker.Contracts.dll
 D:\Projects\Test\MirasysVCAInt\MirasysVCAInt\bin\Debug\Newtonsoft.Json.dll
-D:\Projects\Test\MirasysVCAInt\MirasysVCAInt\obj\Debug\MirasysVCAInt.csprojAssemblyReference.cache
 D:\Projects\Test\MirasysVCAInt\MirasysVCAInt\obj\Debug\MainWindow.baml
 D:\Projects\Test\MirasysVCAInt\MirasysVCAInt\obj\Debug\MirasysVaInterface.baml
 D:\Projects\Test\MirasysVCAInt\MirasysVCAInt\obj\Debug\MainWindow.g.cs
@@ -111,7 +110,6 @@ D:\Projects\Test\MirasysVCAInt\MirasysVCAInt\obj\Debug\MirasysVCAInt_MarkupCompi
 D:\Projects\Test\MirasysVCAInt\MirasysVCAInt\obj\Debug\MirasysVCAInt.g.resources
 D:\Projects\Test\MirasysVCAInt\MirasysVCAInt\obj\Debug\MirasysVCAInt.Properties.Resources.resources
 D:\Projects\Test\MirasysVCAInt\MirasysVCAInt\obj\Debug\MirasysVCAInt.csproj.GenerateResource.cache
-D:\Projects\Test\MirasysVCAInt\MirasysVCAInt\obj\Debug\MirasysVCAInt.csproj.CoreCompileInputs.cache
-D:\Projects\Test\MirasysVCAInt\MirasysVCAInt\obj\Debug\MirasysVCAInt.csproj.CopyComplete
 D:\Projects\Test\MirasysVCAInt\MirasysVCAInt\obj\Debug\MirasysVCAInt.exe
 D:\Projects\Test\MirasysVCAInt\MirasysVCAInt\obj\Debug\MirasysVCAInt.pdb
+D:\Projects\Test\MirasysVCAInt\MirasysVCAInt\obj\Debug\MirasysVCAInt.csprojResolveAssemblyReference.cache

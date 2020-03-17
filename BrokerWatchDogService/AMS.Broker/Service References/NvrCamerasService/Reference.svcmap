@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="111a255f-0f27-4ecc-a51f-969a26d90de2" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:4532/soap/NvrCamerasService" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="NvrCamerasService.disco" MetadataType="Disco" ID="e0234e1a-80c0-475b-a5cd-93c925a43a87" SourceId="1" SourceUrl="http://localhost:4532/SOAP/NvrCamerasService?disco" />
+    <MetadataFile FileName="NvrCamerasService.xsd" MetadataType="Schema" ID="7b9d6e62-d59f-47de-aa63-407565c1a36a" SourceId="1" SourceUrl="http://localhost:4532/SOAP/NvrCamerasService?xsd=xsd2" />
+    <MetadataFile FileName="NvrCamerasService1.xsd" MetadataType="Schema" ID="4865f8f3-3bb1-49db-a9eb-921d473c406e" SourceId="1" SourceUrl="http://localhost:4532/SOAP/NvrCamerasService?xsd=xsd1" />
+    <MetadataFile FileName="NvrCamerasService2.xsd" MetadataType="Schema" ID="2c7acfdd-69f8-431d-8bda-bedad0e796e0" SourceId="1" SourceUrl="http://localhost:4532/SOAP/NvrCamerasService?xsd=xsd0" />
+    <MetadataFile FileName="NvrCamerasService.wsdl" MetadataType="Wsdl" ID="ed3ba47c-3f7c-48ef-8c34-90a398470f1b" SourceId="1" SourceUrl="http://localhost:4532/SOAP/NvrCamerasService?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

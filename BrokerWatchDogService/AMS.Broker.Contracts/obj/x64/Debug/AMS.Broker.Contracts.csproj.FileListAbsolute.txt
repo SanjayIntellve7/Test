@@ -1,0 +1,53 @@
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker.Contracts\bin\x64\Debug\AMS.Broker.Contracts.dll.config
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker.Contracts\bin\x64\Debug\AMS.Broker.Contracts.pdb
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker.Contracts\bin\x64\Debug\CalendarView.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker.Contracts\bin\x64\Debug\EntityFramework.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker.Contracts\bin\x64\Debug\Microsoft.Practices.Unity.Configuration.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker.Contracts\bin\x64\Debug\Microsoft.Practices.Unity.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker.Contracts\bin\x64\Debug\Microsoft.SqlServer.Types.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker.Contracts\bin\x64\Debug\PacketDotNet.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker.Contracts\bin\x64\Debug\Rhino.Security.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker.Contracts\bin\x64\Debug\SharpPcap.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker.Contracts\bin\x64\Debug\ZedGraph.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker.Contracts\bin\x64\Debug\EntityFramework.xml
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker.Contracts\bin\x64\Debug\Microsoft.Practices.Unity.xml
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker.Contracts\bin\x64\Debug\Microsoft.Practices.Unity.Configuration.xml
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker.Contracts\obj\x64\Debug\AMS.Broker.Contracts.csprojResolveAssemblyReference.cache
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker.Contracts\obj\x64\Debug\AMS.Broker.Contracts.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker.Contracts\obj\x64\Debug\AMS.Broker.Contracts.pdb
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker.Contracts\bin\x64\Debug\AMS.Broker.Contracts.dll.config
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker.Contracts\bin\x64\Debug\AMS.Broker.Contracts.pdb
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker.Contracts\bin\x64\Debug\CalendarView.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker.Contracts\bin\x64\Debug\EntityFramework.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker.Contracts\bin\x64\Debug\Microsoft.Practices.Unity.Configuration.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker.Contracts\bin\x64\Debug\Microsoft.Practices.Unity.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker.Contracts\bin\x64\Debug\Microsoft.SqlServer.Types.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker.Contracts\bin\x64\Debug\PacketDotNet.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker.Contracts\bin\x64\Debug\Rhino.Security.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker.Contracts\bin\x64\Debug\SharpPcap.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker.Contracts\bin\x64\Debug\ZedGraph.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker.Contracts\bin\x64\Debug\EntityFramework.xml
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker.Contracts\bin\x64\Debug\Microsoft.Practices.Unity.xml
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker.Contracts\bin\x64\Debug\Microsoft.Practices.Unity.Configuration.xml
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker.Contracts\obj\x64\Debug\AMS.Broker.Contracts.csprojResolveAssemblyReference.cache
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker.Contracts\obj\x64\Debug\AMS.Broker.Contracts.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker.Contracts\obj\x64\Debug\AMS.Broker.Contracts.pdb
+D:\PS\BrokerWatchDogService\AMS.Broker.Contracts\bin\x64\Debug\AMS.Broker.Contracts.dll.config
+D:\PS\BrokerWatchDogService\AMS.Broker.Contracts\bin\x64\Debug\AMS.Broker.Contracts.pdb
+D:\PS\BrokerWatchDogService\AMS.Broker.Contracts\bin\x64\Debug\CalendarView.dll
+D:\PS\BrokerWatchDogService\AMS.Broker.Contracts\bin\x64\Debug\EntityFramework.dll
+D:\PS\BrokerWatchDogService\AMS.Broker.Contracts\bin\x64\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\PS\BrokerWatchDogService\AMS.Broker.Contracts\bin\x64\Debug\Microsoft.Practices.Unity.dll
+D:\PS\BrokerWatchDogService\AMS.Broker.Contracts\bin\x64\Debug\Microsoft.SqlServer.Types.dll
+D:\PS\BrokerWatchDogService\AMS.Broker.Contracts\bin\x64\Debug\PacketDotNet.dll
+D:\PS\BrokerWatchDogService\AMS.Broker.Contracts\bin\x64\Debug\Rhino.Security.dll
+D:\PS\BrokerWatchDogService\AMS.Broker.Contracts\bin\x64\Debug\SharpPcap.dll
+D:\PS\BrokerWatchDogService\AMS.Broker.Contracts\bin\x64\Debug\ZedGraph.dll
+D:\PS\BrokerWatchDogService\AMS.Broker.Contracts\bin\x64\Debug\EntityFramework.xml
+D:\PS\BrokerWatchDogService\AMS.Broker.Contracts\bin\x64\Debug\Microsoft.Practices.Unity.xml
+D:\PS\BrokerWatchDogService\AMS.Broker.Contracts\bin\x64\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\PS\BrokerWatchDogService\AMS.Broker.Contracts\obj\x64\Debug\AMS.Broker.Contracts.dll
+D:\PS\BrokerWatchDogService\AMS.Broker.Contracts\obj\x64\Debug\AMS.Broker.Contracts.pdb
+D:\PS\BrokerWatchDogService\AMS.Broker.Contracts\obj\x64\Debug\AMS.Broker.Contracts.csprojAssemblyReference.cache
+D:\PS\BrokerWatchDogService\AMS.Broker.Contracts\obj\x64\Debug\AMS.Broker.Contracts.csproj.CoreCompileInputs.cache
+D:\PS\BrokerWatchDogService\AMS.Broker.Contracts\obj\x64\Debug\AMS.Broker.Contracts.csproj.CopyComplete

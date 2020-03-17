@@ -1,0 +1,34 @@
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker.Contracts\bin\x64\Release\AMS.Broker.Contracts.dll.config
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker.Contracts\bin\x64\Release\AMS.Broker.Contracts.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker.Contracts\bin\x64\Release\AMS.Broker.Contracts.pdb
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker.Contracts\bin\x64\Release\CalendarView.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker.Contracts\bin\x64\Release\EntityFramework.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker.Contracts\bin\x64\Release\Microsoft.Practices.Unity.Configuration.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker.Contracts\bin\x64\Release\Microsoft.Practices.Unity.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker.Contracts\bin\x64\Release\Microsoft.SqlServer.Types.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker.Contracts\bin\x64\Release\PacketDotNet.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker.Contracts\bin\x64\Release\Rhino.Security.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker.Contracts\bin\x64\Release\SharpPcap.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker.Contracts\bin\x64\Release\ZedGraph.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker.Contracts\bin\x64\Release\EntityFramework.xml
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker.Contracts\bin\x64\Release\Microsoft.Practices.Unity.xml
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker.Contracts\bin\x64\Release\Microsoft.Practices.Unity.Configuration.xml
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker.Contracts\obj\x64\Release\AMS.Broker.Contracts.dll
+E:\RepositoryV 1.6\INTV16\AMS\Broker\BrokerWatchDogService\AMS.Broker.Contracts\obj\x64\Release\AMS.Broker.Contracts.pdb
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker.Contracts\bin\x64\Release\AMS.Broker.Contracts.dll.config
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker.Contracts\bin\x64\Release\AMS.Broker.Contracts.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker.Contracts\bin\x64\Release\AMS.Broker.Contracts.pdb
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker.Contracts\bin\x64\Release\CalendarView.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker.Contracts\bin\x64\Release\EntityFramework.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker.Contracts\bin\x64\Release\Microsoft.Practices.Unity.Configuration.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker.Contracts\bin\x64\Release\Microsoft.Practices.Unity.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker.Contracts\bin\x64\Release\Microsoft.SqlServer.Types.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker.Contracts\bin\x64\Release\PacketDotNet.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker.Contracts\bin\x64\Release\Rhino.Security.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker.Contracts\bin\x64\Release\SharpPcap.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker.Contracts\bin\x64\Release\ZedGraph.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker.Contracts\bin\x64\Release\EntityFramework.xml
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker.Contracts\bin\x64\Release\Microsoft.Practices.Unity.xml
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker.Contracts\bin\x64\Release\Microsoft.Practices.Unity.Configuration.xml
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker.Contracts\obj\x64\Release\AMS.Broker.Contracts.dll
+E:\RepositoryV 1.6\INTV16\AMS\64Bit\INTV V1.7_SSPTL\Broker\BrokerWatchDogService\AMS.Broker.Contracts\obj\x64\Release\AMS.Broker.Contracts.pdb
